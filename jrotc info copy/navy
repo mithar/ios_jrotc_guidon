@@ -1,0 +1,68 @@
+<string-array name = "navy_ranks">
+       <item>Enlisted Ranks</item> 
+       <item>Seaman Recruit</item>
+       <item>Seaman Apprentice</item>
+       <item>Seaman </item>
+       <item>Petty Officer Third Class</item>
+       <item>Petty Officer Second Class</item>
+       <item>Petty Officer First Class</item>
+       <item>Chief Petty Officer</item>
+       <item>Senior Chief Petty Officer</item>
+       <item>Master Chief Petty Officer</item>
+       <item>Command Master Chief Petty Officer</item>
+       <item>Fleet/Force Master Chief Petty Officer</item>
+       <item>Master Chief Petty Officer of the Navy</item>
+       <!-- 13 -->
+       <item>Warrant Officer Ranks</item>
+       <item>Chief Warrant Officer Two</item>
+       <item>Chief Warrant Officer Three</item>
+       <item>Chief Warrant Officer Four</item>
+       <item>Chief Warrant Officer Five</item>
+       <!-- 4 warrant officer ranks -->
+       <item>Commissioned Officer Ranks</item>
+       <item>Ensign</item>
+       <item>Liutenant(Junior grade)</item>
+       <item>Lieutenant</item>
+       <item>Lieutenant Commander</item>
+       <item>Commander</item>
+       <item>Captain</item><item></item>
+       <item>Rear Admiral (lower half)</item>
+       <item>Rear Admiral</item>
+       <item>Vice Admiral</item>
+       <item>Admiral</item>
+       <item>Fleet Admiral</item>
+       <item>Admiral of the Navy</item>
+    </string-array>
+    
+    <string-array name = "navy_pay_grades">
+        <item>E-1</item>
+        <item>E-2</item>
+        <item>E-3</item>
+        <item>E-4</item>
+        <item>E-5</item>
+        <item>E-6</item>
+        <item>E-7</item>
+        <item>E-8</item>
+        <item>E-9</item>
+        <item>E-9</item>
+        <item>E-9</item>
+        <item>E-9</item>
+        <item></item>
+        <item>CWO-2</item>
+        <item>CWO-3</item>
+        <item>CWO-4</item>
+        <item>CWO-5</item>
+        <item></item>
+        <item>OF-1</item>
+        <item>OF-1</item>
+        <item>OF-2</item>
+        <item>OF-3</item>
+        <item>OF-4</item>
+        <item>OF-5</item>
+        <item>OF-6</item>
+        <item>OF-7</item>
+        <item>OF-8</item>
+        <item>OF-9</item>
+        <item>OF-10</item>
+        <item>Special Grade</item>
+    </string-array>
