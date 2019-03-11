@@ -47,6 +47,7 @@
 		15D309ED2231C54500D6D6CA /* jrotc_guidon_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jrotc_guidon_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D309F12231C54500D6D6CA /* jrotc_guidon_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jrotc_guidon_iosUITests.swift; sourceTree = "<group>"; };
 		15D309F32231C54600D6D6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D30A022235D15200D6D6CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,6 +298,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				15D309D62231C47E00D6D6CA /* Base */,
+				15D30A022235D15200D6D6CA /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

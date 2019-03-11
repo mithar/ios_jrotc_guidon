@@ -9,13 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     
-    @IBOutlet weak var nameLabel:UILabel!
+    // Making all of the labels and string here?
+    let ajrotc_label = "ajrotc"
+    let mcjrotc_label = "mcjrotc"
+    let afjrotc_label = "afjrotc"
+    let njroc_label = "njrotc"
+    
     //IBOutlet allows the code to connect to the UI
+    @IBOutlet weak var nameLabel:UILabel!
+    @IBOutlet weak var ajrotcLabel:UILabel!
+    @IBOutlet weak var mcjrotc_menu: UIButton!
     
+    @IBAction func mcjrotc_menu_push(){
+        ajrotcLabel.text = "lame"
+    }
     
-    @IBAction func showName(AnyObject){
+    @IBAction func showName(){
         //IBAction allows execution for the code connected to the UI
         nameLabel.text = "Brot is bread in German!"
     }
