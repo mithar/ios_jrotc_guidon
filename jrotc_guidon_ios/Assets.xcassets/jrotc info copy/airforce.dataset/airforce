@@ -1,0 +1,59 @@
+<string-array name = "airforce_rank_structure">
+        <item>Enlisted Ranks</item>
+        <item>Airman Basic</item>
+        <item>Airman</item>
+        <item>Airman First Class</item>
+        <item>Senior Airman</item>
+        <item>Staff Sergeant</item>
+        <item>Technical Sergeant</item>
+        <item>Master Sergeant</item>
+        <item>Master Sergeant(Diamond)</item>
+        <item>Senior Master Sergeant</item>
+        <item>Senior Master Sergeant(Diamond)</item>
+        <item>Chief Master Sergeant</item>
+        <item>Chief Master Sergeant(Diamond)</item>
+        <item>Comman Chief Master Sergeant</item>
+        <item>Chief Master Sergeant of the Air Force</item>
+        <!-- 15 ranks/items -->        
+        <item>Commissioned Officer Ranks</item>
+        <item>Second Lieutenant</item>
+        <item>First Lieutenant</item>
+        <item>Captain</item>
+        <item>Major</item>
+        <item>Lieutenant Colonel</item>
+        <item>Colonel</item>
+        <item>Brigadier General</item>
+        <item>Major General</item>
+        <item>Lieutenant General</item>
+        <item>General Air Force Chief of Staff</item>
+        <item> General of the Air Force</item>
+    </string-array>
+    
+    <string-array name = "airforce_pay_grade">
+        <item>E-1</item>
+        <item>E-2</item>
+        <item>E-3</item>
+        <item>E-4</item>
+        <item>E-5</item>
+        <item>E-6</item>
+        <item>E-7</item>
+        <item>E-7</item>
+        <item>E-8</item>
+        <item>E-8</item>
+        <item>E-9</item>
+        <item>E-9</item>
+        <item>E-9</item>
+        <item>E-9</item>
+        <item> </item>
+        <item>O-1</item>
+        <item>O-2</item>
+        <item>O-3</item>
+        <item>O-4</item>
+        <item>O-5</item>
+        <item>O-6</item>
+        <item>O-7</item>
+        <item>O-8</item>
+        <item>O-9</item>
+        <item>O-10</item>
+        <item>Special Rank</item>
+    </string-array>

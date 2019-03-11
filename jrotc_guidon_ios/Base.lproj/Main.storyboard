@@ -17,10 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ucf-un-Bo7">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ucf-un-Bo7">
                                 <rect key="frame" x="87" y="289" width="200" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.6310921169" green="0.75953790430000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="IdH-cL-DZC"/>
+                                    <constraint firstAttribute="width" constant="200" id="TXr-z7-dcc"/>
+                                    <constraint firstAttribute="height" constant="35" id="hlb-40-ajD"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="krT-70-6dM"/>
+                                </constraints>
                                 <color key="tintColor" red="0.2278578165" green="1" blue="0.35673695550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="NJROTC">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -30,20 +35,15 @@
                                     <segue destination="j9W-0w-hoq" kind="show" id="K82-Du-Zhf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5U-AH-vuo">
-                                <rect key="frame" x="87" y="384" width="200" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAy-h0-KMp">
+                                <rect key="frame" x="87" y="332" width="200" height="35"/>
                                 <color key="backgroundColor" red="0.6310921169" green="0.75953790430000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.2278578165" green="1" blue="0.35673695550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="AFJROTC">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAy-h0-KMp">
-                                <rect key="frame" x="87" y="341" width="200" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.6310921169" green="0.75953790430000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="KFh-sS-ye1"/>
+                                    <constraint firstAttribute="height" constant="35" id="Ki8-mN-ljK"/>
+                                    <constraint firstAttribute="width" constant="200" id="udY-vb-Xbs"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="vZs-kO-O3j"/>
+                                </constraints>
                                 <color key="tintColor" red="0.2278578165" green="1" blue="0.35673695550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="AJROTC">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -57,10 +57,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vZ-BR-cLS">
-                                <rect key="frame" x="87" y="234" width="200" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vZ-BR-cLS">
+                                <rect key="frame" x="87" y="246" width="200" height="35"/>
                                 <color key="backgroundColor" red="0.63109211694066558" green="0.75953790427228007" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="62w-pK-cDc"/>
+                                    <constraint firstAttribute="height" constant="35" id="79l-4a-Lab"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="943-8I-v8z"/>
+                                    <constraint firstAttribute="width" constant="200" id="CmU-eh-0Um"/>
+                                </constraints>
                                 <color key="tintColor" red="0.22785781648958858" green="1" blue="0.35673695549842954" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="MCJROTC">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -71,8 +76,42 @@
                                     <segue destination="PbP-6u-qqo" kind="show" id="xeP-TR-FK3"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5U-AH-vuo">
+                                <rect key="frame" x="87" y="375" width="200" height="35"/>
+                                <color key="backgroundColor" red="0.6310921169" green="0.75953790430000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="47r-Mr-C5B"/>
+                                    <constraint firstAttribute="width" constant="200" id="XnY-jR-vRD"/>
+                                </constraints>
+                                <color key="tintColor" red="0.2278578165" green="1" blue="0.35673695550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="AFJROTC">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ucf-un-Bo7" firstAttribute="height" secondItem="3vZ-BR-cLS" secondAttribute="height" id="0OC-P3-ulv"/>
+                            <constraint firstItem="ucf-un-Bo7" firstAttribute="width" secondItem="3vZ-BR-cLS" secondAttribute="width" id="31W-M8-Cfk"/>
+                            <constraint firstItem="ucf-un-Bo7" firstAttribute="trailing" secondItem="3vZ-BR-cLS" secondAttribute="trailing" id="BKb-pc-siB"/>
+                            <constraint firstItem="jAy-h0-KMp" firstAttribute="centerX" secondItem="3vZ-BR-cLS" secondAttribute="centerX" id="DDs-sT-S8Q"/>
+                            <constraint firstItem="jAy-h0-KMp" firstAttribute="trailing" secondItem="3vZ-BR-cLS" secondAttribute="trailing" id="L8C-Pa-tht"/>
+                            <constraint firstItem="jAy-h0-KMp" firstAttribute="height" secondItem="3vZ-BR-cLS" secondAttribute="height" id="PE3-Ar-fmd"/>
+                            <constraint firstItem="l5U-AH-vuo" firstAttribute="height" secondItem="3vZ-BR-cLS" secondAttribute="height" id="R39-ah-46m"/>
+                            <constraint firstItem="ucf-un-Bo7" firstAttribute="centerX" secondItem="3vZ-BR-cLS" secondAttribute="centerX" id="UG7-24-W3i"/>
+                            <constraint firstItem="ucf-un-Bo7" firstAttribute="height" secondItem="3vZ-BR-cLS" secondAttribute="height" id="Xla-gn-GJq"/>
+                            <constraint firstItem="jAy-h0-KMp" firstAttribute="height" secondItem="3vZ-BR-cLS" secondAttribute="height" id="cq6-Yb-9eX"/>
+                            <constraint firstItem="l5U-AH-vuo" firstAttribute="centerX" secondItem="3vZ-BR-cLS" secondAttribute="centerX" id="dcH-ab-BJL"/>
+                            <constraint firstItem="ucf-un-Bo7" firstAttribute="width" secondItem="3vZ-BR-cLS" secondAttribute="width" id="kod-F3-pxN"/>
+                            <constraint firstItem="l5U-AH-vuo" firstAttribute="width" secondItem="3vZ-BR-cLS" secondAttribute="width" id="mXz-Pm-xp1"/>
+                            <constraint firstItem="jAy-h0-KMp" firstAttribute="width" secondItem="3vZ-BR-cLS" secondAttribute="width" id="nmw-Px-q03"/>
+                            <constraint firstItem="l5U-AH-vuo" firstAttribute="height" secondItem="3vZ-BR-cLS" secondAttribute="height" id="nyP-yb-9c8"/>
+                            <constraint firstItem="jAy-h0-KMp" firstAttribute="width" secondItem="3vZ-BR-cLS" secondAttribute="width" id="q9n-bk-x1d"/>
+                            <constraint firstItem="jAy-h0-KMp" firstAttribute="width" secondItem="3vZ-BR-cLS" secondAttribute="width" id="tOJ-iD-Bmm"/>
+                            <constraint firstItem="ucf-un-Bo7" firstAttribute="width" secondItem="3vZ-BR-cLS" secondAttribute="width" id="tUV-Q1-YJB"/>
+                            <constraint firstItem="l5U-AH-vuo" firstAttribute="width" secondItem="3vZ-BR-cLS" secondAttribute="width" id="zoq-j4-uE2"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
