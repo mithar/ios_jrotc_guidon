@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
+    
+
     
     // Making all of the labels and string here?
     let ajrotc_label = "ajrotc"
@@ -21,14 +23,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var ajrotcLabel:UILabel!
     @IBOutlet weak var mcjrotc_menu: UIButton!
     
-    @IBAction func mcjrotc_menu_push(){
-        ajrotcLabel.text = "lame"
-    }
     
-    @IBAction func showName(){
-        //IBAction allows execution for the code connected to the UI
-        nameLabel.text = "Brot is bread in German!"
-    }
+    
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
