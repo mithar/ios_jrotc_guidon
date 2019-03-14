@@ -12,7 +12,7 @@ class ViewController: UIViewController{
     
 
     
-    // Making all of the labels and string here?
+    // Making all of the labels and string  here?
     let ajrotc_label = "ajrotc"
     let mcjrotc_label = "mcjrotc"
     let afjrotc_label = "afjrotc"
