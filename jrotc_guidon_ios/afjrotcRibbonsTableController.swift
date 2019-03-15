@@ -11,7 +11,10 @@ class afjrotcRibbonsTableController: UIViewController, UITableViewDataSource, UI
     
     @IBOutlet weak var afjrotcTableView:UITableView!
     
-    let titles = [("first ribbon"), ("second ribbon"), ("Bottom Text")]
+    let titles = [("first ribbon"),
+                  ("second ribbon"),
+                  ("Bottom Text")]
+    
     let images = [UIImage(named:"afjrotc_aca_ribbon"),
                   UIImage(named:"afjrotc_aca_ribbon"),
                   UIImage(named:"afjrotc_aca_ribbon")]
@@ -20,12 +23,11 @@ class afjrotcRibbonsTableController: UIViewController, UITableViewDataSource, UI
         super.viewDidLoad()
         afjrotcTableView.delegate = self
         afjrotcTableView.dataSource = self
-        
     }
     
-    override func didReceiveMemoryWarning() {
+    /*override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-    }
+    }*/
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
