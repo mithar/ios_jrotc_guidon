@@ -7,7 +7,23 @@
 //
 import UIKit
 
-class afjrotcRibbonsTableController: UIViewController, UITableViewDataSource, UITableViewDelegate{
+class afjrotcTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var afjrotcRibbonImage: UIImageView!
+    @IBOutlet weak var afjrotcRibbonLabel: UILabel!
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+    
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+        
+        // Configure the view for the selected state
+    }
+}
+
+class afjrotcRibbonsTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
     
     @IBOutlet weak var afjrotcTableView:UITableView!
     
@@ -38,8 +54,9 @@ class afjrotcRibbonsTableController: UIViewController, UITableViewDataSource, UI
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath as IndexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         as! afjrotcTableViewCell
+        //let afjrotcRibbon = afjrotcRibbon[indexPath.row]
         cell.afjrotcRibbonImage.image = self.images[indexPath.row]
         cell.afjrotcRibbonLabel.text = self.titles[indexPath.row]
         return cell

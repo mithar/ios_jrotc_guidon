@@ -123,11 +123,11 @@
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="78" id="XOf-L4-LDY" customClass="afjrotcTableViewCell" customModule="jrotc_guidon_ios">
                                 <rect key="frame" x="0.0" y="28" width="414" height="78"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XOf-L4-LDY" id="LOs-VX-tEq">
+                                <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XOf-L4-LDY" id="LOs-VX-tEq">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="77.666666666666671"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_aca_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="m5i-Qd-Au3">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_aca_ribbon.png" translatesAutoresizingMaskIntoConstraints="NO" id="m5i-Qd-Au3">
                                             <rect key="frame" x="0.0" y="4.0000000000000036" width="185.33333333333334" height="63.333333333333343"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="m5i-Qd-Au3" secondAttribute="height" multiplier="185:63" id="VsC-l4-wMM"/>
@@ -192,7 +192,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="afjrotc_aca_ribbon" width="105" height="30"/>
+        <image name="afjrotc_aca_ribbon.png" width="105" height="30"/>
     </resources>
     <color key="tintColor" red="0.2278578165" green="1" blue="0.35673695550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
