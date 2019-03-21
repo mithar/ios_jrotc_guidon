@@ -23,13 +23,13 @@ class afjrotcTableViewCell: UITableViewCell {
     }
 }
 
-class afjrotcRibbonsTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
+class afjrotcRibbonsTableViewController: UITableViewController{
     
     @IBOutlet weak var afjrotcTableView:UITableView!
     
-    let titles = [("first ribbon"),
+    let titles = [("first ribbon Now this text is going to be a beeg beeg text because beeg beeg yoshi sounds like a fat crying cat to be honestasjdnasdjnaskdjnkasjdnkjasndkjnasdkjnaskdjnaksjdnkajsndkjasndkjanskjdskdkjanskdjnkjnasdkjnkjnasdkjnkjnsadkjnkjnsadkjnkjnaskdjnkjnaskdjnkjnsadkjn sakjdnkn kjnasd askjdnas dkasndkjaksjd nkasjndk njsdk nas"),
                   ("second ribbon"),
-                  ("Bottom Text")]
+        ("Bottom Text")]
     
     let images = [UIImage(named:"afjrotc_aca_ribbon"),
                   UIImage(named:"afjrotc_aca_ribbon"),
@@ -37,23 +37,22 @@ class afjrotcRibbonsTableViewController: UIViewController, UITableViewDataSource
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        afjrotcTableView.delegate = self
-        afjrotcTableView.dataSource = self
+
     }
     
     /*override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }*/
     
-    func numberOfSections(in tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return titles.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         as! afjrotcTableViewCell
         //let afjrotcRibbon = afjrotcRibbon[indexPath.row]
