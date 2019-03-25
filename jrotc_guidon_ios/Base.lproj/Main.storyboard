@@ -127,31 +127,28 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="115.66666666666667"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="afjrotc_aca_ribbon.png" translatesAutoresizingMaskIntoConstraints="NO" id="m5i-Qd-Au3">
-                                            <rect key="frame" x="20" y="26" width="138" height="36"/>
-                                        </imageView>
-                                        <label opaque="NO" contentMode="left" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" restorationIdentifier="textLabel01" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7q-sT-HHv">
-                                            <rect key="frame" x="211" y="0.0" width="187" height="115"/>
+                                        <label opaque="NO" contentMode="left" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" restorationIdentifier="textLabel01" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7q-sT-HHv">
+                                            <rect key="frame" x="30" y="71" width="360" height="33.333333333333329"/>
                                             <accessibility key="accessibilityConfiguration">
                                                 <accessibilityTraits key="traits" adjustable="YES"/>
                                             </accessibility>
-                                            <constraints>
-                                                <constraint firstAttribute="width" secondItem="X7q-sT-HHv" secondAttribute="height" multiplier="187:63" id="bih-Fi-lLL"/>
-                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="afjrotc_aca_ribbon.png" translatesAutoresizingMaskIntoConstraints="NO" id="m5i-Qd-Au3">
+                                            <rect key="frame" x="30" y="16" width="354" height="30"/>
+                                        </imageView>
                                     </subviews>
                                     <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
                                     <constraints>
-                                        <constraint firstItem="X7q-sT-HHv" firstAttribute="leading" secondItem="m5i-Qd-Au3" secondAttribute="trailing" constant="58.670000000000002" id="8AT-xN-us0"/>
-                                        <constraint firstItem="X7q-sT-HHv" firstAttribute="top" secondItem="LOs-VX-tEq" secondAttribute="top" constant="4" id="E4N-1e-UOP"/>
-                                        <constraint firstAttribute="bottom" secondItem="X7q-sT-HHv" secondAttribute="bottom" constant="10.5" id="LqV-Zw-AKv"/>
-                                        <constraint firstAttribute="trailing" secondItem="X7q-sT-HHv" secondAttribute="trailing" constant="16" id="Qdt-KD-Q6V"/>
-                                        <constraint firstItem="m5i-Qd-Au3" firstAttribute="leading" secondItem="LOs-VX-tEq" secondAttribute="leading" constant="20" id="eKQ-6I-iz9"/>
-                                        <constraint firstAttribute="bottom" secondItem="m5i-Qd-Au3" secondAttribute="bottom" constant="15.67" id="fmx-Qr-e9x"/>
-                                        <constraint firstItem="m5i-Qd-Au3" firstAttribute="top" secondItem="LOs-VX-tEq" secondAttribute="topMargin" constant="21" id="mDg-r2-dLR"/>
+                                        <constraint firstItem="m5i-Qd-Au3" firstAttribute="top" secondItem="LOs-VX-tEq" secondAttribute="top" constant="16" id="500-Wh-NHG"/>
+                                        <constraint firstItem="m5i-Qd-Au3" firstAttribute="leading" secondItem="LOs-VX-tEq" secondAttribute="leading" constant="30" id="LZy-Qm-ddJ"/>
+                                        <constraint firstAttribute="trailing" secondItem="m5i-Qd-Au3" secondAttribute="trailing" constant="30" id="NdR-IO-E4z"/>
+                                        <constraint firstItem="X7q-sT-HHv" firstAttribute="top" secondItem="m5i-Qd-Au3" secondAttribute="bottom" constant="20" id="Nds-bZ-BEe"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="X7q-sT-HHv" secondAttribute="bottom" constant="8" id="WCh-wv-N0l"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="X7q-sT-HHv" secondAttribute="trailing" constant="10" id="pV0-93-HgC"/>
+                                        <constraint firstItem="X7q-sT-HHv" firstAttribute="leading" secondItem="LOs-VX-tEq" secondAttribute="leadingMargin" constant="10" id="xIc-bR-Ma3"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>

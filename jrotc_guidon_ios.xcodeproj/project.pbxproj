@@ -14,7 +14,6 @@
 		15D309DC2231C54400D6D6CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D309DA2231C54400D6D6CA /* LaunchScreen.storyboard */; };
 		15D309E72231C54500D6D6CA /* jrotc_guidon_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D309E62231C54500D6D6CA /* jrotc_guidon_iosTests.swift */; };
 		15D309F22231C54500D6D6CA /* jrotc_guidon_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D309F12231C54500D6D6CA /* jrotc_guidon_iosUITests.swift */; };
-		A2142F3C223812AA00CF2ABF /* afjrotc_aca_ribbon.png in Resources */ = {isa = PBXBuildFile; fileRef = A2142F3B223812AA00CF2ABF /* afjrotc_aca_ribbon.png */; };
 		A2142F3E2238290F00CF2ABF /* afjrotcRibbonsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2142F3D2238290F00CF2ABF /* afjrotcRibbonsTableController.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +50,6 @@
 		15D309F32231C54600D6D6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15D30A022235D15200D6D6CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		A2142F3522380AA000CF2ABF /* jrotc_guidon_ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jrotc_guidon_ios-Bridging-Header.h"; sourceTree = "<group>"; };
-		A2142F3B223812AA00CF2ABF /* afjrotc_aca_ribbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = afjrotc_aca_ribbon.png; path = "jrotc info copy/ribbons/afjrotc_ribbons/afjrotc_aca_ribbon.png"; sourceTree = SOURCE_ROOT; };
 		A2142F3D2238290F00CF2ABF /* afjrotcRibbonsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = afjrotcRibbonsTableController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,7 +105,6 @@
 				15D309D32231C47C00D6D6CA /* ViewController.swift */,
 				15D309D52231C47E00D6D6CA /* Main.storyboard */,
 				15D309D82231C54400D6D6CA /* Assets.xcassets */,
-				A2142F3B223812AA00CF2ABF /* afjrotc_aca_ribbon.png */,
 				15D309DA2231C54400D6D6CA /* LaunchScreen.storyboard */,
 				15D309DD2231C54400D6D6CA /* Info.plist */,
 				A2142F3522380AA000CF2ABF /* jrotc_guidon_ios-Bridging-Header.h */,
@@ -240,7 +237,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				15D309DC2231C54400D6D6CA /* LaunchScreen.storyboard in Resources */,
-				A2142F3C223812AA00CF2ABF /* afjrotc_aca_ribbon.png in Resources */,
 				15D309D92231C54400D6D6CA /* Assets.xcassets in Resources */,
 				15D309D72231C47E00D6D6CA /* Main.storyboard in Resources */,
 			);
