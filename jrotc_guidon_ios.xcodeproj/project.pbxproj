@@ -15,6 +15,7 @@
 		15D309E72231C54500D6D6CA /* jrotc_guidon_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D309E62231C54500D6D6CA /* jrotc_guidon_iosTests.swift */; };
 		15D309F22231C54500D6D6CA /* jrotc_guidon_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D309F12231C54500D6D6CA /* jrotc_guidon_iosUITests.swift */; };
 		A2142F3E2238290F00CF2ABF /* afjrotcRibbonsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2142F3D2238290F00CF2ABF /* afjrotcRibbonsTableController.swift */; };
+		A26AE7AD224AB24800B9A8AC /* ajrotcCadetRibbons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26AE7AC224AB24800B9A8AC /* ajrotcCadetRibbons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		15D30A022235D15200D6D6CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		A2142F3522380AA000CF2ABF /* jrotc_guidon_ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jrotc_guidon_ios-Bridging-Header.h"; sourceTree = "<group>"; };
 		A2142F3D2238290F00CF2ABF /* afjrotcRibbonsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = afjrotcRibbonsTableController.swift; sourceTree = "<group>"; };
+		A26AE7AC224AB24800B9A8AC /* ajrotcCadetRibbons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ajrotcCadetRibbons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				15D309D82231C54400D6D6CA /* Assets.xcassets */,
 				15D309DA2231C54400D6D6CA /* LaunchScreen.storyboard */,
 				15D309DD2231C54400D6D6CA /* Info.plist */,
+				A26AE7AC224AB24800B9A8AC /* ajrotcCadetRibbons.swift */,
 				A2142F3522380AA000CF2ABF /* jrotc_guidon_ios-Bridging-Header.h */,
 				A2142F3D2238290F00CF2ABF /* afjrotcRibbonsTableController.swift */,
 			);
@@ -265,6 +268,7 @@
 			files = (
 				15D309D42231C47C00D6D6CA /* ViewController.swift in Sources */,
 				A2142F3E2238290F00CF2ABF /* afjrotcRibbonsTableController.swift in Sources */,
+				A26AE7AD224AB24800B9A8AC /* ajrotcCadetRibbons.swift in Sources */,
 				15D309D22231C47B00D6D6CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

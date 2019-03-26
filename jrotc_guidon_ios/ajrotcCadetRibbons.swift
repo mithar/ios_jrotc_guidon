@@ -1,16 +1,18 @@
 //
-//  afjrotcRibbonsTableController.swift
+//  ajrotcCadetRibbons.swift
 //  jrotc_guidon_ios
 //
-//  Created by DEIT iMac on 3/12/19.
+//  Created by DEIT iMac on 3/26/19.
 //  Copyright © 2019 Mithar Studios. All rights reserved.
 //
+
+import Foundation
 import UIKit
 
-class afjrotcTableViewCell: UITableViewCell {
+class ajrotcTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var afjrotcRibbonImage: UIImageView!
-    @IBOutlet weak var afjrotcRibbonLabel: UILabel!
+    @IBOutlet weak var ajrotcRibbonImage: UIImageView!
+    @IBOutlet weak var ajrotcRibbonLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -23,7 +25,7 @@ class afjrotcTableViewCell: UITableViewCell {
     }
 }
 
-class afjrotcRibbonsTableViewController: UITableViewController{
+class ajrotcCadetRibbons: UITableViewController{
     
     @IBOutlet weak var afjrotcTableView:UITableView!
     
@@ -143,12 +145,12 @@ class afjrotcRibbonsTableViewController: UITableViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
     }
     
     /*override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }*/
+     super.didReceiveMemoryWarning()
+     }*/
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -160,10 +162,9 @@ class afjrotcRibbonsTableViewController: UITableViewController{
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        as! afjrotcTableViewCell
-        //let afjrotcRibbon = afjrotcRibbon[indexPath.row]
-        cell.afjrotcRibbonImage.image = self.images[indexPath.row]
-        cell.afjrotcRibbonLabel.text = self.titles[indexPath.row]
+            as! ajrotcTableViewCell
+        cell.ajrotcRibbonImage.image = self.images[indexPath.row]
+        cell.ajrotcRibbonLabel.text = self.titles[indexPath.row]
         return cell
         
         
