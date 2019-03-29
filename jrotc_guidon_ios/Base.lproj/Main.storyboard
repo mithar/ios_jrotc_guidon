@@ -29,6 +29,9 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="QfQ-nS-R0N" kind="show" id="tOc-OT-Og8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAy-h0-KMp">
                                 <rect key="frame" x="87" y="206" width="200" height="35"/>
@@ -84,9 +87,6 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                                <connections>
-                                    <segue destination="j9W-0w-hoq" kind="show" id="K82-Du-Zhf"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -114,7 +114,7 @@
         <!--Afjrotc Ribbons Table View Controller-->
         <scene sceneID="9d4-W2-sjj">
             <objects>
-                <tableViewController id="doQ-kd-yUL" customClass="afjrotcRibbonsTableViewController" customModule="jrotc_guidon_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="afjrotcRibbons" id="doQ-kd-yUL" customClass="afjrotcRibbonsTableViewController" customModule="jrotc_guidon_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="uXY-hm-oMR" customClass="af">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -169,40 +169,33 @@
             </objects>
             <point key="canvasLocation" x="664" y="822"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="p9y-DO-xAK">
-            <objects>
-                <viewController id="j9W-0w-hoq" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="haF-fR-pyP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cVL-ht-D2D">
-                                <rect key="frame" x="87" y="234" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="TFJ-RA-upl"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="h9a-mc-EKm"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5Gp-CG-veV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1416" y="24"/>
-        </scene>
         <!--Page View Controller-->
         <scene sceneID="qgt-u5-bDB">
             <objects>
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="QfQ-nS-R0N" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NR0-vk-C7F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2219" y="24"/>
+            <point key="canvasLocation" x="1412" y="24"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JNX-In-GvJ">
+            <objects>
+                <viewController storyboardIdentifier="afjrotcMainPage" id="Kb3-ic-T6Y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y4D-Yt-419">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="m95-Sp-aPc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gNA-7v-PhG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2132" y="24"/>
         </scene>
         <!--Ajrotc Ribbons Table View Controller-->
         <scene sceneID="Ghe-zK-hyl">
             <objects>
-                <tableViewController id="Vyh-9I-huR" customClass="ajrotcRibbonsTableViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ajrotcRibbons" id="Vyh-9I-huR" customClass="ajrotcRibbonsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="2SW-7w-t6G" customClass="af">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
