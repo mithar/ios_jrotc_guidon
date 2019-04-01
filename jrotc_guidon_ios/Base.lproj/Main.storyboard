@@ -30,7 +30,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="QfQ-nS-R0N" kind="show" id="tOc-OT-Og8"/>
+                                    <segue destination="Vyh-9I-huR" kind="show" id="PE2-vQ-sGs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAy-h0-KMp">
@@ -234,13 +234,11 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.7825336195" green="0.89016984529999998" blue="0.95413626269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
-                                <connections>
-                                    <outlet property="afjrotcRibbonImage" destination="hOP-VV-AG9" id="AZT-Nk-Qpd"/>
-                                    <outlet property="afjrotcRibbonLabel" destination="bwU-Mk-xbR" id="8sy-op-SVx"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
+                            <outlet property="ajrotcRibbonImage" destination="hOP-VV-AG9" id="TKs-Mo-WCt"/>
+                            <outlet property="ajrotcRibbonLabel" destination="bwU-Mk-xbR" id="w5U-EV-U9s"/>
                             <outlet property="dataSource" destination="Vyh-9I-huR" id="W7j-hE-aKP"/>
                             <outlet property="delegate" destination="Vyh-9I-huR" id="S8a-K5-dTV"/>
                         </connections>

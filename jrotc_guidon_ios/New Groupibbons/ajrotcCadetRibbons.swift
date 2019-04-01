@@ -11,6 +11,8 @@ import UIKit
 
 class ajrotcTableViewCell: UITableViewCell {
     
+    //@IBOutlet weak var ajrotcRibbonImage: UIImageView!
+    
     @IBOutlet weak var ajrotcRibbonImage: UIImageView!
     @IBOutlet weak var ajrotcRibbonLabel: UILabel!
     override func awakeFromNib() {

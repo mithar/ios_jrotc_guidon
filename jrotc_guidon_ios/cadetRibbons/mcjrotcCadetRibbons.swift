@@ -132,8 +132,8 @@ class mcjrotcCadetRibbons: UITableViewController{
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
             as! mcjrotcTableViewCell
-        cell.mcjrotcRibbonImage.image = self.images[indexPath.row]
-        cell.mcjrotcRibbonLabel.text = self.titles[indexPath.row]
+        //cell.mcjrotcRibbonImage.image = self.images[indexPath.row]
+       // cell.mcjrotcRibbonLabel.text = self.titles[indexPath.row]
         return cell
         
         

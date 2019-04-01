@@ -112,7 +112,7 @@
 				15D309D82231C54400D6D6CA /* Assets.xcassets */,
 				15D309DA2231C54400D6D6CA /* LaunchScreen.storyboard */,
 				15D309DD2231C54400D6D6CA /* Info.plist */,
-				A2142F3D2238290F00CF2ABF /* afjrotcRibbonsTableController.swift */,
+				A2142F3522380AA000CF2ABF /* jrotc_guidon_ios-Bridging-Header.h */,
 			);
 			path = jrotc_guidon_ios;
 			sourceTree = "<group>";
@@ -140,7 +140,7 @@
 			children = (
 				A26AE7AC224AB24800B9A8AC /* ajrotcCadetRibbons.swift */,
 				3F546B67224E604D00003CE2 /* mcjrotcCadetRibbons.swift */,
-				A2142F3522380AA000CF2ABF /* jrotc_guidon_ios-Bridging-Header.h */,
+				A2142F3D2238290F00CF2ABF /* afjrotcRibbonsTableController.swift */,
 			);
 			path = cadetRibbons;
 			sourceTree = "<group>";
