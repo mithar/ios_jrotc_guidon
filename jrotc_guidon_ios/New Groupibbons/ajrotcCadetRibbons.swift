@@ -12,8 +12,9 @@ import UIKit
 class ajrotcTableViewCell: UITableViewCell {
     
     //@IBOutlet weak var ajrotcRibbonImage: UIImageView!
-    
+
     @IBOutlet weak var ajrotcRibbonImage: UIImageView!
+
     @IBOutlet weak var ajrotcRibbonLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -29,7 +30,7 @@ class ajrotcTableViewCell: UITableViewCell {
 
 class ajrotcCadetRibbons: UITableViewController{
     
-    @IBOutlet weak var afjrotcTableView:UITableView!
+    @IBOutlet weak var ajrotcTableView:UITableView!
     
     let titles = [("Excellent Staff Performance Ribbon - Awarded annually to cadet staff officers for excellent performance."),
                   ("Service Learning Ribbon - Awarded annually to cadets who participate in service learning projects."),
