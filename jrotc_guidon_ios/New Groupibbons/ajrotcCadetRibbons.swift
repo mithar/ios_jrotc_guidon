@@ -1,8 +1,7 @@
 //
 //  ajrotcCadetRibbons.swift
 //  jrotc_guidon_ios
-//
-//  Created by DEIT iMac on 3/26/19.
+//.............//  Created by DEIT iMac on 3/26/19.
 //  Copyright © 2019 Mithar Studios. All rights reserved.
 //
 
@@ -14,7 +13,6 @@ class ajrotcTableViewCell: UITableViewCell {
     //@IBOutlet weak var ajrotcRibbonImage: UIImageView!
 
     @IBOutlet weak var ajrotcRibbonImage: UIImageView!
-
     @IBOutlet weak var ajrotcRibbonLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
