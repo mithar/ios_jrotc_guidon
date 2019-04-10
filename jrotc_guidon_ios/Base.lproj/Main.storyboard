@@ -30,7 +30,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Vyh-9I-huR" kind="show" id="PE2-vQ-sGs"/>
+                                    <segue destination="ayj-qz-Dv0" kind="show" id="1pH-4S-Wfh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAy-h0-KMp">
@@ -111,6 +111,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Page View Controller-->
+        <scene sceneID="uYb-E9-zMg">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="oDx-f0-L1w" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tqW-Lz-riT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1428" y="29"/>
+        </scene>
         <!--Afjrotc Ribbons Table View Controller-->
         <scene sceneID="9d4-W2-sjj">
             <objects>
@@ -123,12 +131,12 @@
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="116" id="XOf-L4-LDY" customClass="afjrotcTableViewCell" customModule="jrotc_guidon_ios">
                                 <rect key="frame" x="0.0" y="28" width="414" height="116"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" tableViewCell="XOf-L4-LDY" id="LOs-VX-tEq">
+                                <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" tableViewCell="XOf-L4-LDY" id="LOs-VX-tEq" customClass="afjrotcTableViewCell" customModule="jrotc_guidon_ios" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="115.66666666666667"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" contentMode="left" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" restorationIdentifier="textLabel01" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7q-sT-HHv">
-                                            <rect key="frame" x="30" y="71" width="360" height="33.333333333333329"/>
+                                        <label opaque="NO" contentMode="left" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="textLabel01" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7q-sT-HHv">
+                                            <rect key="frame" x="30" y="82.666666666666671" width="354" height="14.333333333333329"/>
                                             <accessibility key="accessibilityConfiguration">
                                                 <accessibilityTraits key="traits" adjustable="YES"/>
                                             </accessibility>
@@ -136,18 +144,24 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="afjrotc_aca_ribbon.png" translatesAutoresizingMaskIntoConstraints="NO" id="m5i-Qd-Au3">
-                                            <rect key="frame" x="30" y="15.999999999999996" width="354" height="46.666666666666657"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="afjrotc_leadership_school_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="m5i-Qd-Au3">
+                                            <rect key="frame" x="30" y="16.000000000000004" width="354" height="58.333333333333343"/>
                                         </imageView>
                                     </subviews>
                                     <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
                                     <constraints>
+                                        <constraint firstItem="m5i-Qd-Au3" firstAttribute="top" secondItem="LOs-VX-tEq" secondAttribute="topMargin" constant="5" id="4Jc-nn-6TV"/>
                                         <constraint firstItem="m5i-Qd-Au3" firstAttribute="top" secondItem="LOs-VX-tEq" secondAttribute="top" constant="16" id="500-Wh-NHG"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="m5i-Qd-Au3" secondAttribute="trailing" constant="10" id="8Kb-p5-dTg"/>
+                                        <constraint firstItem="m5i-Qd-Au3" firstAttribute="leading" secondItem="LOs-VX-tEq" secondAttribute="leadingMargin" constant="10" id="BnI-KB-vz8"/>
                                         <constraint firstItem="m5i-Qd-Au3" firstAttribute="leading" secondItem="LOs-VX-tEq" secondAttribute="leading" constant="30" id="LZy-Qm-ddJ"/>
                                         <constraint firstAttribute="trailing" secondItem="m5i-Qd-Au3" secondAttribute="trailing" constant="30" id="NdR-IO-E4z"/>
                                         <constraint firstItem="X7q-sT-HHv" firstAttribute="top" secondItem="m5i-Qd-Au3" secondAttribute="bottom" constant="20" id="Nds-bZ-BEe"/>
+                                        <constraint firstItem="X7q-sT-HHv" firstAttribute="top" secondItem="m5i-Qd-Au3" secondAttribute="bottom" constant="8.3300000000000001" id="QhI-ca-IOh"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="m5i-Qd-Au3" secondAttribute="trailing" constant="10" id="R7d-qt-q9M"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="X7q-sT-HHv" secondAttribute="bottom" constant="8" id="WCh-wv-N0l"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="X7q-sT-HHv" secondAttribute="trailing" constant="10" id="pV0-93-HgC"/>
+                                        <constraint firstItem="m5i-Qd-Au3" firstAttribute="leading" secondItem="LOs-VX-tEq" secondAttribute="leadingMargin" constant="10" id="vGs-ku-VqP"/>
                                         <constraint firstItem="X7q-sT-HHv" firstAttribute="leading" secondItem="LOs-VX-tEq" secondAttribute="leadingMargin" constant="10" id="xIc-bR-Ma3"/>
                                     </constraints>
                                 </tableViewCellContentView>
@@ -167,90 +181,64 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g5g-Ar-eC8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="114" y="843"/>
+            <point key="canvasLocation" x="-3" y="1395"/>
         </scene>
-        <!--Page View Controller-->
-        <scene sceneID="qgt-u5-bDB">
+        <!--Ajrotc Cadet Ribbons-->
+        <scene sceneID="aBb-s0-crx">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="QfQ-nS-R0N" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NR0-vk-C7F" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1412" y="24"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="JNX-In-GvJ">
-            <objects>
-                <viewController storyboardIdentifier="afjrotcMainPage" id="Kb3-ic-T6Y" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="y4D-Yt-419">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="m95-Sp-aPc"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gNA-7v-PhG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2132" y="24"/>
-        </scene>
-        <!--Ajrotc Ribbons Table View Controller-->
-        <scene sceneID="Ghe-zK-hyl">
-            <objects>
-                <tableViewController storyboardIdentifier="ajrotcRibbons" id="Vyh-9I-huR" customClass="ajrotcRibbonsTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="2SW-7w-t6G">
+                <tableViewController id="ayj-qz-Dv0" customClass="ajrotcCadetRibbons" customModule="jrotc_guidon_ios" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="oVB-WB-rGN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="116" id="Qqh-rY-oF2" customClass="ajrotcTableViewCell" customModule="jrotc_guidon_ios">
-                                <rect key="frame" x="0.0" y="28" width="414" height="116"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="100" id="DED-Ha-Rbd" customClass="ajrotcTableViewCell" customModule="jrotc_guidon_ios">
+                                <rect key="frame" x="0.0" y="28" width="414" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" tableViewCell="Qqh-rY-oF2" id="nXg-Fu-n7H">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="115.66666666666667"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DED-Ha-Rbd" id="fGX-wY-K2x" customClass="ajrotcTableViewCell" customModule="jrotc_guidon_ios">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="99.666666666666671"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" contentMode="left" semanticContentAttribute="forceLeftToRight" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwU-Mk-xbR">
-                                            <rect key="frame" x="30" y="71" width="360" height="33.333333333333329"/>
-                                            <accessibility key="accessibilityConfiguration">
-                                                <accessibilityTraits key="traits" adjustable="YES"/>
-                                            </accessibility>
-                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qHx-5C-Jm0">
+                                            <rect key="frame" x="87" y="0.0" width="240" height="30"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJI-bK-GdL">
+                                            <rect key="frame" x="0.0" y="7" width="414" height="85.666666666666671"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" image="afjrotc_aca_ribbon.png" translatesAutoresizingMaskIntoConstraints="NO" id="hOP-VV-AG9">
-                                            <rect key="frame" x="30" y="16" width="354" height="30"/>
-                                        </imageView>
                                     </subviews>
-                                    <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
                                     <constraints>
-                                        <constraint firstItem="hOP-VV-AG9" firstAttribute="top" secondItem="nXg-Fu-n7H" secondAttribute="top" constant="16" id="5UN-Sl-1PJ"/>
-                                        <constraint firstItem="hOP-VV-AG9" firstAttribute="leading" secondItem="nXg-Fu-n7H" secondAttribute="leading" constant="30" id="ApV-rp-Xeu"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="bwU-Mk-xbR" secondAttribute="trailing" constant="10" id="JUh-FH-nD4"/>
-                                        <constraint firstItem="bwU-Mk-xbR" firstAttribute="leading" secondItem="nXg-Fu-n7H" secondAttribute="leadingMargin" constant="10" id="Qx9-6w-aSj"/>
-                                        <constraint firstItem="bwU-Mk-xbR" firstAttribute="top" secondItem="hOP-VV-AG9" secondAttribute="bottom" constant="20" id="Zpl-Bt-JK5"/>
-                                        <constraint firstAttribute="trailing" secondItem="hOP-VV-AG9" secondAttribute="trailing" constant="30" id="oP1-B7-0uC"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="bwU-Mk-xbR" secondAttribute="bottom" constant="8" id="uf6-za-0LD"/>
+                                        <constraint firstAttribute="bottom" secondItem="lJI-bK-GdL" secondAttribute="bottom" constant="6" id="0ba-UO-koD"/>
+                                        <constraint firstItem="lJI-bK-GdL" firstAttribute="top" secondItem="fGX-wY-K2x" secondAttribute="top" constant="8" id="Aow-PY-F3U"/>
+                                        <constraint firstItem="qHx-5C-Jm0" firstAttribute="leading" secondItem="fGX-wY-K2x" secondAttribute="leading" constant="87" id="DX7-71-n5E"/>
+                                        <constraint firstAttribute="trailing" secondItem="qHx-5C-Jm0" secondAttribute="trailing" constant="87" id="E86-Tf-m2M"/>
+                                        <constraint firstItem="qHx-5C-Jm0" firstAttribute="top" secondItem="fGX-wY-K2x" secondAttribute="top" id="Ene-2Y-6RO"/>
+                                        <constraint firstAttribute="trailing" secondItem="lJI-bK-GdL" secondAttribute="trailing" id="FFz-ok-bok"/>
+                                        <constraint firstAttribute="bottom" secondItem="qHx-5C-Jm0" secondAttribute="bottom" constant="69.670000000000002" id="OBe-k4-IhH"/>
+                                        <constraint firstItem="lJI-bK-GdL" firstAttribute="leading" secondItem="fGX-wY-K2x" secondAttribute="leading" id="bqG-Xz-qqZ"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.7825336195" green="0.89016984529999998" blue="0.95413626269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                                <connections>
+                                    <outlet property="ajrotcRibbonImage" destination="qHx-5C-Jm0" id="HaZ-DU-wkf"/>
+                                    <outlet property="ajrotcRibbonLabel" destination="lJI-bK-GdL" id="dTz-md-QBJ"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="ajrotcRibbonImage" destination="hOP-VV-AG9" id="Btr-an-jgP"/>
-                            <outlet property="ajrotcRibbonLabel" destination="bwU-Mk-xbR" id="Pct-aM-ugv"/>
-                            <outlet property="dataSource" destination="Vyh-9I-huR" id="W7j-hE-aKP"/>
-                            <outlet property="delegate" destination="Vyh-9I-huR" id="S8a-K5-dTV"/>
+                            <outlet property="dataSource" destination="ayj-qz-Dv0" id="Yn8-NZ-wjm"/>
+                            <outlet property="delegate" destination="ayj-qz-Dv0" id="fnH-C4-bHf"/>
                         </connections>
                     </tableView>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hsh-ZB-6rJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LDs-HI-ccN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="791" y="843"/>
+            <point key="canvasLocation" x="769.56521739130437" y="1394.8369565217392"/>
         </scene>
     </scenes>
     <resources>
-        <image name="afjrotc_aca_ribbon.png" width="105" height="30"/>
+        <image name="afjrotc_leadership_school_ribbon" width="105" height="30"/>
     </resources>
     <color key="tintColor" red="0.2278578165" green="1" blue="0.35673695550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

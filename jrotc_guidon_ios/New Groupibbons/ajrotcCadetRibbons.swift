@@ -103,6 +103,7 @@ class ajrotcCadetRibbons: UITableViewController{
                   UIImage(named:"ajrotc_n_1_8_ribbon"),
                   UIImage(named:"ajrotc_n_1_7_ribbon"),
                   UIImage(named:"ajrotc_leadership_education_service_ribbon"),
+                  UIImage(named:"ajrotc_student_government_ribbon"),
                   UIImage(named:"ajrotc_perfect_attendance_ribbon"),
                   UIImage(named:"ajrotc_academic_achievement_ribbon"),
                   UIImage(named:"ajrotc_academic_excellence_ribbon"),
