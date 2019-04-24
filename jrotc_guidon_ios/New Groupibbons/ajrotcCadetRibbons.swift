@@ -109,17 +109,11 @@ class ajrotcCadetRibbons: UITableViewController{
                   UIImage(named:"ajrotc_academic_excellence_ribbon"),
                   UIImage(named:"ajrotc_distinguished_cadet_ribbon"),
                   UIImage(named:"ajrotc_superior_cadet_ribbon"),
-                  UIImage(named:"ajrotc_medal_for_heroism_ribbon"),
-]
+                  UIImage(named:"ajrotc_medal_for_heroism_ribbon"),]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
-    
-    /*override func didReceiveMemoryWarning() {
-     super.didReceiveMemoryWarning()
-     }*/
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
