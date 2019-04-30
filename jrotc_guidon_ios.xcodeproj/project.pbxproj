@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		154060002277E1B500B4E626 /* mcjrotcTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15405FFF2277E1B400B4E626 /* mcjrotcTableView.swift */; };
 		15D309D22231C47B00D6D6CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D309D12231C47B00D6D6CA /* AppDelegate.swift */; };
 		15D309D42231C47C00D6D6CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D309D32231C47C00D6D6CA /* ViewController.swift */; };
 		15D309D72231C47E00D6D6CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D309D52231C47E00D6D6CA /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15405FFF2277E1B400B4E626 /* mcjrotcTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mcjrotcTableView.swift; sourceTree = "<group>"; };
 		15D309CE2231C47A00D6D6CA /* jrotc_guidon_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jrotc_guidon_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D309D12231C47B00D6D6CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15D309D32231C47C00D6D6CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				15D309D12231C47B00D6D6CA /* AppDelegate.swift */,
 				15D309D32231C47C00D6D6CA /* ViewController.swift */,
 				15D309D52231C47E00D6D6CA /* Main.storyboard */,
+				15405FFF2277E1B400B4E626 /* mcjrotcTableView.swift */,
 				15D309D82231C54400D6D6CA /* Assets.xcassets */,
 				15D309DA2231C54400D6D6CA /* LaunchScreen.storyboard */,
 				15D309DD2231C54400D6D6CA /* Info.plist */,
@@ -281,6 +284,7 @@
 				A2142F3E2238290F00CF2ABF /* afjrotcRibbonsTableController.swift in Sources */,
 				3F546B68224E604D00003CE2 /* mcjrotcCadetRibbons.swift in Sources */,
 				A26AE7AD224AB24800B9A8AC /* ajrotcCadetRibbons.swift in Sources */,
+				154060002277E1B500B4E626 /* mcjrotcTableView.swift in Sources */,
 				15D309D22231C47B00D6D6CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,7 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XXVH6N447B;
+				DEVELOPMENT_TEAM = 74NDCPX44U;
 				INFOPLIST_FILE = jrotc_guidon_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -480,7 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XXVH6N447B;
+				DEVELOPMENT_TEAM = 74NDCPX44U;
 				INFOPLIST_FILE = jrotc_guidon_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
