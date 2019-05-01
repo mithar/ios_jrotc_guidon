@@ -145,10 +145,7 @@ class afjrotcRibbonsTableViewController: UITableViewController{
         super.viewDidLoad()
 
     }
-    
-    /*override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }*/
+
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
