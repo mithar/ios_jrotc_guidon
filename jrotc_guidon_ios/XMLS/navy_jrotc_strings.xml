@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "navy_ranks">
+
+        <item>Seaman Recruit</item>
+        <item>Seaman Apprentice</item>
+        <item>Seaman </item>
+        <item>Petty Officer Third Class</item>
+        <item>Petty Officer Second Class</item>
+        <item>Petty Officer First Class</item>
+        <item>Chief Petty Officer</item>
+        <item>Senior Chief Petty Officer</item>
+        <item>Master Chief Petty Officer</item>
+        <item>Master Chief Petty Officer of the Navy</item>
+        <!-- 13 -->
+        <item>Warrant Officer One</item>
+        <item>Chief Warrant Officer Two</item>
+        <item>Chief Warrant Officer Three</item>
+        <item>Chief Warrant Officer Four</item>
+        <item>Chief Warrant Officer Five</item>
+        <!-- 5 warrant officer ranks -->
+
+        <item>Ensign</item>
+        <item>Lieutenant(Junior grade)</item>
+        <item>Lieutenant</item>
+        <item>Lieutenant Commander</item>
+        <item>Commander</item>
+        <item>Captain</item>
+        <item>Rear Admiral (lower half)</item>
+        <item>Rear Admiral (upper half)</item>
+        <item>Vice Admiral</item>
+        <item>Admiral</item>
+        <item>Fleet Admiral</item>
+</string-array>
+
+
+    <string-array name = "njrotc_cadet_ranks">
+        <item>Cadet Seaman Recruit</item>
+        <item>Cadet Seaman Apprentice</item>
+        <item>Cadet Seaman </item>
+        <item>Cadet Petty Officer Third Class</item>
+        <item>Cadet Petty Officer Second Class</item>
+        <item>Cadet Petty Officer First Class</item>
+        <item>Cadet Chief Petty Officer</item>
+        <item>Cadet Senior/Command Chief Petty Officer</item>
+        <item>Cadet (Command)Master Chief Petty Officer</item>
+
+        <item>Cadet Ensign</item>
+        <item>Cadet Lieutenant(Junior grade)</item>
+        <item>Cadet Lieutenant</item>
+        <item>Cadet Lieutenant Commander</item>
+        <item>Cadet Commander</item>
+    </string-array>
+
+    <string-array name="njrotc_cadet_paygrade">
+        <item>(C/SR)</item>
+        <item>(C/SA)</item>
+        <item>(C/SN)</item>
+        <item>(C/PO3)</item>
+        <item>(C/PO2)</item>
+        <item>(C/PO1)</item>
+        <item>(C/CPO)</item>
+        <item>(C/SCPO)/(C/CMDCS)</item>
+        <item>(C/MCPO)/(C/CMDCS)</item>
+        <item>(C/ENS)</item>
+        <item>(C/LTJG)</item>
+        <item>(C/LT)</item>
+        <item>(C/LCDR)</item>
+        <item>(C/CDR)</item>
+    </string-array>
+    <string-array name = "navy_pay_grades">
+        <item>E-1</item>
+        <item>E-2</item>
+        <item>E-3</item>
+        <item>E-4</item>
+        <item>E-5</item>
+        <item>E-6</item>
+        <item>E-7</item>
+        <item>E-8</item>
+        <item>E-9</item>
+        <item>E-9</item>
+        <item>W-1</item>
+        <item>W-2</item>
+        <item>W-3</item>
+        <item>W-4</item>
+        <item>W-5</item>
+        <item>O-1</item>
+        <item>O-2</item>
+        <item>O-3</item>
+        <item>O-4</item>
+        <item>O-5</item>
+        <item>O-6</item>
+        <item>O-7</item>
+        <item>O-8</item>
+        <item>O-9</item>
+        <item>O-10</item>
+        <item>O-11</item>
+    </string-array>
+
+    <string-array name="navy_ribbon_array">
+    <item>Sea Cruise Ribbon - Awarded to any cadet upon completion of an at sea cruise (vessel must cast off lines and be underway).</item>
+    <item>Basic Leadership Training Ribbon - Awarded to any cadet upon completion of Basic Leadership Training, Leadership Academy or similar training approved by the area manager.</item>
+    <item>Recruiting Ribbon - Awarded when earned to any cadet that is instrumental in the enrollment of two students or is part of a recruiting effort.</item>
+    <item>Inter-Service Competition Ribbon - Awarded to a cadet who has entered any inter-service, national level competition, such as CyberPatriot, JLAB, etc.; or for any SeaPerch Competition, regardless of service sponsorship.</item>
+    <item>Orienteering Team Ribbon - Awarded when earned to any cadet in good standing who has entered competition.</item>
+    <item>Rifle Team Ribbon - Awarded when earned to any cadet in good standing who has entered competition including all air-operated weapons.</item>
+    <item>Color Guard Ribbon - Awarded when earned to any cadet in good standing who has performed as a member of the color guard for 3 events.</item>
+    <item>Drill Team Ribbon - The drill team ribbon may be awarded to all cadets that earn 3 drill team pts, which include parades, meets, and other performances.</item>
+    <item>Academic Award Ribbon - Awarded when earned, to each cadet in good standing who has been a member of the Academic Team.</item>
+    <item>Community Service Ribbon - Community Service ribbons and each subsequent NJROTC award are earned after 12 hrs of properly documented volunteer service.</item>
+    <item>Unit Service Ribbon - Unit Service and each subsequent award is earned when a cadet performs superior service to unit. The award may be for sustained service at a level above that normally required of other cadets or it may be for a specific act(s) of superior service.</item>
+    <item>Participation Ribbon - Awarded when earned to all cadets earning one hour or more participation in at least three separate, non-social NJROTC sponsored events or activities (to include ushering at school events, flag detail, attendance at drill, field/athletic meets, and attendance on field trips).</item>
+    <item>Physical Fitness Ribbon - Awarded twice a year to any cadet who meets or exceeds physical fitness standards to be given to you at a later time.</item>
+    <item>Exemplary Personal Appearance Ribbon - Awarded twice yearly to all cadets that wear their uniform on all required occasions and have an average of 90% + on inspection and not received an inspection grade below an "A". (this award can be received 3 times in a year based on the results of the NJROTC Area Manager during annual inspection)</item>
+    <item>Exemplary Conduct Ribbon - Awarded early to each cadet who demonstrates exemplary conduct for the year.</item>
+    <item>NS I Outstanding Cadet Ribbon - Awarded yearly to outstanding cadets in Naval Science 1 based on citizenship, academic performance, personal appearance and conduct.</item>
+    <item>NS II Outstanding cadet Ribbon - Awarded yearly to outstanding cadets in Naval Science 2 based on citizenship, academic performance, personal appearance and conduct.</item>
+    <item>NS III Outstanding Cadet Ribbon - Awarded yearly to outstanding cadets in Naval Science 3 based on citizenship, academic performance, personal appearance and conduct.</item>
+    <item>NS IIII Outstanding Cadet Ribbon - Awarded yearly to outstanding cadets in Naval Science 4 based on citizenship, academic performance, personal appearance and conduct.</item>
+    <item>Military Aptitude Award Ribbon - Awarded to the top 10% of the cadets based on evaluation of academic performance of assigned jobs, conduct, unit involvement, attendance, and overall aptitude.</item>
+    <item>Unit Achievement Ribbon - Awarded to cadets in good standing who were unit members during the academic year in which the school earned the Unit Achievement status as determined by the Area Manager. Awarded only to those units that demonstrated exceptional performance but did not qualify for Distinguished Unit status.</item>
+    <item>Cadet Achievement Ribbon - Awarded, when earned, to any cadet who distinguishes him/herself by outstanding achievement or sustained superior performance.</item>
+    <item>Honor Cadet Ribbon - Awarded yearly to one cadet in each year group with the highest overall academic achievement in school.</item>
+    <item>Distinguished Cadet Ribbon - Awarded yearly to one cadet in each year group with the highest combined average for overall scholastic standing and aptitude.</item>
+    <item>Distinguished Unit Ribbon - Awarded to cadets who were unit members during the academic year in which the school earned Distinguished Unit status.</item>
+    <item>Meritorious Achievement Award - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</item>
+    </string-array>
+
+    <string-array name="navy_coc_array">
+        <item>Commander in Chief - Donald J. Trump</item>
+        <item>Vice President - Mike Pence</item>
+        <item>Speaker of the House - Nancy Pelosi</item>
+        <item>Secretary of State - Mike Pompeo</item>
+        <item>Secretary of Defense - Patrick M. Shanahan</item>
+        <item>Secretary of the Navy - Richard V. Spencer</item>
+        <item>Navy Chief of Operations - John M. Richardson</item>
+        <item>Chairman of the Joint Chiefs of Staff - Gen. Joseph F. Dunford </item>
+        <item>Commandant of the Marine Corps - General Robert B. Neller</item>
+        <item>Master Chief Petty Officer of the Navy - Master Chief Petty Officer Russell L. Smith</item>
+        <item>Sergeant Major of the Marine Corps - Sergeant Major Ronald L. Green</item>
+    </string-array>
+
+    <string-array name="njrotc_knowledge">
+        <item>Chain of Command</item>
+        <item>Navy Knowledge</item>
+        <item>Navy Rank/Rate Structure</item>
+        <item>Cadet Rank/Rate Structure</item>
+        <item>General Orders of the Sentry</item>
+        <item>Leadership Principles</item>
+        <item>Uniform Inspection Check</item>
+        <item></item>
+    </string-array>
+    <string name="njrotc_leadership_traits">
+        "JUSTICE - The quality of being impartial and consistent in exercising command.\n\n"
+        "JUDGEMENT - The quality of weighting facts and possible solutions on which to base sound decisions.\n\n"
+        "DEPENDABILITY - The certainty of the proper performance of duty.\n\n"
+        "INITIATIVE - Seeing what has to be done and commencing a course of action, even in the absence of orders.\n\n"
+        "DECISIVENESS - Ability to reach decisions promptly and to announce them in a clear, forceful manner.\n\n"
+        "TACT - The ability to deal others without creating offense.\n\n"
+        "INTEGRITY - Uprightness of character and soundness of moral principle, absolute truthfulness and honesty.\n\n"
+        "ENDURANCE - The mental and physical stamina measured by the ability to stand pain, fatigue, distress, and hardship.\n\n"
+        "BEARING - Creating a favorable impression in carnage, appearance, and personal conduct at all times.\n\n"
+        "UNSELFISHNESS - Avoidance of providing for ones comfort and personal advancement at the expense of others.\n\n"
+        "COURAGE - A mental quality that recognizes fear of danger or criticism but enables a person to proceed in the face of it with calmness and firmness.\n\n"
+        "LOYALTY - Faithfulness to country, Corps, and unit, and to your seniors and subordinates.\n\n"
+        "ENTHUSIASM - The display of sincere interest and exuberance in the performance of duty.\n\n"
+    </string>
+
+    <string name = "navy_jrotc_ribbons">NJROTC Ribbons</string>
+
+    <!-- Navy Knowledge-->
+    <string name="navy_knowledge_title">Navy History</string>
+    <string name="njrotc_navy_born">
+        Navy Established - October 13, 1775, Philadelphia, PA
+    </string>
+    <string name="njrotc_sailors_creed">
+        SAILORS CREED\n\n
+        I am a United States sailor.\n
+        I will support and defend the constitution of the United States of America and I will obey the orders of those appointed over me.\n
+        I represent the fighting spirit of the navy and those who came before me to defend freedom and democracy around the world.\n
+        I proudly serve my countrys Navy combat team with Honor, Courage, and Commitment.\n
+        I am committed to excellence and the fair treatment of all.\n</string>
+
+    <string name="njrotc_navy_all_knowledge">
+
+        -The United States Navy was established on October 13, 1775, Philadelphia, PA\n\n
+
+        Navy JROTC Cadet Creed\n\n
+        I am a Navy JROTC Cadet.\n
+        I will never indulge in conduct that will bring discredit to my family, country, school, and the corps of the cadets.\n
+        I do not lie, cheat, or steal and will always be accountable for my actions and deeds.\n
+        I will always practice good citizenship and patriotism.\n
+        I will proudly embrace the Navy\'s Core values of Honor, Courage, and Commitment.\n
+        I will work hard to improve my mind and strengthen my body.\n
+        I will seek the mantel of leadership and stand prepared to uphold the Constitution and the American way of life.\n\n
+
+        SAILORS CREED\n\n
+        I am a United States sailor.\n
+        I will support and defend the constitution of the United States of America and I will obey the orders of those appointed over me.\n
+        I represent the fighting spirit of the navy and those who came before me to defend freedom and democracy around the world.\n
+        I proudly serve my country\'s Navy combat team with Honor, Courage, and Commitment.\n
+        I am committed to excellence and the fair treatment of all.\n\n
+
+    </string>
+
+    <string name="njrotc_cadet_creed">
+        Navy JROTC Cadet Creed\n\n
+        I am a Navy JROTC Cadet.\n
+        I will never indulge in conduct that will bring discredit to my family, country, school, and the corps of the cadets.\n
+        I do not lie, cheat, or steal and will always be accountable for my actions and deeds.\n
+        I will always practice good citizenship and patriotism.\n
+        I will proudly embrace the Navy\'s Core values of Honor, Courage, and Commitment.\n
+        I will work hard to improve my mind and strengthen my body.\n
+        I will seek the mantel of leadership and stand prepared to uphold the Constitution and the American way of life.\n
+    </string>
+</resources>

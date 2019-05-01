@@ -436,6 +436,9 @@
                                             </subviews>
                                             <color key="backgroundColor" red="0.87083063469999999" green="0.73961169780000002" blue="0.20597405169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="8lq-64-Mci" kind="show" id="qdj-Dh-PMr"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -4685,6 +4688,851 @@
             </objects>
             <point key="canvasLocation" x="5494" y="27"/>
         </scene>
+        <!--Table View Controller-->
+        <scene sceneID="EEr-6B-5nf">
+            <objects>
+                <tableViewController id="8lq-64-Mci" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jLd-gZ-yy2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection headerTitle="NJROTC Cadet Ribbons" id="SXo-eE-gLt">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="1Q1-4e-A7D">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1Q1-4e-A7D" id="zum-k4-cJp">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_sea_cruise_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="YhD-ML-XNp">
+                                                    <rect key="frame" x="83" y="11" width="209" height="33"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sea Cruise Ribbon  - Awarded to any cadet upon completion of an at sea cruise (vessel must cast off lines and be underway)." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdm-uc-o6W">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315414428711" green="0.20663931965827942" blue="0.3975118100643158" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="YhD-ML-XNp" secondAttribute="bottom" constant="88" id="8X2-CA-M3m"/>
+                                                <constraint firstItem="wdm-uc-o6W" firstAttribute="top" secondItem="zum-k4-cJp" secondAttribute="topMargin" constant="49" id="K4o-HE-ONd"/>
+                                                <constraint firstItem="wdm-uc-o6W" firstAttribute="centerX" secondItem="YhD-ML-XNp" secondAttribute="centerX" id="OfJ-Ys-IpS"/>
+                                                <constraint firstItem="YhD-ML-XNp" firstAttribute="centerX" secondItem="zum-k4-cJp" secondAttribute="centerX" id="YRp-9M-9QF"/>
+                                                <constraint firstItem="YhD-ML-XNp" firstAttribute="top" secondItem="zum-k4-cJp" secondAttribute="top" constant="11" id="aro-UD-a32"/>
+                                                <constraint firstItem="wdm-uc-o6W" firstAttribute="leading" secondItem="zum-k4-cJp" secondAttribute="leadingMargin" id="fcB-lj-bQh"/>
+                                                <constraint firstItem="YhD-ML-XNp" firstAttribute="leading" secondItem="zum-k4-cJp" secondAttribute="leadingMargin" constant="83" id="fpg-vh-olh">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstAttribute="bottomMargin" secondItem="wdm-uc-o6W" secondAttribute="bottom" constant="-11" id="spG-Mo-Elh"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776014328003" green="0.74215179681777954" blue="0.20637276768684387" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="Kyp-Ex-sG6">
+                                        <rect key="frame" x="0.0" y="171" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Kyp-Ex-sG6" id="jzW-dE-PUR">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_navy_jrotc_basic_leadership_training_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Eya-fP-A58">
+                                                    <rect key="frame" x="83" y="11" width="209" height="33"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ytl-UV-au6">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <string key="text">Basic Leadership Training Ribbon  - Awarded to any cadet upon completion of Basic Leadership Training, Leadership Academy or similar training approved by the area manager.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Eya-fP-A58" firstAttribute="leading" secondItem="jzW-dE-PUR" secondAttribute="leadingMargin" constant="83" id="4A3-mq-EWM">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstItem="Ytl-UV-au6" firstAttribute="top" secondItem="jzW-dE-PUR" secondAttribute="topMargin" constant="49" id="4v6-3V-G8u"/>
+                                                <constraint firstItem="Eya-fP-A58" firstAttribute="top" secondItem="jzW-dE-PUR" secondAttribute="top" constant="11" id="A5H-jn-3ES"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Eya-fP-A58" secondAttribute="bottom" constant="88" id="W4r-WJ-rGB"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Ytl-UV-au6" secondAttribute="bottom" constant="-11" id="XUZ-Vu-sYD"/>
+                                                <constraint firstItem="Ytl-UV-au6" firstAttribute="centerX" secondItem="Eya-fP-A58" secondAttribute="centerX" id="aIc-Mj-Faq"/>
+                                                <constraint firstItem="Ytl-UV-au6" firstAttribute="leading" secondItem="jzW-dE-PUR" secondAttribute="leadingMargin" id="c5o-Pj-yhm"/>
+                                                <constraint firstItem="Eya-fP-A58" firstAttribute="centerX" secondItem="jzW-dE-PUR" secondAttribute="centerX" id="zPH-dh-a4v"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="eBf-ZC-yc7">
+                                        <rect key="frame" x="0.0" y="314" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eBf-ZC-yc7" id="pin-pW-dcO">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_recruiting_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="oXp-ja-hg7">
+                                                    <rect key="frame" x="83" y="11" width="209" height="33"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="skq-Ad-UTc">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <string key="text">Recruiting Ribbon  - Awarded when earned to any cadet that is instrumental in the enrollment of two students or is part of a recruiting effort.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="skq-Ad-UTc" firstAttribute="leading" secondItem="pin-pW-dcO" secondAttribute="leadingMargin" id="0pf-zi-SIx"/>
+                                                <constraint firstItem="skq-Ad-UTc" firstAttribute="centerX" secondItem="oXp-ja-hg7" secondAttribute="centerX" id="9TM-B7-IP5"/>
+                                                <constraint firstItem="skq-Ad-UTc" firstAttribute="top" secondItem="pin-pW-dcO" secondAttribute="topMargin" constant="49" id="Cqh-nP-uF5"/>
+                                                <constraint firstItem="oXp-ja-hg7" firstAttribute="centerX" secondItem="pin-pW-dcO" secondAttribute="centerX" id="VWv-1x-aDc"/>
+                                                <constraint firstItem="oXp-ja-hg7" firstAttribute="leading" secondItem="pin-pW-dcO" secondAttribute="leadingMargin" constant="83" id="nay-mp-ObJ">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstAttribute="bottomMargin" secondItem="oXp-ja-hg7" secondAttribute="bottom" constant="88" id="p21-VO-3Mm"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="skq-Ad-UTc" secondAttribute="bottom" constant="-11" id="pkr-QO-3mW"/>
+                                                <constraint firstItem="oXp-ja-hg7" firstAttribute="top" secondItem="pin-pW-dcO" secondAttribute="top" constant="11" id="r0A-2k-DT9"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="AGL-gH-kSC">
+                                        <rect key="frame" x="0.0" y="457" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AGL-gH-kSC" id="WGZ-fK-tXz">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_inter_service_competition_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="5QE-5l-0Ri">
+                                                    <rect key="frame" x="83" y="11" width="209" height="33"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dcp-N8-yyR">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <string key="text">Inter-Service Competition Ribbon  - Awarded to a cadet who has entered any inter-service, national level competition, such as CyberPatriot, JLAB, etc; or for any SeaPerch Competition, regardless of service sponsorship.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="5QE-5l-0Ri" firstAttribute="top" secondItem="WGZ-fK-tXz" secondAttribute="top" constant="11" id="2aB-3y-3ut"/>
+                                                <constraint firstItem="Dcp-N8-yyR" firstAttribute="leading" secondItem="WGZ-fK-tXz" secondAttribute="leadingMargin" id="LR4-Rv-eBY"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Dcp-N8-yyR" secondAttribute="bottom" constant="-11" id="Qyp-8I-AiB"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="5QE-5l-0Ri" secondAttribute="bottom" constant="88" id="gDS-rS-6mH"/>
+                                                <constraint firstItem="5QE-5l-0Ri" firstAttribute="centerX" secondItem="WGZ-fK-tXz" secondAttribute="centerX" id="hJW-TR-opE"/>
+                                                <constraint firstItem="Dcp-N8-yyR" firstAttribute="centerX" secondItem="5QE-5l-0Ri" secondAttribute="centerX" id="lyb-Tc-qPK"/>
+                                                <constraint firstItem="Dcp-N8-yyR" firstAttribute="top" secondItem="WGZ-fK-tXz" secondAttribute="topMargin" constant="49" id="r3a-m0-mho"/>
+                                                <constraint firstItem="5QE-5l-0Ri" firstAttribute="leading" secondItem="WGZ-fK-tXz" secondAttribute="leadingMargin" constant="83" id="zqk-Ge-6H9">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="yxX-66-K2S">
+                                        <rect key="frame" x="0.0" y="600" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yxX-66-K2S" id="jmd-mq-edq">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_rifle_team_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="FIy-vb-g1b">
+                                                    <rect key="frame" x="83" y="11" width="209" height="33"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezW-4e-OrX">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <string key="text">Rifle Team Ribbon  - Awarded when earned to any cadet in good standing who has entered competition including all air-operated weapons.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="FIy-vb-g1b" firstAttribute="centerX" secondItem="jmd-mq-edq" secondAttribute="centerX" id="0zC-FR-aO8"/>
+                                                <constraint firstItem="ezW-4e-OrX" firstAttribute="leading" secondItem="jmd-mq-edq" secondAttribute="leadingMargin" id="9yh-Fg-1wa"/>
+                                                <constraint firstItem="ezW-4e-OrX" firstAttribute="top" secondItem="jmd-mq-edq" secondAttribute="topMargin" constant="49" id="A2U-3V-vUj"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="ezW-4e-OrX" secondAttribute="bottom" constant="-11" id="AgH-ak-2cx"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="FIy-vb-g1b" secondAttribute="bottom" constant="88" id="Q2e-SE-Fov"/>
+                                                <constraint firstItem="FIy-vb-g1b" firstAttribute="top" secondItem="jmd-mq-edq" secondAttribute="top" constant="11" id="dLK-LO-Z0z"/>
+                                                <constraint firstItem="FIy-vb-g1b" firstAttribute="leading" secondItem="jmd-mq-edq" secondAttribute="leadingMargin" constant="83" id="r8B-NY-2QG">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstItem="ezW-4e-OrX" firstAttribute="centerX" secondItem="FIy-vb-g1b" secondAttribute="centerX" id="rae-Hc-bFl"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="9LC-dP-NJS">
+                                        <rect key="frame" x="0.0" y="743" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9LC-dP-NJS" id="O5C-C3-gpA">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_color_guard_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="VOL-Tv-SIo">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwy-tu-BgT">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <string key="text">Color Guard Ribbon  - Awarded when earned to any cadet in good standing who has performed as a member of the color guard for 3 events.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="rwy-tu-BgT" firstAttribute="top" secondItem="O5C-C3-gpA" secondAttribute="topMargin" constant="49" id="AoD-LV-z0H"/>
+                                                <constraint firstItem="VOL-Tv-SIo" firstAttribute="leading" secondItem="O5C-C3-gpA" secondAttribute="leadingMargin" constant="83" id="B4s-kE-nZT">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstAttribute="bottomMargin" secondItem="VOL-Tv-SIo" secondAttribute="bottom" constant="88" id="CDF-T7-2jd"/>
+                                                <constraint firstItem="VOL-Tv-SIo" firstAttribute="centerX" secondItem="O5C-C3-gpA" secondAttribute="centerX" id="WQB-Mb-kNH"/>
+                                                <constraint firstItem="rwy-tu-BgT" firstAttribute="leading" secondItem="O5C-C3-gpA" secondAttribute="leadingMargin" id="X0T-Ij-fb2"/>
+                                                <constraint firstItem="rwy-tu-BgT" firstAttribute="centerX" secondItem="VOL-Tv-SIo" secondAttribute="centerX" id="c8V-Oh-1sJ"/>
+                                                <constraint firstItem="VOL-Tv-SIo" firstAttribute="top" secondItem="O5C-C3-gpA" secondAttribute="top" constant="11" id="e7x-v7-jKJ"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="rwy-tu-BgT" secondAttribute="bottom" constant="-11" id="u2u-TT-avb"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="t99-Vl-LSR">
+                                        <rect key="frame" x="0.0" y="886" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="t99-Vl-LSR" id="Nci-IF-PyV">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_drill_team_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="nqe-cq-Ewr">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S2A-ek-35Z">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <string key="text">Drill Team Ribbon - The drill team ribbon may be awarded to all cadets that earn 3 drill team pts, which include parades, meets, and other performances.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="S2A-ek-35Z" firstAttribute="top" secondItem="Nci-IF-PyV" secondAttribute="topMargin" constant="49" id="BZi-OR-zoR"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="S2A-ek-35Z" secondAttribute="bottom" constant="-11" id="YKA-78-lPj"/>
+                                                <constraint firstItem="S2A-ek-35Z" firstAttribute="centerX" secondItem="nqe-cq-Ewr" secondAttribute="centerX" id="YNf-c8-xfI"/>
+                                                <constraint firstItem="S2A-ek-35Z" firstAttribute="leading" secondItem="Nci-IF-PyV" secondAttribute="leadingMargin" id="bj7-hS-zPh"/>
+                                                <constraint firstItem="nqe-cq-Ewr" firstAttribute="top" secondItem="Nci-IF-PyV" secondAttribute="top" constant="11" id="jOa-Yd-k3x"/>
+                                                <constraint firstItem="nqe-cq-Ewr" firstAttribute="leading" secondItem="Nci-IF-PyV" secondAttribute="leadingMargin" constant="83" id="tEJ-rJ-AFh">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstItem="nqe-cq-Ewr" firstAttribute="centerX" secondItem="Nci-IF-PyV" secondAttribute="centerX" id="u56-9E-HI8"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="nqe-cq-Ewr" secondAttribute="bottom" constant="88" id="xEK-H0-zjb"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="4CX-1Q-6N6">
+                                        <rect key="frame" x="0.0" y="1029" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4CX-1Q-6N6" id="LTL-pK-u5K">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_academic_award_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="UbW-zn-lRj">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Academic Award Ribbon  - Awarded when earned, to each cadet in good standing who has been a member of the Academic Team." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6O-hw-mAB">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="X6O-hw-mAB" secondAttribute="bottom" constant="-11" id="9U6-gf-fEi"/>
+                                                <constraint firstItem="X6O-hw-mAB" firstAttribute="leading" secondItem="LTL-pK-u5K" secondAttribute="leadingMargin" id="J2b-RX-HaN"/>
+                                                <constraint firstItem="X6O-hw-mAB" firstAttribute="top" secondItem="LTL-pK-u5K" secondAttribute="topMargin" constant="49" id="KAS-Um-b8X"/>
+                                                <constraint firstItem="X6O-hw-mAB" firstAttribute="centerX" secondItem="UbW-zn-lRj" secondAttribute="centerX" id="TM2-3G-GF2"/>
+                                                <constraint firstItem="UbW-zn-lRj" firstAttribute="centerX" secondItem="LTL-pK-u5K" secondAttribute="centerX" id="Zj6-an-7Pc"/>
+                                                <constraint firstItem="UbW-zn-lRj" firstAttribute="top" secondItem="LTL-pK-u5K" secondAttribute="top" constant="11" id="b7R-t5-N8L"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="UbW-zn-lRj" secondAttribute="bottom" constant="88" id="dcN-yh-vON"/>
+                                                <constraint firstItem="UbW-zn-lRj" firstAttribute="leading" secondItem="LTL-pK-u5K" secondAttribute="leadingMargin" constant="83" id="x7W-2I-vwW">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="fmt-Hv-6h4">
+                                        <rect key="frame" x="0.0" y="1172" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fmt-Hv-6h4" id="YpW-tu-Nmd">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_community_service_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="MMv-pX-SsH">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6RL-Ju-gbZ">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <string key="text">Community Service Ribbon  - Community Service ribbons and each subsequent NJROTC award are earned after 12 hrs of properly documented volunteer service.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="MMv-pX-SsH" secondAttribute="bottom" constant="88" id="0DB-Ez-tbZ"/>
+                                                <constraint firstItem="MMv-pX-SsH" firstAttribute="centerX" secondItem="YpW-tu-Nmd" secondAttribute="centerX" id="LWU-z8-KOU"/>
+                                                <constraint firstItem="MMv-pX-SsH" firstAttribute="leading" secondItem="YpW-tu-Nmd" secondAttribute="leadingMargin" constant="83" id="LfM-BT-fwz">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstItem="6RL-Ju-gbZ" firstAttribute="top" secondItem="YpW-tu-Nmd" secondAttribute="topMargin" constant="49" id="eUd-W3-GRO"/>
+                                                <constraint firstItem="6RL-Ju-gbZ" firstAttribute="leading" secondItem="YpW-tu-Nmd" secondAttribute="leadingMargin" id="lDK-hz-Qpo"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="6RL-Ju-gbZ" secondAttribute="bottom" constant="-11" id="spb-2X-ioa"/>
+                                                <constraint firstItem="MMv-pX-SsH" firstAttribute="top" secondItem="YpW-tu-Nmd" secondAttribute="top" constant="11" id="vBT-pf-9qC"/>
+                                                <constraint firstItem="6RL-Ju-gbZ" firstAttribute="centerX" secondItem="MMv-pX-SsH" secondAttribute="centerX" id="zgx-ql-gxl"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="GQL-HS-dio">
+                                        <rect key="frame" x="0.0" y="1315" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GQL-HS-dio" id="7cx-3v-di2">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_unit_service_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="p4y-ZA-Xxi">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbT-Bf-VUg">
+                                                    <rect key="frame" x="16" y="46" width="343" height="96"/>
+                                                    <mutableString key="text">Unit Service Ribbon  - Unit Service and each subsequent award is earned when a cadet performs superior service to unit. The award may be for sustained service at a level above that normally required of other cadets or it may be for a specific act(s) of superior service.</mutableString>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="p4y-ZA-Xxi" firstAttribute="top" secondItem="7cx-3v-di2" secondAttribute="top" constant="11" id="MWl-vm-XJu"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="p4y-ZA-Xxi" secondAttribute="bottom" constant="88" id="Q0z-Ny-OPV"/>
+                                                <constraint firstItem="p4y-ZA-Xxi" firstAttribute="leading" secondItem="7cx-3v-di2" secondAttribute="leadingMargin" constant="83" id="aBA-Cd-09f">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstItem="kbT-Bf-VUg" firstAttribute="top" secondItem="7cx-3v-di2" secondAttribute="topMargin" constant="49" id="e60-HX-Izk"/>
+                                                <constraint firstItem="kbT-Bf-VUg" firstAttribute="centerX" secondItem="p4y-ZA-Xxi" secondAttribute="centerX" id="ohK-xw-dqH"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="kbT-Bf-VUg" secondAttribute="bottom" constant="-11" id="sPf-A6-yd8"/>
+                                                <constraint firstItem="kbT-Bf-VUg" firstAttribute="leading" secondItem="7cx-3v-di2" secondAttribute="leadingMargin" id="tfl-Oi-4cu"/>
+                                                <constraint firstItem="p4y-ZA-Xxi" firstAttribute="centerX" secondItem="7cx-3v-di2" secondAttribute="centerX" id="tnc-jz-Wvt"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="JFM-Eb-afV">
+                                        <rect key="frame" x="0.0" y="1458" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JFM-Eb-afV" id="Gd9-Rm-vox">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_participation_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="LzC-20-Tv6">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJ7-QT-maf">
+                                                    <rect key="frame" x="16" y="52" width="343" height="91"/>
+                                                    <mutableString key="text">Participation Ribbon - Awarded when earned to all cadets earning one hour or more participation in at least three separate, non-social NJROTC sponsored events or activities (to include ushering at school events, flag detail, attendance at drill, field/athletic meets, and attendance on field trips).</mutableString>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="VJ7-QT-maf" firstAttribute="centerX" secondItem="LzC-20-Tv6" secondAttribute="centerX" id="KrA-tJ-mT7"/>
+                                                <constraint firstItem="LzC-20-Tv6" firstAttribute="leading" secondItem="Gd9-Rm-vox" secondAttribute="leadingMargin" constant="83" id="N0f-08-oxe">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstItem="LzC-20-Tv6" firstAttribute="top" secondItem="Gd9-Rm-vox" secondAttribute="top" constant="11" id="NUT-qd-k0g"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="VJ7-QT-maf" secondAttribute="bottom" constant="-11" id="Pn1-bG-3Tl"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="LzC-20-Tv6" secondAttribute="bottom" constant="88" id="V86-4l-86e"/>
+                                                <constraint firstItem="LzC-20-Tv6" firstAttribute="centerX" secondItem="Gd9-Rm-vox" secondAttribute="centerX" id="alC-bL-cBu"/>
+                                                <constraint firstItem="VJ7-QT-maf" firstAttribute="leading" secondItem="Gd9-Rm-vox" secondAttribute="leadingMargin" id="krv-Fl-CSq"/>
+                                                <constraint firstItem="VJ7-QT-maf" firstAttribute="top" secondItem="Gd9-Rm-vox" secondAttribute="topMargin" constant="49" id="rmw-by-KGO"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="k99-S8-MPt">
+                                        <rect key="frame" x="0.0" y="1601" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="k99-S8-MPt" id="FLV-pp-1jN">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_physical_fitness_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="nRM-QU-nIG">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZq-3S-HrJ">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <string key="text">Physical Fitness Ribbon - Awarded twice a year to any cadet who meets or exceeds physical fitness standards to be given to you at a later time.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="vZq-3S-HrJ" firstAttribute="centerX" secondItem="nRM-QU-nIG" secondAttribute="centerX" id="2yl-da-5wT"/>
+                                                <constraint firstItem="nRM-QU-nIG" firstAttribute="leading" secondItem="FLV-pp-1jN" secondAttribute="leadingMargin" constant="83" id="6Zp-FW-st1">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstItem="nRM-QU-nIG" firstAttribute="top" secondItem="FLV-pp-1jN" secondAttribute="top" constant="11" id="9Jb-qV-1tQ"/>
+                                                <constraint firstItem="nRM-QU-nIG" firstAttribute="centerX" secondItem="FLV-pp-1jN" secondAttribute="centerX" id="DjE-Ht-qWb"/>
+                                                <constraint firstItem="vZq-3S-HrJ" firstAttribute="leading" secondItem="FLV-pp-1jN" secondAttribute="leadingMargin" id="GcY-ch-l8O"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="vZq-3S-HrJ" secondAttribute="bottom" constant="-11" id="USe-Q2-qm0"/>
+                                                <constraint firstItem="vZq-3S-HrJ" firstAttribute="top" secondItem="FLV-pp-1jN" secondAttribute="topMargin" constant="49" id="WjW-BF-bRY"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="nRM-QU-nIG" secondAttribute="bottom" constant="88" id="f2s-Ga-CRI"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="m7d-Pc-h3S">
+                                        <rect key="frame" x="0.0" y="1744" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="m7d-Pc-h3S" id="pYQ-mB-r9B">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_exemplary_personal_appearance_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Y2w-pR-mNL">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qaR-pT-UGg">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <mutableString key="text">Exemplary Personal Appearance Ribbon -  Awarded twice yearly to all cadets that wear their uniform on all required occasions and have an average of 90% + on inspection and not received an inspection grade below an "A". (this award can be received 3 times in a year based on the results of the NJROTC Area Manager during annual inspection)</mutableString>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="qaR-pT-UGg" firstAttribute="centerX" secondItem="Y2w-pR-mNL" secondAttribute="centerX" id="OZ4-Z2-aFY"/>
+                                                <constraint firstItem="qaR-pT-UGg" firstAttribute="top" secondItem="pYQ-mB-r9B" secondAttribute="topMargin" constant="49" id="Oh9-ka-tGY"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Y2w-pR-mNL" secondAttribute="bottom" constant="88" id="Z0s-6o-xFI"/>
+                                                <constraint firstItem="qaR-pT-UGg" firstAttribute="leading" secondItem="pYQ-mB-r9B" secondAttribute="leadingMargin" id="irE-O9-OdX"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="qaR-pT-UGg" secondAttribute="bottom" constant="-11" id="jDF-ew-sej"/>
+                                                <constraint firstItem="Y2w-pR-mNL" firstAttribute="leading" secondItem="pYQ-mB-r9B" secondAttribute="leadingMargin" constant="83" id="nbp-9p-mAn">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstItem="Y2w-pR-mNL" firstAttribute="centerX" secondItem="pYQ-mB-r9B" secondAttribute="centerX" id="xqj-eQ-38x"/>
+                                                <constraint firstItem="Y2w-pR-mNL" firstAttribute="top" secondItem="pYQ-mB-r9B" secondAttribute="top" constant="11" id="yQw-Bv-MjR"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="lRR-bc-pfX">
+                                        <rect key="frame" x="0.0" y="1887" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lRR-bc-pfX" id="s5q-hR-kgp">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_exemplary_conduct_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="DRg-s8-U5U">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Exemplary Conduct Ribbon  - Awarded early to each cadet who demonstrates exemplary conduct for the year." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFi-is-lW9">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="jFi-is-lW9" firstAttribute="leading" secondItem="s5q-hR-kgp" secondAttribute="leadingMargin" id="005-4L-i7z"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="jFi-is-lW9" secondAttribute="bottom" constant="-11" id="4W2-cw-M1K"/>
+                                                <constraint firstItem="DRg-s8-U5U" firstAttribute="leading" secondItem="s5q-hR-kgp" secondAttribute="leadingMargin" constant="83" id="C3z-ia-skt">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstItem="jFi-is-lW9" firstAttribute="top" secondItem="s5q-hR-kgp" secondAttribute="topMargin" constant="49" id="C5M-ID-QCA"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="DRg-s8-U5U" secondAttribute="bottom" constant="88" id="ISv-3s-Bdp"/>
+                                                <constraint firstItem="DRg-s8-U5U" firstAttribute="top" secondItem="s5q-hR-kgp" secondAttribute="top" constant="11" id="Q8f-MU-5xN"/>
+                                                <constraint firstItem="jFi-is-lW9" firstAttribute="centerX" secondItem="DRg-s8-U5U" secondAttribute="centerX" id="dhz-xR-uAO"/>
+                                                <constraint firstItem="DRg-s8-U5U" firstAttribute="centerX" secondItem="s5q-hR-kgp" secondAttribute="centerX" id="iNX-oS-xjr"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="wCh-2f-Aix">
+                                        <rect key="frame" x="0.0" y="2030" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wCh-2f-Aix" id="LIk-Mo-pHh">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_naval_science_i_outstanding_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="q7o-ya-vsv">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SkN-G9-goa">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <string key="text">NS I Outstanding Cadet Ribbon  - Awarded yearly to outstanding cadets in Naval Science 1 based on citizenship, academic performance, personal appearance and conduct.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="SkN-G9-goa" firstAttribute="top" secondItem="LIk-Mo-pHh" secondAttribute="topMargin" constant="49" id="7iA-P2-gNd"/>
+                                                <constraint firstItem="q7o-ya-vsv" firstAttribute="top" secondItem="LIk-Mo-pHh" secondAttribute="top" constant="11" id="88p-C5-tWD"/>
+                                                <constraint firstItem="SkN-G9-goa" firstAttribute="leading" secondItem="LIk-Mo-pHh" secondAttribute="leadingMargin" id="IUb-5Z-oo9"/>
+                                                <constraint firstItem="q7o-ya-vsv" firstAttribute="leading" secondItem="LIk-Mo-pHh" secondAttribute="leadingMargin" constant="83" id="Mv5-zv-RIe">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstItem="q7o-ya-vsv" firstAttribute="centerX" secondItem="LIk-Mo-pHh" secondAttribute="centerX" id="aiF-f4-K8M"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="q7o-ya-vsv" secondAttribute="bottom" constant="88" id="ebh-uz-Qzq"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="SkN-G9-goa" secondAttribute="bottom" constant="-11" id="fFb-HC-dr0"/>
+                                                <constraint firstItem="SkN-G9-goa" firstAttribute="centerX" secondItem="q7o-ya-vsv" secondAttribute="centerX" id="yo1-cJ-wjj"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="QOC-xA-PUL">
+                                        <rect key="frame" x="0.0" y="2173" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QOC-xA-PUL" id="YBr-Uc-8DQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_naval_science_ii_outstanding_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="98k-kd-hjx">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuz-6V-fdv">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <string key="text">NS II Outstanding cadet Ribbon  - Awarded yearly to outstanding cadets in Naval Science 2 based on citizenship, academic performance, personal appearance and conduct.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="tuz-6V-fdv" secondAttribute="bottom" constant="-11" id="4s2-JA-634"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="98k-kd-hjx" secondAttribute="bottom" constant="88" id="5V3-NT-1t5"/>
+                                                <constraint firstItem="tuz-6V-fdv" firstAttribute="centerX" secondItem="98k-kd-hjx" secondAttribute="centerX" id="9UT-ha-FQG"/>
+                                                <constraint firstItem="tuz-6V-fdv" firstAttribute="leading" secondItem="YBr-Uc-8DQ" secondAttribute="leadingMargin" id="VTJ-TL-89r"/>
+                                                <constraint firstItem="tuz-6V-fdv" firstAttribute="top" secondItem="YBr-Uc-8DQ" secondAttribute="topMargin" constant="49" id="cL7-rj-cDP"/>
+                                                <constraint firstItem="98k-kd-hjx" firstAttribute="leading" secondItem="YBr-Uc-8DQ" secondAttribute="leadingMargin" constant="83" id="gqm-me-ZvI">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstItem="98k-kd-hjx" firstAttribute="centerX" secondItem="YBr-Uc-8DQ" secondAttribute="centerX" id="mF4-ie-YTa"/>
+                                                <constraint firstItem="98k-kd-hjx" firstAttribute="top" secondItem="YBr-Uc-8DQ" secondAttribute="top" constant="11" id="mPk-0b-oQ6"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="HCz-mm-11g">
+                                        <rect key="frame" x="0.0" y="2316" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HCz-mm-11g" id="kIm-f9-6i3">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_naval_science_iii_outstanding_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="asK-AX-iO6">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcC-Xh-Zo0">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <string key="text">NS III Outstanding Cadet Ribbon  - Awarded yearly to outstanding cadets in Naval Science 3 based on citizenship, academic performance, personal appearance and conduct.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="asK-AX-iO6" firstAttribute="leading" secondItem="kIm-f9-6i3" secondAttribute="leadingMargin" constant="83" id="5ow-AI-ItK">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstItem="asK-AX-iO6" firstAttribute="centerX" secondItem="kIm-f9-6i3" secondAttribute="centerX" id="BsH-EL-f4S"/>
+                                                <constraint firstItem="asK-AX-iO6" firstAttribute="top" secondItem="kIm-f9-6i3" secondAttribute="top" constant="11" id="K2u-iU-ros"/>
+                                                <constraint firstItem="qcC-Xh-Zo0" firstAttribute="centerX" secondItem="asK-AX-iO6" secondAttribute="centerX" id="Y7l-vQ-gGt"/>
+                                                <constraint firstItem="qcC-Xh-Zo0" firstAttribute="leading" secondItem="kIm-f9-6i3" secondAttribute="leadingMargin" id="f9D-ht-hmi"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="qcC-Xh-Zo0" secondAttribute="bottom" constant="-11" id="mkg-dk-P9L"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="asK-AX-iO6" secondAttribute="bottom" constant="88" id="rYc-fV-bzb"/>
+                                                <constraint firstItem="qcC-Xh-Zo0" firstAttribute="top" secondItem="kIm-f9-6i3" secondAttribute="topMargin" constant="49" id="wQt-5i-qTn"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="xhP-nh-aJh">
+                                        <rect key="frame" x="0.0" y="2459" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xhP-nh-aJh" id="jJc-n8-c83">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_naval_science_iv_outstanding_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="GBM-5b-i07">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2s-dB-7MD">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <string key="text">NS IIII Outstanding Cadet Ribbon  - Awarded yearly to outstanding cadets in Naval Science 4 based on citizenship, academic performance, personal appearance and conduct.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="GBM-5b-i07" firstAttribute="centerX" secondItem="jJc-n8-c83" secondAttribute="centerX" id="1aH-b8-ZH8"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="GBM-5b-i07" secondAttribute="bottom" constant="88" id="F4l-QC-tZT"/>
+                                                <constraint firstItem="GBM-5b-i07" firstAttribute="leading" secondItem="jJc-n8-c83" secondAttribute="leadingMargin" constant="83" id="IEw-b2-lLZ">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstItem="a2s-dB-7MD" firstAttribute="centerX" secondItem="GBM-5b-i07" secondAttribute="centerX" id="PAQ-qg-qvk"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="a2s-dB-7MD" secondAttribute="bottom" constant="-11" id="WLA-Rk-90h"/>
+                                                <constraint firstItem="a2s-dB-7MD" firstAttribute="leading" secondItem="jJc-n8-c83" secondAttribute="leadingMargin" id="e3k-h8-CLf"/>
+                                                <constraint firstItem="GBM-5b-i07" firstAttribute="top" secondItem="jJc-n8-c83" secondAttribute="top" constant="11" id="gPr-IC-utd"/>
+                                                <constraint firstItem="a2s-dB-7MD" firstAttribute="top" secondItem="jJc-n8-c83" secondAttribute="topMargin" constant="49" id="r9j-Si-ZaC"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="9Wq-Ah-Bez">
+                                        <rect key="frame" x="0.0" y="2602" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Wq-Ah-Bez" id="YTJ-lG-g0m">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_navy_jrotc_aptitude_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="fRQ-Xe-M2M">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfw-WT-VNv">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <string key="text">Military Aptitude Award Ribbon  - Awarded to the top 10% of the cadets based on evaluation of academic performance of assigned jobs, conduct, unit involvement, attendance, and overall aptitude.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="tfw-WT-VNv" secondAttribute="bottom" constant="-11" id="0Sl-m8-O6R"/>
+                                                <constraint firstItem="tfw-WT-VNv" firstAttribute="centerX" secondItem="fRQ-Xe-M2M" secondAttribute="centerX" id="0em-th-2kl"/>
+                                                <constraint firstItem="fRQ-Xe-M2M" firstAttribute="leading" secondItem="YTJ-lG-g0m" secondAttribute="leadingMargin" constant="83" id="Sd1-Pi-DFu">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstItem="fRQ-Xe-M2M" firstAttribute="top" secondItem="YTJ-lG-g0m" secondAttribute="top" constant="11" id="TAx-8m-hPY"/>
+                                                <constraint firstItem="tfw-WT-VNv" firstAttribute="leading" secondItem="YTJ-lG-g0m" secondAttribute="leadingMargin" id="Wk1-X7-P4z"/>
+                                                <constraint firstItem="fRQ-Xe-M2M" firstAttribute="centerX" secondItem="YTJ-lG-g0m" secondAttribute="centerX" id="mMq-Zi-UFw"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="fRQ-Xe-M2M" secondAttribute="bottom" constant="88" id="oi3-xy-b5c"/>
+                                                <constraint firstItem="tfw-WT-VNv" firstAttribute="top" secondItem="YTJ-lG-g0m" secondAttribute="topMargin" constant="49" id="sAy-yK-9I1"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="IUh-nm-euT">
+                                        <rect key="frame" x="0.0" y="2745" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IUh-nm-euT" id="8qo-9v-GYz">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_unit_achievement_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="lFs-yB-S8W">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pf8-YU-ewn">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <mutableString key="text">Unit Achievement Ribbon  - Awarded to cadets in good standing who were unit members during the academic year in which the school earned the Unit Achievement status as determined by the Area Manager. Awarded only to those units that demonstrated exceptional performance but did not qualify for Distinguished Unit status.</mutableString>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="lFs-yB-S8W" firstAttribute="leading" secondItem="8qo-9v-GYz" secondAttribute="leadingMargin" constant="83" id="AfW-r0-JhF">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstItem="lFs-yB-S8W" firstAttribute="top" secondItem="8qo-9v-GYz" secondAttribute="top" constant="11" id="Go5-Nd-1u3"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="lFs-yB-S8W" secondAttribute="bottom" constant="88" id="UqP-LE-zJo"/>
+                                                <constraint firstItem="lFs-yB-S8W" firstAttribute="centerX" secondItem="8qo-9v-GYz" secondAttribute="centerX" id="VEe-50-Grf"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Pf8-YU-ewn" secondAttribute="bottom" constant="-11" id="arT-q5-XuU"/>
+                                                <constraint firstItem="Pf8-YU-ewn" firstAttribute="centerX" secondItem="lFs-yB-S8W" secondAttribute="centerX" id="cUk-DQ-Vmg"/>
+                                                <constraint firstItem="Pf8-YU-ewn" firstAttribute="leading" secondItem="8qo-9v-GYz" secondAttribute="leadingMargin" id="dlH-r7-c2I"/>
+                                                <constraint firstItem="Pf8-YU-ewn" firstAttribute="top" secondItem="8qo-9v-GYz" secondAttribute="topMargin" constant="49" id="uIG-gy-wc5"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="wPp-WV-6Wv">
+                                        <rect key="frame" x="0.0" y="2888" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wPp-WV-6Wv" id="ILm-aH-wKM">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_cadet_achievement_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="D2p-LS-70d">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bmE-Sd-zu2">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <string key="text">Cadet Achievement Ribbon  - Awarded, when earned, to any cadet who distinguishes him/herself by outstanding achievement or sustained superior performance.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="D2p-LS-70d" firstAttribute="leading" secondItem="ILm-aH-wKM" secondAttribute="leadingMargin" constant="83" id="KPt-8L-1OH">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstAttribute="bottomMargin" secondItem="D2p-LS-70d" secondAttribute="bottom" constant="88" id="Sjl-ah-hrr"/>
+                                                <constraint firstItem="bmE-Sd-zu2" firstAttribute="top" secondItem="ILm-aH-wKM" secondAttribute="topMargin" constant="49" id="e2h-p2-0nm"/>
+                                                <constraint firstItem="bmE-Sd-zu2" firstAttribute="centerX" secondItem="D2p-LS-70d" secondAttribute="centerX" id="guk-gm-u4u"/>
+                                                <constraint firstItem="D2p-LS-70d" firstAttribute="centerX" secondItem="ILm-aH-wKM" secondAttribute="centerX" id="jcf-cE-rj9"/>
+                                                <constraint firstItem="bmE-Sd-zu2" firstAttribute="leading" secondItem="ILm-aH-wKM" secondAttribute="leadingMargin" id="ndE-6M-dgA"/>
+                                                <constraint firstItem="D2p-LS-70d" firstAttribute="top" secondItem="ILm-aH-wKM" secondAttribute="top" constant="11" id="reD-Oa-bU6"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="bmE-Sd-zu2" secondAttribute="bottom" constant="-11" id="wDx-7H-UYY"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="ZLe-cg-SbD">
+                                        <rect key="frame" x="0.0" y="3031" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZLe-cg-SbD" id="WmH-aj-3aE">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_honor_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="RGH-2Q-eyS">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Honor Cadet Ribbon  - Awarded yearly to one cadet in each year group with the highest overall academic achievement in school." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Icf-4s-UfZ">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Icf-4s-UfZ" firstAttribute="centerX" secondItem="RGH-2Q-eyS" secondAttribute="centerX" id="5bh-bY-loG"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="RGH-2Q-eyS" secondAttribute="bottom" constant="88" id="7ei-Tb-Zpb"/>
+                                                <constraint firstItem="RGH-2Q-eyS" firstAttribute="top" secondItem="WmH-aj-3aE" secondAttribute="top" constant="11" id="BBt-vf-rbA"/>
+                                                <constraint firstItem="Icf-4s-UfZ" firstAttribute="top" secondItem="WmH-aj-3aE" secondAttribute="topMargin" constant="49" id="Gte-Es-SQU"/>
+                                                <constraint firstItem="RGH-2Q-eyS" firstAttribute="centerX" secondItem="WmH-aj-3aE" secondAttribute="centerX" id="VgB-bK-UK5"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Icf-4s-UfZ" secondAttribute="bottom" constant="-11" id="v5a-Bt-YrH"/>
+                                                <constraint firstItem="Icf-4s-UfZ" firstAttribute="leading" secondItem="WmH-aj-3aE" secondAttribute="leadingMargin" id="xDn-wy-ynm"/>
+                                                <constraint firstItem="RGH-2Q-eyS" firstAttribute="leading" secondItem="WmH-aj-3aE" secondAttribute="leadingMargin" constant="83" id="xV0-zr-hOc">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="kYZ-eX-J4F">
+                                        <rect key="frame" x="0.0" y="3174" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kYZ-eX-J4F" id="iec-hf-wLa">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_distinguished_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="QU7-wf-KjT">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZB-zh-dWy">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <string key="text">Distinguished Cadet Ribbon  - Awarded yearly to one cadet in each year group with the highest combined average for overall scholastic standing and aptitude.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="QU7-wf-KjT" firstAttribute="centerX" secondItem="iec-hf-wLa" secondAttribute="centerX" id="72m-dz-DHB"/>
+                                                <constraint firstItem="FZB-zh-dWy" firstAttribute="top" secondItem="iec-hf-wLa" secondAttribute="topMargin" constant="49" id="Bld-rW-huu"/>
+                                                <constraint firstItem="QU7-wf-KjT" firstAttribute="leading" secondItem="iec-hf-wLa" secondAttribute="leadingMargin" constant="83" id="CVO-RL-HdB">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstAttribute="bottomMargin" secondItem="FZB-zh-dWy" secondAttribute="bottom" constant="-11" id="V38-Y3-VAF"/>
+                                                <constraint firstItem="QU7-wf-KjT" firstAttribute="top" secondItem="iec-hf-wLa" secondAttribute="top" constant="11" id="WFm-VN-zt5"/>
+                                                <constraint firstItem="FZB-zh-dWy" firstAttribute="leading" secondItem="iec-hf-wLa" secondAttribute="leadingMargin" id="bxb-HQ-QDN"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="QU7-wf-KjT" secondAttribute="bottom" constant="88" id="e7t-Dg-I7s"/>
+                                                <constraint firstItem="FZB-zh-dWy" firstAttribute="centerX" secondItem="QU7-wf-KjT" secondAttribute="centerX" id="gR2-Gy-BHl"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="hfU-B3-wOp">
+                                        <rect key="frame" x="0.0" y="3317" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hfU-B3-wOp" id="cfC-Pk-y1x">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_distinguished_unit_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="0Ix-tn-ezI">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbT-xl-5HO">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <string key="text">Distinguished Unit Ribbon  - Awarded to cadets who were unit members during the academic year in which the school earned Distinguished Unit status.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="ZbT-xl-5HO" secondAttribute="bottom" constant="-11" id="1uI-Bn-x8h"/>
+                                                <constraint firstItem="0Ix-tn-ezI" firstAttribute="leading" secondItem="cfC-Pk-y1x" secondAttribute="leadingMargin" constant="83" id="3rk-Wr-VOD">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstAttribute="bottomMargin" secondItem="0Ix-tn-ezI" secondAttribute="bottom" constant="88" id="XmJ-xl-PLW"/>
+                                                <constraint firstItem="0Ix-tn-ezI" firstAttribute="centerX" secondItem="cfC-Pk-y1x" secondAttribute="centerX" id="Yms-Ir-624"/>
+                                                <constraint firstItem="ZbT-xl-5HO" firstAttribute="leading" secondItem="cfC-Pk-y1x" secondAttribute="leadingMargin" id="bua-Nt-N7U"/>
+                                                <constraint firstItem="ZbT-xl-5HO" firstAttribute="centerX" secondItem="0Ix-tn-ezI" secondAttribute="centerX" id="dk1-GG-FLc"/>
+                                                <constraint firstItem="0Ix-tn-ezI" firstAttribute="top" secondItem="cfC-Pk-y1x" secondAttribute="top" constant="11" id="mzw-TQ-jLE"/>
+                                                <constraint firstItem="ZbT-xl-5HO" firstAttribute="top" secondItem="cfC-Pk-y1x" secondAttribute="topMargin" constant="49" id="uR1-Ah-O7G"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="143" id="Slz-EG-7KG">
+                                        <rect key="frame" x="0.0" y="3460" width="375" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Slz-EG-7KG" id="zPC-cl-JwO">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_meritorious_achievement_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="cOp-LU-mzF">
+                                                    <rect key="frame" x="75" y="11" width="225" height="35.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTC-fp-G13">
+                                                    <rect key="frame" x="16" y="52" width="343" height="80"/>
+                                                    <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.21089315410000001" green="0.20663931969999999" blue="0.39751181009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="WTC-fp-G13" firstAttribute="centerX" secondItem="cOp-LU-mzF" secondAttribute="centerX" id="1Z0-FV-FfG"/>
+                                                <constraint firstItem="WTC-fp-G13" firstAttribute="leading" secondItem="zPC-cl-JwO" secondAttribute="leadingMargin" id="8pN-cV-axE"/>
+                                                <constraint firstItem="WTC-fp-G13" firstAttribute="top" secondItem="zPC-cl-JwO" secondAttribute="topMargin" constant="49" id="Ase-90-R6i"/>
+                                                <constraint firstItem="cOp-LU-mzF" firstAttribute="leading" secondItem="zPC-cl-JwO" secondAttribute="leadingMargin" constant="83" id="SYZ-nG-avg">
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="67"/>
+                                                </constraint>
+                                                <constraint firstAttribute="bottomMargin" secondItem="cOp-LU-mzF" secondAttribute="bottom" constant="88" id="TYe-AZ-evk"/>
+                                                <constraint firstItem="cOp-LU-mzF" firstAttribute="centerX" secondItem="zPC-cl-JwO" secondAttribute="centerX" id="YUO-OJ-ytN"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="WTC-fp-G13" secondAttribute="bottom" constant="-11" id="soi-lp-Yya"/>
+                                                <constraint firstItem="cOp-LU-mzF" firstAttribute="top" secondItem="zPC-cl-JwO" secondAttribute="top" constant="11" id="wBs-kW-e49"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.87040776009999998" green="0.74215179679999999" blue="0.20637276769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="8lq-64-Mci" id="pyA-h5-BMa"/>
+                            <outlet property="delegate" destination="8lq-64-Mci" id="RcO-wN-Cae"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A3q-qT-l9Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="901.60000000000002" y="-765.06746626686663"/>
+        </scene>
     </scenes>
     <resources>
         <image name="JROTC Logo" width="993" height="247"/>
@@ -4735,6 +5583,31 @@
         <image name="marine_corps_jrotc_superior_marksman_ribbon" width="105" height="30"/>
         <image name="marine_corps_jrotc_veterans_of_foreign_wars_ribbon" width="105" height="30"/>
         <image name="marine_corps_jrotc_women_marines_association_for_outstanding_cadet_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_academic_award_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_cadet_achievement_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_color_guard_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_community_service_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_distinguished_cadet_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_distinguished_unit_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_drill_team_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_exemplary_conduct_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_exemplary_personal_appearance_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_honor_cadet_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_inter_service_competition_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_meritorious_achievement_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_naval_science_i_outstanding_cadet_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_naval_science_ii_outstanding_cadet_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_naval_science_iii_outstanding_cadet_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_naval_science_iv_outstanding_cadet_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_navy_jrotc_aptitude_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_navy_jrotc_basic_leadership_training_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_participation_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_physical_fitness_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_recruiting_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_rifle_team_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_sea_cruise_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_unit_achievement_ribbon" width="105" height="30"/>
+        <image name="navy_jrotc_unit_service_ribbon" width="105" height="30"/>
         <image name="no_insignia" width="2000" height="2500"/>
         <image name="one_star" width="400" height="400"/>
         <image name="potus" width="800" height="1013"/>

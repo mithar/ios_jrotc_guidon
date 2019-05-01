@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- <string name=""></string> -->
+    <!-- info -->
+
+    <string name="knowledge">Knowledge</string>
+    <string name="rank_structure">Ranks</string>
+    <string name="jrotc_ranks">MCJROTC Ranks</string>
+    <string name="officers">Officer Ranks</string>
+    <string name="enlisted">Enlisted Ranks</string>
+    <string name="important_marines">Important Marines</string>
+    <string name="marine_corps_info">Marine Corps Knowledge</string>
+    <string name="general_orders">General orders</string>
+    <string name="leadership_principles">Leadership Principles</string>
+    <string name="leadership_traits">Leadership Traits</string>
+    <string name="mcjrotc_ribbons">MCJROTC ribbons</string>
+    <string name="rhs_mcjrotc_chain_of_command">RHS JROTC Chain Of Command</string>
+
+    <!-- Buttons -->
+    <string name="pft_calculator">Pft Calculator</string>
+    <string name="rhs_jrotc">RHS JROTC Events</string>
+    <string name="title_activity_knowledge">Knowledge</string>
+    <string name="title_activity_pft_calc">Pft Calc</string>
+    <string name="title_activity_rhs_event">Rhs Event</string>
+    <string name="title_activity_boot_camp">Boot Camp</string>
+    <string name="title_activity_chain_of_command">Chain Of Command</string>
+
+    <!-- Chain of command people -->
+
+    <string name="President">\nCommander in Chief-Barack Obama\n</string>
+    <string name="vp">Vice President-Joe Biden\n</string>
+    <string name="speaker">Speaker of the House-John Boehner\n</string>
+    <string name="defense">Secretary of defense-Chuck Hagel\n</string>
+    <string name="state">Secretary of state-John Kerry\n</string>
+    <string name="sec_navy">Secretary of the Navy-Ray Mabus\n</string>
+    <string name="commadant">Commandant of the Marine Corps-\nGeneral Joseph F. Dunford\n</string>
+    <string name="assistant_commadant">Assistant Commandant of the Marine Corps- General John Paxton\n</string>
+    <string name="sergeant_major_mc">Sergeant Major of the Marine Corps-Sergeant Major Michael P. Barret\n</string>
+
+    <!-- Ranks -->
+    <string-array name="rank_structure">
+        <item>Enlisted Ranks</item>
+        <item>Private</item>
+        <item>Private First Class</item>
+        <item>Lance Corporal</item>
+        <item>Corporal</item>
+        <item>Sergeant</item>
+        <item>Staff Sergeant</item>
+        <item>Gunnery Sergeant</item>
+        <item>Master Sergeant</item>
+        <item>First Sergeant</item>
+        <item>Master Gunnery Sergeant</item>
+        <item>Sergeant Major</item>
+        <item>Sergeant Major of the Marine Corps</item>
+        <item>Officer Ranks</item>
+        <item>Warrant Officer</item>
+        <item>Chief Warrant Officer 2</item>
+        <item>Chief Warrant Officer 3</item>
+        <item>Chief Warrant Officer 4</item>
+        <item>Chief Warrant Officer 5</item>
+        <item>Second Lieutenant</item>
+        <item>First Lieutenant</item>
+        <item>Captain</item>
+        <item>Major</item>
+        <item>Lieutenant Colonel</item>
+        <item>Colonel</item>
+        <item>Brigadier General</item>
+        <item>Major General</item>
+        <item>Lieutenant General</item>
+        <item>General</item>
+    </string-array>
+
+    <string-array name="pullups_array">
+        <item>Pullups</item>
+        <item>Push-ups</item>
+    </string-array>
+
+    <!-- pay grade -->
+    <string-array name="pay_grade">
+        <item> </item>
+        <item>E-1</item>
+        <item>E-2</item>
+        <item>E-3</item>
+        <item>E-4</item>
+        <item>E-5</item>
+        <item>E-6</item>
+        <item>E-7</item>
+        <item>E-8</item>
+        <item>E-8</item>
+        <item>E-9</item>
+        <item>E-9</item>
+        <item>E-9</item>
+        <item> </item>
+        <item>W-1</item>
+        <item>W-2</item>
+        <item>W-3</item>
+        <item>W-4</item>
+        <item>W-5</item>
+        <item>O-1</item>
+        <item>O-2</item>
+        <item>O-3</item>
+        <item>O-4</item>
+        <item>O-5</item>
+        <item>O-6</item>
+        <item>O-7</item>
+        <item>O-8</item>
+        <item>O-9</item>
+        <item>O-10</item>
+    </string-array>
+
+
+    <!-- General Orders -->
+
+    <string name="first_order">\n1.To take charge of this post and all government property in view.\n</string>
+    <string name="second_order">2.To walk my post in a military manner, keeping always on the alert and observing everything that takes place within sight or hearing.\n</string>
+    <string name="third_order">3.To report all violations of orders I am instructed to enforce.\n</string>
+    <string name="fourth_order">4.To repeat all calls [from posts]more distant from the guardhouse than my own.\n</string>
+    <string name="fifth_order">5.Quit my post only when properly relieved.\n</string>
+    <string name="sixth_order">6.To receive, obey, and pass on to the sentry who relieves me, all orders from the Commanding Officer, Officer of the Day, Officers, and Non-Commissioned Officers of the guard only.\n</string>
+    <string name="seventh_order">7.Talk to no one except in the line of duty.\n</string>
+    <string name="eighth_order">8.Give the alarm in case of fire or disorder.\n</string>
+    <string name="ninth_order">9.To call the Corporal of the Guard in any case not covered by instructions.\n</string>
+    <string name="tenth_order">10.Salute all officers and all colors and standards not cased.\n</string>
+    <string name="eleventh_order">11.Be especially watchful at night and during the time for challenging, to challenge all persons on or near my post, and to allow no one to pass without proper authority.\n</string>
+
+    <!-- Leadership Traits -->
+
+    <string name="justice">JUSTICE - The quality of being impartial and consistent in exercising command.  </string>
+    <string name="judgement">JUDGEMENT - The quality of weighting facts and possible solutions on which to base sound decisions.</string>
+    <string name="dependability">DEPENDABILITY - The certainty of the proper performance of duty.</string>
+    <string name="initiative">INITIATIVE - Seeing what has to be done and commencing a course of action, even in the absence of orders.</string>
+    <string name="decisiveness">DECISIVENESS - Ability to reach decisions promptly and to announce them in a clear, forceful manner.</string>
+    <string name="tact">TACT - The ability to deal others without creating offense.</string>
+    <string name="integrity">INTEGRITY - Uprightness of character and soundness of moral principle, absolute truthfulness and honesty.</string>
+    <string name="endurance">ENDURANCE - The mental and physical stamina measured by the ability to stand pain, fatigue, distress, and hardship.</string>
+    <string name="bearing">BEARING - Creating a favorable impression in carnage, appearance, and personal conduct at all times.</string>
+    <string name="unselfishness">UNSELFISHNESS - Avoidance of providing for ones comfort and personal advancement at the expense of others. </string>
+    <string name="courage">COURAGE - A mental quality that recognizes fear of danger or criticism but enables a person to proceed in the face of it with calmness and firmness.</string>
+    <string name="leader_ship_knowledge">KNOWLEDGE - Acquired information, including professional knowledge and an understanding of ones men.</string>
+    <string name="loyalty">LOYALTY - Faithfulness to country, Corps, and unit, and to your seniors and subordinates.</string>
+    <string name="enthusiasm">ENTHUSIASM - The display of sincere interest and exuberance in the performance of duty.</string>
+    <string name="jjdid">The leadership traits can be remembered easily by the acronym:JJDIDTIEBUCKLE. </string>
+
+
+    <!-- Leadership Principles -->
+    <string name="prince_1">\n1.Know yourself and seek self-improvement.</string>
+    <string name="prince_2">2.Be technically and tactically proficient.</string>
+    <string name="prince_3">3.Develop a sense of responsibility among your subordinates. </string>
+    <string name="prince_4">4.Make sound and timely decisions.</string>
+    <string name="prince_5">5.Set the example. </string>
+    <string name="prince_6">6.Know your Marines and look out for their welfare.</string>
+    <string name="prince_7">7.Keep your Marines informed.</string>
+    <string name="prince_8">8.Seek responsibility and take responsibility for your actions.</string>
+    <string name="prince_9">9.Ensure assigned tasks are understood, supervised, and accomplished.</string>
+    <string name="prince_10">10.Train your Marines as a team.</string>
+    <string name="prince_11">11.Employ your command in accordance with its capabilities.</string>
+    <string name="title_activity_marine_ranks">MarineRanks</string>
+    <string name="company">Company Grade Officer</string>
+    <string name="hello_world">Hello World</string>
+    <string name="title_activity_cadet_ranks">Cadet Ranks</string>
+    <string name="title_activity_general_orders">General Orders</string>
+    <string name="title_activity_leadership_traits">Leadership Traits</string>
+    <string name="title_activity_leadership_principles">Leadership Principles</string>
+    <string name="title_activity_mc_ribbon">MCJROTC Ribbons</string>
+    <string name="title_activity_uniform_inspection">Uniform Inspection</string>
+
+    <!-- History -->
+    <string name="birthday">Marine Corps Birthday - 10 November 1775 </string>
+    <string name="Motto">Marine Corps Motto - Semper Fidelis - Always faithful in Latin</string>
+    <string name="colors">Marine Corps Colors - Scarlet and Gold</string>
+    <string name="emblem">Marine Corps Emblem - Eagle,Globe,and Anchor,
+        \nEagle-Symbol of our country
+        \nGlobe- Marines world-wide service
+        \nAnchor-Marines Naval Affiliation</string>
+    <string name="first_commadant">First Commandant of the Marine Corps- Captain Samuel Nicholas</string>
+    <string name="first_landing">First Amphibious Landing by Marines-Providence Island in the Bahamas</string>
+    <string name="mameluke">Type of sword worn by Marine Officers - Mameluke Sword</string>
+    <string name="grand_old_man">The Grand Old Man of the Marine Corps - General Archibald Henderson - known as the longest serving commandant in the Marine Corps</string>
+    <string name="red_stripe">Red stripe worn on dress blue trousers – “Blood Stripe” - earned by Marines who fought in the Battle of Chapultepec</string>
+    <string name="chesty">Most famous Marine. Awarded 5 Navy Crosses – “Chesty” Puller </string>
+    <string name="mascot">Marine Corps Mascot- "Chesty" the Bulldog- named after Chesty Puller</string>
+    <string name="nicknames">“Leathernecks” for collar worn on uniforms years ago.
+ “Devil Dogs” for bravery; against the Germans in World War I</string>
+    <string name="nco_sword">NCO Sword - The NCO sword is the U. S. Army Calvary model which was adopted in 1859
+and briefly carried by Marine Officers as well. When the officers went back to the Mameluke
+pattern, the Army-type sword was retained for the NCO’s. The Marine Corps is the only service that
+has a specific sword for its NCO’s.</string>
+    <string name="qautrefoil">Quatrefoil - The quatrefoil is the cross-shaped design on the officers’ barracks caps and was
+taken directly from the Army of Napoleon III of France. It was initially used to identify officers so
+that sharpshooters in the rigging of ships would not fire on their own men</string>
+    <string name="medal_of_honor">Dan Daly and Smedley Butler: Two Marines that each earned the Medal of Honor twice for
+two separate acts of heroism. Daly earned his first as a Private during the Boxer Rebellion and the
+second, as a Gunnery Sergeant during the Spanish-American War. Dan Daly also fought at Belleau
+Wood during World War I as a First Sergeant. Butler earned his first for actions in Vera Cruz,
+Mexico in 1914 and his second was for actions in Haiti in 1915. He retired as a Major General.
+</string>
+    <string name="title_activity_marine_history">Marine Corps History</string>
+
+    <!-- uniform -->
+    <string name="dress_blue_a">Blue Dress "A"-Blue trousers or skirt with blue coat,
+         with large medals above left breast pocket, and ribbon-only awards on the right breast pocket.</string>
+    <string name="dress_blue_b">Blue Dress "B"-Blue trousers or skirt with blue coat, with only
+        ribbons above the left breast pocket.</string>
+    <string name="dress_blue_c">Blue Dress "C" -Blue trousers or skirt with khaki long sleeve button-up shirt
+        and tie with tie clasp. Ribbons may be worn. </string>
+    <string name="dress_blue_d">Blue Dress "D"- Blue trousers or skirt with khaki short sleeve button-up shirt
+         and no tie. Ribbons may be worn.</string>
+    <string name="service_a">Service "A"- Green trousers or skirt with green coat and, khaki long sleeve
+          button-up shirt, and tie clasp.Ribbons are worn above left breast pocket. </string>
+    <string name="service_b">Service "B"- Green trousers or skirt with khaki long sleeve
+          button-up shirt, tie , and tie clasp. Ribbons may be worn.</string>
+    <string name="service_c">Service "C"- Green trousers or skirt with khaki short sleeve button-up
+          shirt. Ribbons may be worn.</string>
+    <string name="service_sweater">Service Sweater- Worn with Green Trousers,and over the
+              khaki long sleeve button-up shirt with NO tie, collar is place on the outside of sweater.The service
+              sweater may be worn in appropriate weather conditions.</string>
+    <string name="utility_uniform">Utility Uniform(Camouflage,Digital uniform) - Camouflage Blouse and Trousers,
+          worn with issued combat boots,khaki "web" belt, belt buckle,and boot bands. </string>
+    <string name="belt_length">Belt Length</string>
+    <string name="web_belt"> Khaki or "Web" Belt - Worn between 2 and 4 inches past the belt buckle.</string>
+    <string name="white_belt">cloth or "white"Belt - Worn between 2¾ and 3¾ inches past the belt buckle.</string>
+    <string name="tie_clasp">Tie Clasp - Worn when using issued tie, centered between 3rd and 4th button on the long sleeve khaki shirt.</string>
+    <string name="skirt_length"> Skirt Length- Approximates the knee, not to exceed 1 inch above or below the center of the knee.</string>
+    <string name="cover"> Covers- They are never worn indoors. </string>
+    <string name="uniform_check">Uniform Self Inspection.</string>
+    <string name="blues_check"> While wearing dress blue A or B cadets must wear the appropriate ribbons that
+          he or she has earned. The Dress Blue jacket must be cleaned of dust, hair etc. This is the only uniform that
+          enlisted ranked cadets wear the gold enlisted ranks on their jackets, and officer cadets wear the bigger version of
+          their ranks on their jacket. Enlisted cadet ranks must be 3/4 inches above the end of their jackets. Officer cadet ranks
+          must be centered between the gold ega button and the edge of the jacket.</string>
+    <string name="delta_charlie">Delta and Charlie uniforms(Blue Dress and Service uniform)- The Khaki brown button-up shirt must be clear of stains or signs of filth.\n
+          Males must tuck in their shirts into their trousers. The long sleeve khaki shirt must fit the cadet\'s arm length.</string>
+    <!-- Ribbons -->
+    <string-array name="marine_ribbon_array">
+        <item>Recruiting Ribbon - Awarded when cadets recruit other students into the MCJROTC Program.</item>
+        <item>Orienteering Ribbon- Awarded to cadets who have participated in orienteering.</item>
+        <item>Rifle Team Ribbon- Presented to the cadets who have distinguished themselves on the unit\'s rifle team. Can be worn with Rifle Team bar device.</item>
+        <item>Band, Drum, and Bugle Corps Ribbon-Awarded to cadets who are or have been in the schools band/drum and bugle corps. Can be worn with the Band bar device.</item>
+        <item>Drill Team Ribbon- Presented to cadets who are a part of the unit drill team in drill team competitions.</item>
+        <item>Color Guard Ribbon- Awarded to cadets who make up the official color guard unit(s). Also awarded to those cadets who performed in at least 3 color guard events for the MCJROTC program.</item>
+        <item>Best Drill Squad Ribbon- Presented to a drill squad that has earned a first place trophy during a drill competition.</item>
+        <item>Distinguished Conduct Ribbon- Presented to any cadet whose conduct and demeanor are worthy of special recognition. </item>
+        <item>Longevity / Fidelity- Presented to those cadets who have successfully participated in the MCJROTC Program for 2 years. </item>
+        <item>Athletic Participation- Presented to cadets who are or have participated in any school sport.</item>
+        <item>Superior Marksman- Awarded to cadets who qualify as a superior marksman during competitions, by achieving a score of 270 or higher.</item>
+        <item>Physical Achievement- Awarded to cadets who have an outstanding YPFT or PFT Score. </item>
+        <item>Distinguished Military Training- Awarded to cadets who have participated in MCJROTC Boot Camp.</item>
+        <item>Arts and Academics- Presented to cadets who participate in Poetry Out Loud competitions or have their art shown in display.</item>
+        <item>Distinguished Scholastic Achievement - Awarded annually to cadets who have maintained an “A” average in academic subjects to include
+            MCJROTC Leadership Education and/or are be in the top ten percent of the class. </item>
+        <item>Best Drill Cadet- Awarded annually to the cadets who have shown superior performance in comparison to other cadets in drill.</item>
+        <item>Civic Service- Presented to cadets who have participated in numerous community service events, including Toys for Tots and the city clean-up.</item>
+        <item>Non-Commissioned Officer Leadership- Presented to a cadet who has taken charge of a platoon as a cadet NCO, for a whole year.</item>
+        <item>Officer Leadership- Presented to a cadet who has taken charge of a platoon as a cadet officer, for a whole year. </item>
+        <item>Student Leadership- Presented to cadets who hold an elected office in the student body of the school.</item>
+        <item>Outstanding Cadet- Awarded once a year to cadet(s)(2 cadets per grade, male and female) who has A. Consistent superior performance in all facets of the Leadership Education Course
+        B. Academic achievement in the top 25&#37; of the class in all academic subjects including JROTC.
+        C. Exceptional qualities of leadership, discipline, character, military bearing, and military proficiency.</item>
+        <item>Scottish Rite Medal- Presented to a cadet who has encouraged and demonstrated Americanism by deeds or conduct through
+        participation in extracurricular activities or unit sponsored community projects and has demonstrated
+        exceptional dependability, character, self-discipline, citizenship and patriotism.</item>
+        <item>National Sojourners- Presented annually to a sophomore or junior cadet who is enrolled for the next year, is in the top 25% and
+        has encouraged and demonstrated the ideals of Americanism.</item>
+        <item>American Veterans (AMVETS) Medal- The award is presented to a cadet for diligence in the discharge of duties and the willingness to serve
+        school, community and nation.</item>
+        <item>Naval Reserve Association Medal- The award is presented to a cadet in recognition of his/her outstanding service and dedication to the
+        MCJROTC program, academic excellence and desire to serve the school, community, and nation.</item>
+        <item>Reserve Officers Association Medal- The award is presented to a deserving cadet who has demonstrated outstanding competence in military
+        skills and has contributed to the common good of the school, community and nation.
+</item>
+        <item>Navy League Youth Medal- This award is presented to an outstanding cadet in recognition of his/her professionalism and academic
+        excellence and dedication to the MCJROTC program.</item>
+        <item>Military Order of the Purple Heart Medal-Awarded to a deserving cadet who combines both military and scholastic excellence with strong
+        leadership skills.</item>
+        <item>Non-Commissioned Officers Association -Awarded annually to the most outstanding cadet NCO in the unit during the past school year. No
+        minimum time in program is specified. However, the award must be made to the cadet NCO/SNCO who
+        has consistently exhibited the best military bearing, personal appearance, deportment and leadership
+        ability.</item>
+        <item>Women Marines Association Award for Outstanding Cadet- Presented annually to one second year cadet who has a satisfactory record of academic accomplishment
+        and citizenship and has the highest leadership education grades in the unit.
+</item>
+        <item>Daedalian Achievement Award- Presented to a junior cadet who has demonstrated an understanding and appreciation of patriotism, love
+        of country and service to the nation. Shows a desire and potential to pursue a military career, ranked in upper 10&#37; of the MCJROTC junior class, and 20&#37; of the school\'s junior class.</item>
+        <item>Veterans of Foreign Wars Bronze Medal- Presented to cadets who possess individual characteristics contributing to leadership both in and out of
+        uniform. A minimum grade of "B" in MCJROTC, and a "C" in overall school academics. The cadet must be
+        active in at least one other extracurricular activity or club and may not be a former recipient of the award.
+</item>
+        <item>Military Officers Association of America Medal- Presented to a cadet for outstanding academic achievement. The cadet must be in the top 10% of the
+        class, have an "A" average in MCJROTC subjects, hold an officers billet in the unit, and be in the junior year
+        of high school.</item>
+        <item>Military Order of the World Wars Medal- Presented to an outstanding first year cadet who excel in both military and scholastic activities, be in good
+        standing in all military and scholastic courses, have indicated a desire to serve the United States in some
+        capacity, and have committed to continue MCJROTC.</item>
+        <item>Daughters of the American Revolution Bronze Medal- Presented to a graduating cadet who is in the upper 25% of the graduating class in all subjects. Must
+        have demonstrated qualities of dependability and good character, military discipline, leadership ability and
+        understand the importance of JROTC</item>
+        <item>Sons of the American Revolution Bronze Medal- Awarded to a Junior cadet who has exhibited the highest standards of leadership, soldierly bearing and
+        excellence.
+</item>
+        <item>American Legion Bronze Medal for Military Excellence- Awarded to one cadet per school per year who has grades in all MCJROTC subjects within the top 25% and
+        has demonstrated outstanding qualities in military leadership, discipline, character, and citizenship. Worn
+        with the Military Excellence Device.</item>
+        <item>American Legion Award for Scholastic Excellence- Awarded to one cadet per school per year who has an academic average earned on all courses other than
+        MCJROTC in the top 10&#37; of the class and have grades in all MCJROTC subjects within th top 25% . Have
+        demonstrated qualities of leadership and actively participated in related student activities. Worn with the
+        Scholastic Excellence Device.</item>
+        <item>Marine Corps Reserve Association Outstanding Unit- Authorized for those cadets whose unit received recognition by placing either first, second, or third in
+        competition for the outstanding MCJROTC unit.
+</item>
+        <item>Legion of Valor Bronze Cross Achievement- Awarded to one Senior Cadet per District who has a MCJROTC class standing in the top 25% of their class,
+        has a school academic class standing in the top 25&#37; and has most demonstrated exemplary military
+        leadership. Worn with the Bronze Cross Device.
+</item>
+    </string-array>
+
+    <!-- pft calc -->
+
+    <string name="pull_ups">Pull Ups</string>
+    <string name="crunches">Crunches</string>
+    <string name="run_time">Running Time</string>
+
+    <string-array name="mcjrotc_knowledge">
+        <item>Chain of Command</item>
+        <item>Marine Corps History</item>
+        <item>Marine Corps Rank Structure</item>
+        <item>Cadet Rank Structure</item>
+        <item>General Orders</item>
+        <item>Leadership Traits</item>
+        <item>Leadership Principles</item>
+        <item>Uniform Inspection Check</item>
+
+
+    </string-array>
+
+    <!-- Cadet Ranks -->
+    <string name="cadet_priv">Cadet Private</string>
+    <string name="cadet_pfc">Cadet Private First Class</string>
+    <string name="cadet_lance">Cadet Lance Corporal</string>
+    <string name="cadet_corp">Cadet Corporal</string>
+    <string name="cadet_sergeant">Cadet Sergeant</string>
+    <string name="cadet_staff">Cadet Staff Sergeant</string>
+    <string name="cadet_gunny">Cadet Gunnery Sergeant</string>
+    <string name="cadet_first">Cadet First Sergeant</string>
+    <string name="cadet_sergeant_major">Cadet Sergeant Major</string>
+    <string name="cadet_second_lieutenant">Cadet Second Lieutenant</string>
+    <string name="cadet_first_lieutenant">Cadet First Lieutenant</string>
+    <string name="cadet_captain">Cadet Captain</string>
+    <string name="cadet_major">Cadet Major</string>
+    <string name="cadet_lieutenant_colonel">Cadet Lieutenant Colonel</string>
+    <string name="cadet_colonel">Cadet Colonel</string>
+
+    <string-array name="mcjrotc_cadet_ranks">
+        <item>Cadet Private</item>
+        <item>Cadet Private First Class</item>
+        <item>Cadet Lance Corporal</item>
+        <item>Cadet Corporal</item>
+        <item>Cadet Sergeant</item>
+        <item>Cadet Staff Sergeant</item>
+        <item>Cadet Gunnery Sergeant</item>
+        <item>Cadet First Sergeant</item>
+        <item>Cadet Sergeant Major</item>
+
+        <item>Cadet Second Lieutenant </item>
+        <item>Cadet First Lieutenant</item>
+        <item>Cadet Captain</item>
+        <item>Cadet Major</item>
+        <item>Cadet Lieutenant Colonel</item>
+        <item>Cadet Colonel</item>
+    </string-array>
+
+    <string-array name="mcjrotc_cadet_paygrade">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="marine_coc_array">
+        <item>Commander in Chief - Donald J. Trump</item>
+        <item>Vice President - Mike Pence</item>
+        <item>Speaker of the House - Nancy Pelosi</item>
+        <item>Secretary of State - Mike Pompeo</item>
+        <item>Secretary of Defense - Patrick M. Shanahan</item>
+        <item>Secretary of the Navy - Richard V. Spencer</item>
+        <item>Commandant of the Marine Corps - General Robert B. Neller</item>
+        <item>Assistant Commandant of the Marine Corps - General Gary L. Thomas</item>
+        <item>Sergeant Major of the Marine Corps - Sergeant Major Ronald L. Green</item>
+    </string-array>
+
+    <string name="title_activity_knowledge2">Knowledge2</string>
+
+</resources>

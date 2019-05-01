@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ajrotc_ribbons">AJROTC Ribbons</string>
+
+
+    <string-array name = "army_ranks">
+        <item>private</item>
+        <item>Private</item>
+        <item>Private First Class</item>
+        <item>Specialist</item>
+        <item>Corporal</item>
+        <item>Sergeant</item>
+        <item>Staff Sergeant</item>
+        <item>Sergeant First Class</item>
+        <item>Master Sergeant</item>
+        <item>First Sergeant</item>
+        <item>Sergeant Major</item>
+        <item>Command Sergeant Major</item>
+        <item>Sergeant Major of the Army</item>
+        <item>Warrant Officer</item>
+        <item>Chief Warrant Officer 2</item>
+        <item>Chief Warrant Officer 3</item>
+        <item>Chief Warrant Officer 4</item>
+        <item>Chief Warrant Officer 5</item>
+        <item>Second Lieutenant</item>
+        <item>First Lieutenant</item>
+        <item>Captain</item>
+        <item>Major</item>
+        <item>Lieutenant Colonel</item>
+        <item>Colonel</item>
+        <item>Brigadier General</item>
+        <item>Major General</item>
+        <item>Lieutenant General</item>
+        <item>General</item>
+    </string-array>
+    <string-array name="army_pay_grade">
+        <item>E-1</item>
+        <item>E-2</item>
+        <item>E-3</item>
+        <item>E-4</item>
+        <item>E-4</item>
+        <item>E-5</item>
+        <item>E-6</item>
+        <item>E-7</item>
+        <item>E-8</item>
+        <item>E-8</item>
+        <item>E-9</item>
+        <item>E-9</item>
+        <item>E-9</item>
+        <item>W-1</item>
+        <item>W-2</item>
+        <item>W-3</item>
+        <item>W-4</item>
+        <item>W-4</item>
+        <item>w-5</item>
+
+        <item>O-1</item>
+        <item>O-2</item>
+        <item>O-3</item>
+        <item>O-4</item>
+        <item>O-5</item>
+        <item>O-6</item>
+        <item>O-7</item>
+        <item>O-8</item>
+        <item>O-9</item>
+        <item>O-10</item>
+
+    </string-array>
+
+        <string-array name = "ajrotc_cadet_ranks">
+            <!-- 15 items in total-->
+            <item>Cadet Private</item>
+            <item>Cadet Private</item>
+            <item>Cadet Private First Class</item>
+            <item>Cadet Corporal</item>
+            <item>Cadet Sergeant</item>
+            <item>Cadet Staff Sergeant</item>
+            <item>Cadet Sergeant First Class</item>
+            <item>Cadet Master Sergeant</item>
+            <item>Cadet First Sergeant</item>
+            <item>Cadet Sergeant Major</item>
+            <item>Cadet Command Sergeant Major</item>
+
+            <item>Cadet Second Lieutenant </item>
+            <item>Cadet First Lieutenant</item>
+            <item>Cadet Captain</item>
+            <item>Cadet Major</item>
+            <item>Cadet Lieutenant Colonel</item>
+            <item>Cadet Colonel</item>
+        </string-array>
+
+    <string-array name="ajrotc_cadet_paygrade">
+        <item></item>
+        <item>(C/PVT)</item>
+        <item>(C/PVT)</item>
+        <item>(C/PFC)</item>
+        <item>(C/CPL)</item>
+        <item>(C/SGT)</item>
+        <item>(C/SSG)</item>
+        <item>(C/SFC)</item>
+        <item>(C/MSG)</item>
+        <item>(C/1SG)</item>
+        <item>(C/SGM)</item>
+        <item>(C/CSM)</item>
+        <item>(C/2LT)</item>
+        <item>(C/1LT)</item>
+        <item>(C/CPT)</item>
+        <item>(C/MAJ)</item>
+        <item>(C/LTC)</item>
+        <item>(C/COL)</item>
+
+    </string-array>
+
+    <string-array name="army_ribbon_array">
+    <item>Excellent Staff Performance Ribbon - Awarded annually to cadet staff officers for excellent performance.</item>
+    <item>Service Learning Ribbon - Awarded annually to cadets who participate in service learning projects.</item>
+    <item>Optional by SAI</item>
+    <item>Optional by SAI</item>
+    <item>Optional by SAI</item>
+    <item>Recruiting Ribbon - Awarded to cadets who recruit students into the JROTC program each quarter/semester.</item>
+    <item>Parade Ribbon - Awarded to cadets who have participated in local community parades (Veterans\' Day Parade, Veterans Day Parade, etc.)</item>
+    <item>Optional by SAI</item>
+    <item>Optional by SAI</item>
+    <item>JROTC Athletics Ribbon - Awarded annually to cadets that excel in ROTC athletics.</item>
+    <item>Physical Fitness Ribbon - Awarded annually to the cadets who maintain excellent physical fitness.</item>
+    <item>Varsity Athletics Ribbon - Awarded annually to cadets that excel in varsity sports.</item>
+    <item>Optional by SAI</item>
+    <item>Optional by SAI</item>
+    <item>Optional by SAI</item>
+    <item>Optional by SAI</item>
+    <item>Summer Camp Ribbon - Awarded to cadets for summer camp participation.</item>
+    <item>Good Conduct Ribbon - Awarded annually to cadets who have demonstrated outstanding conduct throughout the year.</item>
+    <item>Commendation Ribbon - Awarded to cadets whose performance of duty exceptionally exceeds that expected of a cadet of his/her grade and experience.</item>
+    <item>Adventure Training Ribbon - Awarded annually to cadets who are members of adventure training type units.</item>
+    <item>Rifle Team Ribbon - Awarded annually to rifle team members.</item>
+    <item>Color Guard Ribbon - Awarded annually to members of the color/honor guard.</item>
+    <item>Orienteering Ribbon - Awarded annually to cadets who are members of the orienteering team.</item>
+    <item>Drill Team Ribbon - Awarded annually to drill team members.</item>
+    <item>Proficiency Ribbon - Awarded annually to cadets who have demonstrated an exceptionally high degree of leadership, academic achievement, and performance of duty.</item>
+    <item>Personal Appearance Ribbon - Awarded annually to cadets who consistently present an outstanding appearance.</item>
+    <item>DAI/SAI Instructor Leadership - Awarded annually to one cadet per LET level who displays the highest degree of leadership.</item>
+    <item>Optional by SAI</item>
+    <item>Optional by SAI</item>
+    <item>Optional by SAI</item>
+    <item>Optional by SAI</item>
+    <item>LET Service Ribbon - Awarded annually to cadets successfully completing first quarter/semester of training of each LET year.</item>
+    <item>Student Government Ribbon - Elected to a student government office.</item>
+    <item>Perfect Attendance Ribbon - Awarded to cadets with no unexcused absence during each quarter/semester.</item>
+    <item>Academic Achievement Ribbon - Awarded Annually to those cadets who maintain a grade of "A" in academic subjects.</item>
+    <item>Academic Excellence Ribbon - Awarded to one cadet in each LET level for maintaining highest school academic grades.</item>
+    <item>Distinguished Cadet Ribbon - Awarded annually to one cadet who exhibits the highest degree of experience in scholastics.</item>
+    <item>Superior Cadet Ribbon - Awarded annually to one outstanding cadet in each LET level.</item>
+    <item>Medal for Heroism Ribbon - Awarded to any JROTC cadet who performs an act of heroism.</item>
+    </string-array>
+
+    <string-array name="ajrotc_knowledge">
+        <item>Chain of Command</item>
+        <item>Army Knowledge</item>
+        <item>Army Rank/Rate Structure</item>
+        <item>Cadet Rank/Rate Structure</item>
+        <item>General Orders of the Sentry</item>
+        <item>Army Values</item>
+        <item>Uniform Inspection Check</item>
+    </string-array>
+
+    <string-array name="army_coc_array">
+        <item>Commander in Chief - Donald J. Trump</item>
+        <item>Vice President - Mike Pence</item>
+        <item>Speaker of the House - Nancy Pelosi</item>
+        <item>Secretary of State - Mike Pompeo</item>
+        <item>Secretary of Defense - Patrick M. Shanahan</item>
+        <item>Secretary of the Army - Dr. Mark T. Esper</item>
+        <item>United States Army Chief of Staff - General Mark A. Milley</item>
+        <item>Commanding General,U.S. Army Training and Doctrine Command - General Stephen J. Townsend</item>
+        <item>Commanding General, U.S. Army Cadet Command Major General John R. Evans, Jr.</item>
+        <item>Sergeant Major of the Army - Daniel A. Dailey</item>
+        <item>Command Sergeant Major, U.S. Army Training and Doctrine Command - Command Sergeant Major Timothy A. Guden</item>
+        <item>Command Sergeant Major, U.S. Army Cadet Command Command Sergeant Major Kenneth J. Kraus Jr.</item>
+    </string-array>
+
+    <string name="army_values">
+        LOYALTY - to bear true faith and allegiance to the U.S. Constitution...your peers\n\n
+        DUTY - - to fulfill your obligations\n\n
+        RESPECT - to treat people as they should be treated\n\n
+        SELFLESS SERVICE - to put the welfare of the nation...before your own\n\n
+        HONOR - to live up to all values\n\n
+        INTEGRITY- to do what is right, legally and morally\n\n
+        PERSONAL COURAGE - to face fear, danger, or adversity\n\n
+    </string>
+
+    <string name="ajrotc_army_general_orders">
+        1st General  Order\n
+        I will guard everything within the limits of my post and quit my post only when properly relieved.\n\n
+
+        2nd General Order\n
+        I will obey my special orders and perform all of my duties in a military manner.\n\n
+
+        3rd General Order\n
+        I will report violations of my special orders, emergencies, and anything not covered in my instructions, to the commander of the relief.\n\n
+    </string>
+    <string name="ajrotc_army_founded">The United States Army was founded on June 14, 1775.\n </string>
+
+
+    <string name="ajrotc_soldiers_creed">
+        SOLDIERS CREED\n\n
+        I am an American Solider.\n
+        I am a Warrior and a member of a team.\n
+        I serve the people of the United States and live the Army Values.\n
+        I will always place the mission first.\n
+        I will never accept defeat.\n
+        I will never quit.\n
+        I will never leave a fallen comrade.\n
+        I am disciplined, physically and mentally tough, trained and proficient in my warrior tasks and drills.\n
+        I always maintain my arms, my equipment and myself.\n
+        I am an expert and I am a professional.\n
+        I stand ready to deploy, engage and destroy the enemies of the United States of America in close combat.\n
+        I am a guardian of freedom and the American way of life.\n
+        I Am An American Solider.\n</string>
+
+    <string name="ajrotc_cadet_creed">
+        Army JROTC Cadet Creed\n\n
+        I am an Army Junior ROTC Cadet.\n
+        I will always conduct myself to bring credit to my family, country, school and the Corps of Cadets.\n
+        I am loyal and patriotic.\n
+        I am the future of the United States of America.\n
+        I do not lie, cheat or steal and will always be accountable for my actions and deeds.\n
+        I will always practice good citizenship and patriotism.\n
+        I will work hard to improve my mind and strengthen my body.\n
+        I will seek the mantle of leadership and stand prepared to uphold the Constitution and the American way of life.\n
+        May God grant me the strength to always live by this creed.\n
+    </string>
+
+    <string name="ajrotc_all_knowledge">
+
+        -The United States Army was founded on June 14, 1775.\n\n
+
+        -
+
+
+                Army JROTC Cadet Creed\n\n
+        -I am an Army Junior ROTC Cadet.\n
+        -I will always conduct myself to bring credit to my family, country, school and the Corps of Cadets.\n
+        -I am loyal and patriotic.\n
+        -I am the future of the United States of America.\n
+        -I do not lie, cheat or steal and will always be accountable for my actions and deeds.\n
+        -I will always practice good citizenship and patriotism.\n
+        -I will work hard to improve my mind and strengthen my body.\n
+        -I will seek the mantle of leadership and stand prepared to uphold the Constitution and the American way of life.\n
+        -May God grant me the strength to always live by this creed.\n\n
+
+                SOLDIERS CREED\n\n
+        I am an American Solider.\n
+        I am a Warrior and a member of a team.\n
+        I serve the people of the United States and live the Army Values.\n
+        I will always place the mission first.\n
+        I will never accept defeat.\n
+        I will never quit.\n
+        I will never leave a fallen comrade.\n
+        I am disciplined, physically and mentally tough, trained and proficient in my warrior tasks and drills.\n
+        I always maintain my arms, my equipment and myself.\n
+        I am an expert and I am a professional.\n
+        I stand ready to deploy, engage and destroy the enemies of the United States of America in close combat.\n
+        I am a guardian of freedom and the American way of life.\n
+        I Am An American Solider.\n\n
+
+        THE STAR-SPANGLED-BANNER\
+        O say, can you see, by the dawn’s early light,
+        What so proudly we hailed at the twilight’s last gleaming,
+        Whose broad stripes and bright stars, through the perilous fight,
+        O’er the ramparts we watched were so gallantly streaming?
+        And the rockets’ red glare, the bombs bursting in air
+        Gave proof through the night that our flag was still there,
+        O say, does that Star-Spangled Banner yet wave
+        O’er the land of the free and the home of the brave?\n
+        On the shore dimly seen through the mist of the deep,
+        Where the foe’s haughty host in dread silence reposes,
+        What is that which the breeze, o’er the towering steep
+        As it fitfully blows, half conceals, half discloses?
+        Now it catches the gleam of the morning’s first beam,
+        In full glory reflected now shines on the stream;
+        ‘Til the Star-Spangled Banner—O long may it wave
+        O’er the land of the free and the home of the brave.\n
+        O thus be it ever when free men shall stand
+        Between their loved homes and the war’s desolation;
+        Blest with victory and peace, may the heaven rescued land
+        Praise the Power that has made and preserved us a nation.
+        Then conquer we must, when our cause it is just,
+        And this be our motto, "In God is our trust;"
+        And the Star-Spangled Banner in triumph shall wave
+        O’er the land of the free and the home of the brave.
+    </string>
+
+
+</resources>

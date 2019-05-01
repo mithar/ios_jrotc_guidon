@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <!--  uniform colors -->
+    <color name="blue">#002b5c</color>
+
+    <!--  EGA colors -->
+    <color name="marine_silver">#a2aaad</color>
+    <color name="gold">#998542</color>
+
+    <!-- flag colors -->
+    <color name="marine_red">#a6192e</color>
+    <color name="marine_yellow">#f1b434</color>
+
+    <!--MARPAT colors-->
+    <color name="peat">#13322b</color>
+    <color name="moss">#4e5b31</color>
+    <color name="cover">#594a25</color>
+    <color name="mud">#4e3629</color>
+    <color name="clay">#816040</color>
+    <color name="dessert">#7a6855</color>
+
+    <!-- Other -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <!-- airforce colors -->
+    <color name="airforce_blue">#003087</color>
+    <color name="airforce_silver">#8a8d8f</color>
+
+    <!-- army colors -->
+    <color name="army_yellow">#ffcb05</color>
+    <color name="army_sand">#dfd1b7</color>
+    <color name="army_grey">#a8a298</color>
+    <color name="army_green">#6a6745</color>
+
+    <!-- navy colors-->
+    <color name="navy_blue">#002f6c</color>
+    <color name="navy_yellow">#ffb81c</color>
+    <color name="navy_silver">#9ea2a2</color>
+
+</resources>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name = "airforce_rank_structure">
+        <item>Airman Basic</item>
+        <item>Airman</item>
+        <item>Airman First Class</item>
+        <item>Senior Airman</item>
+        <item>Staff Sergeant</item>
+        <item>Technical Sergeant</item>
+        <item>Master Sergeant</item>
+        <item>Senior Master Sergeant</item>
+        <item>Chief Master Sergeant</item>
+        <item>Command Chief Master Sergeant</item>
+        <item>Chief Master Sergeant of the Air Force</item>
+        <!-- 15 ranks/items -->
+        <item>Second Lieutenant</item>
+        <item>First Lieutenant</item>
+        <item>Captain</item>
+        <item>Major</item>
+        <item>Lieutenant Colonel</item>
+        <item>Colonel</item>
+        <item>Brigadier General</item>
+        <item>Major General</item>
+        <item>Lieutenant General</item>
+        <item> General of the Air Force</item>
+    </string-array>
+
+    <string-array name = "airforce_pay_grade">
+        <item>E-1</item>
+        <item>E-2</item>
+        <item>E-3</item>
+        <item>E-4</item>
+        <item>E-5</item>
+        <item>E-6</item>
+        <item>E-7</item>
+        <item>E-7</item>
+        <item>E-8</item>
+        <item>E-8</item>
+        <item>E-9</item>
+        <item>E-9</item>
+        <item>E-9</item>
+        <item>E-9</item>
+        <item> </item>
+        <item>O-1</item>
+        <item>O-2</item>
+        <item>O-3</item>
+        <item>O-4</item>
+        <item>O-5</item>
+        <item>O-6</item>
+        <item>O-7</item>
+        <item>O-8</item>
+        <item>O-9</item>
+        <item>O-10</item>
+        <item>Special Rank</item>
+    </string-array>
+
+    <string-array name="afjrotc_cadet_ranks">
+        <item>Cadet Airman Basic</item>
+        <item>Cadet Airman</item>
+        <item>Cadet Airman First Class</item>
+        <item>Cadet Senior Airman</item>
+        <item>Cadet Staff Sergeant</item>
+        <item>Cadet Technical Sergeant</item>
+        <item>Cadet Master Sergeant</item>
+        <item>Cadet Senior Master Sergeant</item>
+        <item>Cadet Chief Master Sergeant</item>
+
+        <item>Cadet Second Lieutenant </item>
+        <item>Cadet First Lieutenant</item>
+        <item>Cadet Captain</item>
+        <item>Cadet Major</item>
+        <item>Cadet Lieutenant Colonel</item>
+        <item>Cadet Colonel</item>
+    </string-array>
+
+    <string-array name="afjrotc_cadet_paygrade">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item>(C/2LT)</item>
+        <item>(C/1LT)</item>
+        <item>(C/CPT)</item>
+        <item>(C/MAJ)</item>
+        <item>(C/LTC)</item>
+        <item>(C/COL)</item>
+
+    </string-array>
+    <!--AFJORTC Uniform strings-->
+
+    <string name="af_cadet_blue_jacket_uniform">1. (Officers only) When placing rank on epaulet instead of collar, use standard size metal rank, center on
+epaulet 5/8 in from shoulder seam.\n
+2. Shoulder tabs are centered between unit patch and shoulder seam. If no patch, then 1‖ below shoulder seam.\n
+3. Unit patch on right sleeve ½ to 1 inch below shoulder seam and centered.\n
+4. Grade insignia (officer and enlisted) is worn on both left and right collar. Airman Basic have no collar insignia.\n
+5. Optional item: center vertically between the shoulder seam and where the underarm side seam joins the armhole\n
+sleeve and center horizontally between the center zipper and the sleeve armhole seam.\n
+6. AFJROTC patch on left sleeve ½ to 1 inch below shoulder seam and centered.\n
+7. Jacket will be closed to at least the halfway point.\n
+8. Center insignia horizontally on collar. Place 1 inch from bottom of collar and parallel to the outer edge of the
+collar.\n</string>
+
+    <string name="af_cadet_female_dress_uniform">1. Name tag: authorized for wear and is to be centered on right side, even with to 1 1/2 inches higher or lower than
+the first exposed button.\n
+2. Awareness Presentation Team Badge: see note 15.\n
+3. Unit patch: center ½ to 1 inch below shoulder seam.\n
+4. Shoulder tab: centered between unit patch and shoulder seam. If no patch, then 1 inch below shoulder seam.\n
+5. Kitty Hawk Badge: see note 15.\n
+6. Aerospace Education Foundation (AEF) Badge: see note 15.\n
+7. Distinguished Cadet Badge: see note 15.\n
+8. Grade insignia (officer or enlisted) worn on both lapels. Place insignia halfway up the seam, resting on but not over it.\n
+Bottom of insignia is horizontal with the ground. *(The lapel insignia (eagles non-chrome) will no longer be worn on the lapels
+by Airmen Basics.)\n
+9. Flight Solo or Flight Certificate Badge: see note 15.\n
+10. Ground School Badge: see note 15.\n
+11. AFJROTC Patch: center ½ to 1 inch below shoulder seam.\n
+12. Academy of Model Aeronautic (AMA) Wings: see note 15.\n
+13. Model Rocketry Badge: see note 15.\n
+14. Ribbons: center ribbons resting on but not over edge of welt pocket. Wear 3 or 4 in a row. Wear all or some.\n
+15. First badge placed ½ inch above name tag or ribbons (whichever is appropriate) and is centered horizontally.\n
+Additional badges placed ½ inch above previous badge.\n</string>
+
+    <string name = "af_cadet_male_blue_shirt"> Awareness Presentation Team (APT) and Model Rocketry Badge are centered on the pockets on the appropriate
+sides as displayed above.\n
+2. Name tag: authorized for wear and is to be grounded and centered over wearer‘s right pocket.
+3. Unit patch: center ½ to 1 inch below shoulder seam.
+4. Shoulder tab: center between unit patch and shoulder seam. If no patch, then place 1 inch below shoulder seam.\n
+5. Kitty Hawk Badge: see note 15.\n
+6. Aerospace Education Foundation (AEF) Badge: see note 15.\n
+7. Distinguished Cadet Badge: see note 15.\n
+8. Grade insignia (officer or enlisted) worn on both left and right collar, centered side to side and top to bottom.\n
+Enlisted rank‘s bottom point of torch points toward the point of the collar. Officer top point of rank aligned with
+point of collar. Airman Basic have no insignia of any kind on the collar.\n
+9. (Officers only) When using officer cloth rank on epaulets versus miniature metal rank on collar, place as close as
+possible to shoulder seam.\n
+10. Flight Solo or Flight Certificate Badge: see note 15.\n
+11. Ground School Badge: see note 15.\n
+12. Academy of Model Aeronautic (AMA) Wings: see note 15.\n
+13. AFJROTC Patch: center ½ to 1 inch below shoulder seam.\n
+14. Ribbons: ground and center on pocket.\n
+15. First badge placed ½ inch above name tag or ribbons and is centered horizontally. Additional badges placed ½
+inch above previous badge.\n</string>
+
+<string name = "af_cadet_female_blue_shirt">
+1. Name tag: authorized for wear and is to be centered on right side, even with to 1 1/2 inches higher or lower than\n
+the first exposed button.
+2. Awareness Presentation Team Badge: see note 15.\n
+3. Unit patch: center ½ to 1 inch below shoulder seam.\n
+4. Shoulder tab: centered between unit patch and shoulder seam. If no patch, then 1 inch below shoulder seam.\n
+5. Kitty Hawk Badge: see note 15.\n
+6. Aerospace Education Foundation (AEF) Badge: see note 15.\n
+7. Distinguished Cadet Badge: see note 15.\n
+8. Grade insignia (officer or enlisted) worn on both lapels. Place insignia halfway up the seam, resting on but not over it.\n
+Bottom of insignia is horizontal with the ground. *(The lapel insignia (eagles non-chrome) will no longer be worn on the lapels
+by Airmen Basics.)\n
+9. Flight Solo or Flight Certificate Badge: see note 15.\n
+10. Ground School Badge: see note 15.\n
+11. AFJROTC Patch: center ½ to 1 inch below shoulder seam.\n
+12. Academy of Model Aeronautic (AMA) Wings: see note 15.\n
+13. Model Rocketry Badge: see note 15.\n
+14. Ribbons: center ribbons resting on but not over edge of welt pocket. Wear 3 or 4 in a row. Wear all or some.\n
+15. First badge placed ½ inch above name tag or ribbons (whichever is appropriate) and is centered horizontally.\n
+Additional badges placed ½ inch above previous badge.\n
+</string>
+
+
+    <string name="afjrotc_male_dress_uniform">1. Awareness Presentation Team (APT) badge: Center on welt pocket 3 inches below the top.\n
+2. Name tag: Center between arm seam and lapel with bottom edge parallel to top of welt pocket\n
+3. Kitty Hawk Badge: see note 15.\n
+4. Unit patch: Placed ½ to 1 inch below shoulder seam and centered.\n
+5. Shoulder tabs: Center between unit patch and shoulder seam. If no patch, then 1 inch below shoulder seam.\n
+6. Aerospace Education Foundation (AEF) Badge: see note 15.\n
+7. Distinguished Cadet Badge: see note 15.\n
+8. Grade insignia (officer or enlisted) worn on both lapels. Place insignia halfway up the seam, resting on but not over it.\n
+Bottom of insignia is horizontal with the ground. *(The lapel insignia (eagles non-chrome) will no longer be worn on the lapels
+by Airmen Basics.)\n
+9. AFJROTC Patch: Placed ½ to 1 inch below shoulder seam, and centered.\n
+10. Flight Solo or Flight Certificate Badge: see note 15.\n
+11. Ground School Badge: see note 15.\n
+12. Ribbons: Center, on but not over edge of pocket. Wear 3 or 4 in a row. Wear all or some.\n
+13. Academy of Model Aeronautic Wings: worn 1 inch below pocket.\n
+14. Model Rocketry Badge: worn 2 inches below AMA Wings or 3 inches below pocket if no AMA Wings are worn.\n
+15. First badge placed ½ inch above name tag or ribbons and is centered horizontally. Additional badges placed ½
+inch above previous badge.\n</string>
+
+    <string name="af_leadership_traits">Integrity: Total commitment to the highest personal and professional standards.\n\n
+    Loyalty: Three-dimensional trait which includes faithfulness to superiors, peers and subordinates.\n\n
+    Commitment: Complete devotion to duty.\n\n
+    Energy: An enthusiasm and drive to take the initiative.\n\n
+    Decisiveness: A willingness to act.\n\n
+    Selflessness: Sacrificing personal requirements for a greater cause.</string>
+
+    <!-- Have to be one string to be continuous-->
+    <string name="af_leadership_principles"> Know your job: People will follow a competent person who has the knowledge needed to complete the mission successfully.\n\n
+    Know yourself: Knowing your own strengths and weaknesses is important to successful leadership.\n\n
+    Set The Example: You must set the standard for the unit. People will emulate your standards of personal conduct and appearance.\n\n
+    Care for people: If people believe they are cared for, the leader is in a position to earn their confidence, respect and loyalty.\n\n
+    Communicate: Information should flow continuously throughout the organization.\n\n
+    Educate: People should be properly trained to do their jobs.\n\n
+    Equip: It is also your responsibility to ensure the unit is equipped properly.\n\n
+    Motivate: Your greatest challenge is motivating subordinates to achieve the high standards set for them.\n\n
+    Accept your responsibility:  As a leader you are responsible for performing the unit’s mission. If you fail, you are accountable for the consequences. Any unwillingness to accept responsibility for failure destroys your credibility as a leader and breaks the bond of respect and loyalty.\n\n
+    Develop teamwork: As a leader you must mold a collection of individual performers into a cohesive team which works together to accomplish the mission.\n\n
+    </string>
+
+    <string-array name="airforce_ribbon_array">
+        <item>Gen JF Curry Achievement Award (CAP) - </item>
+        <item>Gen Billy Mitchell Award (CAP) - </item>
+        <item>Amelia Earhart Award (CAP) - </item>
+        <item>Gen Ira C Eaker Award (CAP) - </item>
+        <item>Gen Carl Spaatz Award (CAP) - </item>
+        <item>Longevity Ribbon - Successfully complete an Aerospace Science course with a “C” or better grade.</item>
+        <item>Dress and Appearance Ribbon - Wear uniform on all designated uniform days and conform with all AFJROTC dress and appearance standards. Scored 92 &#37; or higher on all inspections.</item>
+        <item>Attendance Ribbon - Awarded to cadets with no unexcused absences. Max of four excused absences and no more than 1 tardy during the term.</item>
+        <item>Activities Ribbon - Participate in two formally scheduled co-curricular activities such as parades, academic meets, etc. to receive award each school year. Participate in four additional activities to receive additional clusters.</item>
+        <item>Recruiting Ribbon - Awarded for outstanding effort in support of recruiting activities. Recruited at least two cadets.</item>
+        <item>Health and Wellness - Participate in a regular physical conditioning program. Devices may be earned for superior performance as specified in the H and W Program guidelines.</item>
+        <item>Service Ribbon - Show distinctive performance in a minimum of three school, community, or AFJROTC service projects each school year. Includes AFJROTC  fundraising (min of 10 hrs of service required)</item>
+        <item>Good Conduct Ribbon - No suspensions of any kind, no adverse reports from any faculty, no tardy reports in a semester.  No skipped uniform inspections.</item>
+        <item>Marksmanship Ribbon</item>
+        <item>Saber Team Ribbon - Awarded for distinguished participation in at least 75 &#37; of events.</item>
+        <item>Color Guard Ribbon - Participate in at least 75 &#37; of all scheduled Color Guard practices or 10 formal events in which selected to participate.</item>
+        <item>Drill Team Ribbon - Participate in at least 75 &#37; of all scheduled Drill Team practices and events in which selected to participate.</item>
+        <item>Co-curricular Activities Leadership Ribbon - Demonstrate exceptional leadership as project officer for AFJROTC Co-curricular activity (Dining-In, Cadet  Ball, newsletter editor, Drill Team Commander, Color Guard Team Commander, orientation program coordinator etc.  Note: May be earned up to four times.</item>
+        <item>Orienteering Team Award - Awarded to team members for placing first, second or third place in an orienteering meet.</item>
+        <item>Special Teams Competition - Awarded to drill team members for placing first, second or third place in an Air Force or Joint Service drill meet. </item>
+        <item>Leadership School Ribbon - Successfully complete Leadership School.</item>
+        <item>Academic Ribbon - Achieve an “A” in AFJROTC during term and an overall “B” GPA with no failures.</item>
+        <item>Superior Performance Ribbon - Render outstanding achievement or meritorious service in behalf of AFJROTC for a single or sustained act of a superior nature. National Merit Finalists, yearbook editor, most valuable athlete, outstanding performer in community sanctioned activity.</item>
+        <item>Achievement Ribbon - Accomplish significant documented achievement (community/school services, ROTC Scholarship, Academy appointment, contest winner, Athletic achievement, Valedictorian/Salutatorian, etc.)  “C” average in AFJROTC. Awarded once each school year.</item>
+        <item>Leadership Ribbon - Be assigned and excel in leadership position. Exhibit outstanding performance.</item>
+        <item>The Outstanding Cadet Ribbon - Show high morals and outstanding military potential. Demonstrate positive personal character. Attain academic and military excellence. </item>
+        <item>Top Performer Award - The Cadet Top Performer Award is a Headquarters, AFJROTC award presented to a maximum of 2 &#37; of the current unit cadet corps population.</item>
+        <item>Outstanding Flight Ribbon - Awarded to members of the outstanding flight under criteria determined by the SASI (usually uniform grades, test grades and drill competition).</item>
+        <item>Outstanding Organization Award -  Awarded to cadets enrolled during the academic year when a unit is selected by HQ AFJROTC to receive the OOA. </item>
+        <item>Distinguished Unit Award - Be enrolled in AFJROTC at Seneca High School during period of award and making satisfactory progress</item>
+        <item>Air Commando Association Award - Awarded annually at the SASI‘s discretion for completing a one page essay based on a historical AF Special Operations Mission possessing the thirteen critical attributes of success: integrity, self-motivation, intelligence, self-discipline, perseverance, adaptability, maturity, judgment, selflessness, leadership, skilled, physical fitness and family strength. This award consists of a ribbon and certificate</item>
+        <item>National Society United States Daughters of 1812 - Awarded annually, at the SASI‘s discretion, for academic excellence, leadership, military discipline, dependability, patriotism and upright character in speech and habits. </item>
+        <item>Celebrate Freedom Award - Awarded annually, at the SASI‘s discretion, for outstanding performance in academics and cadets corps activities as a first or second year JROTC cadet</item>
+        <item>The Retired Enlisted Association Award - Awarded annually, at the SASI‘s discretion, for exceptional leadership to the most outstanding AFJROTC cadet while serving in an Enlisted Rank. The selected enlisted cadet must have shown outstanding leadership throughout the course of the school year. This award consists of a medal set with ribbon and a certificate from TREA. </item>
+        <item>Tuskegee Airmen Inc AFJROTC Cadet Award - Attain a grade of “B” or better in AFJROTC. Be in good academic standing. Actively participate in cadet corps activities. Participate in at least 50 &#37; of all service projects.</item>
+        <item>Sons of Confederate Hunley Award - This award should go to a rising second year cadet who has demonstrated the qualities of Honor, Courage and in particular Commitment to his/her unit throughout the school year.</item>
+        <item>Sons of Union Veterans of the Civil War - Show patriotism demonstrated a high degree of academic excellence and leadership ability.</item>
+        <item>Air Force Sergeant Association - Be in top 25 &#37; of AS-III or IV. Show outstanding leadership, discipline, character, and citizenship. Not have received award previously</item>
+        <item>Military Order of the Purple Heart - Show positive attitude towards country and AFJROTC. Outstanding performer in Corps leadership position. Be active in school and community. Have “B” in all subjects. Not have received award previously.</item>
+        <item>Scottish Rite, Southern Jurisdiction Award - High degree of leadership, military bearing, and all around excellence. Top 25 &#37; of high school class.</item>
+        <item>Sons of the American Revolution Award - Show high degree of leadership potential military bearing, and excellence in AFJROTC.  Be in top 10 &#37; of AS class and upper 20 &#37; of high school class.</item>
+        <item>National Sojourners Award - Be in upper 25 &#37; of high school class.  Encourage and demonstrate Americanism.  Show leadership potential. Not have received award previously.</item>
+        <item>Veterans of Foreign Wars Award - Show positive attitude towards AFJROTC. Have outstanding military bearing and conduct. Have strong positive character. Be patriotic with leadership potential. Have “B” in AFJROTC and “C” in all other classes. Be active in student activities. Not have received award previously</item>
+        <item>Military Officers Association Award - Be a junior academically in good standing. Exhibit high morals and loyalty. Have exceptional military leadership potential.</item>
+        <item>The Military Order of World Wars Medal - Excel in all academics and military training. Actively participate in Extracurricular activities. Want to serve country and to continue in AFJROTC.</item>
+        <item>Reserve Officers Association Award - Have a positive attitude, outstanding personal appearance, character, courtesy, growth potential, and strong ethics. Be in upper 10 &#37; of AS class.</item>
+        <item>American Veterans Award - Possess positive attitude, outstanding personal appearance and character, and officer potential. Have “A” in AS-I and “C” in all classes at time of selection and presentation.</item>
+        <item>Daughters of the American Revolution Award - Top 25 &#37; AS IV and high school class. Be dependable with good character, disciplined, a strong leader, and committed to importance of AFJROTC training.</item>
+        <item>American Legion General Military Excellence Award - General military excellence.  Top 25 &#37; of AS-III or IV Outstanding leadership, discipline, character, and citizenship.</item>
+        <item>American Legion Scholastic Award - Overall scholastic achievement.  Top 10 &#37; of high school class and top 25 &#37; of AS-III or IV.  Demonstrate leadership and participate in student activities.</item>
+        <item>Daedalian Award - Demonstrate patriotism, love of country, and service.  Potential and desire to pursue a military career. Top 10 &#37; of AS III class and top 20 &#37; of high school class.</item>
+        <item>Air Force Association Award - Excel in position of responsibility, exhibit strong attitude; exemplary personal appearance, personal attributes, and courtesy; and show growth potential. Top 5 &#37; of AS-III and top 10 &#37; of high school class. Recommended for Outstanding Cadet Ribbon by SASI.</item>
+        <item>Community Service with Excellence Award - Significant leadership in the planning/execution of a major unit community service project.</item>
+        <item>Cadet Humanitarian Award - Humanitarian act above call of duty in response to a natural disaster or catastrophe</item>
+        <item>Air Force Valor Award (Silver) - Voluntary act of heroism which does not involve risk of life.</item>
+        <item>Air Force Valor Award (Gold) - Voluntary act of bravery and self-sacrifice involving conspicuous risk of life beyond call of duty.</item>
+    </string-array>
+
+    <string-array name="afjrotc_knowledge">
+        <item>Chain of Command</item>
+        <item>Airforce Knowledge</item>
+        <item>Airforce Rank/Rate Structure</item>
+        <item>Cadet Rank/Rate Structure</item>
+        <item>Airforce Leadership Principles</item>
+        <item>Airforce Leadership Traits</item>
+        <item>Uniform Inspection Check</item>
+    </string-array>
+
+
+
+    <string-array name="airforce_coc_array">
+        <item>Commander in Chief - Donald J. Trump</item>
+        <item>Vice President - Mike Pence</item>
+        <item>Speaker of the House - Nancy Pelosi</item>
+        <item>Secretary of State - Mike Pompeo</item>
+        <item>Secretary of Defense - Patrick M. Shanahan</item>
+        <item>Secretary of the Air Force - Heather Wilson</item>
+        <item>Chief of staff of the Air Force - General David L.Goldfein</item>
+        <item>Chief Master Sergeant of the Air Force - CMSAF Kaleth O. Wright</item>
+        <item>Commander, Air Educational and Training Command - Lt. General Darryl L. Roberson</item>
+    </string-array>
+
+    <string name = "afjrotc_ribbons">AFJROTC Ribbons</string>
+
+    <string name="afjrotc_airforce_established"> The United States Airforce was established on September 18th, 1947
+    as its own seperate branch of the U.S Armed Forces after the National Security Act 1947.</string>
+
+    <string name="afjrotc_airforce_creed">
+        I am an American Airman.\n
+        I am a Warrior.\n
+        I have answered my Nation’s call.\n\n
+
+        I am an American Airman.\n
+        My mission is to Fly, Fight, and Win.
+        I am faithful to a Proud Heritage,\n
+        A Tradition of Honor,\n
+        And a Legacy of Valor.\n\n
+
+        I am an American Airman.
+        Guardian of Freedom and Justice,\n
+        My Nation’s Sword and Shield,\n
+        Its Sentry and Avenger.\n
+        I defend my Country with my Life.\n\n
+
+        I am an American Airman.
+        Wingman, Leader, Warrior.\n
+        I will never leave an Airman behind,\n
+        I will never falter,\n
+        And I will not fail.</string>
+
+    <string name="afjrotc_cadet_creed">
+        Air Force JROTC Cadet Creed\n\n
+        I am an Air Force Junior ROTC Cadet.I am connected and faithful to every Corps of Cadets who served their community and nation with patriotism.\n
+        I earn respect when I uphold the Core Values of Integrity First, Service Before Self, and Excellence In All We Do.\n
+        I will always conduct myself to bring credit to my family, school, Corps of Cadets, community, and to myself.\n
+        My character defines me. I will not lie, cheat, or steal. I am accountable for my actions and deeds.\n
+        I will hold others accountable for their actions as well.\n
+        I will honor those I serve with, those who have gone before me, and those who will come after me.\n
+        I am a Patriot, a Leader, and a Wingman devoted to those I follow, serve, and lead.\n
+        I am an Air Force Junior ROTC Cadet.\n\n
+    </string>
+
+    <string name="afjrotc_all_knowledge">
+        -The United States Airforce was established on September 18th, 1947
+    as its own seperate branch of the U.S Armed Forces after the National Security Act 1947.\n\n
+
+        Air Force JROTC Cadet Creed\n\n
+        I am an Air Force Junior ROTC Cadet.I am connected and faithful to every Corps of Cadets who served their community and nation with patriotism.\n
+        I earn respect when I uphold the Core Values of Integrity First, Service Before Self, and Excellence In All We Do.\n
+        I will always conduct myself to bring credit to my family, school, Corps of Cadets, community, and to myself.\n
+        My character defines me. I will not lie, cheat, or steal. I am accountable for my actions and deeds.\n
+        I will hold others accountable for their actions as well.\n
+        I will honor those I serve with, those who have gone before me, and those who will come after me.\n
+        I am a Patriot, a Leader, and a Wingman devoted to those I follow, serve, and lead.\n
+        I am an Air Force Junior ROTC Cadet.\n\n
+
+        AIRMANS CREED\n\n
+        I am an American Airman.\n
+        I am a Warrior.\n
+        I have answered my Nation’s call.\n\n
+
+        I am an American Airman.\n
+        My mission is to Fly, Fight, and Win.
+        I am faithful to a Proud Heritage,\n
+        A Tradition of Honor,\n
+        And a Legacy of Valor.\n\n
+
+        I am an American Airman.
+        Guardian of Freedom and Justice,\n
+        My Nation’s Sword and Shield,\n
+        Its Sentry and Avenger.\n
+        I defend my Country with my Life.\n\n
+
+        I am an American Airman.
+        Wingman, Leader, Warrior.\n
+        I will never leave an Airman behind,\n
+        I will never falter,\n
+        And I will not fail.\n\n
+    </string>
+</resources>
