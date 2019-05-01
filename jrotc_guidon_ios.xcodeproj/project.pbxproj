@@ -16,6 +16,7 @@
 		15D309E72231C54500D6D6CA /* jrotc_guidon_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D309E62231C54500D6D6CA /* jrotc_guidon_iosTests.swift */; };
 		15D309F22231C54500D6D6CA /* jrotc_guidon_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D309F12231C54500D6D6CA /* jrotc_guidon_iosUITests.swift */; };
 		3F546B68224E604D00003CE2 /* mcjrotcCadetRibbons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F546B67224E604D00003CE2 /* mcjrotcCadetRibbons.swift */; };
+		3F6474482279324E0062C901 /* marine_strings.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F6474472279324E0062C901 /* marine_strings.xml */; };
 		A2142F3E2238290F00CF2ABF /* afjrotcRibbonsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2142F3D2238290F00CF2ABF /* afjrotcRibbonsTableController.swift */; };
 		A26AE7AD224AB24800B9A8AC /* ajrotcCadetRibbons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26AE7AC224AB24800B9A8AC /* ajrotcCadetRibbons.swift */; };
 		A2C1EE3422789FE300C376E2 /* mcjrotcKnowledgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C1EE3322789FE300C376E2 /* mcjrotcKnowledgeView.swift */; };
@@ -55,6 +56,7 @@
 		15D309F32231C54600D6D6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15D30A022235D15200D6D6CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		3F546B67224E604D00003CE2 /* mcjrotcCadetRibbons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mcjrotcCadetRibbons.swift; sourceTree = "<group>"; };
+		3F6474472279324E0062C901 /* marine_strings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = marine_strings.xml; path = ../../CompleteJrotcApp/app/src/main/res/values/marine_strings.xml; sourceTree = "<group>"; };
 		A2142F3522380AA000CF2ABF /* jrotc_guidon_ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jrotc_guidon_ios-Bridging-Header.h"; sourceTree = "<group>"; };
 		A2142F3D2238290F00CF2ABF /* afjrotcRibbonsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = afjrotcRibbonsTableController.swift; sourceTree = "<group>"; };
 		A26AE7AC224AB24800B9A8AC /* ajrotcCadetRibbons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ajrotcCadetRibbons.swift; path = "../New Groupibbons/ajrotcCadetRibbons.swift"; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				15D309D32231C47C00D6D6CA /* ViewController.swift */,
 				A2C1EE3322789FE300C376E2 /* mcjrotcKnowledgeView.swift */,
 				15D309D52231C47E00D6D6CA /* Main.storyboard */,
+				3F6474472279324E0062C901 /* marine_strings.xml */,
 				15405FFF2277E1B400B4E626 /* mcjrotcTableView.swift */,
 				15D309D82231C54400D6D6CA /* Assets.xcassets */,
 				15D309DA2231C54400D6D6CA /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				15D309DC2231C54400D6D6CA /* LaunchScreen.storyboard in Resources */,
 				15D309D92231C54400D6D6CA /* Assets.xcassets in Resources */,
+				3F6474482279324E0062C901 /* marine_strings.xml in Resources */,
 				15D309D72231C47E00D6D6CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
