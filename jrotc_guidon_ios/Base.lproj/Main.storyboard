@@ -5275,7 +5275,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bXL-Ju-uJ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4080.8000000000002" y="26.53673163418291"/>
+            <point key="canvasLocation" x="3945" y="25"/>
         </scene>
         <!--MCJROTC Menu-->
         <scene sceneID="xcl-bK-SyB">
@@ -5527,6 +5527,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.10324727559999999" green="0.24476205340000001" blue="0.51483565409999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="hqx-Ep-jm1" kind="show" id="0Ch-o2-MWn"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="mki-T6-pgq">
                                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -6042,7 +6045,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QmN-sY-Xqd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4775" y="28"/>
+            <point key="canvasLocation" x="4629" y="25"/>
         </scene>
         <!--USMC Leadership Principles-->
         <scene sceneID="vsp-A1-ftd">
@@ -6319,7 +6322,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3tY-9u-zAd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5494" y="27"/>
+            <point key="canvasLocation" x="5310" y="27"/>
         </scene>
         <!--NJROTC Ribbons-->
         <scene sceneID="t4f-xh-jmw">
@@ -19069,6 +19072,414 @@
             </objects>
             <point key="canvasLocation" x="1336" y="743"/>
         </scene>
+        <!--Table View Controller-->
+        <scene sceneID="xYi-zj-Fs6">
+            <objects>
+                <tableViewController id="hqx-Ep-jm1" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="QWL-bL-WhL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection headerTitle="USMC Chain of Command" id="ZEu-j0-tge">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="114" id="pJJ-IZ-tj9">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="114"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pJJ-IZ-tj9" id="QsY-z5-z9c">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="113.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="potus" translatesAutoresizingMaskIntoConstraints="NO" id="Hf0-cb-lTl">
+                                                    <rect key="frame" x="13" y="7" width="98" height="99.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="President Commander in Cheif- Donald J. Trump" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTE-L3-IvH">
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="WTE-L3-IvH" secondAttribute="trailing" constant="39" id="1CL-Pt-NUs"/>
+                                                <constraint firstItem="WTE-L3-IvH" firstAttribute="leading" secondItem="Hf0-cb-lTl" secondAttribute="trailing" constant="8" symbolic="YES" id="MSQ-78-hOD"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="WTE-L3-IvH" secondAttribute="bottom" constant="-11" id="TH3-eJ-tnq"/>
+                                                <constraint firstItem="Hf0-cb-lTl" firstAttribute="top" secondItem="QsY-z5-z9c" secondAttribute="topMargin" constant="-4" id="V0t-NH-H3o"/>
+                                                <constraint firstItem="WTE-L3-IvH" firstAttribute="centerY" secondItem="QsY-z5-z9c" secondAttribute="centerY" id="mbU-q4-Te8"/>
+                                                <constraint firstItem="WTE-L3-IvH" firstAttribute="leading" secondItem="Hf0-cb-lTl" secondAttribute="trailing" constant="8" id="r8a-8A-L8t"/>
+                                                <constraint firstItem="Hf0-cb-lTl" firstAttribute="leading" secondItem="QsY-z5-z9c" secondAttribute="leadingMargin" constant="-7" id="seK-Bq-4Zm"/>
+                                                <constraint firstItem="WTE-L3-IvH" firstAttribute="centerY" secondItem="Hf0-cb-lTl" secondAttribute="centerY" id="vUh-aP-riA"/>
+                                                <constraint firstItem="WTE-L3-IvH" firstAttribute="leading" secondItem="QsY-z5-z9c" secondAttribute="leading" constant="119" id="vtL-op-vSL"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="114" id="T6t-F8-gKa">
+                                        <rect key="frame" x="0.0" y="142" width="414" height="114"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="T6t-F8-gKa" id="ZnA-4Q-406">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="113.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vicepotus" translatesAutoresizingMaskIntoConstraints="NO" id="pnb-7O-KYg">
+                                                    <rect key="frame" x="13" y="7" width="98" height="99.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vice President - Mike Pence" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWg-kd-966">
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="EWg-kd-966" secondAttribute="bottom" constant="-11" id="13V-Jo-OVH"/>
+                                                <constraint firstAttribute="trailing" secondItem="EWg-kd-966" secondAttribute="trailing" constant="39" id="5Vs-2o-E06"/>
+                                                <constraint firstItem="EWg-kd-966" firstAttribute="leading" secondItem="pnb-7O-KYg" secondAttribute="trailing" constant="8" symbolic="YES" id="Bh5-sv-O9R"/>
+                                                <constraint firstItem="EWg-kd-966" firstAttribute="centerY" secondItem="ZnA-4Q-406" secondAttribute="centerY" id="NnU-1l-kqd"/>
+                                                <constraint firstItem="pnb-7O-KYg" firstAttribute="leading" secondItem="ZnA-4Q-406" secondAttribute="leadingMargin" constant="-7" id="QQ0-dw-MeR"/>
+                                                <constraint firstItem="EWg-kd-966" firstAttribute="leading" secondItem="ZnA-4Q-406" secondAttribute="leading" constant="119" id="bv8-sQ-na1"/>
+                                                <constraint firstItem="EWg-kd-966" firstAttribute="centerY" secondItem="pnb-7O-KYg" secondAttribute="centerY" id="ph7-o7-OAj"/>
+                                                <constraint firstItem="EWg-kd-966" firstAttribute="leading" secondItem="pnb-7O-KYg" secondAttribute="trailing" constant="8" id="v5g-Md-PTa"/>
+                                                <constraint firstItem="pnb-7O-KYg" firstAttribute="top" secondItem="ZnA-4Q-406" secondAttribute="topMargin" constant="-4" id="wUH-Lf-3n4"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="114" id="hiC-a0-gbU">
+                                        <rect key="frame" x="0.0" y="256" width="414" height="114"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hiC-a0-gbU" id="7LC-lr-iye">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="113.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="speaker_of_the_house" translatesAutoresizingMaskIntoConstraints="NO" id="h2u-hA-tzV">
+                                                    <rect key="frame" x="13" y="7" width="98" height="99.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speaker of the House - Nancy Pelosi" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhr-DU-AjZ">
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="h2u-hA-tzV" firstAttribute="leading" secondItem="7LC-lr-iye" secondAttribute="leadingMargin" constant="-7" id="0Yb-Ya-dWb"/>
+                                                <constraint firstItem="h2u-hA-tzV" firstAttribute="top" secondItem="7LC-lr-iye" secondAttribute="topMargin" constant="-4" id="Mqj-wi-7It"/>
+                                                <constraint firstAttribute="trailing" secondItem="vhr-DU-AjZ" secondAttribute="trailing" constant="39" id="Tl0-IZ-eqf"/>
+                                                <constraint firstItem="vhr-DU-AjZ" firstAttribute="leading" secondItem="h2u-hA-tzV" secondAttribute="trailing" constant="8" id="acP-bk-zuz"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="vhr-DU-AjZ" secondAttribute="bottom" constant="-11" id="eFQ-zq-pGM"/>
+                                                <constraint firstItem="vhr-DU-AjZ" firstAttribute="centerY" secondItem="7LC-lr-iye" secondAttribute="centerY" id="fVc-y7-ptJ"/>
+                                                <constraint firstItem="vhr-DU-AjZ" firstAttribute="centerY" secondItem="h2u-hA-tzV" secondAttribute="centerY" id="gHS-75-TIs"/>
+                                                <constraint firstItem="vhr-DU-AjZ" firstAttribute="leading" secondItem="h2u-hA-tzV" secondAttribute="trailing" constant="8" symbolic="YES" id="mXr-Nw-kY2"/>
+                                                <constraint firstItem="vhr-DU-AjZ" firstAttribute="leading" secondItem="7LC-lr-iye" secondAttribute="leading" constant="119" id="yhN-X2-p4u"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="114" id="E3j-35-GLD">
+                                        <rect key="frame" x="0.0" y="370" width="414" height="114"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="E3j-35-GLD" id="jIw-S8-FSB">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="113.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="secstate" translatesAutoresizingMaskIntoConstraints="NO" id="qg2-mA-YPL">
+                                                    <rect key="frame" x="13" y="7" width="98" height="99.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Secretary of State - Mike Pompeo" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lv-VL-C5z">
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="5lv-VL-C5z" firstAttribute="leading" secondItem="qg2-mA-YPL" secondAttribute="trailing" constant="8" id="5aP-yg-Qe8"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="5lv-VL-C5z" secondAttribute="bottom" constant="-11" id="84X-gw-aAM"/>
+                                                <constraint firstItem="5lv-VL-C5z" firstAttribute="leading" secondItem="jIw-S8-FSB" secondAttribute="leading" constant="119" id="C2F-LP-8R7"/>
+                                                <constraint firstItem="5lv-VL-C5z" firstAttribute="centerY" secondItem="qg2-mA-YPL" secondAttribute="centerY" id="GfC-TU-wNU"/>
+                                                <constraint firstItem="qg2-mA-YPL" firstAttribute="leading" secondItem="jIw-S8-FSB" secondAttribute="leadingMargin" constant="-7" id="Kd8-Jv-4XP"/>
+                                                <constraint firstItem="qg2-mA-YPL" firstAttribute="top" secondItem="jIw-S8-FSB" secondAttribute="topMargin" constant="-4" id="eOK-zi-25L"/>
+                                                <constraint firstItem="5lv-VL-C5z" firstAttribute="centerY" secondItem="jIw-S8-FSB" secondAttribute="centerY" id="fXj-2B-xxk"/>
+                                                <constraint firstAttribute="trailing" secondItem="5lv-VL-C5z" secondAttribute="trailing" constant="39" id="hlk-hO-75y"/>
+                                                <constraint firstItem="5lv-VL-C5z" firstAttribute="leading" secondItem="qg2-mA-YPL" secondAttribute="trailing" constant="8" symbolic="YES" id="rdG-O8-sSP"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="114" id="E8q-Ma-puW">
+                                        <rect key="frame" x="0.0" y="484" width="414" height="114"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="E8q-Ma-puW" id="p6I-gL-WXq">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="113.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="secdef" translatesAutoresizingMaskIntoConstraints="NO" id="FUn-sk-nE0">
+                                                    <rect key="frame" x="13" y="7" width="98" height="99.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Secretary of Defense - Patrick M. Shanahan" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kna-mQ-amV">
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="kna-mQ-amV" secondAttribute="trailing" constant="39" id="15C-gc-jc1"/>
+                                                <constraint firstItem="FUn-sk-nE0" firstAttribute="leading" secondItem="p6I-gL-WXq" secondAttribute="leadingMargin" constant="-7" id="8Qj-Rd-OAg"/>
+                                                <constraint firstItem="FUn-sk-nE0" firstAttribute="top" secondItem="p6I-gL-WXq" secondAttribute="topMargin" constant="-4" id="C7z-5e-I4U"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="kna-mQ-amV" secondAttribute="bottom" constant="-11" id="D0s-db-fA0"/>
+                                                <constraint firstItem="kna-mQ-amV" firstAttribute="leading" secondItem="FUn-sk-nE0" secondAttribute="trailing" constant="8" symbolic="YES" id="Dl5-Ra-9BS"/>
+                                                <constraint firstItem="kna-mQ-amV" firstAttribute="leading" secondItem="p6I-gL-WXq" secondAttribute="leading" constant="119" id="WnK-tW-qtF"/>
+                                                <constraint firstItem="kna-mQ-amV" firstAttribute="centerY" secondItem="p6I-gL-WXq" secondAttribute="centerY" id="XRx-Rs-37e"/>
+                                                <constraint firstItem="kna-mQ-amV" firstAttribute="centerY" secondItem="FUn-sk-nE0" secondAttribute="centerY" id="rG5-0E-6Vp"/>
+                                                <constraint firstItem="kna-mQ-amV" firstAttribute="leading" secondItem="FUn-sk-nE0" secondAttribute="trailing" constant="8" id="zcM-93-bzg"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="114" id="glu-oP-A8p">
+                                        <rect key="frame" x="0.0" y="598" width="414" height="114"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="glu-oP-A8p" id="WL3-4i-Uvd">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="113.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sec_army" translatesAutoresizingMaskIntoConstraints="NO" id="erW-6X-GJj">
+                                                    <rect key="frame" x="13" y="7" width="98" height="99.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Secretary of the Army - Dr. Mark T. Esper" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tek-DP-m4h">
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="tek-DP-m4h" firstAttribute="centerY" secondItem="erW-6X-GJj" secondAttribute="centerY" id="6Rd-04-rYh"/>
+                                                <constraint firstItem="tek-DP-m4h" firstAttribute="leading" secondItem="WL3-4i-Uvd" secondAttribute="leading" constant="119" id="HjI-ef-yt3"/>
+                                                <constraint firstAttribute="trailing" secondItem="tek-DP-m4h" secondAttribute="trailing" constant="39" id="Xmv-2u-R8J"/>
+                                                <constraint firstItem="tek-DP-m4h" firstAttribute="leading" secondItem="erW-6X-GJj" secondAttribute="trailing" constant="8" symbolic="YES" id="aDL-mW-C52"/>
+                                                <constraint firstItem="tek-DP-m4h" firstAttribute="leading" secondItem="erW-6X-GJj" secondAttribute="trailing" constant="8" id="k1I-qj-aph"/>
+                                                <constraint firstItem="erW-6X-GJj" firstAttribute="leading" secondItem="WL3-4i-Uvd" secondAttribute="leadingMargin" constant="-7" id="lIt-Dg-06N"/>
+                                                <constraint firstItem="tek-DP-m4h" firstAttribute="centerY" secondItem="WL3-4i-Uvd" secondAttribute="centerY" id="taw-fJ-1BD"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="tek-DP-m4h" secondAttribute="bottom" constant="-11" id="uAM-ax-Uot"/>
+                                                <constraint firstItem="erW-6X-GJj" firstAttribute="top" secondItem="WL3-4i-Uvd" secondAttribute="topMargin" constant="-4" id="xT2-A0-piM"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="114" id="AWv-kD-qQZ">
+                                        <rect key="frame" x="0.0" y="712" width="414" height="114"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AWv-kD-qQZ" id="bLI-p5-uil">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="113.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_chief_of_staff" translatesAutoresizingMaskIntoConstraints="NO" id="1sr-5j-FqY">
+                                                    <rect key="frame" x="13" y="7" width="98" height="99.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="United States Army Chief of Staff - General Mark A. Milley" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QaI-uT-ALi">
+                                                    <rect key="frame" x="119" y="2" width="256" height="109.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="QaI-uT-ALi" firstAttribute="centerY" secondItem="bLI-p5-uil" secondAttribute="centerY" id="3Xe-hJ-8Hu"/>
+                                                <constraint firstItem="1sr-5j-FqY" firstAttribute="top" secondItem="bLI-p5-uil" secondAttribute="topMargin" constant="-4" id="492-He-2Wj"/>
+                                                <constraint firstItem="1sr-5j-FqY" firstAttribute="leading" secondItem="bLI-p5-uil" secondAttribute="leadingMargin" constant="-7" id="67x-F1-eOM"/>
+                                                <constraint firstItem="QaI-uT-ALi" firstAttribute="centerY" secondItem="1sr-5j-FqY" secondAttribute="centerY" id="6Qo-oo-fgj"/>
+                                                <constraint firstAttribute="trailing" secondItem="QaI-uT-ALi" secondAttribute="trailing" constant="39" id="9h1-fH-hy3"/>
+                                                <constraint firstItem="QaI-uT-ALi" firstAttribute="leading" secondItem="1sr-5j-FqY" secondAttribute="trailing" constant="8" id="9v3-pq-4If"/>
+                                                <constraint firstItem="QaI-uT-ALi" firstAttribute="leading" secondItem="bLI-p5-uil" secondAttribute="leading" constant="119" id="MRz-2t-euI"/>
+                                                <constraint firstItem="QaI-uT-ALi" firstAttribute="leading" secondItem="1sr-5j-FqY" secondAttribute="trailing" constant="8" symbolic="YES" id="Oe6-DR-Hra"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="QaI-uT-ALi" secondAttribute="bottom" constant="-8.5" id="Zv1-ee-qR8"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="114" id="cfj-9N-FBo">
+                                        <rect key="frame" x="0.0" y="826" width="414" height="114"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cfj-9N-FBo" id="aYZ-7Q-FNy">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="113.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_training_commanding_general" translatesAutoresizingMaskIntoConstraints="NO" id="Kij-gS-8wg">
+                                                    <rect key="frame" x="13" y="7" width="98" height="99.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commanding General,U.S. Army Training and Doctrine Command - General Stephen J. Townsend" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqH-FV-C6X">
+                                                    <rect key="frame" x="119" y="2" width="256" height="109.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="Kij-gS-8wg" firstAttribute="top" secondItem="aYZ-7Q-FNy" secondAttribute="topMargin" constant="-4" id="2l4-e4-zm5"/>
+                                                <constraint firstItem="gqH-FV-C6X" firstAttribute="leading" secondItem="Kij-gS-8wg" secondAttribute="trailing" constant="8" symbolic="YES" id="CnU-gq-tBn"/>
+                                                <constraint firstItem="Kij-gS-8wg" firstAttribute="leading" secondItem="aYZ-7Q-FNy" secondAttribute="leadingMargin" constant="-7" id="Imp-OB-3Qd"/>
+                                                <constraint firstItem="gqH-FV-C6X" firstAttribute="centerY" secondItem="Kij-gS-8wg" secondAttribute="centerY" id="NZp-4W-O1d"/>
+                                                <constraint firstItem="gqH-FV-C6X" firstAttribute="centerY" secondItem="aYZ-7Q-FNy" secondAttribute="centerY" id="p37-9f-Yh0"/>
+                                                <constraint firstAttribute="trailing" secondItem="gqH-FV-C6X" secondAttribute="trailing" constant="39" id="ssF-VP-LLa"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="gqH-FV-C6X" secondAttribute="bottom" constant="-8.5" id="uee-yc-bPN"/>
+                                                <constraint firstItem="gqH-FV-C6X" firstAttribute="leading" secondItem="Kij-gS-8wg" secondAttribute="trailing" constant="8" id="wm1-FP-t9t"/>
+                                                <constraint firstItem="gqH-FV-C6X" firstAttribute="leading" secondItem="aYZ-7Q-FNy" secondAttribute="leading" constant="119" id="y0P-oP-ghK"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="114" id="SPI-kw-wAp">
+                                        <rect key="frame" x="0.0" y="940" width="414" height="114"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SPI-kw-wAp" id="s92-0C-njR">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="113.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_cadet_commanding_general" translatesAutoresizingMaskIntoConstraints="NO" id="w3G-1o-jXl">
+                                                    <rect key="frame" x="1" y="4" width="110" height="105.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commanding General, U.S. Army Cadet Command Major General John R. Evans, Jr." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BvX-Cv-RSQ">
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="BvX-Cv-RSQ" firstAttribute="leading" secondItem="s92-0C-njR" secondAttribute="leading" constant="119" id="7eh-Du-7G1"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="BvX-Cv-RSQ" secondAttribute="bottom" constant="-8.5" id="IIM-nf-4hx"/>
+                                                <constraint firstAttribute="trailing" secondItem="BvX-Cv-RSQ" secondAttribute="trailing" constant="39" id="Igq-Au-lCR"/>
+                                                <constraint firstItem="BvX-Cv-RSQ" firstAttribute="centerY" secondItem="w3G-1o-jXl" secondAttribute="centerY" id="M8O-Y6-W11"/>
+                                                <constraint firstItem="BvX-Cv-RSQ" firstAttribute="leading" secondItem="w3G-1o-jXl" secondAttribute="trailing" constant="8" id="g4H-UU-xQc"/>
+                                                <constraint firstItem="BvX-Cv-RSQ" firstAttribute="centerY" secondItem="s92-0C-njR" secondAttribute="centerY" id="iaw-OC-AIo"/>
+                                                <constraint firstItem="w3G-1o-jXl" firstAttribute="top" secondItem="s92-0C-njR" secondAttribute="topMargin" constant="-4" id="mYX-4a-6H9"/>
+                                                <constraint firstItem="w3G-1o-jXl" firstAttribute="leading" secondItem="s92-0C-njR" secondAttribute="leadingMargin" constant="-7" id="nfR-0t-kIY"/>
+                                                <constraint firstItem="BvX-Cv-RSQ" firstAttribute="leading" secondItem="w3G-1o-jXl" secondAttribute="trailing" constant="8" symbolic="YES" id="rLF-87-GtI"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="114" id="7BM-0g-xBk">
+                                        <rect key="frame" x="0.0" y="1054" width="414" height="114"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7BM-0g-xBk" id="PMR-h3-e6w">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="113.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sergeantmajor_of_army" translatesAutoresizingMaskIntoConstraints="NO" id="tQH-dv-pgr">
+                                                    <rect key="frame" x="1" y="4" width="110" height="105.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commanding General, U.S. Army Cadet Command Major General John R. Evans, Jr." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRM-Db-Ous">
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="kRM-Db-Ous" firstAttribute="leading" secondItem="PMR-h3-e6w" secondAttribute="leading" constant="119" id="BJT-5e-H0A"/>
+                                                <constraint firstItem="kRM-Db-Ous" firstAttribute="leading" secondItem="tQH-dv-pgr" secondAttribute="trailing" constant="8" id="Gx8-Jo-6DY"/>
+                                                <constraint firstItem="kRM-Db-Ous" firstAttribute="centerY" secondItem="PMR-h3-e6w" secondAttribute="centerY" id="QXK-ox-fud"/>
+                                                <constraint firstItem="kRM-Db-Ous" firstAttribute="centerY" secondItem="tQH-dv-pgr" secondAttribute="centerY" id="Xvv-qN-wAM"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="kRM-Db-Ous" secondAttribute="bottom" constant="-8.5" id="btU-06-kFY"/>
+                                                <constraint firstItem="tQH-dv-pgr" firstAttribute="leading" secondItem="PMR-h3-e6w" secondAttribute="leadingMargin" constant="-7" id="eDX-V7-rR4"/>
+                                                <constraint firstAttribute="trailing" secondItem="kRM-Db-Ous" secondAttribute="trailing" constant="39" id="gpi-pp-6gP"/>
+                                                <constraint firstItem="tQH-dv-pgr" firstAttribute="top" secondItem="PMR-h3-e6w" secondAttribute="topMargin" constant="-4" id="qr2-Ad-lKH"/>
+                                                <constraint firstItem="kRM-Db-Ous" firstAttribute="leading" secondItem="tQH-dv-pgr" secondAttribute="trailing" constant="8" symbolic="YES" id="yyu-bg-D3j"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="114" id="p4f-Fx-XOK">
+                                        <rect key="frame" x="0.0" y="1168" width="414" height="114"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="p4f-Fx-XOK" id="iHU-JF-bOq">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="113.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_command_sergeant_major" translatesAutoresizingMaskIntoConstraints="NO" id="TTS-TF-Ltl">
+                                                    <rect key="frame" x="1" y="4" width="110" height="105.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commanding General, U.S. Army Cadet Command Major General John R. Evans, Jr." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ED3-sY-rRo">
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="ED3-sY-rRo" firstAttribute="leading" secondItem="iHU-JF-bOq" secondAttribute="leading" constant="119" id="MkQ-9l-FbA"/>
+                                                <constraint firstAttribute="trailing" secondItem="ED3-sY-rRo" secondAttribute="trailing" constant="39" id="TqE-mI-yfc"/>
+                                                <constraint firstItem="ED3-sY-rRo" firstAttribute="leading" secondItem="TTS-TF-Ltl" secondAttribute="trailing" constant="8" symbolic="YES" id="Tyn-Nj-2MZ"/>
+                                                <constraint firstItem="TTS-TF-Ltl" firstAttribute="leading" secondItem="iHU-JF-bOq" secondAttribute="leadingMargin" constant="-7" id="UBO-yy-IDf"/>
+                                                <constraint firstItem="ED3-sY-rRo" firstAttribute="centerY" secondItem="iHU-JF-bOq" secondAttribute="centerY" id="WOl-Kn-K8X"/>
+                                                <constraint firstItem="ED3-sY-rRo" firstAttribute="leading" secondItem="TTS-TF-Ltl" secondAttribute="trailing" constant="8" id="WWz-EW-VSv"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="ED3-sY-rRo" secondAttribute="bottom" constant="-8.5" id="jka-D4-dxI"/>
+                                                <constraint firstItem="TTS-TF-Ltl" firstAttribute="top" secondItem="iHU-JF-bOq" secondAttribute="topMargin" constant="-4" id="smf-aE-uTb"/>
+                                                <constraint firstItem="ED3-sY-rRo" firstAttribute="centerY" secondItem="TTS-TF-Ltl" secondAttribute="centerY" id="yR1-NC-GeU"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="114" id="CDl-Oo-PJR">
+                                        <rect key="frame" x="0.0" y="1282" width="414" height="114"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CDl-Oo-PJR" id="7ws-Dh-fYB">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="113.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_cadet_command_sergeantmajor" translatesAutoresizingMaskIntoConstraints="NO" id="3YD-1Z-kdC">
+                                                    <rect key="frame" x="1" y="4" width="110" height="105.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commanding General, U.S. Army Cadet Command Major General John R. Evans, Jr." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TC4-UW-ddo">
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="TC4-UW-ddo" firstAttribute="centerY" secondItem="3YD-1Z-kdC" secondAttribute="centerY" id="05O-eq-JRM"/>
+                                                <constraint firstAttribute="trailing" secondItem="TC4-UW-ddo" secondAttribute="trailing" constant="39" id="HKt-gc-5Wp"/>
+                                                <constraint firstItem="TC4-UW-ddo" firstAttribute="leading" secondItem="7ws-Dh-fYB" secondAttribute="leading" constant="119" id="HZT-Yk-htH"/>
+                                                <constraint firstItem="3YD-1Z-kdC" firstAttribute="top" secondItem="7ws-Dh-fYB" secondAttribute="topMargin" constant="-4" id="IBo-Gq-M7n"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="TC4-UW-ddo" secondAttribute="bottom" constant="-8.5" id="TkL-qR-2ZP"/>
+                                                <constraint firstItem="TC4-UW-ddo" firstAttribute="leading" secondItem="3YD-1Z-kdC" secondAttribute="trailing" constant="8" id="Wdw-nX-x3J"/>
+                                                <constraint firstItem="3YD-1Z-kdC" firstAttribute="leading" secondItem="7ws-Dh-fYB" secondAttribute="leadingMargin" constant="-7" id="XBb-1C-Rqf"/>
+                                                <constraint firstItem="TC4-UW-ddo" firstAttribute="leading" secondItem="3YD-1Z-kdC" secondAttribute="trailing" constant="8" symbolic="YES" id="hU2-gw-V1s"/>
+                                                <constraint firstItem="TC4-UW-ddo" firstAttribute="centerY" secondItem="7ws-Dh-fYB" secondAttribute="centerY" id="zhd-Va-Qse"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="hqx-Ep-jm1" id="77o-EZ-TYY"/>
+                            <outlet property="delegate" destination="hqx-Ep-jm1" id="3at-aZ-9j8"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qJa-Fn-paK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3339" y="25"/>
+        </scene>
     </scenes>
     <resources>
         <image name="afjrotc_aca_ribbon" width="105" height="30"/>
@@ -19131,6 +19542,10 @@
         <image name="airforce_chief_of_staff" width="800" height="1072"/>
         <image name="airforce_commander_training_command" width="2400" height="3000"/>
         <image name="airforce_sec" width="800" height="1165"/>
+        <image name="army_cadet_command_sergeantmajor" width="2400" height="3000"/>
+        <image name="army_cadet_commanding_general" width="1200" height="1500"/>
+        <image name="army_chief_of_staff" width="800" height="1000"/>
+        <image name="army_command_sergeant_major" width="2550" height="3300"/>
         <image name="army_jrotc_academic_achievement_ribbon" width="105" height="30"/>
         <image name="army_jrotc_academic_excellence_ribbon" width="105" height="30"/>
         <image name="army_jrotc_adventure_training_ribbon" width="105" height="30"/>
@@ -19169,6 +19584,7 @@
         <image name="army_jrotc_student_government_ribbon" width="105" height="30"/>
         <image name="army_jrotc_superior_cadet_ribbon" width="105" height="30"/>
         <image name="army_jrotc_varsity_athletics_ribbon" width="105" height="30"/>
+        <image name="army_training_commanding_general" width="2550" height="3300"/>
         <image name="assistant_commadant_of_marinecorps" width="800" height="1000"/>
         <image name="commadant_of_marinecorps" width="800" height="1147"/>
         <image name="four_stars" width="625" height="250"/>
@@ -19256,9 +19672,11 @@
         <image name="no_insignia" width="2000" height="2500"/>
         <image name="one_star" width="400" height="400"/>
         <image name="potus" width="800" height="1013"/>
+        <image name="sec_army" width="800" height="1000"/>
         <image name="secdef" width="800" height="1113"/>
         <image name="secnavy" width="800" height="1000"/>
         <image name="secstate" width="800" height="1126"/>
+        <image name="sergeantmajor_of_army" width="800" height="1000"/>
         <image name="sergeantmajor_of_marinecorps" width="800" height="1000"/>
         <image name="silver_bar" width="685" height="1701"/>
         <image name="silver_eagle" width="610" height="350"/>
