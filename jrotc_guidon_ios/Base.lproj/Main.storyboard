@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rqZ-8m-swC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fgj-jN-phJ">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -63,208 +62,6 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
             </objects>
             <point key="canvasLocation" x="-4001" y="29"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Ojk-wd-mIb">
-            <objects>
-                <viewController id="gkA-xq-5vC" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="elr-FQ-3sm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cEd-T3-FdO">
-                                <rect key="frame" x="0.0" y="444" width="414" height="418"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="418" id="JLa-rG-yEy"/>
-                                    <constraint firstAttribute="width" constant="414" id="fhz-qM-PpM"/>
-                                </constraints>
-                                <sections>
-                                    <tableViewSection id="rX8-yx-Qub">
-                                        <cells>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="100" id="qhN-pV-BkQ">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qhN-pV-BkQ" id="gHN-Qy-FIV">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="99.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GbP-oS-Agi">
-                                                            <rect key="frame" x="15" y="-0.5" width="100" height="100"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="100" id="cK1-bB-kuz"/>
-                                                                <constraint firstAttribute="width" constant="100" id="v83-wp-sPv"/>
-                                                            </constraints>
-                                                        </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pSs-S6-MXt">
-                                                            <rect key="frame" x="186" y="39" width="100" height="25"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="25" id="OLE-Iv-0X9"/>
-                                                                <constraint firstAttribute="width" constant="100" id="Z0d-Tw-6XW"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                    <constraints>
-                                                        <constraint firstItem="pSs-S6-MXt" firstAttribute="leading" secondItem="GbP-oS-Agi" secondAttribute="trailing" constant="71" id="6NO-c9-bIy"/>
-                                                        <constraint firstAttribute="trailingMargin" secondItem="pSs-S6-MXt" secondAttribute="trailing" constant="108" id="DyF-cT-sA2"/>
-                                                        <constraint firstAttribute="bottomMargin" secondItem="pSs-S6-MXt" secondAttribute="bottom" constant="29" id="EYK-5o-9u4"/>
-                                                        <constraint firstItem="GbP-oS-Agi" firstAttribute="leading" secondItem="gHN-Qy-FIV" secondAttribute="leading" constant="15" id="Jj3-Br-xL0"/>
-                                                        <constraint firstAttribute="bottom" secondItem="GbP-oS-Agi" secondAttribute="bottom" id="l4W-Vk-VHh"/>
-                                                        <constraint firstAttribute="trailing" secondItem="GbP-oS-Agi" secondAttribute="trailing" constant="299" id="mlX-yH-Xcg"/>
-                                                        <constraint firstItem="pSs-S6-MXt" firstAttribute="top" secondItem="gHN-Qy-FIV" secondAttribute="topMargin" constant="28" id="pzG-M8-R4r"/>
-                                                    </constraints>
-                                                </tableViewCellContentView>
-                                            </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="100" id="5lJ-Vf-hiu">
-                                                <rect key="frame" x="0.0" y="100" width="414" height="100"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5lJ-Vf-hiu" id="czm-cp-prV">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="99.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Owo-H5-Ci6">
-                                                            <rect key="frame" x="15" y="-0.5" width="100" height="100"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="100" id="mkS-7Z-Rai"/>
-                                                                <constraint firstAttribute="width" constant="100" id="nBa-Xd-6kh"/>
-                                                            </constraints>
-                                                        </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0S-Sc-yGs">
-                                                            <rect key="frame" x="186" y="39" width="100" height="25"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" constant="100" id="16K-Ck-hPi"/>
-                                                                <constraint firstAttribute="height" constant="25" id="pDB-fU-BH3"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                    <constraints>
-                                                        <constraint firstAttribute="trailing" secondItem="Owo-H5-Ci6" secondAttribute="trailing" constant="299" id="3wf-7Y-y7P"/>
-                                                        <constraint firstItem="Owo-H5-Ci6" firstAttribute="leading" secondItem="czm-cp-prV" secondAttribute="leading" constant="15" id="FOt-Eg-McF"/>
-                                                        <constraint firstItem="s0S-Sc-yGs" firstAttribute="top" secondItem="czm-cp-prV" secondAttribute="topMargin" constant="28" id="Qwh-8t-btf"/>
-                                                        <constraint firstAttribute="trailingMargin" secondItem="s0S-Sc-yGs" secondAttribute="trailing" constant="108" id="Xc6-dG-yqF"/>
-                                                        <constraint firstAttribute="bottomMargin" secondItem="s0S-Sc-yGs" secondAttribute="bottom" constant="29" id="bAi-BL-ohh"/>
-                                                        <constraint firstAttribute="bottom" secondItem="Owo-H5-Ci6" secondAttribute="bottom" id="qdT-s9-YVI"/>
-                                                        <constraint firstItem="s0S-Sc-yGs" firstAttribute="leading" secondItem="Owo-H5-Ci6" secondAttribute="trailing" constant="71" id="t1z-qy-4Lu"/>
-                                                    </constraints>
-                                                </tableViewCellContentView>
-                                            </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="100" id="061-mY-iyZ">
-                                                <rect key="frame" x="0.0" y="200" width="414" height="100"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="061-mY-iyZ" id="6We-J9-jaM">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="99.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mG3-jZ-xUo">
-                                                            <rect key="frame" x="15" y="-0.5" width="100" height="100"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="100" id="DZy-xh-kzJ"/>
-                                                                <constraint firstAttribute="width" constant="100" id="wNN-sL-yNw"/>
-                                                            </constraints>
-                                                        </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Csm-pZ-Gk7">
-                                                            <rect key="frame" x="186" y="39" width="100" height="25"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" constant="100" id="7Po-2u-RZn"/>
-                                                                <constraint firstAttribute="height" constant="25" id="y1c-9e-zoq"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                    <constraints>
-                                                        <constraint firstAttribute="bottomMargin" secondItem="Csm-pZ-Gk7" secondAttribute="bottom" constant="29" id="Hqr-gs-y25"/>
-                                                        <constraint firstAttribute="trailing" secondItem="mG3-jZ-xUo" secondAttribute="trailing" constant="299" id="IM4-rt-TwD"/>
-                                                        <constraint firstItem="mG3-jZ-xUo" firstAttribute="leading" secondItem="6We-J9-jaM" secondAttribute="leading" constant="15" id="gI7-LP-gMj"/>
-                                                        <constraint firstAttribute="trailingMargin" secondItem="Csm-pZ-Gk7" secondAttribute="trailing" constant="108" id="iBT-Dh-dsf"/>
-                                                        <constraint firstItem="Csm-pZ-Gk7" firstAttribute="top" secondItem="6We-J9-jaM" secondAttribute="topMargin" constant="28" id="jO4-sm-7aq"/>
-                                                        <constraint firstAttribute="bottom" secondItem="mG3-jZ-xUo" secondAttribute="bottom" id="pzb-vQ-zo6"/>
-                                                        <constraint firstItem="Csm-pZ-Gk7" firstAttribute="leading" secondItem="mG3-jZ-xUo" secondAttribute="trailing" constant="71" id="vhi-aP-tIm"/>
-                                                    </constraints>
-                                                </tableViewCellContentView>
-                                            </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="100" id="udS-pZ-zQp">
-                                                <rect key="frame" x="0.0" y="300" width="414" height="100"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="udS-pZ-zQp" id="TF4-dW-LMv">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="99.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n4a-kC-kGW">
-                                                            <rect key="frame" x="15" y="-0.5" width="100" height="100"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="100" id="5ff-7c-hiJ"/>
-                                                                <constraint firstAttribute="width" constant="100" id="mhb-JI-kvL"/>
-                                                            </constraints>
-                                                        </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQS-5Z-kFt">
-                                                            <rect key="frame" x="186" y="39" width="100" height="25"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" constant="100" id="Gmx-h0-Xbt"/>
-                                                                <constraint firstAttribute="height" constant="25" id="ewb-hz-tp7"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                    <constraints>
-                                                        <constraint firstItem="pQS-5Z-kFt" firstAttribute="leading" secondItem="n4a-kC-kGW" secondAttribute="trailing" constant="71" id="068-TV-L5L"/>
-                                                        <constraint firstAttribute="trailing" secondItem="n4a-kC-kGW" secondAttribute="trailing" constant="299" id="2KD-7u-qgd"/>
-                                                        <constraint firstAttribute="bottom" secondItem="n4a-kC-kGW" secondAttribute="bottom" id="7l8-Le-6u9"/>
-                                                        <constraint firstAttribute="trailingMargin" secondItem="pQS-5Z-kFt" secondAttribute="trailing" constant="108" id="Cvp-YD-QpK"/>
-                                                        <constraint firstItem="pQS-5Z-kFt" firstAttribute="top" secondItem="TF4-dW-LMv" secondAttribute="topMargin" constant="28" id="GcT-YL-6Gb"/>
-                                                        <constraint firstItem="n4a-kC-kGW" firstAttribute="leading" secondItem="TF4-dW-LMv" secondAttribute="leading" constant="15" id="nFy-b7-hRS"/>
-                                                        <constraint firstAttribute="bottomMargin" secondItem="pQS-5Z-kFt" secondAttribute="bottom" constant="29" id="qI5-EY-wji"/>
-                                                    </constraints>
-                                                </tableViewCellContentView>
-                                            </tableViewCell>
-                                        </cells>
-                                    </tableViewSection>
-                                </sections>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="cEd-T3-FdO" firstAttribute="top" secondItem="qbO-ZD-Sam" secondAttribute="top" constant="400" id="6CG-40-oPn"/>
-                            <constraint firstItem="cEd-T3-FdO" firstAttribute="leading" secondItem="qbO-ZD-Sam" secondAttribute="leading" id="Ez7-ZP-kBF"/>
-                            <constraint firstItem="cEd-T3-FdO" firstAttribute="trailing" secondItem="qbO-ZD-Sam" secondAttribute="trailing" id="Smi-LG-frp"/>
-                            <constraint firstItem="cEd-T3-FdO" firstAttribute="bottom" secondItem="qbO-ZD-Sam" secondAttribute="bottom" id="ry9-Ea-qfW"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="qbO-ZD-Sam"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DX7-JM-UJp" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-601.44927536231887" y="-235.04464285714283"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="nvx-YZ-Uk7">
-            <objects>
-                <tabBarController id="rqZ-8m-swC" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="YTf-6D-w0n"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KQC-gY-Lou">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="nUw-RX-L3K" kind="relationship" relationship="viewControllers" id="Q62-54-8DA"/>
-                        <segue destination="sBy-3F-xVY" kind="relationship" relationship="viewControllers" id="jkg-iq-Jov"/>
-                        <segue destination="hy3-rU-1Dg" kind="relationship" relationship="viewControllers" id="RzA-Bb-fQM"/>
-                        <segue destination="TDQ-Wv-9bf" kind="relationship" relationship="viewControllers" id="cQ2-A8-nHJ"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PQL-W3-IcE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="9" y="29"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="ySQ-xf-oeg">
             <objects>
@@ -278,13 +75,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                         <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </toolbar>
-                    <connections>
-                        <segue destination="Q8D-nM-ekr" kind="relationship" relationship="rootViewController" id="2GE-Gs-dTN"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BhS-KZ-R8e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1136" y="-765"/>
+            <point key="canvasLocation" x="-2701" y="-765"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="hc1-Py-50Q">
@@ -3548,11 +3342,11 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                             <outlet property="delegate" destination="sBy-3F-xVY" id="nn4-dd-6dx"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="oEm-Cb-oZJ"/>
+                    <navigationItem key="navigationItem" id="8yG-YS-CM0"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MHF-vZ-0gJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="71" y="-765"/>
+            <point key="canvasLocation" x="1889.8550724637682" y="-765.40178571428567"/>
         </scene>
         <!--AFJROTC Main Menu-->
         <scene sceneID="ARJ-3K-J8l">
@@ -3749,11 +3543,11 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                             <outlet property="delegate" destination="TDQ-Wv-9bf" id="wko-55-BRx"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="1aw-20-SE1"/>
+                    <navigationItem key="navigationItem" id="7jm-1H-1Ra"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jz0-3p-6eW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-43.478260869565219" y="742.63392857142856"/>
+            <point key="canvasLocation" x="1679.7101449275362" y="742.63392857142856"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="Gux-t7-wyq">
@@ -4056,7 +3850,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7za-PW-rcB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2565.5999999999999" y="28.335832083958024"/>
+            <point key="canvasLocation" x="4385.507246376812" y="28.125"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="DUr-I8-O3f">
@@ -5249,7 +5043,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hoq-Nf-446" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3264.8000000000002" y="27.436281859070466"/>
+            <point key="canvasLocation" x="5084.057971014493" y="26.785714285714285"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="YDu-3L-VVd">
@@ -5529,7 +5323,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bXL-Ju-uJ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3945" y="25"/>
+            <point key="canvasLocation" x="5765.217391304348" y="24.776785714285712"/>
         </scene>
         <!--MCJROTC Menu-->
         <scene sceneID="xcl-bK-SyB">
@@ -5742,13 +5536,13 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                             <outlet property="delegate" destination="nUw-RX-L3K" id="Hui-vE-7AN"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="d72-L1-Oq6"/>
+                    <navigationItem key="navigationItem" id="6K6-eg-cDe"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3aU-KL-h04" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1170" y="29"/>
+            <point key="canvasLocation" x="2989.8550724637685" y="28.794642857142854"/>
         </scene>
-        <!--Item-->
+        <!--Table View Controller-->
         <scene sceneID="Pyt-zH-INM">
             <objects>
                 <tableViewController wantsFullScreenLayout="YES" id="hy3-rU-1Dg" sceneMemberID="viewController">
@@ -5976,7 +5770,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                             <outlet property="delegate" destination="hy3-rU-1Dg" id="0Jf-Jz-CiS"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="laj-hs-4en"/>
+                    <navigationItem key="navigationItem" id="Fnc-s6-JEl"/>
                     <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="VrO-zO-gaB">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5984,7 +5778,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yZP-83-1tB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1235" y="25"/>
+            <point key="canvasLocation" x="-1168" y="25"/>
         </scene>
         <!--USMC Leadership Traits-->
         <scene sceneID="JG1-U9-p1v">
@@ -6308,7 +6102,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QmN-sY-Xqd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4625" y="25"/>
+            <point key="canvasLocation" x="6444.9275362318849" y="24.776785714285712"/>
         </scene>
         <!--USMC Leadership Principles-->
         <scene sceneID="vsp-A1-ftd">
@@ -6585,7 +6379,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3tY-9u-zAd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5261" y="25"/>
+            <point key="canvasLocation" x="7081.1594202898559" y="24.776785714285712"/>
         </scene>
         <!--NJROTC Ribbons-->
         <scene sceneID="t4f-xh-jmw">
@@ -8587,7 +8381,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Xs-cQ-di7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="813" y="-765"/>
+            <point key="canvasLocation" x="2631.8840579710145" y="-765.40178571428567"/>
         </scene>
         <!--MCJROTC Ribbons-->
         <scene sceneID="Fx0-dh-snM">
@@ -11854,7 +11648,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MEo-4x-HD3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1872" y="29"/>
+            <point key="canvasLocation" x="3691.3043478260875" y="28.794642857142854"/>
         </scene>
         <!--AFJROTC Ribbons-->
         <scene sceneID="oaL-LH-D2W">
@@ -16237,7 +16031,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lsq-Ww-zV6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="645" y="743"/>
+            <point key="canvasLocation" x="5810.144927536232" y="742.63392857142856"/>
         </scene>
         <!--Army Ranks-->
         <scene sceneID="7Zl-pJ-VvL">
@@ -18646,7 +18440,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ydx-dV-Pdh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1499" y="-765"/>
+            <point key="canvasLocation" x="3317.3913043478265" y="-765.40178571428567"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="O5Y-fi-9wY">
@@ -19022,7 +18816,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Opu-7x-fVo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2223" y="-765"/>
+            <point key="canvasLocation" x="4042.0289855072465" y="-765.40178571428567"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="f7J-VZ-G1Z">
@@ -19334,7 +19128,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ZK-pI-cdL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1336" y="743"/>
+            <point key="canvasLocation" x="2442.0289855072465" y="742.63392857142856"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="xYi-zj-Fs6">
@@ -19934,7 +19728,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mpp-Jd-WGh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2028" y="743"/>
+            <point key="canvasLocation" x="3118.840579710145" y="742.63392857142856"/>
         </scene>
         <!--Air Force Leadership Traits-->
         <scene sceneID="pB1-7H-zZ1">
@@ -20349,7 +20143,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="quv-dy-1H7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2687" y="743"/>
+            <point key="canvasLocation" x="3826.0869565217395" y="742.63392857142856"/>
         </scene>
         <!--Air Force Leadership Traits-->
         <scene sceneID="EAV-JS-PdT">
@@ -20658,7 +20452,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YXC-dt-3wL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3355" y="743"/>
+            <point key="canvasLocation" x="4484.057971014493" y="742.63392857142856"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="feh-nQ-225">
@@ -21753,7 +21547,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RNW-Bj-TPK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4025" y="743"/>
+            <point key="canvasLocation" x="5147.826086956522" y="742.63392857142856"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="X77-hS-Xo6">
@@ -22310,7 +22104,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jlL-np-yLS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5903" y="25"/>
+            <point key="canvasLocation" x="7723.188405797102" y="24.776785714285712"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="gf6-fh-Nsr">
@@ -22902,7 +22696,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I5r-hu-Cj9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-733" y="743"/>
+            <point key="canvasLocation" x="6515.9420289855079" y="742.63392857142856"/>
         </scene>
         <!--AJROTC Cadet Ranks-->
         <scene sceneID="n4Z-PW-M4T">
@@ -24319,7 +24113,103 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4ih-58-s4d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2887" y="-765"/>
+            <point key="canvasLocation" x="4707.2463768115949" y="-765.40178571428567"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="4st-zv-a2c">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QWY-bB-cfl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="oEm-Cb-oZJ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mNV-L3-bON">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="sBy-3F-xVY" kind="relationship" relationship="rootViewController" id="35V-Ri-tkp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qbc-Ov-yxL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="979.71014492753636" y="-765.40178571428567"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="8gZ-51-q8A">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="fgj-jN-phJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4mu-1A-MCv">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="QWY-bB-cfl" kind="relationship" relationship="viewControllers" id="uSg-61-AIa"/>
+                        <segue destination="Qg7-7T-OKv" kind="relationship" relationship="viewControllers" id="Rx5-CR-cUp"/>
+                        <segue destination="wEV-7l-JHJ" kind="relationship" relationship="viewControllers" id="Doz-mA-ITt"/>
+                        <segue destination="ZhS-UZ-kgd" kind="relationship" relationship="viewControllers" id="nKT-qU-itu"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rJo-ll-R7A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="770" y="29"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="2Dc-p5-Az4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qg7-7T-OKv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="d72-L1-Oq6"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Lcd-RR-nlp">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nUw-RX-L3K" kind="relationship" relationship="rootViewController" id="exD-z0-etE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="950-IZ-RyM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2079.7101449275365" y="28.794642857142854"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="jgK-v7-exY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wEV-7l-JHJ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="laj-hs-4en"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ypn-Kd-QdI">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hy3-rU-1Dg" kind="relationship" relationship="rootViewController" id="rsw-lJ-b7u"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ju6-07-jmV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-480" y="25"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="YBQ-Am-SPP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZhS-UZ-kgd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="1aw-20-SE1"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3ad-I1-p1j">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="TDQ-Wv-9bf" kind="relationship" relationship="rootViewController" id="Rse-O4-fxR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NKu-5D-2oF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="769.56521739130437" y="742.63392857142856"/>
         </scene>
     </scenes>
     <resources>
@@ -24639,8 +24529,5 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
         <image name="usn_warrant_officer_one" width="300" height="390"/>
         <image name="vicepotus" width="800" height="1073"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="2g7-R4-CPQ"/>
-    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.2278578165" green="1" blue="0.35673695550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
