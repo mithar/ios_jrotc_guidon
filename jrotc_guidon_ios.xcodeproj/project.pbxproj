@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		154060002277E1B500B4E626 /* mcjrotcTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15405FFF2277E1B400B4E626 /* mcjrotcTableView.swift */; };
 		15D309D22231C47B00D6D6CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D309D12231C47B00D6D6CA /* AppDelegate.swift */; };
 		15D309D42231C47C00D6D6CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D309D32231C47C00D6D6CA /* ViewController.swift */; };
 		15D309D72231C47E00D6D6CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D309D52231C47E00D6D6CA /* Main.storyboard */; };
@@ -16,6 +15,10 @@
 		15D309E72231C54500D6D6CA /* jrotc_guidon_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D309E62231C54500D6D6CA /* jrotc_guidon_iosTests.swift */; };
 		15D309F22231C54500D6D6CA /* jrotc_guidon_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D309F12231C54500D6D6CA /* jrotc_guidon_iosUITests.swift */; };
 		3F546B68224E604D00003CE2 /* mcjrotcCadetRibbons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F546B67224E604D00003CE2 /* mcjrotcCadetRibbons.swift */; };
+		953FA6B322BC41020049E6E9 /* mcjrotc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953FA6B222BC41020049E6E9 /* mcjrotc.storyboard */; };
+		953FA6B522BC41A60049E6E9 /* njrotc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953FA6B422BC41A60049E6E9 /* njrotc.storyboard */; };
+		953FA6B722BC41B60049E6E9 /* ajrotc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953FA6B622BC41B60049E6E9 /* ajrotc.storyboard */; };
+		953FA6B922BC41C10049E6E9 /* afjrotc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953FA6B822BC41C10049E6E9 /* afjrotc.storyboard */; };
 		A2142F3E2238290F00CF2ABF /* afjrotcRibbonsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2142F3D2238290F00CF2ABF /* afjrotcRibbonsTableController.swift */; };
 		A26AE7AD224AB24800B9A8AC /* ajrotcCadetRibbons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26AE7AC224AB24800B9A8AC /* ajrotcCadetRibbons.swift */; };
 /* End PBXBuildFile section */
@@ -38,7 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15405FFF2277E1B400B4E626 /* mcjrotcTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mcjrotcTableView.swift; sourceTree = "<group>"; };
 		15D309CE2231C47A00D6D6CA /* jrotc_guidon_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jrotc_guidon_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D309D12231C47B00D6D6CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15D309D32231C47C00D6D6CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,10 @@
 		3F6474552279BF360062C901 /* marine_strings.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = marine_strings.xml; sourceTree = "<group>"; };
 		3F6474562279BF360062C901 /* army_jrotc_strings.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = army_jrotc_strings.xml; sourceTree = "<group>"; };
 		3F6474572279BF360062C901 /* airforce_strings.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = airforce_strings.xml; sourceTree = "<group>"; };
+		953FA6B222BC41020049E6E9 /* mcjrotc.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = mcjrotc.storyboard; sourceTree = "<group>"; };
+		953FA6B422BC41A60049E6E9 /* njrotc.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = njrotc.storyboard; sourceTree = "<group>"; };
+		953FA6B622BC41B60049E6E9 /* ajrotc.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ajrotc.storyboard; sourceTree = "<group>"; };
+		953FA6B822BC41C10049E6E9 /* afjrotc.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = afjrotc.storyboard; sourceTree = "<group>"; };
 		A2142F3522380AA000CF2ABF /* jrotc_guidon_ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jrotc_guidon_ios-Bridging-Header.h"; sourceTree = "<group>"; };
 		A2142F3D2238290F00CF2ABF /* afjrotcRibbonsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = afjrotcRibbonsTableController.swift; sourceTree = "<group>"; };
 		A26AE7AC224AB24800B9A8AC /* ajrotcCadetRibbons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ajrotcCadetRibbons.swift; path = "../New Groupibbons/ajrotcCadetRibbons.swift"; sourceTree = "<group>"; };
@@ -112,12 +118,12 @@
 		15D309D02231C47A00D6D6CA /* jrotc_guidon_ios */ = {
 			isa = PBXGroup;
 			children = (
+				953FA6B122BC40C80049E6E9 /* Storyboards */,
 				3F6474522279BF2B0062C901 /* XMLS */,
 				3F546B69224E606300003CE2 /* cadetRibbons */,
 				15D309D12231C47B00D6D6CA /* AppDelegate.swift */,
 				15D309D32231C47C00D6D6CA /* ViewController.swift */,
 				15D309D52231C47E00D6D6CA /* Main.storyboard */,
-				15405FFF2277E1B400B4E626 /* mcjrotcTableView.swift */,
 				15D309D82231C54400D6D6CA /* Assets.xcassets */,
 				15D309DA2231C54400D6D6CA /* LaunchScreen.storyboard */,
 				15D309DD2231C54400D6D6CA /* Info.plist */,
@@ -164,6 +170,17 @@
 				3F6474542279BF350062C901 /* navy_jrotc_strings.xml */,
 			);
 			path = XMLS;
+			sourceTree = "<group>";
+		};
+		953FA6B122BC40C80049E6E9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				953FA6B222BC41020049E6E9 /* mcjrotc.storyboard */,
+				953FA6B422BC41A60049E6E9 /* njrotc.storyboard */,
+				953FA6B622BC41B60049E6E9 /* ajrotc.storyboard */,
+				953FA6B822BC41C10049E6E9 /* afjrotc.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,9 +288,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				953FA6B922BC41C10049E6E9 /* afjrotc.storyboard in Resources */,
 				15D309DC2231C54400D6D6CA /* LaunchScreen.storyboard in Resources */,
+				953FA6B722BC41B60049E6E9 /* ajrotc.storyboard in Resources */,
 				15D309D92231C54400D6D6CA /* Assets.xcassets in Resources */,
 				15D309D72231C47E00D6D6CA /* Main.storyboard in Resources */,
+				953FA6B322BC41020049E6E9 /* mcjrotc.storyboard in Resources */,
+				953FA6B522BC41A60049E6E9 /* njrotc.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +323,6 @@
 				A2142F3E2238290F00CF2ABF /* afjrotcRibbonsTableController.swift in Sources */,
 				3F546B68224E604D00003CE2 /* mcjrotcCadetRibbons.swift in Sources */,
 				A26AE7AD224AB24800B9A8AC /* ajrotcCadetRibbons.swift in Sources */,
-				154060002277E1B500B4E626 /* mcjrotcTableView.swift in Sources */,
 				15D309D22231C47B00D6D6CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
