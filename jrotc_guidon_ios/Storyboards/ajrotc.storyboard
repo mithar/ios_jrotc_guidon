@@ -19,15 +19,15 @@
                         <sections>
                             <tableViewSection headerTitle="Army Values" id="1as-9m-UKp">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="821" id="zvt-lo-Kal">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="821"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="500" id="zvt-lo-Kal">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="500"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zvt-lo-Kal" id="5n7-2O-6P9">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="820.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="499.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z3c-zI-PhK">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="820.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="499.5"/>
                                                     <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <string key="text"> LOYALTY - to bear true faith and allegiance to the U.S. Constitution...your peers. 
 DUTY - - to fulfill your obligations. 
@@ -62,10 +62,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
             </objects>
             <point key="canvasLocation" x="-4090" y="100"/>
         </scene>
-        <!--Table View Controller-->
+        <!--AJROTC Ribbons-->
         <scene sceneID="IfJ-pf-WWH">
             <objects>
-                <tableViewController id="azP-b0-4Hl" sceneMemberID="viewController">
+                <tableViewController title="AJROTC Ribbons" id="azP-b0-4Hl" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xaS-s6-7aT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3138,10 +3138,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
             </objects>
             <point key="canvasLocation" x="-2670" y="103"/>
         </scene>
-        <!--Table View Controller-->
+        <!--AJROTC Home -->
         <scene sceneID="INA-Xz-yMN">
             <objects>
-                <tableViewController wantsFullScreenLayout="YES" id="SUc-AU-YC1" sceneMemberID="viewController">
+                <tableViewController title="AJROTC Home " wantsFullScreenLayout="YES" id="SUc-AU-YC1" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="f3H-qn-S3q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3201,6 +3201,9 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.78496891260000001" green="0.88948935269999996" blue="0.95224434140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="ViT-Pv-2kW" kind="show" id="Hb4-hF-pHz"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="RyK-py-dmY">
                                         <rect key="frame" x="0.0" y="88" width="414" height="44"/>
@@ -3330,6 +3333,9 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.33383858199999999" green="0.32304108139999999" blue="0.21813350919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="5fu-mb-thO" kind="show" id="YnY-zx-GWy"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="V9H-bh-rrd">
                                         <rect key="frame" x="0.0" y="308" width="414" height="44"/>
@@ -5048,8 +5054,8 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <color key="textColor" red="0.78496891260000001" green="0.88948935269999996" blue="0.95224434140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(C/PVT)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0y3-si-lsa">
-                                                    <rect key="frame" x="160" y="52" width="56" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(C/PVT)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0y3-si-lsa">
+                                                    <rect key="frame" x="160" y="52" width="75" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5093,7 +5099,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(C/PVT)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AjS-zk-XL2">
-                                                    <rect key="frame" x="160" y="52" width="56" height="21"/>
+                                                    <rect key="frame" x="160" y="52" width="69" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5105,7 +5111,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                 <constraint firstItem="SoL-xW-0uf" firstAttribute="top" secondItem="k2V-tX-STb" secondAttribute="topMargin" id="Dfo-fr-Zvi"/>
                                                 <constraint firstItem="AjS-zk-XL2" firstAttribute="leading" secondItem="sI6-Lr-ZxS" secondAttribute="trailing" constant="8" id="PzI-Hk-Fhr"/>
                                                 <constraint firstItem="sI6-Lr-ZxS" firstAttribute="leading" secondItem="k2V-tX-STb" secondAttribute="leadingMargin" constant="-7" id="U55-sS-v02"/>
-                                                <constraint firstItem="AjS-zk-XL2" firstAttribute="centerX" secondItem="k2V-tX-STb" secondAttribute="centerX" constant="-19" id="YVy-Eu-3CF"/>
+                                                <constraint firstItem="AjS-zk-XL2" firstAttribute="centerX" secondItem="k2V-tX-STb" secondAttribute="centerX" constant="-12.5" id="YVy-Eu-3CF"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="SoL-xW-0uf" secondAttribute="bottom" constant="66" id="adM-dS-RWC"/>
                                                 <constraint firstItem="SoL-xW-0uf" firstAttribute="leading" secondItem="sI6-Lr-ZxS" secondAttribute="trailing" constant="8" symbolic="YES" id="ffy-dm-LaI"/>
                                                 <constraint firstAttribute="trailing" secondItem="SoL-xW-0uf" secondAttribute="trailing" id="iM3-lP-A4n"/>
@@ -5135,8 +5141,8 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <color key="textColor" red="0.78496891260000001" green="0.88948935269999996" blue="0.95224434140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(C/PFC)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyD-Vb-td1">
-                                                    <rect key="frame" x="160" y="52" width="56" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(C/PFC)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyD-Vb-td1">
+                                                    <rect key="frame" x="160" y="52" width="65" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5178,8 +5184,8 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <color key="textColor" red="0.78496891260000001" green="0.88948935269999996" blue="0.95224434140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(C/CPL)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbD-fi-4yW">
-                                                    <rect key="frame" x="160" y="52" width="56" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(C/CPL)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbD-fi-4yW">
+                                                    <rect key="frame" x="160" y="52" width="67" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5221,8 +5227,8 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <color key="textColor" red="0.78496891260000001" green="0.88948935269999996" blue="0.95224434140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(C/SGT)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q9j-kH-tUa">
-                                                    <rect key="frame" x="160" y="52" width="56" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(C/SGT)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q9j-kH-tUa">
+                                                    <rect key="frame" x="160" y="52" width="71" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5264,8 +5270,8 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <color key="textColor" red="0.78496891260000001" green="0.88948935269999996" blue="0.95224434140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(C/SSG)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZU-Lg-cec">
-                                                    <rect key="frame" x="160" y="52" width="56" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(C/SSG)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZU-Lg-cec">
+                                                    <rect key="frame" x="160" y="52" width="70" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5307,8 +5313,8 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <color key="textColor" red="0.78496891260000001" green="0.88948935269999996" blue="0.95224434140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(C/SFC)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDd-1n-OSv">
-                                                    <rect key="frame" x="160" y="52" width="56" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(C/SFC)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDd-1n-OSv">
+                                                    <rect key="frame" x="160" y="52" width="65" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5350,8 +5356,8 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <color key="textColor" red="0.78496891260000001" green="0.88948935269999996" blue="0.95224434140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(C/MSG)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tC-N7-uAW">
-                                                    <rect key="frame" x="160" y="54.5" width="56" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(C/MSG)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tC-N7-uAW">
+                                                    <rect key="frame" x="160" y="55" width="78" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5393,8 +5399,8 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <color key="textColor" red="0.78496891260000001" green="0.88948935269999996" blue="0.95224434140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(C/1SG)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezw-wp-sdo">
-                                                    <rect key="frame" x="160" y="54.5" width="56" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(C/1SG)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezw-wp-sdo">
+                                                    <rect key="frame" x="160" y="55" width="69" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5436,8 +5442,8 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <color key="textColor" red="0.78496891260000001" green="0.88948935269999996" blue="0.95224434140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(C/SGM)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWt-xa-b4g">
-                                                    <rect key="frame" x="160" y="54.5" width="56" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(C/SGM)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWt-xa-b4g">
+                                                    <rect key="frame" x="160" y="55" width="73" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5479,8 +5485,8 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <color key="textColor" red="0.78496891260000001" green="0.88948935269999996" blue="0.95224434140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(C/CSM)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOm-rW-Twt">
-                                                    <rect key="frame" x="160" y="54.5" width="56" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(C/CSM)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOm-rW-Twt">
+                                                    <rect key="frame" x="160" y="55" width="70" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5526,8 +5532,8 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <color key="textColor" red="0.78496891260000001" green="0.88948935269999996" blue="0.95224434140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(C/2LT)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPJ-cW-UrI">
-                                                    <rect key="frame" x="160" y="54.5" width="56" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(C/2LT)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPJ-cW-UrI">
+                                                    <rect key="frame" x="160" y="55" width="66" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5612,8 +5618,8 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <color key="textColor" red="0.78496891260000001" green="0.88948935269999996" blue="0.95224434140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(C/CPT)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2FD-zJ-Xs7">
-                                                    <rect key="frame" x="160" y="55.5" width="56" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(C/CPT)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2FD-zJ-Xs7">
+                                                    <rect key="frame" x="160" y="56" width="73" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5655,8 +5661,8 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <color key="textColor" red="0.78496891260000001" green="0.88948935269999996" blue="0.95224434140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(C/MAJ)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2c-1V-bbu">
-                                                    <rect key="frame" x="160" y="55.5" width="56" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(C/MAJ)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2c-1V-bbu">
+                                                    <rect key="frame" x="160" y="56" width="82" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5698,8 +5704,8 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <color key="textColor" red="0.78496891260000001" green="0.88948935269999996" blue="0.95224434140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(C/LTC)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVC-fq-Sid">
-                                                    <rect key="frame" x="160" y="55.5" width="56" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(C/LTC)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVC-fq-Sid">
+                                                    <rect key="frame" x="160" y="56" width="65" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5741,8 +5747,8 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <color key="textColor" red="0.78496891260000001" green="0.88948935269999996" blue="0.95224434140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(C/COL)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxh-6P-txm">
-                                                    <rect key="frame" x="160" y="55.5" width="56" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(C/COL)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxh-6P-txm">
+                                                    <rect key="frame" x="160" y="56" width="72" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5777,7 +5783,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gzo-pB-Za7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5460" y="105"/>
+            <point key="canvasLocation" x="-5460.8695652173919" y="104.46428571428571"/>
         </scene>
         <!--AJROTC-->
         <scene sceneID="wQ3-yV-zY4">
@@ -5800,6 +5806,211 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
             </objects>
             <point key="canvasLocation" x="-6961" y="100"/>
         </scene>
+        <!--Army Knowledge-->
+        <scene sceneID="knW-zn-5h1">
+            <objects>
+                <tableViewController title="Army Knowledge" automaticallyAdjustsScrollViewInsets="NO" id="ViT-Pv-2kW" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="I1H-OB-fsU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection headerTitle="Army History" id="Uiv-4I-Gbj">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="112" id="16X-qF-IbV">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="112"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="16X-qF-IbV" id="9eB-Dp-biq">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="111.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-The United States Navy was established on October 13, 1775, Philadelphia, PA" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J7Z-J6-Tyt">
+                                                    <rect key="frame" x="16" y="0.0" width="359" height="112.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="112.5" id="YT8-GE-oaR"/>
+                                                        <constraint firstAttribute="width" constant="359" id="dbK-kw-asg"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.87450980389999999" green="0.81960784310000001" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="J7Z-J6-Tyt" secondAttribute="bottom" id="0qF-NL-CF3"/>
+                                                <constraint firstItem="J7Z-J6-Tyt" firstAttribute="leading" secondItem="9eB-Dp-biq" secondAttribute="leading" constant="16" id="CU1-3d-dsC"/>
+                                                <constraint firstAttribute="trailing" secondItem="J7Z-J6-Tyt" secondAttribute="trailing" constant="16" id="gfI-eb-p6s"/>
+                                                <constraint firstItem="J7Z-J6-Tyt" firstAttribute="top" secondItem="9eB-Dp-biq" secondAttribute="top" id="sQ4-BF-pBv"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Army JROTC Cadet Creed" id="Gt3-6n-1a9">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="350" id="tBc-BW-nfE">
+                                        <rect key="frame" x="0.0" y="168" width="414" height="350"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tBc-BW-nfE" id="Zx8-1L-o6L">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="349.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvZ-Bj-2mI">
+                                                    <rect key="frame" x="16" y="0.0" width="382" height="349.5"/>
+                                                    <mutableString key="text">I am an Army Junior ROTC Cadet.
+-I will always conduct myself to bring credit to my family, country, school and the Corps of Cadets.
+-I am loyal and patriotic.
+-I am the future of the United States of America.
+-I do not lie, cheat or steal and will always be accountable for my actions and deeds.
+-I will always practice good citizenship and patriotism.
+-I will work hard to improve my mind and strengthen my body.
+-I will seek the mantle of leadership and stand prepared to uphold the Constitution and the American way of life.
+-May God grant me the strength to always live by this creed.</mutableString>
+                                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                                    <color key="textColor" red="0.87450980389999999" green="0.81960784310000001" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="dvZ-Bj-2mI" firstAttribute="top" secondItem="Zx8-1L-o6L" secondAttribute="top" id="Hk7-zn-Adq"/>
+                                                <constraint firstItem="dvZ-Bj-2mI" firstAttribute="leading" secondItem="Zx8-1L-o6L" secondAttribute="leading" constant="16" id="RRR-YM-Iba"/>
+                                                <constraint firstAttribute="trailing" secondItem="dvZ-Bj-2mI" secondAttribute="trailing" constant="16" id="S2A-kE-AWf"/>
+                                                <constraint firstAttribute="bottom" secondItem="dvZ-Bj-2mI" secondAttribute="bottom" id="WNI-u1-fhr"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Soldiers Creed" id="PwV-Xu-aRj">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="400" id="4vd-6d-B08">
+                                        <rect key="frame" x="0.0" y="546" width="414" height="400"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4vd-6d-B08" id="6pi-a1-2ly">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="399.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0oY-7P-hJ6">
+                                                    <rect key="frame" x="16" y="0.0" width="382" height="399.5"/>
+                                                    <mutableString key="text">-I am an American Solider.
+-I am a Warrior and a member of a team. -I serve the people of the United States and live the Army Values.
+-I will always place the mission first.
+-I will never accept defeat.
+-I will never quit.
+ -I will never leave a fallen comrade.
+ -I am disciplined, physically and mentally tough, trained and proficient in my warrior tasks and drills.
+-I always maintain my arms, my equipment and myself.
+-I am an expert and I am a professional.
+-I stand ready to deploy, engage and destroy the enemies of the United States of America in close combat.
+-I am a guardian of freedom and the American way of life.</mutableString>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.87450980389999999" green="0.81960784310000001" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="0oY-7P-hJ6" firstAttribute="top" secondItem="6pi-a1-2ly" secondAttribute="top" id="38P-a2-IkK"/>
+                                                <constraint firstItem="0oY-7P-hJ6" firstAttribute="leading" secondItem="6pi-a1-2ly" secondAttribute="leading" constant="16" id="4ue-t3-gS5"/>
+                                                <constraint firstAttribute="bottom" secondItem="0oY-7P-hJ6" secondAttribute="bottom" id="Oae-Ch-eqF"/>
+                                                <constraint firstAttribute="trailing" secondItem="0oY-7P-hJ6" secondAttribute="trailing" constant="16" id="SXB-iq-aY7"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Star Spangled Banner" id="cwe-7O-WCF">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="350" id="9hM-6I-NiK">
+                                        <rect key="frame" x="0.0" y="974" width="414" height="350"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9hM-6I-NiK" id="umL-n9-vai">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="349.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Jf-lI-MSC">
+                                                    <rect key="frame" x="16" y="0.0" width="382" height="349.5"/>
+                                                    <mutableString key="text">THE STAR-SPANGLED-BANNER
+O say, can you see, by the dawn’s early light,
+What so proudly we hailed at the twilight’s last gleaming,
+Whose broad stripes and bright stars, through the perilous fight,
+O’er the ramparts we watched were so gallantly streaming?
+And the rockets’ red glare, the bombs bursting in air
+Gave proof through the night that our flag was still there,
+O say, does that Star-Spangled Banner yet wave
+O’er the land of the free and the home of the brave?</mutableString>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.87450980389999999" green="0.81960784310000001" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="2Jf-lI-MSC" secondAttribute="bottom" id="Rew-h3-9CO"/>
+                                                <constraint firstItem="2Jf-lI-MSC" firstAttribute="top" secondItem="umL-n9-vai" secondAttribute="top" id="eup-W9-FBf"/>
+                                                <constraint firstItem="2Jf-lI-MSC" firstAttribute="leading" secondItem="umL-n9-vai" secondAttribute="leading" constant="16" id="ngd-Tn-0ZE"/>
+                                                <constraint firstAttribute="trailing" secondItem="2Jf-lI-MSC" secondAttribute="trailing" constant="16" id="yzz-o0-Hpz"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="ViT-Pv-2kW" id="yHF-Lz-X9Z"/>
+                            <outlet property="delegate" destination="ViT-Pv-2kW" id="tWH-ZH-hwZ"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dij-bx-pku" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1962" y="100"/>
+        </scene>
+        <!--Army Knowledge-->
+        <scene sceneID="BkO-ug-jqt">
+            <objects>
+                <tableViewController title="Army Knowledge" automaticallyAdjustsScrollViewInsets="NO" id="5fu-mb-thO" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="4u2-tI-pWk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection headerTitle="Army History" id="Syc-q7-xhQ">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="500" id="z4u-xP-sRm">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="500"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="z4u-xP-sRm" id="r0u-kr-jrN">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="499.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ajrotc_male_blue_uniform" translatesAutoresizingMaskIntoConstraints="NO" id="8ox-Ub-Mdb">
+                                                    <rect key="frame" x="28" y="19" width="358" height="462"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="8ox-Ub-Mdb" firstAttribute="leading" secondItem="r0u-kr-jrN" secondAttribute="leadingMargin" constant="8" id="0Oz-qS-azE"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="8ox-Ub-Mdb" secondAttribute="bottom" constant="8" id="GQk-WS-0sf"/>
+                                                <constraint firstItem="8ox-Ub-Mdb" firstAttribute="top" secondItem="r0u-kr-jrN" secondAttribute="topMargin" constant="8" id="HTe-7g-XXx"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="8ox-Ub-Mdb" secondAttribute="trailing" constant="8" id="eB5-wi-HpS"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="5fu-mb-thO" id="TLE-Mv-3ia"/>
+                            <outlet property="delegate" destination="5fu-mb-thO" id="Z2M-x1-aYk"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2fL-31-T3A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1304" y="100"/>
+        </scene>
     </scenes>
     <resources>
         <image name="ajrotc_cadet_captain" width="454" height="155"/>
@@ -5818,6 +6029,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
         <image name="ajrotc_cadet_sergeant_first_class" width="112" height="200"/>
         <image name="ajrotc_cadet_sergeant_major" width="112" height="200"/>
         <image name="ajrotc_cadet_staff_sergeant" width="112" height="200"/>
+        <image name="ajrotc_male_blue_uniform" width="1208" height="1406"/>
         <image name="army_cadet_command_sergeantmajor" width="2400" height="3000"/>
         <image name="army_cadet_commanding_general" width="1200" height="1500"/>
         <image name="army_chief_of_staff" width="800" height="1000"/>

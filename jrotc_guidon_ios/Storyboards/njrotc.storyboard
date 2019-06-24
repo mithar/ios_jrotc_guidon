@@ -62,6 +62,9 @@
                                             <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="UjR-Bz-3gh" kind="show" id="pWU-4e-BRH"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="M4y-Hz-YHk">
                                         <rect key="frame" x="0.0" y="88" width="414" height="44"/>
@@ -125,9 +128,6 @@
                                             <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <connections>
-                                            <segue destination="1YN-an-Bic" kind="show" id="uNo-Sa-JCr"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="oav-hW-b57">
                                         <rect key="frame" x="0.0" y="220" width="414" height="44"/>
@@ -136,8 +136,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Leadership Principles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ak-kx-AE7">
-                                                    <rect key="frame" x="28" y="12" width="164" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Leadership Traits" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ak-kx-AE7">
+                                                    <rect key="frame" x="28" y="12" width="131" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -147,6 +147,9 @@
                                             <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="GKn-by-pKd" kind="show" id="nfx-OF-T6i"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="deA-86-e2S">
                                         <rect key="frame" x="0.0" y="264" width="414" height="44"/>
@@ -4422,31 +4425,31 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Z8-1a-TX8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="979.71014492753636" y="-765.40178571428567"/>
+            <point key="canvasLocation" x="1186" y="-765"/>
         </scene>
-        <!--Navy General Orders-->
-        <scene sceneID="qDH-eR-e0c">
+        <!--Navy Knowledge-->
+        <scene sceneID="6T9-rt-82v">
             <objects>
-                <tableViewController title="Navy General Orders" id="1YN-an-Bic" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ybG-yC-lek">
+                <tableViewController title="Navy Knowledge" id="UjR-Bz-3gh" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="BYn-DY-bv7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
-                            <tableViewSection headerTitle="Navy General Orders" id="XPP-WY-k7V">
+                            <tableViewSection headerTitle="Navy History" id="wnC-sY-oj1">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="112" id="PCq-VI-7uL">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="112" id="glg-cP-u87">
                                         <rect key="frame" x="0.0" y="28" width="414" height="112"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PCq-VI-7uL" id="HPS-GW-5Oe">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="glg-cP-u87" id="Uxh-hA-TDM">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="111.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.To take charge of this post and all government property in view." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gK-Kq-Uff">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-The United States Navy was established on October 13, 1775, Philadelphia, PA" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bx2-vc-Xc2">
                                                     <rect key="frame" x="16" y="0.0" width="359" height="112.5"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="359" id="WIM-YD-j5N"/>
-                                                        <constraint firstAttribute="height" constant="112.5" id="eYQ-kQ-3eg"/>
+                                                        <constraint firstAttribute="width" constant="359" id="Btl-EN-CX2"/>
+                                                        <constraint firstAttribute="height" constant="112.5" id="cqY-Ud-JLV"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -4454,10 +4457,75 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="4gK-Kq-Uff" secondAttribute="trailing" constant="16" id="9n4-J6-2ZY"/>
-                                                <constraint firstAttribute="bottom" secondItem="4gK-Kq-Uff" secondAttribute="bottom" id="IWG-y2-SYQ"/>
-                                                <constraint firstItem="4gK-Kq-Uff" firstAttribute="leading" secondItem="HPS-GW-5Oe" secondAttribute="leading" constant="16" id="bYx-0f-DdH"/>
-                                                <constraint firstItem="4gK-Kq-Uff" firstAttribute="top" secondItem="HPS-GW-5Oe" secondAttribute="top" id="fsw-br-wqX"/>
+                                                <constraint firstItem="bx2-vc-Xc2" firstAttribute="leading" secondItem="Uxh-hA-TDM" secondAttribute="leading" constant="16" id="51c-tg-hDH"/>
+                                                <constraint firstAttribute="trailing" secondItem="bx2-vc-Xc2" secondAttribute="trailing" constant="16" id="IZ7-lq-fYe"/>
+                                                <constraint firstItem="bx2-vc-Xc2" firstAttribute="top" secondItem="Uxh-hA-TDM" secondAttribute="top" id="NFH-YS-SdN"/>
+                                                <constraint firstAttribute="bottom" secondItem="bx2-vc-Xc2" secondAttribute="bottom" id="XDb-yr-dQN"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Navy JROTC Cadet Creed" id="46R-5o-YWE">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="350" id="xwo-Ls-kwm">
+                                        <rect key="frame" x="0.0" y="168" width="414" height="350"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xwo-Ls-kwm" id="D0w-jo-YhO">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="349.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVx-va-yTY">
+                                                    <rect key="frame" x="16" y="0.0" width="382" height="349.5"/>
+                                                    <mutableString key="text">I am a Navy JROTC Cadet. 
+ I will never indulge in conduct that will bring discredit to my family, country, school, and the corps of the cadets.
+I do not lie, cheat, or steal and will always be accountable for my actions and deeds.
+I will always practice good citizenship and patriotism.
+I will proudly embrace the Navy's Core values of Honor, Courage, and Commitment.
+I will work hard to improve my mind and strengthen my body.
+I will seek the mantel of leadership and stand prepared to uphold the Constitution and the American way of life.</mutableString>
+                                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="kVx-va-yTY" secondAttribute="trailing" constant="16" id="FKL-Bz-TKL"/>
+                                                <constraint firstItem="kVx-va-yTY" firstAttribute="top" secondItem="D0w-jo-YhO" secondAttribute="top" id="K09-Nq-dua"/>
+                                                <constraint firstItem="kVx-va-yTY" firstAttribute="leading" secondItem="D0w-jo-YhO" secondAttribute="leading" constant="16" id="UJt-VJ-8R3"/>
+                                                <constraint firstAttribute="bottom" secondItem="kVx-va-yTY" secondAttribute="bottom" id="g9d-Qb-DEf"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Sailors Creed" id="Sjk-u8-jzK">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="250" id="LF7-1E-4ej">
+                                        <rect key="frame" x="0.0" y="546" width="414" height="250"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LF7-1E-4ej" id="bZM-Cj-IgN">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="249.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xcg-HJ-LLx">
+                                                    <rect key="frame" x="16" y="0.0" width="382" height="249.5"/>
+                                                    <mutableString key="text"> I am a United States sailor.
+ I will support and defend the constitution of the United States of America and I will obey the orders of those appointed over me.
+I represent the fighting spirit of the navy and those who came before me to defend freedom and democracy around the world.
+I proudly serve my country's Navy combat team with Honor, Courage, and Commitment. I am committed to excellence and the fair treatment of all.</mutableString>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Xcg-HJ-LLx" firstAttribute="leading" secondItem="bZM-Cj-IgN" secondAttribute="leading" constant="16" id="UCc-f7-CVC"/>
+                                                <constraint firstAttribute="bottom" secondItem="Xcg-HJ-LLx" secondAttribute="bottom" id="UkJ-aE-PB3"/>
+                                                <constraint firstAttribute="trailing" secondItem="Xcg-HJ-LLx" secondAttribute="trailing" constant="16" id="e87-dE-aTp"/>
+                                                <constraint firstItem="Xcg-HJ-LLx" firstAttribute="top" secondItem="bZM-Cj-IgN" secondAttribute="top" id="fch-Fs-9gv"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -4466,14 +4534,74 @@
                             </tableViewSection>
                         </sections>
                         <connections>
-                            <outlet property="dataSource" destination="1YN-an-Bic" id="1cc-AM-1Ml"/>
-                            <outlet property="delegate" destination="1YN-an-Bic" id="kAc-Gw-7X8"/>
+                            <outlet property="dataSource" destination="UjR-Bz-3gh" id="OFn-Pz-2SP"/>
+                            <outlet property="delegate" destination="UjR-Bz-3gh" id="pde-FQ-34q"/>
                         </connections>
                     </tableView>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Eon-oz-wsP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kap-aT-fbL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5436" y="-765"/>
+            <point key="canvasLocation" x="6812" y="-765"/>
+        </scene>
+        <!--Navy Leadership Traits-->
+        <scene sceneID="6ao-Xx-V30">
+            <objects>
+                <tableViewController title="Navy Leadership Traits" id="GKn-by-pKd" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="H38-Rx-qVl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection headerTitle="Navy Leadership Traits" id="pXD-67-Txh">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="821" id="JGD-li-QBd">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="821"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JGD-li-QBd" id="fDh-gL-nc7">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="820.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Use-Ma-nr9">
+                                                    <rect key="frame" x="8" y="0.0" width="398" height="820.5"/>
+                                                    <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                    <mutableString key="text"> JUSTICE - The quality of being impartial and consistent in exercising command.
+  JUDGEMENT - The quality of weighting facts and possible solutions on which to base sound decisions.
+ DEPENDABILITY - The certainty of the proper performance of duty.
+ INITIATIVE - Seeing what has to be done and commencing a course of action, even in the absence of orders.
+ DECISIVENESS - Ability to reach decisions promptly and to announce them in a clear, forceful manner.
+ TACT - The ability to deal others without creating offense.
+ INTEGRITY - Uprightness of character and soundness of moral principle, absolute truthfulness and honesty.
+ ENDURANCE - The mental and physical stamina measured by the ability to stand pain, fatigue, distress, and hardship.
+ BEARING - Creating a favorable impression in carnage, appearance, and personal conduct at all times.
+ UNSELFISHNESS - Avoidance of providing for ones comfort and personal advancement at the expense of others.
+ COURAGE - A mental quality that recognizes fear of danger or criticism but enables a person to proceed in the face of it with calmness and firmness.
+ LOYALTY - Faithfulness to country, Corps, and unit, and to your seniors and subordinates.  ENTHUSIASM - The display of sincere interest and exuberance in the performance of duty.</mutableString>
+                                                    <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Use-Ma-nr9" firstAttribute="leading" secondItem="fDh-gL-nc7" secondAttribute="leading" constant="8" id="FoQ-42-03Q"/>
+                                                <constraint firstAttribute="trailing" secondItem="Use-Ma-nr9" secondAttribute="trailing" constant="8" id="Mum-mj-MMj"/>
+                                                <constraint firstAttribute="bottom" secondItem="Use-Ma-nr9" secondAttribute="bottom" id="bka-1t-MoE"/>
+                                                <constraint firstItem="Use-Ma-nr9" firstAttribute="top" secondItem="fDh-gL-nc7" secondAttribute="top" id="yPp-do-aVs"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="GKn-by-pKd" id="foT-Yl-Xok"/>
+                            <outlet property="delegate" destination="GKn-by-pKd" id="Jq4-81-8ea"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="530-vZ-lNG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5471" y="-765"/>
         </scene>
     </scenes>
     <resources>

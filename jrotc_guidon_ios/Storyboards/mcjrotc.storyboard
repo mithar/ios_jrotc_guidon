@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -1835,6 +1836,9 @@
                                             <color key="backgroundColor" red="0.65046924350000002" green="0.098639182749999998" blue="0.1801507473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.78496891260000001" green="0.88948935269999996" blue="0.95224434140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="Bgb-To-2W1" kind="show" id="8rn-HQ-gAs"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Kgo-g5-Dzx">
                                         <rect key="frame" x="0.0" y="88" width="414" height="44"/>
@@ -3574,11 +3578,11 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marine_corps_jrotc_distinguished_military_training_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="ygW-QC-2Lc">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M1V-z5-wte">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
-                                                    <string key="text">Exemplary Personal Appearance Ribbon -  Awarded twice yearly to all cadets that wear their uniform on all required occasions and have an average of 90% + on inspection and not received an inspection grade below an "A". (this award can be received 3 times in a year based on the results of the NJROTC Area Manager during annual inspection)</string>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
+                                                    <string key="text">Exemplary Personal Appearance Ribbon -  Awarded twice yearly to all cadets that wear their uniform on all required occasions and have an average of 90%  on inspection and not received an inspection grade below an "A". (this award can be received 3 times in a year based on the results of the NJROTC Area Manager during annual inspection)</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -6445,6 +6449,237 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N25-YM-wkG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2079.7101449275365" y="28.794642857142854"/>
+        </scene>
+        <!--USMC Knowledge-->
+        <scene sceneID="umb-qc-ZN1">
+            <objects>
+                <tableViewController title="USMC Knowledge" automaticallyAdjustsScrollViewInsets="NO" id="Bgb-To-2W1" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="keO-Y2-FBY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection headerTitle="USMC History" id="OxJ-BW-NhX">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="900" id="Idf-MY-Rdc">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="900"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Idf-MY-Rdc" id="ece-9W-MNh">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="899.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nOD-ih-wUy">
+                                                    <rect key="frame" x="16" y="0.0" width="382" height="899.5"/>
+                                                    <mutableString key="text">Marine Corps Birthday - 10 November 1775  
+Marine Corps Motto - Semper Fidelis - Always faithful in Latin  
+Marine Corps Colors - Scarlet and Gold  
+Marine Corps Emblem - Eagle,Globe,and Anchor,
+Eagle-Symbol of our country
+Globe- Marines world-wide service.
+Anchor-Marines Naval Affiliation. 
+First Amphibious Landing by Marines-Providence Island in the Bahamas  
+Type of sword worn by Marine Officers - Mameluke Sword  
+Red stripe worn on dress blue trousers – “Blood Stripe” - represents Marines who fought in the Battle of Chapultepec. Worn by NCO's and Officers. 
+Marine Corps Mascot- "Chesty" the Bulldog- named after Chesty Puller  
+Leathernecks” for collar worn on uniforms years ago. 
+“Devil Dogs” for bravery; against the Germans in World War I. 
+NCO Sword - The NCO sword is the U. S. Army Calvary model which was adopted in 1859.
+and briefly carried by Marine Officers as well. When the officers went back to the Mameluke
+pattern, the Army-type sword was retained for the NCO’s. The Marine Corps is the only service that
+has a specific sword for its NCO’s. 
+Quatrefoil - The quatrefoil is the cross-shaped design on the officers’ barracks caps and was
+taken directly from the Army of Napoleon III of France. It was initially used to identify officers so
+that sharpshooters in the rigging of ships would not fire on their own men.</mutableString>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="nOD-ih-wUy" firstAttribute="top" secondItem="ece-9W-MNh" secondAttribute="top" id="0dT-PE-rft"/>
+                                                <constraint firstAttribute="bottom" secondItem="nOD-ih-wUy" secondAttribute="bottom" id="WSx-aA-krA"/>
+                                                <constraint firstItem="nOD-ih-wUy" firstAttribute="leading" secondItem="ece-9W-MNh" secondAttribute="leading" constant="16" id="cGj-O7-APV"/>
+                                                <constraint firstAttribute="trailing" secondItem="nOD-ih-wUy" secondAttribute="trailing" constant="16" id="uVc-Mh-ycv"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.71856957669999999" green="0.1737282574" blue="0.23473715780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Important Marines" id="eFD-1j-sVK">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="650" id="a7J-gC-AmQ">
+                                        <rect key="frame" x="0.0" y="956" width="414" height="650"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="a7J-gC-AmQ" id="yqC-DO-gUj">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qFy-yU-chb">
+                                                    <rect key="frame" x="16" y="0.0" width="382" height="649.5"/>
+                                                    <mutableString key="text">-First Commandant of the Marine Corps- Captain Samuel Nicholas 
+
+-The Grand Old Man of the Marine Corps - General Archibald Henderson - known as the longest serving commandant in the Marine Corps.   -Chesty Puller - The most decorated Marine in Marine Corps History. He earned 5 Naval Crosses in his military career.  -Father of Marine Aviation - Lieutenant Colonel Alfred A. Cunningham.  -John A. Lejeune - 13th Commandant of the Marine Corps and author of the birthday message read aloud at every Marine Corps birthday ball ceremony.  -First Female Marine - Opha May Johnson in 1918.  First Marine Corps Recruiter - Captain Robert Mullen  Dan Daly and Smedley Butler: Two Marines that each earned the Medal of Honor twice for
+two separate acts of heroism. Daly earned his first as a Private during the Boxer Rebellion and the
+second, as a Gunnery Sergeant during the Spanish-American War. Dan Daly also fought at Belleau
+Wood during World War I as a First Sergeant. Butler earned his first for actions in Vera Cruz,
+Mexico in 1914 and his second was for actions in Haiti in 1915. He retired as a Major General.
+ </mutableString>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="qFy-yU-chb" firstAttribute="top" secondItem="yqC-DO-gUj" secondAttribute="top" id="DSG-OT-y0U"/>
+                                                <constraint firstAttribute="bottom" secondItem="qFy-yU-chb" secondAttribute="bottom" id="UDL-wx-gA0"/>
+                                                <constraint firstAttribute="trailing" secondItem="qFy-yU-chb" secondAttribute="trailing" constant="16" id="lw0-cv-UJd"/>
+                                                <constraint firstItem="qFy-yU-chb" firstAttribute="leading" secondItem="yqC-DO-gUj" secondAttribute="leading" constant="16" id="wcG-O5-gBf"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.71856957669999999" green="0.1737282574" blue="0.23473715780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Marine Corps Hymn" id="9ou-zr-sC4">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="470" id="EyP-y0-mcA">
+                                        <rect key="frame" x="0.0" y="1634" width="414" height="470"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EyP-y0-mcA" id="7Ec-1n-tA1">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="469.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRg-5E-qmY">
+                                                    <rect key="frame" x="16" y="0.0" width="382" height="469.5"/>
+                                                    <mutableString key="text">From the Halls of Montezuma
+To the shores of Tripoli;
+We fight our country's battles
+In the air, on land, and sea;
+First to fight for right and freedom
+And to keep our honor clean
+We are proud to claim the title Of United States Marine. 
+Our flag's unfurled to every breeze
+From dawn to setting sun;
+We have fought in every clime and place
+Where we could take a gun; 
+In the snow of far-off Northern lands
+And in sunny tropic scenes,
+You will find us always on the job 
+The United States Marines. 
+Here's health to you and to our Corps 
+Which we are proud to serve; 
+In many a strife we've fought for life 
+And never lost our nerve.
+If the Army and the Navy 
+Ever look on Heaven's scenes,
+They will find the streets are guarded
+By United States Marines.</mutableString>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="jRg-5E-qmY" secondAttribute="trailing" constant="16" id="OwQ-jz-Yv0"/>
+                                                <constraint firstAttribute="bottom" secondItem="jRg-5E-qmY" secondAttribute="bottom" id="P5F-Cz-a1E"/>
+                                                <constraint firstItem="jRg-5E-qmY" firstAttribute="top" secondItem="7Ec-1n-tA1" secondAttribute="top" id="SUh-0D-VMm"/>
+                                                <constraint firstItem="jRg-5E-qmY" firstAttribute="leading" secondItem="7Ec-1n-tA1" secondAttribute="leading" constant="16" id="TB0-RK-crH"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.71856957669999999" green="0.1737282574" blue="0.23473715780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Marine Corps JROTC Cadet Creed" id="abE-uB-WSF">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="270" id="dUG-UH-CRC">
+                                        <rect key="frame" x="0.0" y="2132" width="414" height="270"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dUG-UH-CRC" id="Bzf-JE-lGf">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="269.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsJ-Hh-ZV9">
+                                                    <rect key="frame" x="16" y="0.0" width="382" height="299.5"/>
+                                                    <mutableString key="text"> I am a Marine cadet.
+I will be true to myself and to others.
+I will not lie, cheat, or steal. 
+I will serve my family, community, school, and nation.
+I will honor my parents with obedience, initiative, and compassion for all my family members.
+I will obey all local, state and federal laws.
+I will wear my uniform with pride.
+I will do my personal best at all times.
+I will honor those who have gone before me 
+The few, the proud, the finest;
+The Marine Corps JROTC Cadets.</mutableString>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="tsJ-Hh-ZV9" secondAttribute="bottom" id="72i-ae-2Fz"/>
+                                                <constraint firstItem="tsJ-Hh-ZV9" firstAttribute="leading" secondItem="Bzf-JE-lGf" secondAttribute="leading" constant="16" id="MCt-2L-EVn"/>
+                                                <constraint firstAttribute="trailing" secondItem="tsJ-Hh-ZV9" secondAttribute="trailing" constant="16" id="W6O-ax-TBY"/>
+                                                <constraint firstItem="tsJ-Hh-ZV9" firstAttribute="top" secondItem="Bzf-JE-lGf" secondAttribute="top" id="dRW-cg-9De"/>
+                                                <constraint firstAttribute="trailing" secondItem="tsJ-Hh-ZV9" secondAttribute="trailing" constant="16" id="hPI-KZ-qv0"/>
+                                                <constraint firstItem="tsJ-Hh-ZV9" firstAttribute="leading" secondItem="Bzf-JE-lGf" secondAttribute="leading" constant="16" id="pg7-eu-vcJ"/>
+                                                <constraint firstItem="tsJ-Hh-ZV9" firstAttribute="top" secondItem="Bzf-JE-lGf" secondAttribute="top" id="raN-nV-mew"/>
+                                                <constraint firstAttribute="bottom" secondItem="tsJ-Hh-ZV9" secondAttribute="bottom" id="yQc-1T-I7T"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.71856957669999999" green="0.1737282574" blue="0.23473715780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Bgb-To-2W1" id="JmU-cC-qeq"/>
+                            <outlet property="delegate" destination="Bgb-To-2W1" id="5f5-jp-gCD"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="67S-AU-Iwn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8471" y="25"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="28g-QW-zoF">
+            <objects>
+                <viewController id="FwX-LB-MbK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jum-iw-xtt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xuz-fE-rPW">
+                                <rect key="frame" x="8" y="44" width="398" height="818"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GJD-9Y-XYD">
+                                        <rect key="frame" x="79" y="30" width="240" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="GJD-9Y-XYD" firstAttribute="top" secondItem="Xuz-fE-rPW" secondAttribute="top" id="9Cf-7G-zsq"/>
+                                    <constraint firstItem="GJD-9Y-XYD" firstAttribute="leading" secondItem="Xuz-fE-rPW" secondAttribute="leading" id="EUn-2X-vJX"/>
+                                    <constraint firstAttribute="trailing" secondItem="GJD-9Y-XYD" secondAttribute="trailing" id="bVD-ec-hzc"/>
+                                    <constraint firstAttribute="bottom" secondItem="GJD-9Y-XYD" secondAttribute="bottom" id="sh3-cO-fCA"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xuz-fE-rPW" firstAttribute="leading" secondItem="ZkB-b0-FQT" secondAttribute="leading" constant="8" id="9Zx-iw-25W"/>
+                            <constraint firstItem="ZkB-b0-FQT" firstAttribute="bottom" secondItem="Xuz-fE-rPW" secondAttribute="bottom" id="SvO-JN-L6W"/>
+                            <constraint firstItem="ZkB-b0-FQT" firstAttribute="trailing" secondItem="Xuz-fE-rPW" secondAttribute="trailing" constant="8" id="baR-lC-uLj"/>
+                            <constraint firstItem="Xuz-fE-rPW" firstAttribute="top" secondItem="ZkB-b0-FQT" secondAttribute="top" id="gZm-UH-QBZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZkB-b0-FQT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6dT-DT-sDo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9169" y="34"/>
         </scene>
     </scenes>
     <resources>
