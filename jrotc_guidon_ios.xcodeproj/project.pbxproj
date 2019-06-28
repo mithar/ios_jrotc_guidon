@@ -19,6 +19,7 @@
 		953FA6B522BC41A60049E6E9 /* njrotc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953FA6B422BC41A60049E6E9 /* njrotc.storyboard */; };
 		953FA6B722BC41B60049E6E9 /* ajrotc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953FA6B622BC41B60049E6E9 /* ajrotc.storyboard */; };
 		953FA6B922BC41C10049E6E9 /* afjrotc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953FA6B822BC41C10049E6E9 /* afjrotc.storyboard */; };
+		95F016FA22C3E288000D2C30 /* mainScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F016F922C3E288000D2C30 /* mainScreen.storyboard */; };
 		A2142F3E2238290F00CF2ABF /* afjrotcRibbonsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2142F3D2238290F00CF2ABF /* afjrotcRibbonsTableController.swift */; };
 		A26AE7AD224AB24800B9A8AC /* ajrotcCadetRibbons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26AE7AC224AB24800B9A8AC /* ajrotcCadetRibbons.swift */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		953FA6B422BC41A60049E6E9 /* njrotc.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = njrotc.storyboard; sourceTree = "<group>"; };
 		953FA6B622BC41B60049E6E9 /* ajrotc.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ajrotc.storyboard; sourceTree = "<group>"; };
 		953FA6B822BC41C10049E6E9 /* afjrotc.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = afjrotc.storyboard; sourceTree = "<group>"; };
+		95F016F922C3E288000D2C30 /* mainScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = mainScreen.storyboard; sourceTree = "<group>"; };
 		A2142F3522380AA000CF2ABF /* jrotc_guidon_ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jrotc_guidon_ios-Bridging-Header.h"; sourceTree = "<group>"; };
 		A2142F3D2238290F00CF2ABF /* afjrotcRibbonsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = afjrotcRibbonsTableController.swift; sourceTree = "<group>"; };
 		A26AE7AC224AB24800B9A8AC /* ajrotcCadetRibbons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ajrotcCadetRibbons.swift; path = "../New Groupibbons/ajrotcCadetRibbons.swift"; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				953FA6B422BC41A60049E6E9 /* njrotc.storyboard */,
 				953FA6B622BC41B60049E6E9 /* ajrotc.storyboard */,
 				953FA6B822BC41C10049E6E9 /* afjrotc.storyboard */,
+				95F016F922C3E288000D2C30 /* mainScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				953FA6B922BC41C10049E6E9 /* afjrotc.storyboard in Resources */,
+				95F016FA22C3E288000D2C30 /* mainScreen.storyboard in Resources */,
 				15D309DC2231C54400D6D6CA /* LaunchScreen.storyboard in Resources */,
 				953FA6B722BC41B60049E6E9 /* ajrotc.storyboard in Resources */,
 				15D309D92231C54400D6D6CA /* Assets.xcassets in Resources */,

@@ -556,10 +556,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_parade_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="YNO-aY-WNq">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3z0-EC-ASa">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Parade Ribbon - Awarded to cadets who have participated in local community parades (Veterans Day Parade, Veterans Day Parade, etc.)</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -635,10 +635,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_n_2_5_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="bhv-Pe-ycj">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Optional by SAI" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="byr-Il-ZsS">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -713,10 +713,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_n_2_4_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="0qU-lw-Yik">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Optional by SAI" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w3Y-rd-t4X">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -791,10 +791,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_athletics_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="SLz-Sy-DEp">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="JROTC Athletics Ribbon - Awarded annually to cadets that excel in ROTC athletics." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yhI-Lh-96J">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -869,7 +869,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Physical Fitness Ribbon - Awarded annually to the cadets who maintain excellent physical fitness." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cyh-dp-hpL">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -882,7 +882,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_physical_fitness_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="sEl-6R-RMr">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -947,10 +947,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_varsity_athletics_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="c96-yo-gn9">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Varsity Athletics Ribbon - Awarded annually to cadets that excel in varsity sports." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HUn-Oo-yOF">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1025,10 +1025,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_n_3_15_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="0No-To-1QI">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Optional by SAI" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Azr-p8-cbI">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1103,10 +1103,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_n_3_14_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Igp-5a-qq2">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Optional by SAI" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ktN-rB-Oqp">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1181,10 +1181,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_n_3_13_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="dv8-GX-QbO">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Optional by SAI" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TOI-Dm-ven">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1259,10 +1259,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_n_3_12_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="g7D-pr-Gg8">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Optional by SAI" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OOH-Ej-Aw3">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1337,10 +1337,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_jclc_participation_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Ygg-Uq-FIO">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Summer Camp Ribbon - Awarded to cadets for summer camp participation." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zzP-65-JDj">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1415,10 +1415,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_good_conduct_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="swX-vM-Wc7">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Good Conduct Ribbon - Awarded annually to cadets who have demonstrated outstanding conduct throughout the year." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UuJ-so-sdD">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1493,10 +1493,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_commendation_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="pWh-2Z-ZvF">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cub-3p-tty">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Commendation Ribbon - Awarded to cadets whose performance of duty exceptionally exceeds that expected of a cadet of his/her grade and experience.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1572,10 +1572,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_adventure_training_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="1KK-x8-Jsb">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Adventure Training Ribbon - Awarded annually to cadets who are members of adventure training type units." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PW5-H8-Nkn">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1650,10 +1650,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_rifle_team_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="0v5-PO-6sI">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Rifle Team Ribbon - Awarded annually to rifle team members." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ogK-no-lg1">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1728,10 +1728,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_color_guard_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="GD0-dk-9eM">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Color Guard Ribbon - Awarded annually to members of the color/honor guard." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bxa-Tx-ynp">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1806,10 +1806,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_orienteering_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Vc2-tw-zCK">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Orienteering Ribbon - Awarded annually to cadets who are members of the orienteering team." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XKV-oC-el1">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1884,10 +1884,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_drill_team_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="yLn-OV-fqQ">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Drill Team Ribbon - Awarded annually to drill team members." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RPE-lM-AP1">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1962,10 +1962,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_proficiency_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="oJe-LG-FBP">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iuA-9e-jyj">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Proficiency Ribbon - Awarded annually to cadets who have demonstrated an exceptionally high degree of leadership, academic achievement, and performance of duty.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2041,10 +2041,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marine_corps_jrotc_color_guard_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="8oI-bB-PQX">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Personal Appearance Ribbon - Awarded annually to cadets who consistently present an outstanding appearance." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8lt-Du-Ndx">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2119,10 +2119,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_dai_sai_instructor_leadership_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Fvu-zI-PC6">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="DAI/SAI Instructor Leadership - Awarded annually to one cadet per LET level who displays the highest degree of leadership." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2i5-P1-RmU">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2197,10 +2197,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_n_1_10_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="PEu-2i-sGG">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Optional by SAI" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9zG-u7-ZjH">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2275,10 +2275,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_n_1_9_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="ugU-LP-TFP">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Optional by SAI" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iIY-VG-y9g">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2353,10 +2353,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_n_1_8_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="9JU-G4-nkY">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Optional by SAI" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z79-fy-ZvT">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2431,10 +2431,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_n_1_7_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="mdN-Z8-1ZX">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Optional by SAI" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NZR-nt-Xhb">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2509,10 +2509,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_leadership_education_training_service_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="12N-iT-PXP">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="LET Service Ribbon - Awarded annually to cadets successfully completing first quarter/semester of training of each LET year." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FNi-6l-DKO">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2587,10 +2587,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_student_government_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="GmF-2Z-y6T">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Student Government Ribbon - Elected to a student government office." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DLY-7u-VsP">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2665,10 +2665,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_perfect_attendance_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="eTj-cM-tnL">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Perfect Attendance Ribbon - Awarded to cadets with no unexcused absence during each quarter/semester." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pIn-fd-jjW">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2743,10 +2743,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_academic_achievement_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="PGT-nX-bi4">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Academic Achievement Ribbon - Awarded Annually to those cadets who maintain a grade of &quot;A&quot; in academic subjects." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nkM-Mt-nql">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2821,10 +2821,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_academic_excellence_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="DC2-Zn-7rk">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Academic Excellence Ribbon - Awarded to one cadet in each LET level for maintaining highest school academic grades." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0j0-Kx-AHy">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2899,10 +2899,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_distinguished_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="X1v-Ro-5vY">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Distinguished Cadet Ribbon - Awarded annually to one cadet who exhibits the highest degree of experience in scholastics." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rM7-4c-XjA">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2977,10 +2977,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_superior_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="bvl-S4-MK5">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Superior Cadet Ribbon - Awarded annually to one outstanding cadet in each LET level." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ake-fm-I7v">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3055,10 +3055,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="army_jrotc_medal_for_heroism_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="OIN-46-V6W">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Medal for Heroism Ribbon - Awarded to any JROTC cadet who performs an act of heroism." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pxb-dL-lgE">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3146,7 +3146,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="separatorColor" red="0.10324727559999999" green="0.24476205340000001" blue="0.51483565409999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="separatorColor" red="0.87450980389999999" green="0.81960784310000001" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="sectionIndexBackgroundColor" red="0.65046924350000002" green="0.098639182749999998" blue="0.1801507473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <sections>
                             <tableViewSection id="KFh-V5-76F">
@@ -3173,7 +3173,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                 <constraint firstItem="jNR-71-MPH" firstAttribute="leading" secondItem="qtL-hm-pgq" secondAttribute="leadingMargin" constant="12" id="yci-Lc-Qw8"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.10324727559999999" green="0.24476205340000001" blue="0.51483565409999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.87450980389999999" green="0.81960784310000001" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <segue destination="9mN-mS-IyZ" kind="show" id="yvL-0m-IUw"/>
                                         </connections>
@@ -3254,7 +3254,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                 <constraint firstItem="Z72-YG-YOs" firstAttribute="leading" secondItem="2wc-Ws-rIO" secondAttribute="leadingMargin" constant="12" id="tRr-ck-DW1"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.10324727559999999" green="0.24476205340000001" blue="0.51483565409999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.87450980389999999" green="0.81960784310000001" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <segue destination="8el-sH-1uj" kind="show" id="fO7-OG-M8m"/>
                                         </connections>
@@ -3706,7 +3706,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sergeant First Class" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o0Q-Nw-c6J">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="Rqs-sq-Hzf"/>
                                                     </constraints>
@@ -3749,7 +3749,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Master Sergeant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQF-2k-TQ4">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="CUt-bG-zJ5"/>
                                                     </constraints>
@@ -3792,7 +3792,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Sergeant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yCt-3d-Kku">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="2tR-c4-qxY"/>
                                                     </constraints>
@@ -3835,7 +3835,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sergeant Major" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twZ-59-EJf">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="12L-EQ-M0Y"/>
                                                     </constraints>
@@ -3878,7 +3878,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Command Sergeant Major" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUF-Ax-R3J">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="K3W-Rc-yiE"/>
                                                     </constraints>
@@ -3921,7 +3921,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sergeant Major of the Army" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXR-vU-Hb0">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="c86-Jt-RfD"/>
                                                     </constraints>
@@ -3968,7 +3968,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warrant Officer" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sD-WT-z4e">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="8RR-oL-nnI"/>
                                                     </constraints>
@@ -4008,10 +4008,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usa_chief_warrant_officer_2" translatesAutoresizingMaskIntoConstraints="NO" id="EZm-w0-kW9">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chief Warrant Officer Two" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAv-Rv-50A">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="tGg-EM-tJ5"/>
                                                     </constraints>
@@ -4051,10 +4051,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usa_chief_warrant_officer_3" translatesAutoresizingMaskIntoConstraints="NO" id="0Tq-I6-uz7">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chief Warrant Officer Three" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6GT-dD-Qhx">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="UcS-Dv-gRC"/>
                                                     </constraints>
@@ -4094,10 +4094,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usa_chief_warrant_officer_4" translatesAutoresizingMaskIntoConstraints="NO" id="c6V-hB-1Rd">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chief Warrant Officer Four" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7jc-qp-JYM">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="LB0-m4-kwN"/>
                                                     </constraints>
@@ -4137,10 +4137,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usa_chief_warrant_officer_5" translatesAutoresizingMaskIntoConstraints="NO" id="dUV-zw-rBB">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chief Warrant Officer Five" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKj-h0-pVX">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="jC0-5c-qcc"/>
                                                     </constraints>
@@ -4180,10 +4180,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold_bar" translatesAutoresizingMaskIntoConstraints="NO" id="iJQ-fz-06R">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Lieutenant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EjC-gC-eyP">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="ifR-1m-sIF"/>
                                                     </constraints>
@@ -4224,10 +4224,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silver_bar" translatesAutoresizingMaskIntoConstraints="NO" id="Rb4-2w-0NO">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Lieutenant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlp-BN-6nd">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="sQX-7f-iye"/>
                                                     </constraints>
@@ -4267,10 +4267,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="two_silver_bars" translatesAutoresizingMaskIntoConstraints="NO" id="XML-7l-0Qc">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Captain" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5w-KL-jdk">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="nJa-dQ-7jg"/>
                                                     </constraints>
@@ -4310,10 +4310,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold_oak_leaf" translatesAutoresizingMaskIntoConstraints="NO" id="7KK-HK-XfI">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Major" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bag-13-ipx">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="01B-K4-f9l"/>
                                                     </constraints>
@@ -4353,10 +4353,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silver_oak_leaf" translatesAutoresizingMaskIntoConstraints="NO" id="7ZK-XF-ekV">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lieutenant Colonel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3aC-Wv-chV">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="opT-iI-Taw"/>
                                                     </constraints>
@@ -4396,10 +4396,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silver_eagle" translatesAutoresizingMaskIntoConstraints="NO" id="WhP-ts-YcS">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colonel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sg0-bY-g6s">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="QKy-0B-zrC"/>
                                                     </constraints>
@@ -4439,10 +4439,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="one_star" translatesAutoresizingMaskIntoConstraints="NO" id="HjO-Tw-W2X">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brigadier General" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85B-Dw-CJD">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="9fE-gP-tdq"/>
                                                     </constraints>
@@ -4482,10 +4482,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="two_stars" translatesAutoresizingMaskIntoConstraints="NO" id="zKB-KS-JvQ">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Major General" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GE0-VU-B4H">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="VzG-6h-fqI"/>
                                                     </constraints>
@@ -4525,10 +4525,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="three_stars" translatesAutoresizingMaskIntoConstraints="NO" id="9DC-m9-73g">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lieutenant General" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TcC-jC-AUQ">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="eFB-id-EWY"/>
                                                     </constraints>
@@ -4568,10 +4568,10 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="four_stars" translatesAutoresizingMaskIntoConstraints="NO" id="Wvu-yn-bu1">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="General" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pkt-AJ-BI9">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="VF4-It-VM8"/>
                                                     </constraints>
@@ -4765,7 +4765,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="secdef" translatesAutoresizingMaskIntoConstraints="NO" id="jso-Wh-f2s">
                                                     <rect key="frame" x="13" y="7" width="98" height="99.5"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Secretary of Defense - Patrick M. Shanahan" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vmu-R5-nHI">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Secretary of Defense - Mark T. Esper (acting)" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vmu-R5-nHI">
                                                     <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -4862,7 +4862,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <rect key="frame" x="1" y="4" width="110" height="105.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commanding General,U.S. Army Training and Doctrine Command - General Stephen J. Townsend" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qh5-GZ-HVc">
-                                                    <rect key="frame" x="119" y="-0.5" width="217" height="114.5"/>
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -4894,7 +4894,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <rect key="frame" x="1" y="4" width="110" height="105.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commanding General, U.S. Army Cadet Command Major General John R. Evans, Jr." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clv-Hc-hRN">
-                                                    <rect key="frame" x="119" y="-0.5" width="217" height="114.5"/>
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -4926,7 +4926,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <rect key="frame" x="1" y="4" width="110" height="105.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commanding General, U.S. Army Cadet Command Major General John R. Evans, Jr." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSi-WQ-Wei">
-                                                    <rect key="frame" x="119" y="-0.5" width="217" height="114.5"/>
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -4958,7 +4958,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <rect key="frame" x="1" y="4" width="110" height="105.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commanding General, U.S. Army Cadet Command Major General John R. Evans, Jr." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="itz-UZ-T2C">
-                                                    <rect key="frame" x="119" y="-0.5" width="217" height="114.5"/>
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -4990,7 +4990,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                     <rect key="frame" x="1" y="4" width="110" height="105.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commanding General, U.S. Army Cadet Command Major General John R. Evans, Jr." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fx-0K-rSQ">
-                                                    <rect key="frame" x="119" y="-0.5" width="217" height="114.5"/>
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5857,7 +5857,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvZ-Bj-2mI">
                                                     <rect key="frame" x="16" y="0.0" width="382" height="349.5"/>
-                                                    <mutableString key="text">I am an Army Junior ROTC Cadet.
+                                                    <string key="text">I am an Army Junior ROTC Cadet.
 -I will always conduct myself to bring credit to my family, country, school and the Corps of Cadets.
 -I am loyal and patriotic.
 -I am the future of the United States of America.
@@ -5865,7 +5865,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
 -I will always practice good citizenship and patriotism.
 -I will work hard to improve my mind and strengthen my body.
 -I will seek the mantle of leadership and stand prepared to uphold the Constitution and the American way of life.
--May God grant me the strength to always live by this creed.</mutableString>
+-May God grant me the strength to always live by this creed.</string>
                                                     <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                                     <color key="textColor" red="0.87450980389999999" green="0.81960784310000001" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -5893,7 +5893,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0oY-7P-hJ6">
                                                     <rect key="frame" x="16" y="0.0" width="382" height="399.5"/>
-                                                    <mutableString key="text">-I am an American Solider.
+                                                    <string key="text">-I am an American Solider.
 -I am a Warrior and a member of a team. -I serve the people of the United States and live the Army Values.
 -I will always place the mission first.
 -I will never accept defeat.
@@ -5903,7 +5903,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
 -I always maintain my arms, my equipment and myself.
 -I am an expert and I am a professional.
 -I stand ready to deploy, engage and destroy the enemies of the United States of America in close combat.
--I am a guardian of freedom and the American way of life.</mutableString>
+-I am a guardian of freedom and the American way of life.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.87450980389999999" green="0.81960784310000001" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -5931,7 +5931,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Jf-lI-MSC">
                                                     <rect key="frame" x="16" y="0.0" width="382" height="349.5"/>
-                                                    <mutableString key="text">THE STAR-SPANGLED-BANNER
+                                                    <string key="text">THE STAR-SPANGLED-BANNER
 O say, can you see, by the dawn’s early light,
 What so proudly we hailed at the twilight’s last gleaming,
 Whose broad stripes and bright stars, through the perilous fight,
@@ -5939,7 +5939,7 @@ O’er the ramparts we watched were so gallantly streaming?
 And the rockets’ red glare, the bombs bursting in air
 Gave proof through the night that our flag was still there,
 O say, does that Star-Spangled Banner yet wave
-O’er the land of the free and the home of the brave?</mutableString>
+O’er the land of the free and the home of the brave?</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.87450980389999999" green="0.81960784310000001" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -5985,7 +5985,7 @@ O’er the land of the free and the home of the brave?</mutableString>
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="499.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ajrotc_male_blue_uniform" translatesAutoresizingMaskIntoConstraints="NO" id="8ox-Ub-Mdb">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ajrotc_male_blue_uniform" translatesAutoresizingMaskIntoConstraints="NO" id="8ox-Ub-Mdb">
                                                     <rect key="frame" x="28" y="19" width="358" height="462"/>
                                                 </imageView>
                                             </subviews>
@@ -6072,7 +6072,7 @@ O’er the land of the free and the home of the brave?</mutableString>
         <image name="army_jrotc_student_government_ribbon" width="105" height="30"/>
         <image name="army_jrotc_superior_cadet_ribbon" width="105" height="30"/>
         <image name="army_jrotc_varsity_athletics_ribbon" width="105" height="30"/>
-        <image name="army_logo_black" width="25" height="25"/>
+        <image name="army_logo_black" width="50" height="50"/>
         <image name="army_training_commanding_general" width="2550" height="3300"/>
         <image name="four_stars" width="625" height="250"/>
         <image name="gold_bar" width="702" height="1701"/>
@@ -6082,7 +6082,7 @@ O’er the land of the free and the home of the brave?</mutableString>
         <image name="one_star" width="400" height="400"/>
         <image name="potus" width="800" height="1013"/>
         <image name="sec_army" width="800" height="1000"/>
-        <image name="secdef" width="800" height="1113"/>
+        <image name="secdef" width="600" height="840"/>
         <image name="secstate" width="800" height="1126"/>
         <image name="sergeantmajor_of_army" width="800" height="1000"/>
         <image name="silver_bar" width="685" height="1701"/>

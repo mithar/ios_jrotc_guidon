@@ -8,59 +8,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Air Force Leadership Traits-->
-        <scene sceneID="pB1-7H-zZ1">
-            <objects>
-                <tableViewController title="Air Force Leadership Traits" id="Yom-Ty-zZD" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="9BR-O2-zuf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <sections>
-                            <tableViewSection headerTitle="Air Force Leadership Traits" id="x2U-6T-h0D">
-                                <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="112" id="fkV-hM-ikL">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="112"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fkV-hM-ikL" id="dha-Jb-KKf">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="111.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHB-HW-cKx">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="111.5"/>
-                                                    <string key="text">JUSTICE - The quality of being impartial and consistent in exercising command. There are more words in this one as an example lol awesome possum</string>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="rHB-HW-cKx" secondAttribute="trailing" id="0VX-I3-7SV"/>
-                                                <constraint firstItem="rHB-HW-cKx" firstAttribute="centerY" secondItem="dha-Jb-KKf" secondAttribute="centerY" id="8KK-7X-3pm"/>
-                                                <constraint firstAttribute="bottom" secondItem="rHB-HW-cKx" secondAttribute="bottom" id="G31-Hb-Vep"/>
-                                                <constraint firstItem="rHB-HW-cKx" firstAttribute="top" secondItem="dha-Jb-KKf" secondAttribute="top" id="HZa-ur-VT3"/>
-                                                <constraint firstItem="rHB-HW-cKx" firstAttribute="leading" secondItem="dha-Jb-KKf" secondAttribute="leading" constant="8" id="N7U-XA-tBy"/>
-                                                <constraint firstItem="rHB-HW-cKx" firstAttribute="leading" secondItem="dha-Jb-KKf" secondAttribute="leading" id="aOe-st-pSH"/>
-                                                <constraint firstAttribute="trailing" secondItem="rHB-HW-cKx" secondAttribute="trailing" id="byj-8g-S0w"/>
-                                                <constraint firstItem="rHB-HW-cKx" firstAttribute="top" secondItem="dha-Jb-KKf" secondAttribute="top" id="upa-Md-FNV"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.65046924350000002" green="0.098639182749999998" blue="0.1801507473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                        </sections>
-                        <connections>
-                            <outlet property="dataSource" destination="Yom-Ty-zZD" id="x7J-hc-UG1"/>
-                            <outlet property="delegate" destination="Yom-Ty-zZD" id="Ear-H3-oGh"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Jh8-Iz-WtE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-6586" y="44"/>
-        </scene>
         <!--mcjrotc-->
         <scene sceneID="n9I-Pv-wSa">
             <objects>
@@ -89,7 +36,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Snu-Fp-ZfK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="830" y="487"/>
+            <point key="canvasLocation" x="973" y="487"/>
+        </scene>
+        <!--mainScreen-->
+        <scene sceneID="xtw-PR-8jE">
+            <objects>
+                <viewControllerPlaceholder storyboardName="mainScreen" id="zhr-bh-hfG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Es2-Q2-EGa"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fub-9G-avB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="836" y="487"/>
         </scene>
         <!--afjrotc-->
         <scene sceneID="Z6o-vJ-03Q">
@@ -99,7 +56,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QCi-1S-OK3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="986" y="487"/>
+            <point key="canvasLocation" x="1128" y="487"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="8gZ-51-q8A">
@@ -107,14 +64,16 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="fgj-jN-phJ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4mu-1A-MCv">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="y4e-jG-Cgg" kind="relationship" relationship="viewControllers" id="QkM-DO-4fw"/>
-                        <segue destination="Icq-ag-qRp" kind="relationship" relationship="viewControllers" id="MFa-sl-TUd"/>
-                        <segue destination="kJj-gR-RVF" kind="relationship" relationship="viewControllers" id="USr-5E-A4z"/>
-                        <segue destination="nC9-xH-flr" kind="relationship" relationship="viewControllers" id="TFZ-3x-V2h"/>
+                        <segue destination="zhr-bh-hfG" kind="relationship" relationship="viewControllers" id="EmR-od-ZPE"/>
+                        <segue destination="y4e-jG-Cgg" kind="relationship" relationship="viewControllers" id="g8s-8I-fkg"/>
+                        <segue destination="Icq-ag-qRp" kind="relationship" relationship="viewControllers" id="fpb-sC-50a"/>
+                        <segue destination="kJj-gR-RVF" kind="relationship" relationship="viewControllers" id="dwG-YL-cel"/>
+                        <segue destination="nC9-xH-flr" kind="relationship" relationship="viewControllers" id="FR1-aU-FRy"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rJo-ll-R7A" userLabel="First Responder" sceneMemberID="firstResponder"/>

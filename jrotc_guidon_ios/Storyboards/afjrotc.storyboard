@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="separatorColor" red="0.10324727559999999" green="0.24476205340000001" blue="0.51483565409999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
                             <tableViewSection id="mYr-dB-DRL">
                                 <cells>
@@ -700,10 +700,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_dress_and_appearance_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="hEa-40-cqL">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Cm-MJ-d1w">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Dress and Appearance Ribbon - Wear uniform on all designated uniform days and conform with all AFJROTC dress and appearance standards. Scored 92% or higher on all inspections.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -778,10 +778,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_attendance_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="71Z-JE-1AO">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mix-OY-f1b">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Attendance Ribbon - Awarded to cadets with no unexcused absences. Max of four excused absences and no more than 1 tardy during the term.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -856,10 +856,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_activities_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="DZ4-3a-NwZ">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N2W-1V-1s8">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Activities Ribbon - Participate in two formally scheduled co-curricular activities such as parades, academic meets, etc. to receive award each school year. Participate in four additional activities to receive additional clusters.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -934,10 +934,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_recruiting_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Bb8-Pm-dMA">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Recruiting Ribbon - Awarded for outstanding effort in support of recruiting activities. Recruited at least two cadets." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="45g-T5-mfE">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1011,7 +1011,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xXg-pW-VpO">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Health and Wellness - Participate in a regular physical conditioning program. Devices may be earned for superior performance as specified in the H and W Program guidelines.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1025,7 +1025,7 @@
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_health_and_wellness_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="4JO-si-gdW">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1089,10 +1089,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_service_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="IyJ-lf-xhv">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AHO-6F-zNw">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Service Ribbon - Show distinctive performance in a minimum of three school, community, or AFJROTC service projects each school year. Includes AFJROTC  fundraising (min of 10 hrs of service required)</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1167,10 +1167,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_good_conduct_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="OuU-cB-wPY">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p3V-mK-ayG">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Good Conduct Ribbon - No suspensions of any kind, no adverse reports from any faculty, no tardy reports in a semester.  No skipped uniform inspections.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1245,10 +1245,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_marksmanship_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="dil-9W-W2Z">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Marksmanship Ribbon" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k7R-sj-qPj">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1322,10 +1322,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_saber_team_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="cKQ-4k-kUw">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Saber Team Ribbon - Awarded for distinguished participation in at least 75% of events." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H8y-pA-u8C">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1399,10 +1399,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_color_guard_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="mQO-Vm-HRW">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8BF-1N-ySz">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Color Guard Ribbon - Participate in at least 75% of all scheduled Color Guard practices or 10 formal events in which selected to participate.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1477,10 +1477,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_drill_team_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="UBh-Tb-tKT">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7YC-OP-N04">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Drill Team Ribbon - Participate in at least 75% of all scheduled Drill Team practices and events in which selected to participate.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1555,10 +1555,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_cocurricular_activities_leadership_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="2us-ov-w4h">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d4s-87-SUQ">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Co-curricular Activities Leadership Ribbon - Demonstrate exceptional leadership as project officer for AFJROTC Co-curricular activity (Dining-In, Cadet  Ball, newsletter editor, Drill Team Commander, Color Guard Team Commander, orientation program coordinator etc.  Note: May be earned up to four times.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -1633,10 +1633,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_orienteering_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="spO-4i-fHg">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Orienteering Team Award - Awarded to team members for placing first, second or third place in an orienteering meet." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Yb-GF-jpi">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1710,10 +1710,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_special_teams_competition_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="xuh-3p-7fa">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1cQ-yW-JIe">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Special Teams Competition - Awarded to drill team members for placing first, second or third place in an Air Force or Joint Service drill meet.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1788,10 +1788,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_leadership_school_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="yDD-Yt-uSR">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Leadership School Ribbon - Successfully complete Leadership School." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kxj-ZH-BTH">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1865,10 +1865,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_academic_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Ecy-7A-Qs0">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Academic Ribbon - Achieve an “A” in AFJROTC during term and an overall “B” GPA with no failures." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dpz-ua-vf4">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1942,10 +1942,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_superior_performance_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="SHO-Xn-68h">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nRC-I8-2Br">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Superior Performance Ribbon - Render outstanding achievement or meritorious service in behalf of AFJROTC for a single or sustained act of a superior nature. National Merit Finalists, yearbook editor, most valuable athlete, outstanding performer in community sanctioned activity.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2020,10 +2020,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_achievement_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="nHm-Br-xUK">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SND-qN-KC1">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Achievement Ribbon - Accomplish significant documented achievement (community/school services, ROTC Scholarship, Academy appointment, contest winner, Athletic achievement, Valedictorian/Salutatorian, etc.)  “C” average in AFJROTC. Awarded once each school year.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2098,10 +2098,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_leadership_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="KwL-ob-nmg">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Leadership Ribbon - Be assigned and excel in leadership position. Exhibit outstanding performance." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pec-mm-jal">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2175,10 +2175,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_outstanding_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="8pT-7A-UBD">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ss3-59-568">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">The Outstanding Cadet Ribbon - Show high morals and outstanding military potential. Demonstrate positive personal character. Attain academic and military excellence.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2253,10 +2253,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_top_performer_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Z16-jX-orr">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1z7-nl-KXj">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Top Performer Award - The Cadet Top Performer Award is a Headquarters, AFJROTC award presented to a maximum of 2% of the current unit cadet corps population.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2331,10 +2331,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_outstanding_flight_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="YXY-1k-536">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LTI-uW-vVU">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Outstanding Flight Ribbon - Awarded to members of the outstanding flight under criteria determined by the SASI (usually uniform grades, test grades and drill competition).</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2409,10 +2409,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_outstanding_organization_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Oce-Vl-rTx">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tov-mf-fT3">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Outstanding Organization Award -  Awarded to cadets enrolled during the academic year when a unit is selected by HQ AFJROTC to receive the OOA.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2487,10 +2487,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_distinguished_unit_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="GxL-Uo-Vz5">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Distinguished Unit Award - Be enrolled in AFJROTC at Seneca High School during period of award and making satisfactory progress" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xm6-OA-Cgg">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2564,10 +2564,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_aca_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Yki-kx-wSQ">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vYx-FA-8J8">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Air Commando Association Award - Awarded annually at the SASI‘s discretion for completing a one page essay based on a historical AF Special Operations Mission possessing the thirteen critical attributes of success: integrity, self-motivation, intelligence, self-discipline, perseverance, adaptability, maturity, judgment, selflessness, leadership, skilled, physical fitness and family strength. This award consists of a ribbon and certificate.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -2642,10 +2642,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_national_society_united_states_daughters_of_1812_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="jlD-zr-WFs">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iDG-ic-IVj">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">National Society United States Daughters of 1812 - Awarded annually, at the SASI‘s discretion, for academic excellence, leadership, military discipline, dependability, patriotism and upright character in speech and habits.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2720,10 +2720,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_celebrate_freedom_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Y9R-DM-8i7">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FFA-9Z-0jm">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Celebrate Freedom Award - Awarded annually, at the SASI‘s discretion, for outstanding performance in academics and cadets corps activities as a first or second year JROTC cadet</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2798,10 +2798,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_retired_enlisted_association_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="zTO-Wi-7WF">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v5X-aU-hdH">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">The Retired Enlisted Association Award - Awarded annually, at the SASI‘s discretion, for exceptional leadership to the most outstanding AFJROTC cadet while serving in an Enlisted Rank. The selected enlisted cadet must have shown outstanding leadership throughout the course of the school year. This award consists of a medal set with ribbon and a certificate from TREA.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -2876,10 +2876,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_tuskegee_airmen_inc_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="lxm-xy-rSL">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="paV-QP-3Qi">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Tuskegee Airmen Inc AFJROTC Cadet Award - Attain a grade of “B” or better in AFJROTC. Be in good academic standing. Actively participate in cadet corps activities. Participate in at least 50% of all service projects.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2954,10 +2954,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_sons_of_conferate_hunley_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Uw6-xk-GNq">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rza-qQ-1gG">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Sons of Confederate Hunley Award - This award should go to a rising second year cadet who has demonstrated the qualities of Honor, Courage and in particular Commitment to his/her unit throughout the school year.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -3032,10 +3032,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_sons_of_union_veterans_of_civil_war_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="yNR-Js-VNV">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="the-QT-UHM">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Sons of Union Veterans of the Civil War - Show patriotism demonstrated a high degree of academic excellence and leadership ability.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -3110,10 +3110,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_air_force_sergeant_association_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="RZv-qK-2aq">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tio-4p-eyD">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Air Force Sergeant Association - Be in top 25% of AS-III or IV. Show outstanding leadership, discipline, character, and citizenship. Not have received award previously.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -3188,10 +3188,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_military_order_of_the_purple_heart_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="1Vi-mm-lQb">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1lb-gz-biv">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Military Order of the Purple Heart - Show positive attitude towards country and AFJROTC. Outstanding performer in Corps leadership position. Be active in school and community. Have “B” in all subjects. Not have received award previously.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -3266,10 +3266,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_scottish_rite_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="iRN-RY-hOe">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TNE-Z0-QuT">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Scottish Rite, Southern Jurisdiction Award - High degree of leadership, military bearing, and all around excellence. Top 25% of high school class.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -3344,10 +3344,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_sons_of_american_revolution_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="t6P-7h-tZz">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CRf-I7-CY9">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Sons of the American Revolution Award - Show high degree of leadership potential military bearing, and excellence in AFJROTC.  Be in top 10% of AS class and upper 20% of high school class.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -3422,10 +3422,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_national_sojourners_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="6BS-2d-rIt">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZNg-5U-8YO">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">National Sojourners Award - Be in upper 25% of high school class.  Encourage and demonstrate Americanism.  Show leadership potential. Not have received award previously.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -3500,10 +3500,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_veterans_of_foreign_wars_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="zy1-ax-1Bg">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fXX-JX-agW">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Veterans of Foreign Wars Award - Show positive attitude towards AFJROTC. Have outstanding military bearing and conduct. Have strong positive character. Be patriotic with leadership potential. Have “B” in AFJROTC and “C” in all other classes. Be active in student activities. Not have received award previously.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -3578,10 +3578,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_military_officers_association_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="LTn-Ae-bJv">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rgO-0F-wt2">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Military Officers Association Award - Be a junior academically in good standing. Exhibit high morals and loyalty. Have exceptional military leadership potential.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -3656,10 +3656,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_military_order_of_the_world_wars_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="14Y-wV-dMj">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PER-JX-d0V">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">The Military Order of World Wars Medal - Excel in all academics and military training. Actively participate in Extracurricular activities. Want to serve country and to continue in AFJROTC.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -3734,10 +3734,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_reserve_officers_association_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="edK-yC-4EI">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UiE-cQ-Yw9">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Reserve Officers Association Award - Have a positive attitude, outstanding personal appearance, character, courtesy, growth potential, and strong ethics. Be in upper 10% of AS class.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -3812,10 +3812,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_american_veterans_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="1Sa-oh-u7g">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ujS-Za-Jqi">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">American Veterans Award - Possess positive attitude, outstanding personal appearance and character, and officer potential. Have “A” in AS-I and “C” in all classes at time of selection and presentation.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -3890,10 +3890,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_daughters_of_the_american_revolution_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="G2O-sf-CaW">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vho-nH-k9w">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Daughters of the American Revolution Award - Top 25% AS IV and high school class. Be dependable with good character, disciplined, a strong leader, and committed to importance of AFJROTC training.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -3968,10 +3968,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_american_legion_general_military_excellence_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="suc-Qz-UaU">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lAI-ZI-1tG">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">American Legion General Military Excellence Award - General military excellence.  Top 25% of AS-III or IV Outstanding leadership, discipline, character, and citizenship.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -4046,10 +4046,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_american_legion_scholastic_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="km2-VW-62w">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SiK-sn-Q1Z">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">American Legion Scholastic Award - Overall scholastic achievement.  Top 10% of high school class and top 25% of AS-III or IV.  Demonstrate leadership and participate in student activities.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -4124,10 +4124,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_daedalian_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Ptb-tc-oy3">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b7V-87-bIL">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Daedalian Award - Demonstrate patriotism, love of country, and service.  Potential and desire to pursue a military career. Top 10% of AS III class and top 20% of high school class.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -4202,10 +4202,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_air_force_association_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="yQc-Q3-m03">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bCK-0w-gn1">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Air Force Association Award - Excel in position of responsibility, exhibit strong attitude; exemplary personal appearance, personal attributes, and courtesy; and show growth potential. Top 5% of AS-III and top 10% of high school class. Recommended for Outstanding Cadet Ribbon by SASI.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -4280,10 +4280,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_community_service_excellence_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="MbH-Th-N7z">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6jI-pz-sfH">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Community Service with Excellence Award - Significant leadership in the planning/execution of a major unit community service project.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -4358,10 +4358,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_cadet_humanitarian_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="D0H-uy-UzP">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Cadet Humanitarian Award - Humanitarian act above call of duty in response to a natural disaster or catastrophe." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KlF-z8-y48">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -4435,10 +4435,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_air_force_valor_silver_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Rtm-ay-aYY">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Air Force Valor Award (Silver) - Voluntary act of heroism which does not involve risk of life." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lsM-kA-jMe">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -4512,10 +4512,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_air_force_valor_gold_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="cjw-Cx-Do0">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T25-Q4-GtG">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Air Force Valor Award (Gold) - Voluntary act of bravery and self-sacrifice involving conspicuous risk of life beyond call of duty.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -4841,7 +4841,7 @@
                                                     <rect key="frame" x="1" y="4" width="110" height="105.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chief Master Sergeant of the Air Force - CMSAF Kaleth O. Wright" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZm-t9-dzy">
-                                                    <rect key="frame" x="119" y="-0.5" width="217" height="114.5"/>
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -4873,7 +4873,7 @@
                                                     <rect key="frame" x="1" y="4" width="110" height="105.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commander, Air Educational and Training Command - Lt. General Darryl L. Roberson" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWs-0z-PqN">
-                                                    <rect key="frame" x="119" y="-0.5" width="217" height="114.5"/>
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5317,7 +5317,7 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Motivate: Your greatest challenge is motivating subordinates to achieve the high standards set for them." lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vz-7G-dLQ">
-                                                    <rect key="frame" x="8" y="0.0" width="367" height="111.5"/>
+                                                    <rect key="frame" x="8" y="0.0" width="406" height="111.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5345,7 +5345,7 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OK8-3l-imW">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="111.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="111.5"/>
                                                     <string key="text">Accept your responsibility:  As a leader you are responsible for performing the unit’s mission. If you fail, you are accountable for the consequences. Any unwillingness to accept responsibility for failure destroys your credibility as a leader and breaks the bond of respect and loyalty.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -5374,7 +5374,7 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgE-fn-ceV">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="111.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="111.5"/>
                                                     <string key="text"> Develop teamwork: As a leader you must mold a collection of individual performers into a cohesive team which works together to accomplish the mission.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -5735,10 +5735,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="af_master_sergeant_diamond" translatesAutoresizingMaskIntoConstraints="NO" id="kZ9-9w-cFJ">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Sergeant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qgK-Tx-aUV">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="TZN-zr-vQi"/>
                                                     </constraints>
@@ -5779,10 +5779,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="af_senior_master_sergeant" translatesAutoresizingMaskIntoConstraints="NO" id="9ux-ou-d81">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Senior Master Sergeant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWn-lw-mX7">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="6hP-2V-nGd"/>
                                                     </constraints>
@@ -5823,10 +5823,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="af_senior_master_sergeant_diamond" translatesAutoresizingMaskIntoConstraints="NO" id="QpB-YK-isb">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Sergeant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CRW-nr-0av">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="tYu-Td-uE4"/>
                                                     </constraints>
@@ -5867,10 +5867,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="af_chief_master_sergeant" translatesAutoresizingMaskIntoConstraints="NO" id="fif-j1-70F">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chief Master Sergeant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mnw-7s-7dJ">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="4Se-QZ-5Wg"/>
                                                     </constraints>
@@ -5911,10 +5911,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="af_chief_master_sergeant_diamond" translatesAutoresizingMaskIntoConstraints="NO" id="yeY-6Q-dK8">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Sergeant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wVJ-Ob-nUM">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="XGB-e4-wB1"/>
                                                     </constraints>
@@ -5955,10 +5955,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="af_command_chief_master_sergeant" translatesAutoresizingMaskIntoConstraints="NO" id="kcV-wO-CK1">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Command Chief Master Sergeant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcS-he-iaX">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="RQB-fF-ki5"/>
                                                     </constraints>
@@ -5999,10 +5999,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="af_chief_master_sergeant_of_the_airforce" translatesAutoresizingMaskIntoConstraints="NO" id="9Th-6V-te1">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chief Master Sergeant of the Air Force" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZj-lL-qnn">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="N4h-eA-c2F"/>
                                                     </constraints>
@@ -6047,10 +6047,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold_bar" translatesAutoresizingMaskIntoConstraints="NO" id="Aao-WD-SQw">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Lieutenant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N4b-vq-lgf">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="f80-VK-Wsl"/>
                                                     </constraints>
@@ -6090,10 +6090,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silver_bar" translatesAutoresizingMaskIntoConstraints="NO" id="ONE-t5-odN">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Lieutenant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAM-oe-7SA">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="I7U-qD-EqS"/>
                                                     </constraints>
@@ -6134,10 +6134,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="two_silver_bars" translatesAutoresizingMaskIntoConstraints="NO" id="cjj-BZ-bwq">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Captain" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldo-bK-y5k">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="8w3-Lc-HWc"/>
                                                     </constraints>
@@ -6178,10 +6178,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold_oak_leaf" translatesAutoresizingMaskIntoConstraints="NO" id="faV-yH-Ecl">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Major" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HVT-BC-0YP">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="AF5-Im-ibI"/>
                                                     </constraints>
@@ -6222,10 +6222,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silver_oak_leaf" translatesAutoresizingMaskIntoConstraints="NO" id="eP4-hl-W7o">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lieutenant Colonel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYK-h3-Rz9">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="uVV-MD-YwL"/>
                                                     </constraints>
@@ -6266,10 +6266,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silver_eagle" translatesAutoresizingMaskIntoConstraints="NO" id="WgE-P7-1a8">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colonel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vw4-Mu-6DN">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="V6C-yq-Lf7"/>
                                                     </constraints>
@@ -6310,10 +6310,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="one_star" translatesAutoresizingMaskIntoConstraints="NO" id="eYI-m3-PLS">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brigadier General" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byf-rr-hv9">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="XKe-BQ-qum"/>
                                                     </constraints>
@@ -6354,10 +6354,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="two_stars" translatesAutoresizingMaskIntoConstraints="NO" id="Z4M-8h-zw0">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Major General" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1m-aA-GTa">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="B8B-iB-GT2"/>
                                                     </constraints>
@@ -6398,10 +6398,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="three_stars" translatesAutoresizingMaskIntoConstraints="NO" id="MbU-LW-0h8">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lieutenant General" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y81-X8-Hpn">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="7Gn-Te-wRr"/>
                                                     </constraints>
@@ -6442,10 +6442,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="four_stars" translatesAutoresizingMaskIntoConstraints="NO" id="dGv-w2-fuj">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="General" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJh-Cb-Ym8">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="Esy-cA-Cq0"/>
                                                     </constraints>
@@ -6790,10 +6790,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_cadet_senior_master_sergeant" translatesAutoresizingMaskIntoConstraints="NO" id="kjf-fs-iID">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadet Senior Master Sergeant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plp-yH-N5I">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="u6H-OH-d8x"/>
                                                     </constraints>
@@ -6824,10 +6824,10 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_cadet_chief_master_sergeant" translatesAutoresizingMaskIntoConstraints="NO" id="Pzk-yb-cFF">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadet Chief Master Sergeant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0GZ-eN-3fX">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="1Qn-e9-M30"/>
                                                     </constraints>
@@ -6866,7 +6866,7 @@ Educate: People should be properly trained to do their jobs.</string>
                                                     <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadet Second Lieutenant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kjP-9b-DbV">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="vGG-Ir-2y9"/>
@@ -6898,11 +6898,11 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_cadet_first_lieutenant" translatesAutoresizingMaskIntoConstraints="NO" id="UvL-Pl-ZUP">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                     <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadet First Lieutenant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Kh-QG-55S">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="M7K-n8-E9v"/>
@@ -6934,11 +6934,11 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_cadet_captain" translatesAutoresizingMaskIntoConstraints="NO" id="9cA-W2-tIe">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                     <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadet Captain" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2t-Vt-ZOa">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="XTQ-oJ-nPO"/>
@@ -6970,11 +6970,11 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_cadet_major" translatesAutoresizingMaskIntoConstraints="NO" id="sEy-sC-aue">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                     <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadet Major" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OoW-9R-xHr">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="XfR-ca-oLt"/>
@@ -7006,11 +7006,11 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_cadet_lieutenant_colonel" translatesAutoresizingMaskIntoConstraints="NO" id="Xo8-D4-teV">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                     <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadet Lieutenant Colonel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QRY-Tu-ZHk">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="59p-j5-k3l"/>
@@ -7042,11 +7042,11 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_cadet_colonel" translatesAutoresizingMaskIntoConstraints="NO" id="XNN-5V-G8n">
-                                                    <rect key="frame" x="1" y="4" width="112" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                     <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadet Colonel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYD-1G-AfM">
-                                                    <rect key="frame" x="121" y="8" width="254" height="33.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="33.5"/>
                                                     <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="Phc-fx-VSF"/>
@@ -7163,7 +7163,7 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTk-aQ-dtb">
                                                     <rect key="frame" x="16" y="0.0" width="382" height="449.5"/>
-                                                    <mutableString key="text">Air Force JROTC Cadet Creed
+                                                    <string key="text">Air Force JROTC Cadet Creed
 I am an Air Force Junior ROTC Cadet.I am connected and faithful to every Corps of Cadets who served their community and nation with patriotism.
 I earn respect when I uphold the Core Values of Integrity First, Service Before Self, and Excellence In All We Do.
 I will always conduct myself to bring credit to my family, school, Corps of Cadets, community, and to myself.
@@ -7171,7 +7171,7 @@ My character defines me. I will not lie, cheat, or steal. I am accountable for m
 I will hold others accountable for their actions as well.
 I will honor those I serve with, those who have gone before me, and those who will come after me.
 I am a Patriot, a Leader, and a Wingman devoted to those I follow, serve, and lead.
-I am an Air Force Junior ROTC Cadet.</mutableString>
+I am an Air Force Junior ROTC Cadet.</string>
                                                     <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -7199,7 +7199,7 @@ I am an Air Force Junior ROTC Cadet.</mutableString>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lG8-Lr-LCh">
                                                     <rect key="frame" x="16" y="0.0" width="382" height="399.5"/>
-                                                    <mutableString key="text">I am an American Airman.
+                                                    <string key="text">I am an American Airman.
 I am a Warrior.
 I have answered my Nation’s call.
 I am an American Airman.
@@ -7216,7 +7216,7 @@ I am an American Airman.
 Wingman, Leader, Warrior.
 I will never leave an Airman behind,
 I will never falter,
-And I will not fail.</mutableString>
+And I will not fail.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -7332,7 +7332,7 @@ And I will not fail.</mutableString>
         <image name="airforce_chief_master_sergeant_of_airforce" width="480" height="600"/>
         <image name="airforce_chief_of_staff" width="800" height="1072"/>
         <image name="airforce_commander_training_command" width="2400" height="3000"/>
-        <image name="airforce_logo_black" width="25" height="25"/>
+        <image name="airforce_logo_black" width="50" height="50"/>
         <image name="airforce_sec" width="800" height="1165"/>
         <image name="four_stars" width="625" height="250"/>
         <image name="gold_bar" width="702" height="1701"/>
@@ -7340,7 +7340,7 @@ And I will not fail.</mutableString>
         <image name="no_insignia" width="2000" height="2500"/>
         <image name="one_star" width="400" height="400"/>
         <image name="potus" width="800" height="1013"/>
-        <image name="secdef" width="800" height="1113"/>
+        <image name="secdef" width="600" height="840"/>
         <image name="secstate" width="800" height="1126"/>
         <image name="silver_bar" width="685" height="1701"/>
         <image name="silver_eagle" width="610" height="350"/>

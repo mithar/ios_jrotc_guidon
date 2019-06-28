@@ -20,10 +20,10 @@
                         <color key="sectionIndexBackgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         <color key="sectionIndexTrackingBackgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         <sections>
-                            <tableViewSection id="KKm-MI-bOZ">
+                            <tableViewSection headerTitle="Navy JROTC" id="KKm-MI-bOZ">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="qxG-kO-hix">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qxG-kO-hix" id="qyj-x1-COL">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -45,7 +45,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="qSO-zb-zYq">
-                                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="72" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qSO-zb-zYq" id="fcG-Cw-FsC">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -67,7 +67,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="M4y-Hz-YHk">
-                                        <rect key="frame" x="0.0" y="88" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="116" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="M4y-Hz-YHk" id="7ae-6r-tJ4">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -89,7 +89,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="brp-q5-Ucf">
-                                        <rect key="frame" x="0.0" y="132" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="160" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="brp-q5-Ucf" id="eSs-yd-6PL">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -111,7 +111,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="KUb-5y-287">
-                                        <rect key="frame" x="0.0" y="176" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="204" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KUb-5y-287" id="HfX-az-Nnr">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -130,7 +130,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="oav-hW-b57">
-                                        <rect key="frame" x="0.0" y="220" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="248" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oav-hW-b57" id="WwQ-Nm-ype">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -152,7 +152,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="deA-86-e2S">
-                                        <rect key="frame" x="0.0" y="264" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="292" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="deA-86-e2S" id="dbo-gv-irn">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -171,7 +171,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="oeL-aO-rD8">
-                                        <rect key="frame" x="0.0" y="308" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="336" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oeL-aO-rD8" id="s6U-xM-mGa">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -705,10 +705,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_drill_team_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="1kD-s4-gJa">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w4n-bi-TwO">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Drill Team Ribbon - The drill team ribbon may be awarded to all cadets that earn 3 drill team pts, which include parades, meets, and other performances.</string>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -784,10 +784,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_academic_award_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="P3L-lW-Ynn">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Academic Award Ribbon  - Awarded when earned, to each cadet in good standing who has been a member of the Academic Team." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hl1-Oo-P2M">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -862,10 +862,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_community_service_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="65R-j0-YCs">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TBh-9r-vDx">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Community Service Ribbon  - Community Service ribbons and each subsequent NJROTC award are earned after 12 hrs of properly documented volunteer service.</string>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -941,10 +941,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_unit_service_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="5Tq-0e-NCo">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jyB-s9-CNK">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Unit Service Ribbon  - Unit Service and each subsequent award is earned when a cadet performs superior service to unit. The award may be for sustained service at a level above that normally required of other cadets or it may be for a specific act(s) of superior service.</string>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -1020,7 +1020,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="92d-PH-RCB">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Participation Ribbon - Awarded when earned to all cadets earning one hour or more participation in at least three separate, non-social NJROTC sponsored events or activities (to include ushering at school events, flag detail, attendance at drill, field/athletic meets, and attendance on field trips).</string>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -1034,7 +1034,7 @@
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_participation_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="k6x-SX-6Pn">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -1099,10 +1099,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_physical_fitness_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Gka-je-CM4">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vj9-nd-Xsn">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Physical Fitness Ribbon - Awarded twice a year to any cadet who meets or exceeds physical fitness standards to be given to you at a later time.</string>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1178,10 +1178,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_exemplary_personal_appearance_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="I26-0V-3Dj">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EJU-wk-ONd">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Exemplary Personal Appearance Ribbon -  Awarded twice yearly to all cadets that wear their uniform on all required occasions and have an average of 90% + on inspection and not received an inspection grade below an "A". (this award can be received 3 times in a year based on the results of the NJROTC Area Manager during annual inspection)</string>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -1257,10 +1257,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_exemplary_conduct_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="XEV-Q0-qsr">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exemplary Conduct Ribbon  - Awarded early to each cadet who demonstrates exemplary conduct for the year." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8GX-lM-b0w">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1335,10 +1335,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_naval_science_i_outstanding_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="r1Q-tA-eco">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="APO-9w-xAA">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">NS I Outstanding Cadet Ribbon  - Awarded yearly to outstanding cadets in Naval Science 1 based on citizenship, academic performance, personal appearance and conduct.</string>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1414,10 +1414,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_naval_science_ii_outstanding_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="mST-KL-WvY">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dPJ-UK-JqP">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">NS II Outstanding cadet Ribbon  - Awarded yearly to outstanding cadets in Naval Science 2 based on citizenship, academic performance, personal appearance and conduct.</string>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1493,10 +1493,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_naval_science_iii_outstanding_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="xmC-tI-mAB">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4IH-eL-074">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">NS III Outstanding Cadet Ribbon  - Awarded yearly to outstanding cadets in Naval Science 3 based on citizenship, academic performance, personal appearance and conduct.</string>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1572,10 +1572,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_naval_science_iv_outstanding_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="5c6-t0-d8i">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="seH-ct-448">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">NS IIII Outstanding Cadet Ribbon  - Awarded yearly to outstanding cadets in Naval Science 4 based on citizenship, academic performance, personal appearance and conduct.</string>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1651,10 +1651,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_navy_jrotc_aptitude_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="ooC-sx-f2l">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nMs-lh-Mtz">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Military Aptitude Award Ribbon  - Awarded to the top 10% of the cadets based on evaluation of academic performance of assigned jobs, conduct, unit involvement, attendance, and overall aptitude.</string>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1730,10 +1730,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_unit_achievement_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="TC1-ky-9cW">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dy2-58-jo0">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Unit Achievement Ribbon  - Awarded to cadets in good standing who were unit members during the academic year in which the school earned the Unit Achievement status as determined by the Area Manager. Awarded only to those units that demonstrated exceptional performance but did not qualify for Distinguished Unit status.</string>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1809,10 +1809,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_cadet_achievement_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="l06-oP-BuS">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CsU-vS-Vn8">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Cadet Achievement Ribbon  - Awarded, when earned, to any cadet who distinguishes him/herself by outstanding achievement or sustained superior performance.</string>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1888,10 +1888,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_honor_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="l8o-7G-5Qc">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Honor Cadet Ribbon  - Awarded yearly to one cadet in each year group with the highest overall academic achievement in school." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ou0-FW-H7z">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1966,10 +1966,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_distinguished_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="bLb-oc-ikW">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rTL-fR-61e">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Distinguished Cadet Ribbon  - Awarded yearly to one cadet in each year group with the highest combined average for overall scholastic standing and aptitude.</string>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2045,10 +2045,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_distinguished_unit_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="PQ8-H9-Yw5">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KD7-zu-y1c">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Distinguished Unit Ribbon  - Awarded to cadets who were unit members during the academic year in which the school earned Distinguished Unit status.</string>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2124,10 +2124,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navy_jrotc_meritorious_achievement_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="xaW-8H-dMu">
-                                                    <rect key="frame" x="63" y="8" width="249" height="40.5"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i8X-cV-Y97">
-                                                    <rect key="frame" x="0.0" y="48.5" width="375" height="96"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2545,7 +2545,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Senior Chief Petty Officer" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NUp-yS-oj3">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="n5u-Mb-kaG"/>
                                                     </constraints>
@@ -2590,7 +2590,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Master Chief Petty Officer" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G8S-Ng-E3F">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="nJ7-fR-md4"/>
                                                     </constraints>
@@ -2635,7 +2635,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Master Chief Petty Officer of the Navy" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0h-RQ-9v3">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="vmb-9m-lIC"/>
                                                     </constraints>
@@ -2685,7 +2685,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warrant Officer One" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TLc-6N-MQh">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="SUp-HZ-JAP"/>
                                                     </constraints>
@@ -2728,7 +2728,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chief Warrant Officer Two" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYl-e1-FY2">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="lCB-BG-Nkl"/>
                                                     </constraints>
@@ -2771,7 +2771,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chief Warrant Officer Three" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z8Z-dr-ANJ">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="LBd-5d-di8"/>
                                                     </constraints>
@@ -2814,7 +2814,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chief Warrant Officer Four" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9lm-fA-yOO">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="atZ-gR-fDo"/>
                                                     </constraints>
@@ -2857,7 +2857,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chief Warrant Officer Five" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zhQ-vt-fkm">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="ucy-cu-Ma2"/>
                                                     </constraints>
@@ -2900,7 +2900,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ensign" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOY-ZR-wlb">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="ran-rc-E6k"/>
                                                     </constraints>
@@ -2943,7 +2943,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lieutenant (Junior Grade)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbQ-Ea-NWE">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="7LG-fc-NJG"/>
                                                     </constraints>
@@ -2986,7 +2986,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lieutenant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQL-bL-gmj">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="wXi-v8-LIJ"/>
                                                     </constraints>
@@ -3029,7 +3029,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lieutenant Commander" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcn-pV-0rT">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="mEY-Zl-HCJ"/>
                                                     </constraints>
@@ -3072,7 +3072,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commander" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOM-on-cej">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="Jjj-D6-wGa"/>
                                                     </constraints>
@@ -3115,7 +3115,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Captain" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jug-yl-geX">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="cTb-z6-k4q"/>
                                                     </constraints>
@@ -3158,7 +3158,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rear Admiral (Lower Half)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ri9-bg-Cke">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="uqI-xg-KHM"/>
                                                     </constraints>
@@ -3201,7 +3201,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rear Admiral (Upper Half)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcg-rW-c7D">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="JS3-IV-M3Y"/>
                                                     </constraints>
@@ -3244,7 +3244,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vice Admiral" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDP-JP-taZ">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="rhW-jx-KvS"/>
                                                     </constraints>
@@ -3287,7 +3287,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Admiral" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nkR-a4-2EA">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="2PZ-Xb-qj4"/>
                                                     </constraints>
@@ -3330,7 +3330,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fleet Admiral" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7z-B5-eCk">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="05X-jN-Th5"/>
                                                     </constraints>
@@ -3625,7 +3625,7 @@
                                                     <rect key="frame" x="1" y="4" width="110" height="105.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chairman of the Joint Chiefs of Staff - Gen. Joseph F. Dunford" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9a-sq-ECV">
-                                                    <rect key="frame" x="119" y="-3" width="217" height="119.5"/>
+                                                    <rect key="frame" x="119" y="-3" width="256" height="119.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.1843137255" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -3657,7 +3657,7 @@
                                                     <rect key="frame" x="1" y="4" width="110" height="105.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commadant of the Marine Corps - General Robert B. Neller" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOY-ej-K9h">
-                                                    <rect key="frame" x="119" y="-0.5" width="217" height="114.5"/>
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.1843137255" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -3689,7 +3689,7 @@
                                                     <rect key="frame" x="1" y="4" width="110" height="105.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Master Chief Petty Officer of the Navy - Master Chief Petty Officer Russell L. Smith" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KC7-aT-3X1">
-                                                    <rect key="frame" x="119" y="-0.5" width="217" height="114.5"/>
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.1843137255" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -3721,7 +3721,7 @@
                                                     <rect key="frame" x="1" y="4" width="110" height="105.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sergeant Major of the Marine Corps - Ronald L. Green" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYf-Hj-gNp">
-                                                    <rect key="frame" x="119" y="-0.5" width="217" height="114.5"/>
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.1843137255" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -4092,7 +4092,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadet Senior Chief Petty Officer" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iFx-4D-oMx">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="AK9-mH-hnh"/>
                                                     </constraints>
@@ -4137,7 +4137,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadet Master Chief Petty Officer" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5eP-jI-4o0">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="bVe-DW-2NY"/>
                                                     </constraints>
@@ -4186,7 +4186,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadet Ensign" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BWY-W1-86L">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="RMa-HG-aTm"/>
                                                     </constraints>
@@ -4229,7 +4229,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadet Lieutenant(Junior grade)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZ3-ud-KjZ">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="U2G-4N-sQt"/>
                                                     </constraints>
@@ -4272,7 +4272,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadet Lieutenant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ub1-Bb-4NK">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="5eD-l3-LJN"/>
                                                     </constraints>
@@ -4315,7 +4315,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadet Lieutenant Commander" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSH-E1-N71">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="Dlk-Hg-kPp"/>
                                                     </constraints>
@@ -4358,7 +4358,7 @@
                                                     <rect key="frame" x="1" y="4" width="112" height="107.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadet Commander" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pFg-Zc-h6y">
-                                                    <rect key="frame" x="121" y="8" width="254" height="32.5"/>
+                                                    <rect key="frame" x="160" y="8" width="254" height="32.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="254" id="9sw-05-0JR"/>
                                                     </constraints>
@@ -4478,13 +4478,13 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVx-va-yTY">
                                                     <rect key="frame" x="16" y="0.0" width="382" height="349.5"/>
-                                                    <mutableString key="text">I am a Navy JROTC Cadet. 
+                                                    <string key="text">I am a Navy JROTC Cadet. 
  I will never indulge in conduct that will bring discredit to my family, country, school, and the corps of the cadets.
 I do not lie, cheat, or steal and will always be accountable for my actions and deeds.
 I will always practice good citizenship and patriotism.
 I will proudly embrace the Navy's Core values of Honor, Courage, and Commitment.
 I will work hard to improve my mind and strengthen my body.
-I will seek the mantel of leadership and stand prepared to uphold the Constitution and the American way of life.</mutableString>
+I will seek the mantel of leadership and stand prepared to uphold the Constitution and the American way of life.</string>
                                                     <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -4512,10 +4512,10 @@ I will seek the mantel of leadership and stand prepared to uphold the Constituti
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xcg-HJ-LLx">
                                                     <rect key="frame" x="16" y="0.0" width="382" height="249.5"/>
-                                                    <mutableString key="text"> I am a United States sailor.
+                                                    <string key="text"> I am a United States sailor.
  I will support and defend the constitution of the United States of America and I will obey the orders of those appointed over me.
 I represent the fighting spirit of the navy and those who came before me to defend freedom and democracy around the world.
-I proudly serve my country's Navy combat team with Honor, Courage, and Commitment. I am committed to excellence and the fair treatment of all.</mutableString>
+I proudly serve my country's Navy combat team with Honor, Courage, and Commitment. I am committed to excellence and the fair treatment of all.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -4541,7 +4541,7 @@ I proudly serve my country's Navy combat team with Honor, Courage, and Commitmen
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kap-aT-fbL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6812" y="-765"/>
+            <point key="canvasLocation" x="6135" y="-765"/>
         </scene>
         <!--Navy Leadership Traits-->
         <scene sceneID="6ao-Xx-V30">
@@ -4564,7 +4564,7 @@ I proudly serve my country's Navy combat team with Honor, Courage, and Commitmen
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Use-Ma-nr9">
                                                     <rect key="frame" x="8" y="0.0" width="398" height="820.5"/>
                                                     <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                                    <mutableString key="text"> JUSTICE - The quality of being impartial and consistent in exercising command.
+                                                    <string key="text"> JUSTICE - The quality of being impartial and consistent in exercising command.
   JUDGEMENT - The quality of weighting facts and possible solutions on which to base sound decisions.
  DEPENDABILITY - The certainty of the proper performance of duty.
  INITIATIVE - Seeing what has to be done and commencing a course of action, even in the absence of orders.
@@ -4575,7 +4575,7 @@ I proudly serve my country's Navy combat team with Honor, Courage, and Commitmen
  BEARING - Creating a favorable impression in carnage, appearance, and personal conduct at all times.
  UNSELFISHNESS - Avoidance of providing for ones comfort and personal advancement at the expense of others.
  COURAGE - A mental quality that recognizes fear of danger or criticism but enables a person to proceed in the face of it with calmness and firmness.
- LOYALTY - Faithfulness to country, Corps, and unit, and to your seniors and subordinates.  ENTHUSIASM - The display of sincere interest and exuberance in the performance of duty.</mutableString>
+ LOYALTY - Faithfulness to country, Corps, and unit, and to your seniors and subordinates.  ENTHUSIASM - The display of sincere interest and exuberance in the performance of duty.</string>
                                                     <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -4641,7 +4641,7 @@ I proudly serve my country's Navy combat team with Honor, Courage, and Commitmen
         <image name="navy_lieutenant" width="800" height="1371"/>
         <image name="navy_lieutenant_commander" width="800" height="1371"/>
         <image name="navy_lieutenant_junior_grade" width="800" height="1371"/>
-        <image name="navy_logo_black" width="25" height="25"/>
+        <image name="navy_logo_black" width="50" height="50"/>
         <image name="navy_mcpo" width="800" height="1000"/>
         <image name="navy_rear_admiral" width="800" height="1371"/>
         <image name="navy_rear_admiral_upper" width="800" height="1371"/>
@@ -4661,7 +4661,7 @@ I proudly serve my country's Navy combat team with Honor, Courage, and Commitmen
         <image name="njrotc_cadet_senior_chief_petty_officer" width="450" height="490"/>
         <image name="no_insignia" width="2000" height="2500"/>
         <image name="potus" width="800" height="1013"/>
-        <image name="secdef" width="800" height="1113"/>
+        <image name="secdef" width="600" height="840"/>
         <image name="secnavy" width="800" height="1000"/>
         <image name="secstate" width="800" height="1126"/>
         <image name="sergeantmajor_of_marinecorps" width="800" height="1000"/>
