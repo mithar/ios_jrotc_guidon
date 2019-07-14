@@ -206,7 +206,7 @@
                             <outlet property="delegate" destination="qdK-jg-psg" id="Wce-jQ-fBJ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="GrI-Rm-cvL"/>
+                    <navigationItem key="navigationItem" title="Air Force JROTC" id="GrI-Rm-cvL"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bdb-Qh-TRL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -7113,7 +7113,7 @@ Educate: People should be properly trained to do their jobs.</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jOT-N0-ebM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="769.56521739130437" y="742.63392857142856"/>
+            <point key="canvasLocation" x="990" y="743"/>
         </scene>
         <!--Air Force Knowledge-->
         <scene sceneID="ni4-1G-sEc">
@@ -7233,6 +7233,58 @@ And I will not fail.</string>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection headerTitle="NATO Phonetic Alphabet" id="cpH-oR-4rR">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="350" id="1P4-tS-3BB">
+                                        <rect key="frame" x="0.0" y="1074" width="414" height="350"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1P4-tS-3BB" id="7ve-Qd-GCW">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="349.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EXL-nu-t0d">
+                                                    <rect key="frame" x="16" y="0.0" width="382" height="349.5"/>
+                                                    <string key="text">A-Alpha
+B-Bravo
+C-Charlie
+D-Delta
+E-Echo
+F-Foxtrot
+G-Golf
+H-Hotel
+I-India
+J-Juliet
+K-Kilo
+L-Lima
+MMike
+N-November
+O-Oscar
+P-Papa
+Q-Quebec
+R-Romeo
+S-Sierra
+T-Tango
+U-Uniform
+V-Victor W-Whiskey
+X-X-Ray
+Y-Yankee
+Z-Zulu</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="EXL-nu-t0d" secondAttribute="bottom" id="7oC-ep-une"/>
+                                                <constraint firstItem="EXL-nu-t0d" firstAttribute="leading" secondItem="7ve-Qd-GCW" secondAttribute="leading" constant="16" id="VgY-2a-o4M"/>
+                                                <constraint firstItem="EXL-nu-t0d" firstAttribute="top" secondItem="7ve-Qd-GCW" secondAttribute="top" id="m0M-an-N48"/>
+                                                <constraint firstAttribute="trailing" secondItem="EXL-nu-t0d" secondAttribute="trailing" constant="16" id="tpI-ih-KWW"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="QSX-bI-76T" id="1su-dx-WIh"/>
@@ -7332,7 +7384,7 @@ And I will not fail.</string>
         <image name="airforce_chief_master_sergeant_of_airforce" width="480" height="600"/>
         <image name="airforce_chief_of_staff" width="800" height="1072"/>
         <image name="airforce_commander_training_command" width="2400" height="3000"/>
-        <image name="airforce_logo_black" width="50" height="50"/>
+        <image name="airforce_logo_black" width="25" height="25"/>
         <image name="airforce_sec" width="800" height="1165"/>
         <image name="four_stars" width="625" height="250"/>
         <image name="gold_bar" width="702" height="1701"/>

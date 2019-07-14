@@ -9,11 +9,13 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
+        <!--Home-->
         <scene sceneID="zAF-bZ-Cpn">
             <objects>
                 <navigationController id="y75-cu-gyf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" id="C9i-gA-0oP"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="moH-Zb-pDj">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -42,7 +44,7 @@
                                 <rect key="frame" x="16" y="322" width="343" height="266"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">Hey guys! Thanks for getting JROTC Guidon. I will be updating you through here about new updates that happen inside of this app, about anything. I will keep updating this app as long as it still continues to be supported by cadets who love it. Again thank you so much for everything.</string>
+                                <string key="text">Hey cadets! Thanks for getting JROTC Guidon. I will be updating you through here about new updates that happen inside of this app, about anything. I will keep updating this app as long as it still continues to be supported by cadets who love it. Again thank you so much for everything.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>

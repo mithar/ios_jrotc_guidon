@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "airforce_logo_recolored.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "airforce_logo_recolored.png",
       "scale" : "2x"
     },
     {

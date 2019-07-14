@@ -3372,7 +3372,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                             <outlet property="delegate" destination="SUc-AU-YC1" id="qyS-tc-IKR"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="pJD-RK-mgL"/>
+                    <navigationItem key="navigationItem" title="Army JROTC" id="pJD-RK-mgL"/>
                     <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="hS0-sP-vaf">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5956,6 +5956,58 @@ O’er the land of the free and the home of the brave?</string>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection headerTitle="NATO Phonetic Alphabet" id="qzt-FR-kWB">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="350" id="TGb-Xl-5gz">
+                                        <rect key="frame" x="0.0" y="1352" width="414" height="350"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TGb-Xl-5gz" id="wxS-sx-CbQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="349.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHh-bv-BQP">
+                                                    <rect key="frame" x="16" y="0.0" width="382" height="349.5"/>
+                                                    <string key="text">A-Alpha
+B-Bravo
+C-Charlie
+D-Delta
+E-Echo
+F-Foxtrot
+G-Golf
+H-Hotel
+I-India
+J-Juliet
+K-Kilo
+L-Lima
+MMike
+N-November
+O-Oscar
+P-Papa
+Q-Quebec
+R-Romeo
+S-Sierra
+T-Tango
+U-Uniform
+V-Victor W-Whiskey
+X-X-Ray
+Y-Yankee
+Z-Zulu</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.87450980389999999" green="0.81960784310000001" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="MHh-bv-BQP" firstAttribute="leading" secondItem="wxS-sx-CbQ" secondAttribute="leading" constant="16" id="48Z-sA-gjy"/>
+                                                <constraint firstAttribute="bottom" secondItem="MHh-bv-BQP" secondAttribute="bottom" id="4aM-nu-Uhs"/>
+                                                <constraint firstItem="MHh-bv-BQP" firstAttribute="top" secondItem="wxS-sx-CbQ" secondAttribute="top" id="6sh-JJ-wgI"/>
+                                                <constraint firstAttribute="trailing" secondItem="MHh-bv-BQP" secondAttribute="trailing" constant="16" id="KHl-rj-TgS"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.4039215686" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="ViT-Pv-2kW" id="yHF-Lz-X9Z"/>
@@ -6072,7 +6124,7 @@ O’er the land of the free and the home of the brave?</string>
         <image name="army_jrotc_student_government_ribbon" width="105" height="30"/>
         <image name="army_jrotc_superior_cadet_ribbon" width="105" height="30"/>
         <image name="army_jrotc_varsity_athletics_ribbon" width="105" height="30"/>
-        <image name="army_logo_black" width="50" height="50"/>
+        <image name="army_logo_black" width="25" height="25"/>
         <image name="army_training_commanding_general" width="2550" height="3300"/>
         <image name="four_stars" width="625" height="250"/>
         <image name="gold_bar" width="702" height="1701"/>

@@ -4532,6 +4532,58 @@ I proudly serve my country's Navy combat team with Honor, Courage, and Commitmen
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection headerTitle="NATO Phonetic Alphabet" id="yBE-yd-76J">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="350" id="xg4-3s-ewM">
+                                        <rect key="frame" x="0.0" y="824" width="414" height="350"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xg4-3s-ewM" id="4P7-aY-uI9">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="349.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5S1-eM-HEM">
+                                                    <rect key="frame" x="16" y="0.0" width="382" height="349.5"/>
+                                                    <string key="text">A-Alpha
+B-Bravo
+C-Charlie
+D-Delta
+E-Echo
+F-Foxtrot
+G-Golf
+H-Hotel
+I-India
+J-Juliet
+K-Kilo
+L-Lima
+MMike
+N-November
+O-Oscar
+P-Papa
+Q-Quebec
+R-Romeo
+S-Sierra
+T-Tango
+U-Uniform
+V-Victor W-Whiskey
+X-X-Ray
+Y-Yankee
+Z-Zulu</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="5S1-eM-HEM" secondAttribute="trailing" constant="16" id="FBS-LB-AHi"/>
+                                                <constraint firstItem="5S1-eM-HEM" firstAttribute="leading" secondItem="4P7-aY-uI9" secondAttribute="leading" constant="16" id="HW0-li-V8x"/>
+                                                <constraint firstAttribute="bottom" secondItem="5S1-eM-HEM" secondAttribute="bottom" id="hql-Io-g30"/>
+                                                <constraint firstItem="5S1-eM-HEM" firstAttribute="top" secondItem="4P7-aY-uI9" secondAttribute="top" id="lSL-7f-SZ9"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="UjR-Bz-3gh" id="OFn-Pz-2SP"/>
@@ -4641,7 +4693,7 @@ I proudly serve my country's Navy combat team with Honor, Courage, and Commitmen
         <image name="navy_lieutenant" width="800" height="1371"/>
         <image name="navy_lieutenant_commander" width="800" height="1371"/>
         <image name="navy_lieutenant_junior_grade" width="800" height="1371"/>
-        <image name="navy_logo_black" width="50" height="50"/>
+        <image name="navy_logo_black" width="25" height="25"/>
         <image name="navy_mcpo" width="800" height="1000"/>
         <image name="navy_rear_admiral" width="800" height="1371"/>
         <image name="navy_rear_admiral_upper" width="800" height="1371"/>
