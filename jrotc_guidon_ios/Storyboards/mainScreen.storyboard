@@ -44,7 +44,7 @@
                                 <rect key="frame" x="16" y="322" width="343" height="266"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">Hey cadets! Thanks for getting JROTC Guidon. I will be updating you through here about new updates that happen inside of this app. I will keep updating this app as long as it still continues to be supported by cadets who love it. Again thank you so much for everything.</string>
+                                <string key="text">Hey cadets! Thanks for getting JROTC Guidon. I will be updating you through here about new updates that happen inside of this app. I will keep updating this app as long as it still continues to be supported by cadets who love it. Again thank you so much for everything. Follow me on Instagram @JROTCGuidon</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -60,6 +60,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="jrotc_guidon_logo" width="688" height="398"/>
+        <image name="jrotc_guidon_logo" width="882" height="882"/>
     </resources>
 </document>
