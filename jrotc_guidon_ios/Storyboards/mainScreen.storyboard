@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="y75-cu-gyf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="y75-cu-gyf">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -36,13 +36,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jrotc_guidon_logo" translatesAutoresizingMaskIntoConstraints="NO" id="USH-OE-t3k">
-                                <rect key="frame" x="16" y="64" width="343" height="250"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jrotc_guidon_logo" translatesAutoresizingMaskIntoConstraints="NO" id="USH-OE-t3k">
+                                <rect key="frame" x="16" y="64" width="343" height="263"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="USH-OE-t3k" secondAttribute="height" multiplier="343:263" id="rkM-dO-x7h"/>
+                                </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zeB-6D-Mhd">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zeB-6D-Mhd">
                                 <rect key="frame" x="16" y="322" width="343" height="266"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Hey cadets! Thanks for getting JROTC Guidon. I will be updating you through here about new updates that happen inside of this app. I will keep updating this app as long as it still continues to be supported by cadets who love it. Again thank you so much for everything. Follow me on Instagram @JROTCGuidon</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -50,16 +51,25 @@
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="USH-OE-t3k" firstAttribute="leading" secondItem="6cO-V4-6ZD" secondAttribute="leading" constant="16" id="9A8-sH-9Vj"/>
+                            <constraint firstItem="zeB-6D-Mhd" firstAttribute="top" secondItem="6cO-V4-6ZD" secondAttribute="top" constant="258" id="QTJ-rK-RhX"/>
+                            <constraint firstItem="zeB-6D-Mhd" firstAttribute="leading" secondItem="6cO-V4-6ZD" secondAttribute="leading" constant="16" id="YgC-kk-k0q"/>
+                            <constraint firstItem="USH-OE-t3k" firstAttribute="top" secondItem="6cO-V4-6ZD" secondAttribute="top" id="f4e-jA-Hec"/>
+                            <constraint firstItem="6cO-V4-6ZD" firstAttribute="trailing" secondItem="USH-OE-t3k" secondAttribute="trailing" constant="16" id="fNu-PD-7Oq"/>
+                            <constraint firstItem="6cO-V4-6ZD" firstAttribute="trailing" secondItem="zeB-6D-Mhd" secondAttribute="trailing" constant="16" id="ijq-dN-0Pa"/>
+                            <constraint firstItem="6cO-V4-6ZD" firstAttribute="bottom" secondItem="zeB-6D-Mhd" secondAttribute="bottom" constant="30" id="rTs-0a-3oq"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6cO-V4-6ZD"/>
                     </view>
                     <navigationItem key="navigationItem" id="Cb6-aX-gXX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bhb-wy-VkH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="254" y="-15"/>
+            <point key="canvasLocation" x="253.59999999999999" y="-15.742128935532236"/>
         </scene>
     </scenes>
     <resources>
-        <image name="jrotc_guidon_logo" width="882" height="882"/>
+        <image name="jrotc_guidon_logo" width="688" height="398"/>
     </resources>
 </document>
