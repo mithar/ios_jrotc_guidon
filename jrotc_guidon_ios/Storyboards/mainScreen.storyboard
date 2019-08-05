@@ -45,7 +45,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeB-6D-Mhd">
                                 <rect key="frame" x="16" y="322" width="343" height="266"/>
                                 <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">Hey cadets! Thanks for getting JROTC Guidon. I will be updating you through here about new updates that happen inside of this app. I will keep updating this app as long as it still continues to be supported by cadets who love it. Again thank you so much for everything. Follow me on Instagram @JROTCGuidon</string>
+                                <mutableString key="text">Hey cadets! Thanks for getting JROTC Guidon. I will be updating you through here about new updates that happen inside of this app. I will keep updating this app as long as it still continues to be supported by cadets who love it. Again thank you so much for everything. Follow me on Instagram @JROTCGuidon This app was last updated on Aug 3,2019</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>

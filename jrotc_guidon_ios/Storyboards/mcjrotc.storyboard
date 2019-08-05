@@ -278,7 +278,7 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sergeantmajor_of_marinecorps" translatesAutoresizingMaskIntoConstraints="NO" id="Zj0-ay-dbF">
                                                     <rect key="frame" x="1" y="4" width="110" height="105.5"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sergeant Major of the Marine Corps - Ronald L. Green" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kq4-Qj-gek">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sergeant Major of the Marine Corps - Troy E. Black" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kq4-Qj-gek">
                                                     <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1950,27 +1950,8 @@
                                             <segue destination="XiO-hG-FvV" kind="show" id="JJA-0x-cYb"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="o6J-R4-kPU">
-                                        <rect key="frame" x="0.0" y="308" width="414" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="o6J-R4-kPU" id="xmr-CY-MLR">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Uniform Inspection Check" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yE4-03-67k">
-                                                    <rect key="frame" x="28" y="12" width="199" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <color key="backgroundColor" red="0.65046924350000002" green="0.098639182749999998" blue="0.1801507473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.10324727559999999" green="0.24476205340000001" blue="0.51483565409999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="AGR-2o-3CH">
-                                        <rect key="frame" x="0.0" y="352" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="308" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AGR-2o-3CH" id="nfF-pj-MJK">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -2615,7 +2596,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textField key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="G5U-kd-B8z">
-                            <rect key="frame" x="0.0" y="5973" width="414" height="30"/>
+                            <rect key="frame" x="0.0" y="5998" width="414" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <nil key="textColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2634,7 +2615,7 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marine_corps_jrotc_recruiting_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="o0q-6K-911">
                                                     <rect key="frame" x="75" y="11" width="264" height="35"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Sea Cruise Ribbon  - Awarded to any cadet upon completion of an at sea cruise (vessel must cast off lines and be underway).." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YTX-IJ-Nex">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Recruiting Ribbon - Awarded when cadets recruit other students into the MCJROTC Program." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YTX-IJ-Nex">
                                                     <rect key="frame" x="0.0" y="46" width="414" height="98.5"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2712,9 +2693,8 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marine_corps_jrotc_orienteering_team_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="QZf-rl-DB1">
                                                     <rect key="frame" x="75" y="11" width="264" height="35"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mvd-H6-5d4">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Orienteering Ribbon- Awarded to cadets who have participated in orienteering." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mvd-H6-5d4">
                                                     <rect key="frame" x="0.0" y="46" width="414" height="98.5"/>
-                                                    <string key="text">Basic Leadership Training Ribbon  - Awarded to any cadet upon completion of Basic Leadership Training, Leadership Academy or similar training approved by the area manager.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2793,7 +2773,7 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VG5-FL-fKW">
                                                     <rect key="frame" x="0.0" y="46" width="414" height="98.5"/>
-                                                    <string key="text">Recruiting Ribbon  - Awarded when earned to any cadet that is instrumental in the enrollment of two students or is part of a recruiting effort.</string>
+                                                    <string key="text">Rifle Team Ribbon- Presented to the cadets who have distinguished themselves on the unit\'s rifle team. Can be worn with Rifle Team bar device.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2872,7 +2852,8 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ye-C1-OI3">
                                                     <rect key="frame" x="0.0" y="46" width="414" height="98.5"/>
-                                                    <string key="text">Inter-Service Competition Ribbon  - Awarded to a cadet who has entered any inter-service, national level competition, such as CyberPatriot, JLAB, etc; or for any SeaPerch Competition, regardless of service sponsorship.</string>
+                                                    <string key="text">Band, Drum, and Bugle Corps Ribbon
+-Awarded to cadets who are or have been in the schools band/drum and bugle corps. Can be worn with the Band bar device.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2951,7 +2932,8 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IOg-9J-PPE">
                                                     <rect key="frame" x="0.0" y="46" width="414" height="98.5"/>
-                                                    <string key="text">Rifle Team Ribbon  - Awarded when earned to any cadet in good standing who has entered competition including all air-operated weapons.</string>
+                                                    <string key="text">Drill Team Ribbon
+- Presented to cadets who are a part of the unit drill team in drill team competitions.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3030,7 +3012,7 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fp0-kN-PpO">
                                                     <rect key="frame" x="0.0" y="46" width="414" height="98.5"/>
-                                                    <string key="text">Color Guard Ribbon  - Awarded when earned to any cadet in good standing who has performed as a member of the color guard for 3 events.</string>
+                                                    <string key="text">Color Guard Ribbon -Awarded to cadets who make up the official color guard unit(s). Also awarded to those cadets who performed in at least 3 color guard events for the MCJROTC program.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3107,9 +3089,8 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marine_corps_jrotc_best_drill_squad_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="FgK-1f-dsI">
                                                     <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ibb-in-oaw">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Best Drill Squad Ribbon - Presented to a drill squad that has earned a first place trophy during a drill competition." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ibb-in-oaw">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Drill Team Ribbon - The drill team ribbon may be awarded to all cadets that earn 3 drill team pts, which include parades, meets, and other performances.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3186,7 +3167,7 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marine_corps_jrotc_distinguished_conduct_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="alB-Pn-wp3">
                                                     <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Academic Award Ribbon  - Awarded when earned, to each cadet in good standing who has been a member of the Academic Team." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hgg-Sx-oAP">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Distinguished Conduct Ribbon -Presented to any cadet whose conduct and demeanor are worthy of special recognition." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hgg-Sx-oAP">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -3264,9 +3245,8 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marine_corps_jrotc_longevity_fidelity_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="paI-GV-fjF">
                                                     <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ids-W3-rUh">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Longevity / Fidelity - Presented to those cadets who have successfully participated in the MCJROTC Program for 2 years." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ids-W3-rUh">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Community Service Ribbon  - Community Service ribbons and each subsequent NJROTC award are earned after 12 hrs of properly documented volunteer service.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3343,9 +3323,8 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marine_corps_jrotc_athletic_participation_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="4dq-dM-fOt">
                                                     <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Stk-04-TlR">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Athletic Participation -Presented to cadets who are or have participated in any school sport." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Stk-04-TlR">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Unit Service Ribbon  - Unit Service and each subsequent award is earned when a cadet performs superior service to unit. The award may be for sustained service at a level above that normally required of other cadets or it may be for a specific act(s) of superior service.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3421,7 +3400,7 @@
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oz5-Se-ChO">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Participation Ribbon - Awarded when earned to all cadets earning one hour or more participation in at least three separate, non-social NJROTC sponsored events or activities (to include ushering at school events, flag detail, attendance at drill, field/athletic meets, and attendance on field trips).</string>
+                                                    <string key="text">Superior Marksman -Awarded to cadets who qualify as a superior marksman during competitions, by achieving a score of 270 or higher.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3501,9 +3480,8 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marine_corps_jrotc_physical_achievement_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="XZP-8B-ig0">
                                                     <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kGn-tj-cix">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Physical Achievement Ribbon -Awarded to cadets who have an outstanding YPFT or PFT Score." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kGn-tj-cix">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Physical Fitness Ribbon - Awarded twice a year to any cadet who meets or exceeds physical fitness standards to be given to you at a later time.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3580,9 +3558,8 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marine_corps_jrotc_distinguished_military_training_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="ygW-QC-2Lc">
                                                     <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M1V-z5-wte">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Distinguished Military Training -Awarded to cadets who have participated in MCJROTC Boot Camp." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M1V-z5-wte">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Exemplary Personal Appearance Ribbon -  Awarded twice yearly to all cadets that wear their uniform on all required occasions and have an average of 90%  on inspection and not received an inspection grade below an "A". (this award can be received 3 times in a year based on the results of the NJROTC Area Manager during annual inspection)</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3659,7 +3636,7 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marine_corps_jrotc_arts_and_academic_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="2pK-Gr-rA3">
                                                     <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exemplary Conduct Ribbon  - Awarded early to each cadet who demonstrates exemplary conduct for the year." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NnW-60-2PK">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Arts and Academics -Presented to cadets who participate in Poetry Out Loud competitions or have their art shown in display." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NnW-60-2PK">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -3739,7 +3716,7 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XsM-zU-3qk">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">NS I Outstanding Cadet Ribbon  - Awarded yearly to outstanding cadets in Naval Science 1 based on citizenship, academic performance, personal appearance and conduct.</string>
+                                                    <string key="text">Distinguished Scholastic Achievement  -Awarded annually to cadets who have maintained an “A” average in academic subjects to include MCJROTC Leadership Education and/or are be in the top ten percent of the class.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3816,9 +3793,8 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marine_corps_jrotc_best_drill_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="jPF-48-bjE">
                                                     <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xvd-Vp-Fej">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Best Drill Cadet -Awarded annually to the cadets who have shown superior performance in comparison to other cadets in drill." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xvd-Vp-Fej">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">NS II Outstanding cadet Ribbon  - Awarded yearly to outstanding cadets in Naval Science 2 based on citizenship, academic performance, personal appearance and conduct.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3897,7 +3873,7 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HzS-z0-s1N">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">NS III Outstanding Cadet Ribbon  - Awarded yearly to outstanding cadets in Naval Science 3 based on citizenship, academic performance, personal appearance and conduct.</string>
+                                                    <string key="text">Civic Service -Presented to cadets who have participated in numerous community service events, including Toys for Tots and the city clean-up.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3974,9 +3950,8 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marine_corps_jrotc_noncommissioned_officer_leadership_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="mgS-fh-nz4">
                                                     <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Pw-Tw-9cn">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Non-Commissioned Officer Leadership -Presented to a cadet who has taken charge of a platoon as a cadet NCO, for a whole year." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Pw-Tw-9cn">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">NS IIII Outstanding Cadet Ribbon  - Awarded yearly to outstanding cadets in Naval Science 4 based on citizenship, academic performance, personal appearance and conduct.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -4053,9 +4028,8 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marine_corps_jrotc_officer_leadership_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="n0x-rb-zpw">
                                                     <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bAx-T6-Zxh">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Officer Leadership -Presented to a cadet who has taken charge of a platoon as a cadet officer, for a whole year." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bAx-T6-Zxh">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Military Aptitude Award Ribbon  - Awarded to the top 10% of the cadets based on evaluation of academic performance of assigned jobs, conduct, unit involvement, attendance, and overall aptitude.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -4132,9 +4106,8 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marine_corps_jrotc_student_leadership_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="i04-64-ZN2">
                                                     <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yag-uD-NGU">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Student Leadership -Presented to cadets who hold an elected office in the student body of the school." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yag-uD-NGU">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Unit Achievement Ribbon  - Awarded to cadets in good standing who were unit members during the academic year in which the school earned the Unit Achievement status as determined by the Area Manager. Awarded only to those units that demonstrated exceptional performance but did not qualify for Distinguished Unit status.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -4201,21 +4174,26 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="CCM-MK-48Y">
-                                        <rect key="frame" x="0.0" y="2928" width="414" height="145"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="170" id="CCM-MK-48Y">
+                                        <rect key="frame" x="0.0" y="2928" width="414" height="170"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CCM-MK-48Y" id="5YM-Gj-tGZ">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="169.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marine_corps_jrotc_outstanding_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="3Ij-2j-IU7">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marine_corps_jrotc_outstanding_cadet_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="3Ij-2j-IU7">
                                                     <rect key="frame" x="63" y="8" width="288" height="40.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bCO-UI-N1p">
-                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Cadet Achievement Ribbon  - Awarded, when earned, to any cadet who distinguishes him/herself by outstanding achievement or sustained superior performance.</string>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCO-UI-N1p">
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">Outstanding Cadet Ribbon
+-Awarded once a year to cadet(s)(2 cadets per grade, male and female) who has A. Consistent superior performance in all facets of the Leadership Education Course
+B. Academic achievement in the top 25% of the class in all academic subjects including JROTC.
+C. Exceptional qualities of leadership, discipline, character, military bearing, and military proficiency.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="11"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qem-9V-6Yb">
@@ -4227,35 +4205,11 @@
                                                 </textField>
                                             </subviews>
                                             <color key="backgroundColor" red="0.65098039220000004" green="0.098039215690000001" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
-                                            <constraints>
-                                                <constraint firstItem="bCO-UI-N1p" firstAttribute="centerX" secondItem="5YM-Gj-tGZ" secondAttribute="centerX" id="AhI-xz-1BU"/>
-                                                <constraint firstItem="3Ij-2j-IU7" firstAttribute="leading" secondItem="5YM-Gj-tGZ" secondAttribute="leadingMargin" constant="55" id="DK4-3u-hDa"/>
-                                                <constraint firstItem="3Ij-2j-IU7" firstAttribute="top" secondItem="5YM-Gj-tGZ" secondAttribute="topMargin" id="QHn-GB-Bte"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="3Ij-2j-IU7" secondAttribute="bottom" constant="88" id="YY8-ff-HMb"/>
-                                                <constraint firstAttribute="bottom" secondItem="bCO-UI-N1p" secondAttribute="bottom" id="ZhM-CO-V39"/>
-                                                <constraint firstItem="bCO-UI-N1p" firstAttribute="leading" secondItem="5YM-Gj-tGZ" secondAttribute="leading" id="gER-WW-vmQ"/>
-                                                <constraint firstAttribute="trailing" secondItem="bCO-UI-N1p" secondAttribute="trailing" id="geO-U5-fzT"/>
-                                                <constraint firstItem="bCO-UI-N1p" firstAttribute="top" secondItem="3Ij-2j-IU7" secondAttribute="bottom" constant="8" id="omg-aG-ZAa"/>
-                                                <constraint firstItem="bCO-UI-N1p" firstAttribute="top" secondItem="3Ij-2j-IU7" secondAttribute="bottom" id="pBP-mS-NaF"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="3Ij-2j-IU7" secondAttribute="trailing" constant="55" id="whD-eg-mq2"/>
-                                            </constraints>
                                             <variation key="default">
                                                 <mask key="subviews">
                                                     <exclude reference="3Ij-2j-IU7"/>
                                                     <exclude reference="bCO-UI-N1p"/>
                                                     <exclude reference="Qem-9V-6Yb"/>
-                                                </mask>
-                                                <mask key="constraints">
-                                                    <exclude reference="DK4-3u-hDa"/>
-                                                    <exclude reference="QHn-GB-Bte"/>
-                                                    <exclude reference="YY8-ff-HMb"/>
-                                                    <exclude reference="whD-eg-mq2"/>
-                                                    <exclude reference="AhI-xz-1BU"/>
-                                                    <exclude reference="ZhM-CO-V39"/>
-                                                    <exclude reference="gER-WW-vmQ"/>
-                                                    <exclude reference="geO-U5-fzT"/>
-                                                    <exclude reference="omg-aG-ZAa"/>
-                                                    <exclude reference="pBP-mS-NaF"/>
                                                 </mask>
                                             </variation>
                                             <variation key="widthClass=compact">
@@ -4264,24 +4218,12 @@
                                                     <include reference="bCO-UI-N1p"/>
                                                     <exclude reference="Qem-9V-6Yb"/>
                                                 </mask>
-                                                <mask key="constraints">
-                                                    <include reference="DK4-3u-hDa"/>
-                                                    <include reference="QHn-GB-Bte"/>
-                                                    <include reference="YY8-ff-HMb"/>
-                                                    <include reference="whD-eg-mq2"/>
-                                                    <include reference="AhI-xz-1BU"/>
-                                                    <include reference="ZhM-CO-V39"/>
-                                                    <include reference="gER-WW-vmQ"/>
-                                                    <include reference="geO-U5-fzT"/>
-                                                    <exclude reference="omg-aG-ZAa"/>
-                                                    <include reference="pBP-mS-NaF"/>
-                                                </mask>
                                             </variation>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="kWz-QO-J1o">
-                                        <rect key="frame" x="0.0" y="3073" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="3098" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kWz-QO-J1o" id="0yu-7Q-TNK">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4290,10 +4232,11 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marine_corps_jrotc_scottish_rite_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="4oo-OV-Dhh">
                                                     <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Honor Cadet Ribbon  - Awarded yearly to one cadet in each year group with the highest overall academic achievement in school." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WYh-GR-e2q">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WYh-GR-e2q">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
+                                                    <string key="text">Scottish Rite Medal -Presented to a cadet who has encouraged and demonstrated Americanism by deeds or conduct through participation in extracurricular activities or unit sponsored community projects and has demonstrated exceptional dependability, character, self-discipline, citizenship and patriotism.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sa4-sd-awU">
@@ -4359,7 +4302,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="la7-yt-qUb">
-                                        <rect key="frame" x="0.0" y="3218" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="3243" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="la7-yt-qUb" id="qWh-Q6-CtC">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4370,7 +4313,7 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0rG-MF-dTC">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Distinguished Cadet Ribbon  - Awarded yearly to one cadet in each year group with the highest combined average for overall scholastic standing and aptitude.</string>
+                                                    <string key="text">National Sojourners -Presented annually to a sophomore or junior cadet who is enrolled for the next year, is in the top 25% and has encouraged and demonstrated the ideals of Americanism.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -4438,7 +4381,7 @@
                                         <color key="backgroundColor" red="0.71764705880000002" green="0.17254901959999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="ZmM-7P-kWb">
-                                        <rect key="frame" x="0.0" y="3363" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="3388" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZmM-7P-kWb" id="i3X-rl-nz5">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4449,7 +4392,8 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rHP-2U-pnD">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Distinguished Unit Ribbon  - Awarded to cadets who were unit members during the academic year in which the school earned Distinguished Unit status.</string>
+                                                    <string key="text">American Veterans (AMVETS) Medal -The award is presented to a cadet for diligence in the discharge of duties and the willingness to serve
+        school, community and nation.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -4517,7 +4461,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="4nH-Vi-7TW">
-                                        <rect key="frame" x="0.0" y="3508" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="3533" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4nH-Vi-7TW" id="Ny9-AQ-OYp">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4528,7 +4472,7 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CPK-81-N1N">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
+                                                    <string key="text">Naval Reserve Association Medal -The award is presented to a cadet in recognition of his/her outstanding service and dedication to the MCJROTC program, academic excellence and desire to serve the school, community, and nation.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -4596,7 +4540,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="Igw-65-JGF">
-                                        <rect key="frame" x="0.0" y="3653" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="3678" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Igw-65-JGF" id="bhD-JF-XSm">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4607,7 +4551,7 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ln-su-Fhi">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
+                                                    <string key="text">Reserve Officers Association Medal -The award is presented to a deserving cadet who has demonstrated outstanding competence in military skills and has contributed to the common good of the school, community and nation.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -4675,7 +4619,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="dUR-uw-jzt">
-                                        <rect key="frame" x="0.0" y="3798" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="3823" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dUR-uw-jzt" id="ib6-He-MhS">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4754,7 +4698,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="Vfs-St-SkA">
-                                        <rect key="frame" x="0.0" y="3943" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="3968" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vfs-St-SkA" id="jMr-og-KVg">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4765,7 +4709,7 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l83-dB-df3">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
+                                                    <string key="text">Navy League Youth Medal -This award is presented to an outstanding cadet in recognition of his/her professionalism and academic excellence and dedication to the MCJROTC program.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -4833,7 +4777,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="ODp-kr-QI0">
-                                        <rect key="frame" x="0.0" y="4088" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="4113" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ODp-kr-QI0" id="rCn-so-sWk">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4844,7 +4788,8 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w47-IH-Zt0">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
+                                                    <string key="text">Military Order of the Purple Heart Medal
+-Awarded to a deserving cadet who combines both military and scholastic excellence with strong leadership skills.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -4912,7 +4857,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="qic-TJ-Ojx">
-                                        <rect key="frame" x="0.0" y="4233" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="4258" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qic-TJ-Ojx" id="67h-3k-3NE">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4923,9 +4868,10 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3wj-Zt-G8W">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
+                                                    <string key="text">Non-Commissioned Officers Association
+-Awarded annually to the most outstanding cadet NCO in the unit during the past school year. No minimum time in program is specified. However, the award must be made to the cadet NCO/SNCO who has consistently exhibited the best military bearing, personal appearance, deportment and leadership ability.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UOr-8c-w55">
@@ -4991,7 +4937,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="dzq-gh-n1c">
-                                        <rect key="frame" x="0.0" y="4378" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="4403" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dzq-gh-n1c" id="3qh-Ez-TnX">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -5002,7 +4948,7 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9NL-5M-5b4">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
+                                                    <string key="text">Women Marines Association Award for Outstanding Cadet- Presented annually to one second year cadet who has a satisfactory record of academic accomplishment and citizenship and has the highest leadership education grades in the unit.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -5070,7 +5016,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="JPP-FQ-GLY">
-                                        <rect key="frame" x="0.0" y="4523" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="4548" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JPP-FQ-GLY" id="hhm-th-gme">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -5081,9 +5027,10 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0YR-SF-q3t">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
+                                                    <string key="text">Daedalian Achievement Award -Presented to a junior cadet who has demonstrated an understanding and appreciation of patriotism, love
+of country and service to the nation. Shows a desire and potential to pursue a military career, ranked in upper 10% of the MCJROTC junior class, and 20% of the school's junior class.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ccS-kv-1xr">
@@ -5149,7 +5096,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="0uw-Ip-qXW">
-                                        <rect key="frame" x="0.0" y="4668" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="4693" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0uw-Ip-qXW" id="tWP-5y-dbn">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -5160,9 +5107,9 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nqS-hf-5ix">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
+                                                    <string key="text">Veterans of Foreign Wars Bronze Medal -Presented to cadets who possess individual characteristics contributing to leadership both in and out of uniform. A minimum grade of "B" in MCJROTC, and a "C" in overall school academics. The cadet must be active in at least one other extracurricular activity or club and may not be a former recipient of the award.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vQl-yV-Xk2">
@@ -5228,7 +5175,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="vIG-Km-AiK">
-                                        <rect key="frame" x="0.0" y="4813" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="4838" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vIG-Km-AiK" id="39f-Hp-LDk">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -5239,7 +5186,7 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pMT-Jp-65d">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
+                                                    <string key="text">Military Officers Association of America Medal -Presented to a cadet for outstanding academic achievement. The cadet must be in the top 10% of the class, have an "A" average in MCJROTC subjects, hold an officers billet in the unit, and be in the junior year of high school.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -5307,7 +5254,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="MgM-21-Jqv">
-                                        <rect key="frame" x="0.0" y="4958" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="4983" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MgM-21-Jqv" id="oGm-j5-iTY">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -5318,9 +5265,9 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K0J-Ji-VNf">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
+                                                    <string key="text">Military Order of the World Wars Medal -Presented to an outstanding first year cadet who excel in both military and scholastic activities, be in good standing in all military and scholastic courses, have indicated a desire to serve the United States in some capacity, and have committed to continue MCJROTC.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oVr-pG-1Dv">
@@ -5386,7 +5333,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="rXS-dV-a24">
-                                        <rect key="frame" x="0.0" y="5103" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="5128" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rXS-dV-a24" id="b2E-eW-Ph5">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -5397,9 +5344,9 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4PH-lw-PH4">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
+                                                    <string key="text">Daughters of the American Revolution Bronze Medal -Presented to a graduating cadet who is in the upper 25% of the graduating class in all subjects. Must have demonstrated qualities of dependability and good character, military discipline, leadership ability and understand the importance of JROTC.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TPd-It-O3a">
@@ -5465,7 +5412,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="0UC-at-XJ4">
-                                        <rect key="frame" x="0.0" y="5248" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="5273" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0UC-at-XJ4" id="d1a-YE-bKe">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -5476,7 +5423,7 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JbE-ul-HWp">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
+                                                    <string key="text">Sons of the American Revolution Bronze Medal -Awarded to a Junior cadet who has exhibited the highest standards of leadership, soldierly bearing and excellence.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -5544,7 +5491,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="IcV-Bk-DeZ">
-                                        <rect key="frame" x="0.0" y="5393" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="5418" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IcV-Bk-DeZ" id="Xiv-HG-Cdr">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -5555,9 +5502,9 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bxU-RF-SJ5">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
+                                                    <string key="text">American Legion Bronze Medal for Military Excellence -Awarded to one cadet per school per year who has grades in all MCJROTC subjects within the top 25% and has demonstrated outstanding qualities in military leadership, discipline, character, and citizenship. Worn with the Military Excellence Device.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HUX-Zk-exY">
@@ -5623,7 +5570,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="iqV-Me-E0k">
-                                        <rect key="frame" x="0.0" y="5538" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="5563" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iqV-Me-E0k" id="svy-lv-4Rn">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -5634,9 +5581,9 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iSA-Xg-F4g">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
+                                                    <string key="text">American Legion Award for Scholastic Excellence -Awarded to one cadet per school per year who has an academic average earned on MCJROTC in the top 10% of the class and have grades in all MCJROTC subjects within th top 25% . Have demonstrated qualities of leadership and actively participated in related student activities. Worn with the Scholastic Excellence Device.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lnD-9e-Wze">
@@ -5702,7 +5649,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="kI2-Fr-bTR">
-                                        <rect key="frame" x="0.0" y="5683" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="5708" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kI2-Fr-bTR" id="dhN-fG-eK1">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -5713,7 +5660,7 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bNJ-DY-Lpf">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
+                                                    <string key="text">Marine Corps Reserve Association Outstanding Unit - Authorized for those cadets whose unit received recognition by placing either first, second, or third in competition for the outstanding MCJROTC unit.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -5781,7 +5728,7 @@
                                         <color key="backgroundColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="IRE-nj-UiG">
-                                        <rect key="frame" x="0.0" y="5828" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="5853" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IRE-nj-UiG" id="7uR-Lw-YTV">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -5792,9 +5739,9 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SVx-b5-DS6">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
-                                                    <string key="text">Meritorious Achievement Award  - Awarded, WHEN EARNED, to any NJROTC cadet who distinguishes him/herself only by outstanding meritorious achievement or performance of a meritorious act.</string>
+                                                    <string key="text">Legion of Valor Bronze Cross Achievement- Awarded to one Senior Cadet per District who has a MCJROTC class standing in the top 25% of their class, has a school academic class standing in the top 25% and has most demonstrated exemplary military leadership. Worn with the Bronze Cross Device.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ggb-te-Jsm">
@@ -6635,11 +6582,11 @@ The Marine Corps JROTC Cadets.</string>
                             </tableViewSection>
                             <tableViewSection headerTitle="NATO Phonetic Alphabet" id="Vbk-qZ-ZUy">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="350" id="zMg-aP-D8i">
-                                        <rect key="frame" x="0.0" y="2430" width="414" height="350"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="550" id="zMg-aP-D8i">
+                                        <rect key="frame" x="0.0" y="2430" width="414" height="550"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zMg-aP-D8i" id="cax-o4-hY5">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="349.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="549.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dLH-tJ-p4o">
