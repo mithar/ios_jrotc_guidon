@@ -203,7 +203,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textField key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="YlY-vC-caz">
-                            <rect key="frame" x="0.0" y="8438" width="414" height="30"/>
+                            <rect key="frame" x="0.0" y="9018" width="414" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <nil key="textColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -609,9 +609,9 @@
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MA2-f0-znk">
                                                     <rect key="frame" x="0.0" y="46" width="414" height="98.5"/>
-                                                    <mutableString key="text">Patriotic Flag Ribbon  -  Awarded once annually for participation in non-color guard events specifically designed to
+                                                    <string key="text">Patriotic Flag Ribbon  -  Awarded once annually for participation in non-color guard events specifically designed to
 honor our nation’s flag. Such events include flag raising ceremonies, flag retirement ceremonies, flag folding
-ceremonies, and historical flag demonstrations.</mutableString>
+ceremonies, and historical flag demonstrations.</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -645,15 +645,15 @@ ceremonies, and historical flag demonstrations.</mutableString>
                                                 </mask>
                                                 <mask key="constraints">
                                                     <exclude reference="ZHa-hd-GVY"/>
-                                                    <exclude reference="wqw-UH-FgS"/>
-                                                    <exclude reference="kIY-yt-z2s"/>
                                                     <exclude reference="dnW-te-rhD"/>
-                                                    <exclude reference="CJ1-ME-VDD"/>
-                                                    <exclude reference="7Sa-ti-LGx"/>
-                                                    <exclude reference="LRk-mz-XMH"/>
+                                                    <exclude reference="kIY-yt-z2s"/>
+                                                    <exclude reference="wqw-UH-FgS"/>
                                                     <exclude reference="1Kn-VZ-pse"/>
                                                     <exclude reference="1fd-yd-JlP"/>
                                                     <exclude reference="5qP-TM-8PE"/>
+                                                    <exclude reference="7Sa-ti-LGx"/>
+                                                    <exclude reference="CJ1-ME-VDD"/>
+                                                    <exclude reference="LRk-mz-XMH"/>
                                                 </mask>
                                             </variation>
                                             <variation key="widthClass=compact">
@@ -664,15 +664,15 @@ ceremonies, and historical flag demonstrations.</mutableString>
                                                 </mask>
                                                 <mask key="constraints">
                                                     <include reference="ZHa-hd-GVY"/>
-                                                    <include reference="wqw-UH-FgS"/>
-                                                    <include reference="kIY-yt-z2s"/>
                                                     <include reference="dnW-te-rhD"/>
-                                                    <include reference="CJ1-ME-VDD"/>
-                                                    <include reference="7Sa-ti-LGx"/>
-                                                    <include reference="LRk-mz-XMH"/>
+                                                    <include reference="kIY-yt-z2s"/>
+                                                    <include reference="wqw-UH-FgS"/>
                                                     <include reference="1Kn-VZ-pse"/>
                                                     <include reference="1fd-yd-JlP"/>
                                                     <exclude reference="5qP-TM-8PE"/>
+                                                    <include reference="7Sa-ti-LGx"/>
+                                                    <include reference="CJ1-ME-VDD"/>
+                                                    <include reference="LRk-mz-XMH"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -726,14 +726,14 @@ Hike. </string>
                                                 <mask key="constraints">
                                                     <exclude reference="J17-Qr-pwu"/>
                                                     <exclude reference="VCi-gR-tfu"/>
-                                                    <exclude reference="nFs-AY-bqs"/>
                                                     <exclude reference="afz-dw-WbU"/>
-                                                    <exclude reference="yjk-Sb-0PH"/>
-                                                    <exclude reference="7Am-1X-sFr"/>
-                                                    <exclude reference="s1f-jz-9cs"/>
+                                                    <exclude reference="nFs-AY-bqs"/>
                                                     <exclude reference="4Pr-Ht-sBv"/>
+                                                    <exclude reference="7Am-1X-sFr"/>
                                                     <exclude reference="glV-hC-GBg"/>
                                                     <exclude reference="r3K-vI-7xZ"/>
+                                                    <exclude reference="s1f-jz-9cs"/>
+                                                    <exclude reference="yjk-Sb-0PH"/>
                                                 </mask>
                                             </variation>
                                             <variation key="widthClass=compact">
@@ -745,14 +745,14 @@ Hike. </string>
                                                 <mask key="constraints">
                                                     <include reference="J17-Qr-pwu"/>
                                                     <include reference="VCi-gR-tfu"/>
-                                                    <include reference="nFs-AY-bqs"/>
                                                     <include reference="afz-dw-WbU"/>
-                                                    <include reference="yjk-Sb-0PH"/>
-                                                    <include reference="7Am-1X-sFr"/>
-                                                    <include reference="s1f-jz-9cs"/>
+                                                    <include reference="nFs-AY-bqs"/>
                                                     <include reference="4Pr-Ht-sBv"/>
+                                                    <include reference="7Am-1X-sFr"/>
                                                     <include reference="glV-hC-GBg"/>
                                                     <exclude reference="r3K-vI-7xZ"/>
+                                                    <include reference="s1f-jz-9cs"/>
+                                                    <include reference="yjk-Sb-0PH"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -765,10 +765,10 @@ Hike. </string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_longevity_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="IYy-ku-glC">
-                                                    <rect key="frame" x="75" y="11" width="264" height="35"/>
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Longevity Ribbon - Successfully complete an Aerospace Science course with a “C” or better grade." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bxc-oE-ufQ">
-                                                    <rect key="frame" x="0.0" y="46" width="414" height="98.5"/>
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1844,8 +1844,162 @@ Hike. </string>
                                             </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="vgh-NT-maS">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="mcC-o8-TwV">
                                         <rect key="frame" x="0.0" y="3073" width="414" height="145"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mcC-o8-TwV" id="eMy-C6-WND">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_nationals_competition_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="kbc-nP-gxG">
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Air Force Nationals Competition Ribbon-" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uo5-bP-f4f">
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h8t-Hs-hrz">
+                                                    <rect key="frame" x="7" y="54" width="400" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="kbc-nP-gxG" firstAttribute="leading" secondItem="eMy-C6-WND" secondAttribute="leadingMargin" constant="55" id="41T-hw-mv7"/>
+                                                <constraint firstItem="Uo5-bP-f4f" firstAttribute="top" secondItem="kbc-nP-gxG" secondAttribute="bottom" constant="8" id="7Kb-ba-tpP"/>
+                                                <constraint firstItem="Uo5-bP-f4f" firstAttribute="leading" secondItem="eMy-C6-WND" secondAttribute="leading" id="A8Z-T2-0fh"/>
+                                                <constraint firstItem="Uo5-bP-f4f" firstAttribute="centerX" secondItem="eMy-C6-WND" secondAttribute="centerX" id="MOc-Fr-Zhx"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="kbc-nP-gxG" secondAttribute="trailing" constant="55" id="OfS-sh-gAc"/>
+                                                <constraint firstItem="kbc-nP-gxG" firstAttribute="top" secondItem="eMy-C6-WND" secondAttribute="topMargin" id="USr-78-9pB"/>
+                                                <constraint firstAttribute="bottom" secondItem="Uo5-bP-f4f" secondAttribute="bottom" id="ggG-ZT-wj1"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="kbc-nP-gxG" secondAttribute="bottom" constant="88" id="hJw-ST-jDb"/>
+                                                <constraint firstAttribute="trailing" secondItem="Uo5-bP-f4f" secondAttribute="trailing" id="uSt-GL-oe9"/>
+                                                <constraint firstItem="Uo5-bP-f4f" firstAttribute="top" secondItem="kbc-nP-gxG" secondAttribute="bottom" id="xiY-39-xji"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="kbc-nP-gxG"/>
+                                                    <exclude reference="Uo5-bP-f4f"/>
+                                                    <exclude reference="h8t-Hs-hrz"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="USr-78-9pB"/>
+                                                    <exclude reference="hJw-ST-jDb"/>
+                                                    <exclude reference="OfS-sh-gAc"/>
+                                                    <exclude reference="41T-hw-mv7"/>
+                                                    <exclude reference="7Kb-ba-tpP"/>
+                                                    <exclude reference="A8Z-T2-0fh"/>
+                                                    <exclude reference="ggG-ZT-wj1"/>
+                                                    <exclude reference="MOc-Fr-Zhx"/>
+                                                    <exclude reference="xiY-39-xji"/>
+                                                    <exclude reference="uSt-GL-oe9"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="kbc-nP-gxG"/>
+                                                    <include reference="Uo5-bP-f4f"/>
+                                                    <exclude reference="h8t-Hs-hrz"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="USr-78-9pB"/>
+                                                    <include reference="hJw-ST-jDb"/>
+                                                    <include reference="OfS-sh-gAc"/>
+                                                    <include reference="41T-hw-mv7"/>
+                                                    <exclude reference="7Kb-ba-tpP"/>
+                                                    <include reference="A8Z-T2-0fh"/>
+                                                    <include reference="ggG-ZT-wj1"/>
+                                                    <include reference="MOc-Fr-Zhx"/>
+                                                    <include reference="xiY-39-xji"/>
+                                                    <include reference="uSt-GL-oe9"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="Ean-FG-u7k">
+                                        <rect key="frame" x="0.0" y="3218" width="414" height="145"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ean-FG-u7k" id="6mN-Li-FDl">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_joint_all_service_national_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="q8s-Pu-g8l">
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Joint/All-Service National Competition Ribbon - " textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gfX-lk-R9Q">
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZZs-3q-CUh">
+                                                    <rect key="frame" x="7" y="54" width="400" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="gfX-lk-R9Q" secondAttribute="trailing" id="FWp-S9-ELF"/>
+                                                <constraint firstItem="gfX-lk-R9Q" firstAttribute="top" secondItem="q8s-Pu-g8l" secondAttribute="bottom" id="L8c-fg-Rl7"/>
+                                                <constraint firstItem="gfX-lk-R9Q" firstAttribute="top" secondItem="q8s-Pu-g8l" secondAttribute="bottom" constant="8" id="NQk-4U-jhE"/>
+                                                <constraint firstItem="q8s-Pu-g8l" firstAttribute="top" secondItem="6mN-Li-FDl" secondAttribute="topMargin" id="Py2-do-LDf"/>
+                                                <constraint firstItem="gfX-lk-R9Q" firstAttribute="centerX" secondItem="6mN-Li-FDl" secondAttribute="centerX" id="Q7E-p0-gj8"/>
+                                                <constraint firstItem="q8s-Pu-g8l" firstAttribute="leading" secondItem="6mN-Li-FDl" secondAttribute="leadingMargin" constant="55" id="a2i-Di-ttA"/>
+                                                <constraint firstItem="gfX-lk-R9Q" firstAttribute="leading" secondItem="6mN-Li-FDl" secondAttribute="leading" id="evf-Ux-TVn"/>
+                                                <constraint firstAttribute="bottom" secondItem="gfX-lk-R9Q" secondAttribute="bottom" id="hs6-fo-euj"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="q8s-Pu-g8l" secondAttribute="trailing" constant="55" id="nx5-e9-eIl"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="q8s-Pu-g8l" secondAttribute="bottom" constant="88" id="xJ9-9b-lTb"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="q8s-Pu-g8l"/>
+                                                    <exclude reference="gfX-lk-R9Q"/>
+                                                    <exclude reference="ZZs-3q-CUh"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="Py2-do-LDf"/>
+                                                    <exclude reference="xJ9-9b-lTb"/>
+                                                    <exclude reference="nx5-e9-eIl"/>
+                                                    <exclude reference="a2i-Di-ttA"/>
+                                                    <exclude reference="NQk-4U-jhE"/>
+                                                    <exclude reference="evf-Ux-TVn"/>
+                                                    <exclude reference="hs6-fo-euj"/>
+                                                    <exclude reference="Q7E-p0-gj8"/>
+                                                    <exclude reference="L8c-fg-Rl7"/>
+                                                    <exclude reference="FWp-S9-ELF"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="q8s-Pu-g8l"/>
+                                                    <include reference="gfX-lk-R9Q"/>
+                                                    <exclude reference="ZZs-3q-CUh"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="Py2-do-LDf"/>
+                                                    <include reference="xJ9-9b-lTb"/>
+                                                    <include reference="nx5-e9-eIl"/>
+                                                    <include reference="a2i-Di-ttA"/>
+                                                    <exclude reference="NQk-4U-jhE"/>
+                                                    <include reference="evf-Ux-TVn"/>
+                                                    <include reference="hs6-fo-euj"/>
+                                                    <include reference="Q7E-p0-gj8"/>
+                                                    <include reference="L8c-fg-Rl7"/>
+                                                    <include reference="FWp-S9-ELF"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="vgh-NT-maS">
+                                        <rect key="frame" x="0.0" y="3363" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vgh-NT-maS" id="vsh-NQ-9GG">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -1923,7 +2077,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="LQw-ew-43j">
-                                        <rect key="frame" x="0.0" y="3218" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="3508" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LQw-ew-43j" id="JAz-Pe-8Up">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -2000,7 +2154,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="Vud-Xb-Z9C">
-                                        <rect key="frame" x="0.0" y="3363" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="3653" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vud-Xb-Z9C" id="YSj-Eu-EIH">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -2077,7 +2231,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="qio-C1-z9u">
-                                        <rect key="frame" x="0.0" y="3508" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="3798" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qio-C1-z9u" id="Qcw-o9-zQo">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -2155,7 +2309,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="fdl-gj-T65">
-                                        <rect key="frame" x="0.0" y="3653" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="3943" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fdl-gj-T65" id="75a-5g-vGh">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -2233,7 +2387,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="uiW-VI-LLN">
-                                        <rect key="frame" x="0.0" y="3798" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="4088" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uiW-VI-LLN" id="cpq-Fv-lwM">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -2310,7 +2464,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="Wmf-g8-5OI">
-                                        <rect key="frame" x="0.0" y="3943" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="4233" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Wmf-g8-5OI" id="r6P-NY-btc">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -2388,7 +2542,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="Jax-BL-EtV">
-                                        <rect key="frame" x="0.0" y="4088" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="4378" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Jax-BL-EtV" id="k8Z-C7-WIg">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -2466,7 +2620,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="60w-YA-Uc9">
-                                        <rect key="frame" x="0.0" y="4233" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="4523" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="60w-YA-Uc9" id="EVQ-qe-6zg">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -2544,13 +2698,13 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="Dh7-Qb-YYs">
-                                        <rect key="frame" x="0.0" y="4378" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="4668" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Dh7-Qb-YYs" id="pYl-mC-m0w">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_outstanding_organization_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Oce-Vl-rTx">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_outstanding_organization_award" translatesAutoresizingMaskIntoConstraints="NO" id="Oce-Vl-rTx">
                                                     <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tov-mf-fT3">
@@ -2622,7 +2776,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="X13-uM-cYE">
-                                        <rect key="frame" x="0.0" y="4523" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="4813" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="X13-uM-cYE" id="EmX-EB-CP5">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -2631,7 +2785,7 @@ Hike. </string>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_distinguished_unit_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="GxL-Uo-Vz5">
                                                     <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Distinguished Unit Award - Be enrolled in AFJROTC at Seneca High School during period of award and making satisfactory progress" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xm6-OA-Cgg">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Distinguished Unit Award - Be enrolled in AFJROTC during period of award and making satisfactory progress" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xm6-OA-Cgg">
                                                     <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2698,8 +2852,85 @@ Hike. </string>
                                             </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="Xdn-b2-4sj">
+                                        <rect key="frame" x="0.0" y="4958" width="414" height="145"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xdn-b2-4sj" id="roM-z7-KkV">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_distinguished_unit_award_with_merit" translatesAutoresizingMaskIntoConstraints="NO" id="Mha-GX-UAn">
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Distinguished Unit with Merit-" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mi7-Ua-zA6">
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IGb-Bn-D0j">
+                                                    <rect key="frame" x="7" y="54" width="400" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Mha-GX-UAn" secondAttribute="bottom" constant="88" id="0El-um-bEv"/>
+                                                <constraint firstItem="mi7-Ua-zA6" firstAttribute="top" secondItem="Mha-GX-UAn" secondAttribute="bottom" id="4pZ-Oo-ujW"/>
+                                                <constraint firstItem="Mha-GX-UAn" firstAttribute="leading" secondItem="roM-z7-KkV" secondAttribute="leadingMargin" constant="55" id="8PT-We-zAn"/>
+                                                <constraint firstAttribute="bottom" secondItem="mi7-Ua-zA6" secondAttribute="bottom" id="CXF-xc-3FF"/>
+                                                <constraint firstItem="mi7-Ua-zA6" firstAttribute="leading" secondItem="roM-z7-KkV" secondAttribute="leading" id="W9J-7J-OlM"/>
+                                                <constraint firstItem="mi7-Ua-zA6" firstAttribute="centerX" secondItem="roM-z7-KkV" secondAttribute="centerX" id="WUN-y0-Mc6"/>
+                                                <constraint firstAttribute="trailing" secondItem="mi7-Ua-zA6" secondAttribute="trailing" id="afb-1M-lGo"/>
+                                                <constraint firstItem="Mha-GX-UAn" firstAttribute="top" secondItem="roM-z7-KkV" secondAttribute="topMargin" id="mEc-Xz-Jdf"/>
+                                                <constraint firstItem="mi7-Ua-zA6" firstAttribute="top" secondItem="Mha-GX-UAn" secondAttribute="bottom" constant="8" id="n5s-b6-5cm"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Mha-GX-UAn" secondAttribute="trailing" constant="55" id="nIb-5P-d7u"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="Mha-GX-UAn"/>
+                                                    <exclude reference="mi7-Ua-zA6"/>
+                                                    <exclude reference="IGb-Bn-D0j"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="0El-um-bEv"/>
+                                                    <exclude reference="8PT-We-zAn"/>
+                                                    <exclude reference="nIb-5P-d7u"/>
+                                                    <exclude reference="mEc-Xz-Jdf"/>
+                                                    <exclude reference="WUN-y0-Mc6"/>
+                                                    <exclude reference="n5s-b6-5cm"/>
+                                                    <exclude reference="4pZ-Oo-ujW"/>
+                                                    <exclude reference="afb-1M-lGo"/>
+                                                    <exclude reference="CXF-xc-3FF"/>
+                                                    <exclude reference="W9J-7J-OlM"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="Mha-GX-UAn"/>
+                                                    <include reference="mi7-Ua-zA6"/>
+                                                    <exclude reference="IGb-Bn-D0j"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="0El-um-bEv"/>
+                                                    <include reference="8PT-We-zAn"/>
+                                                    <include reference="nIb-5P-d7u"/>
+                                                    <include reference="mEc-Xz-Jdf"/>
+                                                    <include reference="WUN-y0-Mc6"/>
+                                                    <exclude reference="n5s-b6-5cm"/>
+                                                    <include reference="4pZ-Oo-ujW"/>
+                                                    <include reference="afb-1M-lGo"/>
+                                                    <include reference="CXF-xc-3FF"/>
+                                                    <include reference="W9J-7J-OlM"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="YjE-1O-vPD">
-                                        <rect key="frame" x="0.0" y="4668" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="5103" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YjE-1O-vPD" id="ggq-HQ-0aE">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -2777,7 +3008,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="eFG-VP-BxJ">
-                                        <rect key="frame" x="0.0" y="4813" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="5248" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eFG-VP-BxJ" id="OmL-XT-Rf1">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -2855,7 +3086,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="hGK-qg-5M2">
-                                        <rect key="frame" x="0.0" y="4958" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="5393" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hGK-qg-5M2" id="1Od-d8-2jN">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -2933,7 +3164,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="Pqd-DF-rSB">
-                                        <rect key="frame" x="0.0" y="5103" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="5538" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Pqd-DF-rSB" id="0xU-K9-8ln">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -3011,7 +3242,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="gmi-kt-xhV">
-                                        <rect key="frame" x="0.0" y="5248" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="5683" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gmi-kt-xhV" id="kNu-N7-Hk9">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -3089,13 +3320,13 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="d7Y-vP-tBd">
-                                        <rect key="frame" x="0.0" y="5393" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="5828" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="d7Y-vP-tBd" id="S9C-xk-KBS">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_sons_of_conferate_hunley_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Uw6-xk-GNq">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_sons_of_confederate_hunley_ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="Uw6-xk-GNq">
                                                     <rect key="frame" x="63" y="8" width="288" height="40.5"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rza-qQ-1gG">
@@ -3167,7 +3398,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="SQk-Cp-Xut">
-                                        <rect key="frame" x="0.0" y="5538" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="5973" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SQk-Cp-Xut" id="Ctn-ak-Thv">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -3245,7 +3476,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="Bum-4j-uXi">
-                                        <rect key="frame" x="0.0" y="5683" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="6118" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bum-4j-uXi" id="esh-To-d7I">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -3323,7 +3554,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="9Ui-OJ-xBo">
-                                        <rect key="frame" x="0.0" y="5828" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="6263" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Ui-OJ-xBo" id="QeL-9j-X2D">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -3401,7 +3632,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="JGT-NJ-esK">
-                                        <rect key="frame" x="0.0" y="5973" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="6408" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JGT-NJ-esK" id="jO1-SU-l42">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -3479,7 +3710,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="hFe-7y-bGN">
-                                        <rect key="frame" x="0.0" y="6118" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="6553" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hFe-7y-bGN" id="i6V-6d-PmC">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -3557,7 +3788,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="mqb-1e-zA2">
-                                        <rect key="frame" x="0.0" y="6263" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="6698" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mqb-1e-zA2" id="BtE-nr-yQJ">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -3635,7 +3866,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="cMq-58-rUx">
-                                        <rect key="frame" x="0.0" y="6408" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="6843" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cMq-58-rUx" id="x46-CV-zRK">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -3713,7 +3944,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="0PC-dR-hyx">
-                                        <rect key="frame" x="0.0" y="6553" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="6988" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0PC-dR-hyx" id="bI1-aa-Zzg">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -3791,7 +4022,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="irK-0E-SWK">
-                                        <rect key="frame" x="0.0" y="6698" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="7133" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="irK-0E-SWK" id="9gu-sd-z81">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -3869,7 +4100,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="Zz5-jt-5N8">
-                                        <rect key="frame" x="0.0" y="6843" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="7278" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Zz5-jt-5N8" id="yxm-WN-vvD">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -3947,7 +4178,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="7JI-Kj-phq">
-                                        <rect key="frame" x="0.0" y="6988" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="7423" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7JI-Kj-phq" id="Sc5-oe-nzf">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4025,7 +4256,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="sJz-Vb-y0e">
-                                        <rect key="frame" x="0.0" y="7133" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="7568" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sJz-Vb-y0e" id="kLC-oI-TJB">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4103,7 +4334,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="CRK-Mi-Hfq">
-                                        <rect key="frame" x="0.0" y="7278" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="7713" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CRK-Mi-Hfq" id="e9p-mf-65t">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4181,7 +4412,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="wnU-nZ-K6o">
-                                        <rect key="frame" x="0.0" y="7423" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="7858" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wnU-nZ-K6o" id="jmt-zh-VTH">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4259,7 +4490,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="UBR-I4-qnF">
-                                        <rect key="frame" x="0.0" y="7568" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="8003" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UBR-I4-qnF" id="uBR-e2-cWd">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4337,7 +4568,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="CYo-xq-6DN">
-                                        <rect key="frame" x="0.0" y="7713" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="8148" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CYo-xq-6DN" id="4Tw-Pj-4iJ">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4415,7 +4646,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="IIJ-Zt-iGF">
-                                        <rect key="frame" x="0.0" y="7858" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="8293" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IIJ-Zt-iGF" id="4AQ-bP-jMe">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4492,8 +4723,86 @@ Hike. </string>
                                             </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="agn-bW-6hB">
+                                        <rect key="frame" x="0.0" y="8438" width="414" height="145"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="agn-bW-6hB" id="dxd-vP-5aN">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_community_service_excellence_ribbon_with_star" translatesAutoresizingMaskIntoConstraints="NO" id="GcJ-S2-LOj">
+                                                    <rect key="frame" x="63" y="8" width="288" height="40.5"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T8a-61-UHc">
+                                                    <rect key="frame" x="0.0" y="48.5" width="414" height="96"/>
+                                                    <string key="text">Silver Star Community Service with Excellence Award - Significant leadership in the planning/execution of a major unit community service project.</string>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="au2-Mf-q9d">
+                                                    <rect key="frame" x="7" y="54" width="400" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.0" green="0.18823529410000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="GcJ-S2-LOj" firstAttribute="top" secondItem="dxd-vP-5aN" secondAttribute="topMargin" id="6yb-At-j44"/>
+                                                <constraint firstAttribute="trailing" secondItem="T8a-61-UHc" secondAttribute="trailing" id="Bbk-1T-Cwg"/>
+                                                <constraint firstItem="GcJ-S2-LOj" firstAttribute="leading" secondItem="dxd-vP-5aN" secondAttribute="leadingMargin" constant="55" id="IV9-wA-0I0"/>
+                                                <constraint firstAttribute="bottom" secondItem="T8a-61-UHc" secondAttribute="bottom" id="IZO-CG-fZv"/>
+                                                <constraint firstItem="T8a-61-UHc" firstAttribute="top" secondItem="GcJ-S2-LOj" secondAttribute="bottom" constant="8" id="YwN-Mn-Cz5"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="GcJ-S2-LOj" secondAttribute="trailing" constant="55" id="if0-hy-vg4"/>
+                                                <constraint firstItem="T8a-61-UHc" firstAttribute="centerX" secondItem="dxd-vP-5aN" secondAttribute="centerX" id="oAn-my-usk"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="GcJ-S2-LOj" secondAttribute="bottom" constant="88" id="qjB-aw-Ih6"/>
+                                                <constraint firstItem="T8a-61-UHc" firstAttribute="top" secondItem="GcJ-S2-LOj" secondAttribute="bottom" id="rFd-rq-7FD"/>
+                                                <constraint firstItem="T8a-61-UHc" firstAttribute="leading" secondItem="dxd-vP-5aN" secondAttribute="leading" id="wcy-Xg-adr"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="GcJ-S2-LOj"/>
+                                                    <exclude reference="T8a-61-UHc"/>
+                                                    <exclude reference="au2-Mf-q9d"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="qjB-aw-Ih6"/>
+                                                    <exclude reference="6yb-At-j44"/>
+                                                    <exclude reference="if0-hy-vg4"/>
+                                                    <exclude reference="IV9-wA-0I0"/>
+                                                    <exclude reference="IZO-CG-fZv"/>
+                                                    <exclude reference="wcy-Xg-adr"/>
+                                                    <exclude reference="oAn-my-usk"/>
+                                                    <exclude reference="Bbk-1T-Cwg"/>
+                                                    <exclude reference="YwN-Mn-Cz5"/>
+                                                    <exclude reference="rFd-rq-7FD"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="GcJ-S2-LOj"/>
+                                                    <include reference="T8a-61-UHc"/>
+                                                    <exclude reference="au2-Mf-q9d"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="qjB-aw-Ih6"/>
+                                                    <include reference="6yb-At-j44"/>
+                                                    <include reference="if0-hy-vg4"/>
+                                                    <include reference="IV9-wA-0I0"/>
+                                                    <include reference="IZO-CG-fZv"/>
+                                                    <include reference="wcy-Xg-adr"/>
+                                                    <include reference="oAn-my-usk"/>
+                                                    <include reference="Bbk-1T-Cwg"/>
+                                                    <exclude reference="YwN-Mn-Cz5"/>
+                                                    <include reference="rFd-rq-7FD"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="MQL-O3-jbG">
-                                        <rect key="frame" x="0.0" y="8003" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="8583" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MQL-O3-jbG" id="i9L-Hx-tgs">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4570,7 +4879,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="MmG-dN-cy6">
-                                        <rect key="frame" x="0.0" y="8148" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="8728" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MmG-dN-cy6" id="3t9-ae-TdP">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4647,7 +4956,7 @@ Hike. </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="s0L-Ke-VGm">
-                                        <rect key="frame" x="0.0" y="8293" width="414" height="145"/>
+                                        <rect key="frame" x="0.0" y="8873" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="s0L-Ke-VGm" id="E86-LS-c0g">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144.5"/>
@@ -4756,9 +5065,9 @@ Hike. </string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="potus" translatesAutoresizingMaskIntoConstraints="NO" id="fOs-RI-UnM">
-                                                    <rect key="frame" x="13" y="7" width="98" height="99.500000000000114"/>
+                                                    <rect key="frame" x="13" y="7" width="98" height="99.5"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="President Commander in Cheif- Donald J. Trump" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mab-55-4Au">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="President Commander in Chief- Donald J. Trump" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mab-55-4Au">
                                                     <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -4918,7 +5227,7 @@ Hike. </string>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="attorney_general" translatesAutoresizingMaskIntoConstraints="NO" id="imx-x7-NVy">
                                                     <rect key="frame" x="13" y="7" width="98" height="99.5"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attorney General - WIlliam Barr" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ar-Iw-ytR">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attorney General - William Barr" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ar-Iw-ytR">
                                                     <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -4980,10 +5289,10 @@ Hike. </string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airforce_chief_of_staff" translatesAutoresizingMaskIntoConstraints="NO" id="3HB-0p-Kv3">
-                                                    <rect key="frame" x="13" y="7" width="98" height="99.5"/>
+                                                    <rect key="frame" x="1" y="4" width="110" height="105.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chief of staff of the Air Force - General David L.Goldfein" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0XY-zu-3Os">
-                                                    <rect key="frame" x="119" y="2" width="256" height="109.5"/>
+                                                    <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -5076,7 +5385,7 @@ Hike. </string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_air_education_training_command" translatesAutoresizingMaskIntoConstraints="NO" id="vUc-EW-OTc">
-                                                    <rect key="frame" x="1" y="4" width="110" height="105.50000000000006"/>
+                                                    <rect key="frame" x="1" y="4" width="110" height="105.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commander, Air Educational and Training Command - Lt. General Brad Webb" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWs-0z-PqN">
                                                     <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
@@ -6360,7 +6669,7 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silver_bar" translatesAutoresizingMaskIntoConstraints="NO" id="ONE-t5-odN">
-                                                    <rect key="frame" x="1" y="4" width="151.00000000000011" height="107.5"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Lieutenant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAM-oe-7SA">
                                                     <rect key="frame" x="160" y="8" width="254" height="33.5"/>
@@ -7026,7 +7335,7 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_cadet_master_sergeant" translatesAutoresizingMaskIntoConstraints="NO" id="CIc-zA-cTf">
-                                                    <rect key="frame" x="13" y="7" width="139.00000000000006" height="101.5"/>
+                                                    <rect key="frame" x="13" y="7" width="139" height="101.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadet Master Sergeant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MXK-eJ-UeZ">
                                                     <rect key="frame" x="160" y="11" width="254" height="28"/>
@@ -7060,7 +7369,7 @@ Educate: People should be properly trained to do their jobs.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afjrotc_cadet_senior_master_sergeant" translatesAutoresizingMaskIntoConstraints="NO" id="kjf-fs-iID">
-                                                    <rect key="frame" x="1" y="4" width="151" height="107.50000000000011"/>
+                                                    <rect key="frame" x="1" y="4" width="151" height="107.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadet Senior Master Sergeant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plp-yH-N5I">
                                                     <rect key="frame" x="160" y="8" width="254" height="33.5"/>
@@ -7648,8 +7957,10 @@ Z-Zulu</string>
         <image name="afjrotc_cocurricular_activities_leadership_ribbon" width="105" height="30"/>
         <image name="afjrotc_color_guard_ribbon" width="105" height="30"/>
         <image name="afjrotc_community_service_excellence_ribbon" width="105" height="30"/>
+        <image name="afjrotc_community_service_excellence_ribbon_with_star" width="105" height="30"/>
         <image name="afjrotc_daedalian_ribbon" width="105" height="30"/>
         <image name="afjrotc_daughters_of_the_american_revolution_ribbon" width="105" height="30"/>
+        <image name="afjrotc_distinguished_unit_award_with_merit" width="1280" height="351"/>
         <image name="afjrotc_distinguished_unit_ribbon" width="105" height="30"/>
         <image name="afjrotc_dress_and_appearance_ribbon" width="105" height="30"/>
         <image name="afjrotc_drill_team_ribbon" width="105" height="30"/>
@@ -7660,6 +7971,7 @@ Z-Zulu</string>
         <image name="afjrotc_good_conduct_ribbon" width="105" height="30"/>
         <image name="afjrotc_health_and_wellness_ribbon" width="105" height="30"/>
         <image name="afjrotc_holm_center_commander" width="2400" height="3000"/>
+        <image name="afjrotc_joint_all_service_national_ribbon" width="99" height="26"/>
         <image name="afjrotc_leadership_ribbon" width="105" height="30"/>
         <image name="afjrotc_leadership_school_ribbon" width="105" height="30"/>
         <image name="afjrotc_longevity_ribbon" width="105" height="30"/>
@@ -7669,10 +7981,11 @@ Z-Zulu</string>
         <image name="afjrotc_military_order_of_the_world_wars_ribbon" width="105" height="30"/>
         <image name="afjrotc_national_society_united_states_daughters_of_1812_ribbon" width="105" height="30"/>
         <image name="afjrotc_national_sojourners_ribbon" width="105" height="30"/>
+        <image name="afjrotc_nationals_competition_ribbon" width="1280" height="351"/>
         <image name="afjrotc_orienteering_ribbon" width="105" height="30"/>
         <image name="afjrotc_outstanding_cadet_ribbon" width="105" height="30"/>
         <image name="afjrotc_outstanding_flight_ribbon" width="105" height="30"/>
-        <image name="afjrotc_outstanding_organization_ribbon" width="105" height="30"/>
+        <image name="afjrotc_outstanding_organization_award" width="1280" height="351"/>
         <image name="afjrotc_patriotic_flag_ribbon" width="105" height="30"/>
         <image name="afjrotc_recruiting_ribbon" width="105" height="30"/>
         <image name="afjrotc_reserve_officers_association_ribbon" width="105" height="30"/>
@@ -7681,7 +7994,7 @@ Z-Zulu</string>
         <image name="afjrotc_scottish_rite_ribbon" width="105" height="30"/>
         <image name="afjrotc_service_ribbon" width="105" height="30"/>
         <image name="afjrotc_sons_of_american_revolution_ribbon" width="105" height="30"/>
-        <image name="afjrotc_sons_of_conferate_hunley_ribbon" width="105" height="30"/>
+        <image name="afjrotc_sons_of_confederate_hunley_ribbon" width="105" height="30"/>
         <image name="afjrotc_sons_of_union_veterans_of_civil_war_ribbon" width="105" height="30"/>
         <image name="afjrotc_special_teams_competition_ribbon" width="105" height="30"/>
         <image name="afjrotc_superior_performance_ribbon" width="105" height="30"/>

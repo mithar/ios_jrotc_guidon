@@ -3384,7 +3384,7 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="potus" translatesAutoresizingMaskIntoConstraints="NO" id="APn-TG-G9E">
                                                     <rect key="frame" x="13" y="7" width="98" height="99.5"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="President Commander in Cheif- Donald J. Trump" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G3n-mz-4LF">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="President Commander in Chief- Donald J. Trump" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G3n-mz-4LF">
                                                     <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.1843137255" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -4526,7 +4526,7 @@ I proudly serve my country's Navy combat team with Honor, Courage, and Commitmen
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5S1-eM-HEM">
-                                                    <rect key="frame" x="16" y="0.0" width="382" height="349.5"/>
+                                                    <rect key="frame" x="16" y="0.0" width="382" height="549.5"/>
                                                     <string key="text">A-Alpha
 B-Bravo
 C-Charlie

@@ -4610,7 +4610,7 @@ PERSONAL COURAGE - to face fear, danger, or adversity.</string>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="potus" translatesAutoresizingMaskIntoConstraints="NO" id="V3h-me-uEg">
                                                     <rect key="frame" x="13" y="7" width="98" height="99.5"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="President Commander in Cheif- Donald J. Trump" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3n9-AY-YqT">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="President Commander in Chief- Donald J. Trump" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3n9-AY-YqT">
                                                     <rect key="frame" x="119" y="-0.5" width="256" height="114.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -5939,7 +5939,7 @@ O’er the land of the free and the home of the brave?</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHh-bv-BQP">
-                                                    <rect key="frame" x="16" y="0.0" width="382" height="349.5"/>
+                                                    <rect key="frame" x="16" y="0.0" width="382" height="549.5"/>
                                                     <string key="text">A-Alpha
 B-Bravo
 C-Charlie
