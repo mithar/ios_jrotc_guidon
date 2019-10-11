@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>437898215978-lg2fgmtqcmr2rhp1iebbrblivifkd4ue.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.437898215978-lg2fgmtqcmr2rhp1iebbrblivifkd4ue</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDffuk51Fh6P266RLhyl24dzIpJ40umrIg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>437898215978</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>MarineBeanStudios.JrotcGuidon</string>
+	<key>PROJECT_ID</key>
+	<string>jrotc-information</string>
+	<key>STORAGE_BUCKET</key>
+	<string>jrotc-information.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:437898215978:ios:5f081b8468c441f2de7953</string>
+	<key>DATABASE_URL</key>
+	<string>https://jrotc-information.firebaseio.com</string>
+</dict>
+</plist>
